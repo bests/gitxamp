@@ -153,8 +153,8 @@ $(function menuswipe() {
 var hammertime = $("#pull").hammer();
 
 // the whole area
-hammertime.on("tap", function(ev) {
-  menu.slideToggle();
+hammertime.on("drag", function(ev) {
+ menu.slideToggle();
   ev.stopPropagation();
 });	
 		

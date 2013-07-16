@@ -143,7 +143,7 @@ nav a#pull {
 @media (max-width: 670px) {
 	nav {
 
-position: absolute;
+position: relative;
 
 }
 	
