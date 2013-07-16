@@ -153,10 +153,10 @@ $(function menuswipe() {
 var hammertime = $("#pull").hammer();
 
 // the whole area
-hammertime.on("swipe", function(ev) {
- menu.slideToggle();
+hammertime.on("tap", function(ev) {
+ //menu.slideToggle();
  aler("helo");
-  ev.stopPropagation();
+  //ev.stopPropagation();
 });	
 		
 	  
