@@ -877,7 +877,7 @@ padding: 0px 45px;
 }
 	
 .thumbnails .span3 {
-	width:25%;
+	width:33.4%;
 	
 	
 	
@@ -899,6 +899,10 @@ margin: 0 0 0px 15px;
 padding: 0px 45px;
 
 
+}
+.price .span3 {
+	width:50%;
+margin-left:0px;
 }
 .rslides_container .span4{
 	width:100%;
@@ -945,9 +949,11 @@ width: 92%;
 }
 
 .thumbnails .span3 {
-width: 100%;
+	margin-left:0px;
+width: 50%;
 }
 .thumbnails .span4 {
+	margin-left:0px;
 width: 100%;
 }
 
@@ -961,5 +967,25 @@ padding: 0px 0px;
 
 
 }
+.thumbnails .span3 {
+width: 100%;
+margin-left:0px;
+}
+.price .span3 {
+	width:100%;
+margin-left:0px;
+}
+.thumbnails .span4 {
+	width:auto;
+margin-left:0px;
+}
+}
+
+@media (max-width: 420px){
+.container{
+	width:300px;
+	
+	
+	}
 
 }

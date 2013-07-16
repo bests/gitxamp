@@ -130,7 +130,10 @@ $("#slider4").responsiveSlides({
         namespace: "large-btns"
         
       });
-$(function() {
+	  
+
+	  
+$(function menuswipe() {
 			var pull 		= $('#pull');
 				menu 		= $('nav ul');
 				menuHeight	= menu.height();
@@ -148,7 +151,10 @@ $(function() {
     		});
 		});
 		
-
+var element = document.getElementById('nav ul');
+    var hammertime = Hammer(element).on("swipe", function(event) {
+        menuswipe();
+    });	  
 		
 
 $('.thumbnail').css('background-image', 'url(img/zoom.png)');
