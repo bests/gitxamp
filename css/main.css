@@ -92,7 +92,7 @@ margin-left: auto;
 list-style: none;
 }
 
-
+ 
 nav ul {
 
 	padding: 0;
@@ -141,6 +141,14 @@ nav a#pull {
 	display: none;
 }
 @media (max-width: 670px) {
+	nav {
+
+position: absolute;
+
+}
+	
+	
+	
 	nav a#pull:hover {
 		color:#FFF;
 	  	

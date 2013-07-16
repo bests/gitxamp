@@ -150,11 +150,15 @@ $(function menuswipe() {
         		}
     		});
 		});
+var hammertime = $("#pull").hammer();
+
+// the whole area
+hammertime.on("tap", function(ev) {
+  menu.slideToggle();
+  ev.stopPropagation();
+});	
 		
-var element = document.getElementById('nav ul');
-    var hammertime = Hammer(element).on("swipe", function(event) {
-        menuswipe();
-    });	  
+	  
 		
 
 $('.thumbnail').css('background-image', 'url(img/zoom.png)');
