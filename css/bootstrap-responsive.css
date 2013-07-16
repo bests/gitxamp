@@ -109,6 +109,7 @@
 }
 
 @media (min-width: 1200px) {
+
 .register .btn {
 display: inline-block;
 margin-left: 40px;
@@ -496,7 +497,7 @@ display: none;
 }	
 	.fetwidth {
 
-width: 300px;
+width: 340px;
 
 }	
   .row {
@@ -1015,11 +1016,17 @@ box-sizing: border-box;
 }
 
 @media (max-width: 979px) {
+	
+	
 	.top-arrow{
 	display:none;
 
 	
-} 	
+}
+.fetwidth {
+
+
+}	 	
   body {
     padding-top: 0;
   }
@@ -1175,7 +1182,7 @@ box-sizing: border-box;
 	.mobile {
 		
 display: none;
-}	
+}
   .nav-collapse.collapse {
     height: auto !important;
     overflow: visible !important;

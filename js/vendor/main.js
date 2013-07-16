@@ -1,5 +1,5 @@
-$('.tooltp').tooltip()
- 
+$('.tooltp').tooltip();
+$(".youtube").colorbox({iframe:true, innerWidth:640, innerHeight:390}); 
  
  $('.uplinkten').hover(
     function() {
@@ -75,7 +75,7 @@ $("body").on("activate", function(e)
     if (e.originalEvent === undefined) {
        // alert('not human')
 		
-		var $item2 =$item.offset().left + $item.width() / 2 - 40 - $('#navbar').offset().left;
+		var $item2 =$item.offset().left + $item.width() / 2 - 35 - $('#navbar').offset().left;
 
 //alert(e.target.id);
 $("#menu-arrowx").animate({"left":$item2}, 100);
@@ -151,7 +151,7 @@ $(function() {
 
 		
 
-$('.thumbnail').css('background-image', 'url(/init/img/zoom.png)');
+$('.thumbnail').css('background-image', 'url(img/zoom.png)');
 
 /*---------  Screenshots Hover -------*/
 
