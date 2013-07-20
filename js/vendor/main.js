@@ -1,19 +1,27 @@
+
+
+
 $('.tooltp').tooltip();
 $(".youtube").colorbox({iframe:true, innerWidth:640, innerHeight:390}); 
- 
- $('.uplinkten').hover(
+// $(function(){
+	//	$('.jumbotron').css({'height':($(window).height())+'px'});
+	//	$(window).resize(function(){
+	//	$('.jumbotron').css({'height':($(window).height())+'px'});
+	//	});
+//	});
+ $('.work .span4 img').hover(
     function() {
-      $(this).stop().animate({'margin-top': '-10px'}, 'normal');
+    $(this).stop().animate({'margin-top': '-10px'}, 'normal');
     },
     function() {
-      $(this).stop().animate({'margin-top': '0'}, 'fast');
+    $(this).stop().animate({'margin-top': '0'}, 'fast');
   });
 $('.rightlink').hover(
     function() {
-      $(this).stop().animate({'margin-right': '-10px'}, 'normal');
+      $(this).stop().animate({"opacity": "0.5","-ms-filter":"progid:DXImageTransform.Microsoft.Alpha(opacity=100)"}, "50");
     },
     function() {
-      $(this).stop().animate({'margin-right': '0'}, 'fast');
+      $(this).stop().animate({"opacity": "1","-ms-filter":"progid:DXImageTransform.Microsoft.Alpha(opacity=0)"}, "50");
   }); 
  $('.coloranim').hover(
     function() {
@@ -32,11 +40,21 @@ $('.rightlink').hover(
     },
     function() {
 		//$(this).animate({boxShadow: '0 0 0px'}, 200);
-      $(this).stop().animate({'margin-top': '0'}, 'fast').animate({boxShadow: '0 0 10px #646464'}, 'fast'); 
+      $(this).stop().animate({'margin-top': '0'}, 'fast').animate({boxShadow: '0 0 0px #646464'}, 'fast'); 
 	
   });
-  
+$('.thumbnail').css('background-image', 'url(img/zoom.png)');  
+$(".thumbnail").hover(
+function() {
+	$("img.thumb1").removeClass('loader');
+$("img.thumb1", this).stop().animate({"opacity": "0.4","-ms-filter":"progid:DXImageTransform.Microsoft.Alpha(opacity=100)"}, "slow");
 
+
+},
+function() {
+$("img.thumb1", this).stop().animate({"opacity": "1","-ms-filter":"progid:DXImageTransform.Microsoft.Alpha(opacity=0)"}, "50");
+
+});
 
 if(!Modernizr.csstransitions) { // Test if CSS transitions are supported
 
@@ -121,17 +139,25 @@ $('body').on('activate', function (e) {
 
 
 
-$("#slider4").responsiveSlides({
-        auto: true,
-        pager: false,
-        nav: true,
-        speed: 500,
-       
-        namespace: "large-btns"
-        
+ $(function() {
+      $('#slides').slidesjs({
+        width: 940,
+        height: 528,
+        play: {
+          active: true,
+          auto: true,
+          interval: 4000,
+          swap: true
+        }
       });
+    });
 	  
-
+ var mySwiper = new Swiper('.swiper-container',{
+    pagination: '.pagination',
+	
+    grabCursor: true,
+    paginationClickable: true
+  })
 	  
 $(function menuswipe() {
 			var pull 		= $('#pull');
@@ -150,19 +176,12 @@ $(function menuswipe() {
         		}
     		});
 		});
-var hammertime = $("#pull").hammer();
 
-// the whole area
-hammertime.on("tap", function(ev) {
- //menu.slideToggle();
- aler("helo");
-  //ev.stopPropagation();
-});	
 		
 	  
 		
 
-$('.thumbnail').css('background-image', 'url(img/zoom.png)');
+
 
 /*---------  Screenshots Hover -------*/
 
