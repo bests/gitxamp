@@ -9,6 +9,11 @@ RequestHeader append Accept-Encoding "gzip,deflate" env=HAVE_Accept-Encoding
 </IfModule>
 </IfModule>
 
+<IfModule mod_headers.c>
+  <FilesMatch "\.(js|css|xml|gz)$">
+    Header append Vary: Accept-Encoding
+  </FilesMatch>
+</IfModule>
 
 # Compress all output labeled with one of the following MIME-types
 # (for Apache versions below 2.3.7, you don't need to enable `mod_filter`

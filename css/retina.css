@@ -1,24 +1,24 @@
 .fs-img2 {
 			/* Image will default to the 240px CSS wide image */
 			width:100%;
+		
 			font-family: 'image-set( url(-small|-small-2x) 2x high-bandwidth )';
-			display:none;
 			
-		}
-	@media (min-width:600px) {
+}
+@media (min-width:600px) {
 			/* If the window's width is at least 600px wide then it should show the 320px CSS wide image */
 			.fs-img {
 				font-family: 'image-set( url(-small|-medium), url(-small|-medium-2x) 2x high-bandwidth )';
 				border-left:4px solid blue;
 			}
-		}
-		@media (min-width:800px) {
+}
+@media (min-width:800px) {
 			/* If the window's width is at least 800px wide then it should show the 480px CSS wide image, but set the image's max-width to 480px */
-			.fs-img {
+.fs-img {
 				font-family: 'image-set( url(-small|-large), url(-small|-large-2x) 2x high-bandwidth )';
 				max-width:480px;
 				border-left:4px solid green;
-			}
+}
 .fs-img {
 		/*<img data-src="http://static.cdnconnect.com/foresightjs/chateau-de-maintenon_1X.jpg" data-high-resolution-src="http://static.cdnconnect.com/foresightjs/chateau-de-maintenon_2X.jpg" data-width="320" data-height="213" class="fs-img">
 		 * The image will go 100% of the parent elements width
