@@ -2,7 +2,7 @@ Modernizr.load({
  test: Modernizr.input.required && Modernizr.formvalidation,
  nope: 'http://localhost/gitxamp/js/vendor/jquery.animate-shadow-min.js',
    callback: function (url, result, key) {
-    //alert(url);
+   // alert(url);
   }
 });
 $('.thumbnail-cap').hcaptions({

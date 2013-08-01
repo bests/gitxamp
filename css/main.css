@@ -487,9 +487,11 @@ background: url(../img/pastel.png) center top repeat;
 position: relative;
 color:#FFF;
 background: url(../img/pastel.png) center top repeat;
-background-attachment: fixed !important;
+
 z-index: 5;
-/*background: url(../img/bg1.jpg) 0 0 repeat;
+/*
+background-attachment: fixed !important;
+background: url(../img/bg1.jpg) 0 0 repeat;
 background-position: center center !important;*/
 text-align: center;
 }
@@ -1063,6 +1065,17 @@ padding: 0px 15px;
 }				
 }
 @media (min-width: 980px) and (max-width: 1200px) {
+.logo .thumbnails .span3 {
+width: 29%;
+padding: 13px;
+margin-left: 1px;
+}
+.logo .thumbnails {
+margin-right: auto;
+margin-left: auto;
+width: 70%;
+}	
+	
 .about .span5 {
 width: 65.8925532%;	
 }	
@@ -1157,6 +1170,16 @@ width: 48%;
   
 }
 @media (max-width: 979px) and (min-width: 768px){
+.logo .thumbnails .span3 {
+width: 28%;
+padding: 13px;
+margin-left: 1px;
+}	
+.logo .thumbnails {
+margin-right: auto;
+margin-left: auto;
+width: 82%;
+}	
 .about .span5 {
 width: 53.055249%;
 }	
@@ -1285,7 +1308,16 @@ padding: 0px 12px;
 
 }
 @media (max-width: 767px){
-	
+.logo .thumbnails .span3 {
+width: 32%;
+padding: 13px;
+margin-left: 1px;
+}		
+.logo .thumbnails {
+margin-right: auto;
+margin-left: auto;
+width: 89%;
+}	
 .about .span5 {
 width: 53.055249%;
 padding: 10px;
