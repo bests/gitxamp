@@ -20,7 +20,7 @@ $($target).appendTo(".box");
 $($target).css({ 'overflow':'hidden', 'display': 'block',' padding':'2px' });        
 	//$('.box').animate().css('left', parseInt((pWidth / 2) - (eWidth / 2)) + 'px')
 
-  $('.box').animate({"left":lefto},200);
+  $('.box').animate({"left":lefto},200,"linear");
   
 //$(".collapse2").collapse();	
 
@@ -150,10 +150,6 @@ $("img.thumb1", this).stop().animate({"opacity": "1","-ms-filter":"progid:DXImag
 
 
       //Do processing of click event here for every element except with id menu_content
-$(window).resize(function() {
-  //resize just happened, pixels changed
-  $('#menu-arrowx').css("visibility", "hidden");
-});
 
 $("body").on("activate", function(e)
 {
@@ -163,7 +159,7 @@ $("body").on("activate", function(e)
   var $item = $(e.target);
   
 
-    $(".seven li").toggleClass("bounce");
+    $(".seven li").addClass("bounce");
     $(".seven li").siblings().removeClass("bounce");
 
 
@@ -174,7 +170,7 @@ $("body").on("activate", function(e)
 		var $item2 =$item.offset().left + $item.width() / 2 - 35 - $('#navbar').offset().left;
 
 //alert(e.target.id);
-$("#menu-arrowx").animate({"left":$item2}, 100);
+$("#menu-arrowx").animate({"left":$item2}, 50,"linear");
 
 		
 		
@@ -190,6 +186,10 @@ $("#menu-arrowx").animate({"left":$item2}, 100);
    
 });
 
+$(window).resize(function() {
+  //resize just happened, pixels changed
+  $('#menu-arrowx').css("visibility", "hidden");
+});
 
 
 
