@@ -202,7 +202,7 @@ $("#menu-arrowx").css('left',$item2 + 'px');
 	
 function menuArrow() {
   
-    $("#menu-arrowx").animate({"left":"-3000px"}, 50,"linear");
+   // $("#menu-arrowx").animate({"left":"-3000px"}, 50,"linear");
    
    
 }
