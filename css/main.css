@@ -1,5 +1,7 @@
 
-body{margin:0;padding:0}
+body{margin:0;padding:0;
+  
+}
 .ie .fs-img2{
 	width:auto;
 	height:auto;
@@ -454,7 +456,7 @@ margin-right: 10px;
 position: relative;
 color:#FFF;
 z-index: 0;
-background: url(../img/pastel.png) center top repeat;
+background: url(../img/pastel.png) repeat;
 
 	}
 	
@@ -464,7 +466,7 @@ position: relative;
 color:#FFF;
 z-index: 0;
 background-color: #575757;
-background: url(../img/pastel.png) center top repeat;
+background: url(../img/pastel.png) repeat;
 }	
 .price{
 background-color: #FFF;
@@ -479,14 +481,14 @@ padding-bottom:30px;
 background-color: #FFF;
 color:#FFF;
 
-background: url(../img/pastel.png) center top repeat;
+background: url(../img/pastel.png) repeat;
 	
 }	
 	
 .home {
 position: relative;
 color:#FFF;
-background: url(../img/pastel.png) center top repeat;
+background: url(../img/pastel.png) repeat;
 
 z-index: 5;
 /*

@@ -147,7 +147,12 @@ $("img.thumb1", this).stop().animate({"opacity": "1","-ms-filter":"progid:DXImag
 });
     }
 	
-
+function menuArrow() {
+  
+    $("#menu-arrowx").animate({"left":"-3000px"}, 50,"linear");
+   
+   
+}
 
       //Do processing of click event here for every element except with id menu_content
 
@@ -179,16 +184,23 @@ $("#menu-arrowx").animate({"left":$item2}, 50,"linear");
     } else {
        // alert(' human');
     }
-
-
+ 
 	
 
    
 });
 
-$(window).resize(function() {
+
+
+
+
+
+
+$(window).resize(function(e) {
   //resize just happened, pixels changed
-  $('#menu-arrowx').css("visibility", "hidden");
+  //$('#menu-arrowx').css("visibility", "hidden");
+  
+  menuArrow();
 });
 
 
