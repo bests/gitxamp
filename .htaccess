@@ -15,6 +15,12 @@ RequestHeader append Accept-Encoding "gzip,deflate" env=HAVE_Accept-Encoding
   </FilesMatch>
 </IfModule>
 
+<FilesMatch "\.(htm|html|php)$">
+    <IfModule mod_headers.c>
+        BrowserMatch MSIE ie
+        Header set X-UA-Compatible "IE=Edge,chrome=1"
+    </IfModule>
+</FilesMatch>
 # Compress all output labeled with one of the following MIME-types
 # (for Apache versions below 2.3.7, you don't need to enable `mod_filter`
 #  and can remove the `<IfModule mod_filter.c>` and `</IfModule>` lines

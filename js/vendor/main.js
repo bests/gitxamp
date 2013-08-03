@@ -19,7 +19,7 @@ $('.closeButton').click(function(e) {
 	e.preventDefault();
 	
 });
-$('#pro').click(function(e) {
+$('#pro:link').click(function(e) {
  var pWidth = jQuery(window).width();
 	  var eWidth = $('.box').width();
 	  var lefto =  parseInt((pWidth / 2) - (eWidth / 2)) + 'px';	

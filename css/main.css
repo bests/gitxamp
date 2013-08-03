@@ -39,6 +39,7 @@ background-image:none;
 
 /* ==========================================================================
  Header / Logos / More info  Modal window
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
    ========================================================================== */
 
 .minilogo{
@@ -386,7 +387,8 @@ background: url(../img/ar.png) center bottom no-repeat;
 position: fixed;
 top: 22px;
 width: 79px;
-z-index: 300;
+z-index:400;
+
 height: 60px;
 
 }
@@ -456,7 +458,7 @@ margin-right: 10px;
 	background-color: #FFF;
 position: relative;
 color:#FFF;
-z-index: 0;
+
 background: url(../img/pastel.png) repeat;
 
 	}
@@ -688,13 +690,13 @@ body {
 .tick {
 background: transparent url('../img/tickw.png') 0 0 no-repeat;
 background-size: 140px 35px;
-
+z-index:4;
 height: 35px;
 left: 50%;
 margin-left: -70px;
 position: absolute;
 width: 140px;
-z-index: 5;
+
 }
 .pricemain {
 list-style: none;
