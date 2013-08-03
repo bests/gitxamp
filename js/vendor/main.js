@@ -177,10 +177,10 @@ $("body").on("activate", function(e)
 
 
     if (e.originalEvent === undefined) {
-      if(!$('#pull').is(":visible") ){
+      //if(!$('#pull').is(":visible") ){
 	   	$item.addClass('animated');
 		$item.addClass('bounce');
-		}
+		//}
 		
 		var $item2 =$item.offset().left + $item.width() / 2 - 35 - $('#navbar').offset().left;
 
