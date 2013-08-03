@@ -165,7 +165,7 @@ $("img.thumb1", this).stop().animate({"opacity": "1","-ms-filter":"progid:DXImag
 
 });
     }else{
-	alert('ddd');	
+	alert('new');	
 $("body").on("activate", function(e)
 {
 	
@@ -176,14 +176,14 @@ $("body").on("activate", function(e)
 
 	
 
-    $(".seven li").addClass("bounce");
-    $(".seven li").siblings().removeClass("bounce");
+  //  $(".seven li").addClass("bounce");
+   // $(".seven li").siblings().removeClass("bounce");
 
 
     if (e.originalEvent === undefined) {
       //if(!$('#pull').is(":visible") ){
-	   	$item.addClass('animated');
-		$item.addClass('bounce');
+	  // 	$item.addClass('animated');
+	//	$item.addClass('bounce');
 		//}
 		
 		var $item2 =$item.offset().left + $item.width() / 2 - 35 - $('#navbar').offset().left;
