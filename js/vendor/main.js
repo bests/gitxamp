@@ -19,7 +19,7 @@ $('.closeButton').click(function(e) {
 	e.preventDefault();
 	
 });
-$('#pro:link').click(function(e) {
+$('#pro').click(function(e) {
  var pWidth = jQuery(window).width();
 	  var eWidth = $('.box').width();
 	  var lefto =  parseInt((pWidth / 2) - (eWidth / 2)) + 'px';	
@@ -121,7 +121,7 @@ $("img.thumb1", this).stop().animate({"opacity": "1","-ms-filter":"progid:DXImag
 if( !Modernizr.input.required && !Modernizr.formvalidation ){  
 };  
 if(!Modernizr.csstransitions) { 
-
+alert('old');
 $("body").on("activate", function(e)
 {
 $('#menu-arrowx').css("visibility", "visible");
