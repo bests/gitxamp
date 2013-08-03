@@ -118,11 +118,10 @@ $("img.thumb1", this).stop().animate({"opacity": "1","-ms-filter":"progid:DXImag
 });
 
 
-
-
 if( !Modernizr.input.required && !Modernizr.formvalidation ){  
 };  
 if(!Modernizr.csstransitions) { 
+
 $("body").on("activate", function(e)
 {
 $('#menu-arrowx').css("visibility", "visible");
@@ -130,13 +129,18 @@ var $item = $(e.target);
 if (e.originalEvent === undefined) {
 var $item2 =$item.offset().left + $item.width() / 2 - 35 - $('#navbar').offset().left;
 
-$("#menu-arrowx").animate({"left":$item2}, "fast");
+$("#menu-arrowx").animate(
+                { left: $item2 }, {
+                    duration: 'slow',
+                    easing: 'easeOutBack'
+                });
 
-    }
+    }else{}
 	
 
    
 });
+
 
 
 
@@ -161,7 +165,7 @@ $("img.thumb1", this).stop().animate({"opacity": "1","-ms-filter":"progid:DXImag
 
 });
     }else{
-		
+	alert('ddd');	
 $("body").on("activate", function(e)
 {
 	
@@ -199,13 +203,6 @@ $("#menu-arrowx").css('left',$item2 + 'px');
 
 		
 }
-	
-function menuArrow() {
-  
-   // $("#menu-arrowx").animate({"left":"-3000px"}, 50,"linear");
-   
-   
-}
 
       //Do processing of click event here for every element except with id menu_content
 
@@ -220,8 +217,7 @@ function menuArrow() {
 $(window).resize(function(e) {
   //resize just happened, pixels changed
   //$('#menu-arrowx').css("visibility", "hidden");
-  
-  menuArrow();
+
 });
 
 
