@@ -1,3 +1,55 @@
+$(document).ready(function(){
+
+
+
+
+
+ $(function() {
+      $('#slides').slidesjs({
+        width: 960,
+        height: 500,
+        play: {
+          active: true,
+          auto: true,
+          interval: 4000,
+          swap: true
+        }
+      });
+    });
+
+$(".collapse").collapse();
+$("img.b").hover(
+function() {
+$(this).stop().animate({"opacity": "1","-ms-filter":"progid:DXImageTransform.Microsoft.Alpha(opacity=100)"}, "800");
+},
+function() {
+$(this).stop().animate({"opacity": "0","-ms-filter":"progid:DXImageTransform.Microsoft.Alpha(opacity=0)"}, "fast");
+});
+
+
+function initialize() {
+  var myLatlng = new google.maps.LatLng(59.32522, 18.07002);
+  var mapOptions = {
+	  scrollwheel: false,
+	  scaleControl: false,
+    zoom: 15,
+    center: myLatlng,
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+  }
+  var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+
+  var marker = new google.maps.Marker({
+      position: myLatlng,
+      map: map,
+      title: 'Hello World!'
+  });
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+
+
+});
+
 Modernizr.load({
  test: Modernizr.input.required && Modernizr.formvalidation,
  nope: 'http://localhost/gitxamp/js/vendor/jquery.animate-shadow-min.js',
@@ -176,15 +228,15 @@ $("body").on("activate", function(e)
 
 	
 
-  //  $(".seven li").addClass("bounce");
-   // $(".seven li").siblings().removeClass("bounce");
+   $(".seven li").addClass("bounce");
+   $(".seven li").siblings().removeClass("bounce");
 
 
     if (e.originalEvent === undefined) {
-      //if(!$('#pull').is(":visible") ){
-	  // 	$item.addClass('animated');
-	//	$item.addClass('bounce');
-		//}
+     if(!$('#pull').is(":visible") ){
+		$item.addClass('animated');
+	$item.addClass('bounce');
+		}
 		
 		var $item2 =$item.offset().left + $item.width() / 2 - 35 - $('#navbar').offset().left;
 
@@ -209,6 +261,20 @@ $("#menu-arrowx").css('left',$item2 + 'px');
 
 
 
+
+
+
+
+
+$(window).resize(function(e) {
+  //resize just happened, pixels changed
+  //$('#menu-arrowx').css("visibility", "hidden");
+
+});
+
+
+
+/*---------  Screenshots Hover -------*/
 
 
 
