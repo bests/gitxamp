@@ -2,7 +2,7 @@ Modernizr.load({
  test: Modernizr.input.required && Modernizr.formvalidation,
  nope: 'http://localhost/gitxamp/js/vendor/jquery.animate-shadow-min.js',
    callback: function (url, result, key) {
-   // alert(url);
+  
   }
 });
 $('.thumbnail-cap').hcaptions({
@@ -55,23 +55,6 @@ $('.btn-infvo').click(function(e) {
 	
 });
 
-$(function menuswipe() {
-			var pull 		= $('#pull');
-				menu 		= $('nav ul');
-				menuHeight	= menu.height();
-
-			$(pull).on('click', function(e) {
-				e.preventDefault();
-				menu.slideToggle('100','linear');
-			});
-
-			$(window).resize(function(){
-        		var w = $(window).width();
-        		if(w > 320 && menu.is(':hidden')) {
-        			menu.removeAttr('style');
-        		}
-    		});
-		});
 
 
 
@@ -165,8 +148,8 @@ $("img.thumb1", this).stop().animate({"opacity": "1","-ms-filter":"progid:DXImag
 
 });
     }else{
-	alert('new4');	
-$("bodyn").on("activate", function(e)
+	alert('new5');	
+$("body").on("activate", function(e)
 {
 	
 	
