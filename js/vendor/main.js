@@ -1,60 +1,22 @@
-Modernizr.load({
- test: Modernizr.input.required && Modernizr.formvalidation,
- nope: 'http://localhost/gitxamp/js/vendor/jquery.animate-shadow-min.js',
-   callback: function (url, result, key) {
-  
-  }
-});
-$('.thumbnail-cap').hcaptions({
-  effect: "fade"
- 
-});
-
-$('.closeButton').click(function(e) {
-    
 
 
-  $('.box').animate({"left":"-100%"},200,"linear");
+$(function menuswipe() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
 
-	e.preventDefault();
-	
-});
-$('#pro').click(function(e) {
- var pWidth = jQuery(window).width();
-	  var eWidth = $('.box').width();
-	  var lefto =  parseInt((pWidth / 2) - (eWidth / 2)) + 'px';	
-var $target = $(this).data('info');
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle('100','linear');
+			});
 
-
-$($target).appendTo(".box-container");
-$($target).css({ 'overflow':'hidden', 'display': 'block',' padding':'2px'});        
-
-
-  $('.box').animate({"left":lefto},200,"linear");
-
-	e.preventDefault();
-	
-});
-
-function centerMe(element) {
-    //pass element name to be centered on screen
-    var pWidth = jQuery(window).width();
-    var pTop = jQuery(window).scrollTop()
-    var eWidth = jQuery(element).width()
-    jQuery(element).css('top', pTop + 100 + 'px')
-    jQuery(element).css('left', parseInt((pWidth / 2) - (eWidth / 2)) + 'px')
-}
-$('.btn-infvo').click(function(e) {
-	 var pWidth = jQuery(window).width();
-	  var eWidth = $('.box').width();
-	  var lefto =  parseInt((pWidth / 2) - (eWidth / 2)) + 'px';
-	//$('.box').animate().css('left', parseInt((pWidth / 2) - (eWidth / 2)) + 'px')
-
-  $('.box').animate({"left":lefto},200);
-	e.preventDefault();
-	
-});
-
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
 
 
 
