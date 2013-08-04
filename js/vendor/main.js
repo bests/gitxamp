@@ -165,8 +165,8 @@ $("img.thumb1", this).stop().animate({"opacity": "1","-ms-filter":"progid:DXImag
 
 });
     }else{
-	alert('new2');	
-$("body").on("activate", function(e)
+	alert('new4');	
+$("bodyn").on("activate", function(e)
 {
 	
 	
