@@ -1,4 +1,59 @@
+Modernizr.load({
+ test: Modernizr.input.required && Modernizr.formvalidation,
+ nope: 'http://localhost/gitxamp/js/vendor/jquery.animate-shadow-min.js',
+   callback: function (url, result, key) {
+  
+  }
+});
+$('.thumbnail-cap').hcaptions({
+  effect: "fade"
+ 
+});
 
+$('.closeButton').click(function(e) {
+    
+
+
+  $('.box').animate({"left":"-100%"},200,"linear");
+
+	e.preventDefault();
+	
+});
+$('#pro').click(function(e) {
+ var pWidth = jQuery(window).width();
+	  var eWidth = $('.box').width();
+	  var lefto =  parseInt((pWidth / 2) - (eWidth / 2)) + 'px';	
+var $target = $(this).data('info');
+
+
+$($target).appendTo(".box-container");
+$($target).css({ 'overflow':'hidden', 'display': 'block',' padding':'2px'});        
+
+
+  $('.box').animate({"left":lefto},200,"linear");
+
+	e.preventDefault();
+	
+});
+
+function centerMe(element) {
+    //pass element name to be centered on screen
+    var pWidth = jQuery(window).width();
+    var pTop = jQuery(window).scrollTop()
+    var eWidth = jQuery(element).width()
+    jQuery(element).css('top', pTop + 100 + 'px')
+    jQuery(element).css('left', parseInt((pWidth / 2) - (eWidth / 2)) + 'px')
+}
+$('.btn-infvo').click(function(e) {
+	 var pWidth = jQuery(window).width();
+	  var eWidth = $('.box').width();
+	  var lefto =  parseInt((pWidth / 2) - (eWidth / 2)) + 'px';
+	//$('.box').animate().css('left', parseInt((pWidth / 2) - (eWidth / 2)) + 'px')
+
+  $('.box').animate({"left":lefto},200);
+	e.preventDefault();
+	
+});
 
 $(function menuswipe() {
 			var pull 		= $('#pull');
@@ -156,69 +211,5 @@ $("#menu-arrowx").css('left',$item2 + 'px');
 
 
 
-
-
-
-$(window).resize(function(e) {
-  //resize just happened, pixels changed
-  //$('#menu-arrowx').css("visibility", "hidden");
-
-});
-
-
-
-/*---------  Screenshots Hover -------*/
-
-$(document).ready(function(){
-
-
-
-
-
- $(function() {
-      $('#slides').slidesjs({
-        width: 960,
-        height: 500,
-        play: {
-          active: true,
-          auto: true,
-          interval: 4000,
-          swap: true
-        }
-      });
-    });
-
-$(".collapse").collapse();
-$("img.b").hover(
-function() {
-$(this).stop().animate({"opacity": "1","-ms-filter":"progid:DXImageTransform.Microsoft.Alpha(opacity=100)"}, "800");
-},
-function() {
-$(this).stop().animate({"opacity": "0","-ms-filter":"progid:DXImageTransform.Microsoft.Alpha(opacity=0)"}, "fast");
-});
-
-
-function initialize() {
-  var myLatlng = new google.maps.LatLng(59.32522, 18.07002);
-  var mapOptions = {
-	  scrollwheel: false,
-	  scaleControl: false,
-    zoom: 15,
-    center: myLatlng,
-    mapTypeId: google.maps.MapTypeId.ROADMAP
-  }
-  var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
-
-  var marker = new google.maps.Marker({
-      position: myLatlng,
-      map: map,
-      title: 'Hello World!'
-  });
-}
-
-google.maps.event.addDomListener(window, 'load', initialize);
-
-
-});
 
 
