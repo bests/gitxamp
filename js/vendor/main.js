@@ -1,9 +1,5 @@
 $(document).ready(function(){
-
-
-
-
-
+$('.seven a:link').smoothScroll();
  $(function() {
       $('#slides').slidesjs({
         width: 960,
@@ -37,11 +33,27 @@ function initialize() {
     mapTypeId: google.maps.MapTypeId.ROADMAP
   }
   var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+var contentString = '<div id="contentt">'+
+      
+      '<p>Attribution: Uluru, <a href="http://en.wikipedia.org/w/index.php?title=Uluru&oldid=297882194">'+
+      'http://en.wikipedia.org/w/index.php?title=Uluru</a> '+
+      '(last visited June 22, 2009).</p>'+
+      
+      '</div>';
 
+  var infowindow = new google.maps.InfoWindow({
+      content: contentString,
+	   maxWidth: 200
+  });
   var marker = new google.maps.Marker({
       position: myLatlng,
+	  animation: google.maps.Animation.DROP,
       map: map,
+	  icon: 'img/nav-icon@2x.png',
       title: 'Hello World!'
+  });
+   google.maps.event.addListener(marker, 'click', function() {
+    infowindow.open(map,marker);
   });
 }
 
@@ -67,24 +79,38 @@ $('.closeButton').click(function(e) {
 
 
   $('.box').animate({"left":"-100%"},200,"linear");
-
+$('.box-container').animate({"left":"-100%"},200,"linear");
+$('.box').css({'display': 'hidden'});
 	e.preventDefault();
 	
 });
-$('#pro').click(function(e) {
- var pWidth = jQuery(window).width();
-	  var eWidth = $('.box').width();
-	  var lefto =  parseInt((pWidth / 2) - (eWidth / 2)) + 'px';	
+
+$('.pro').click(function(e) {
+	
+	
+	
 var $target = $(this).data('info');
+$('.box').css({'display': 'block',' padding':'2px'});
+
+ $('.box-container').html($($target).html());
+ 
+ 
+ var pWidth = jQuery(window).width();
+ var pHeight = jQuery(window).height();
+	  var eWidth = $('.box-container').outerWidth();
+	  var eHeight = $('.box-container').height();
+	  var lefto =  parseInt((pWidth / 2) - (eWidth / 2)) + 'px';
+	  var totop =  (pHeight/2 - (eHeight / 2)) + 'px';	
+$('.box-container').css({"top":totop});	
+$('.box').animate({"left":'0'},200,"linear");
+
+$('.box-container').animate({"left":lefto},200,"linear");
 
 
-$($target).appendTo(".box-container");
-$($target).css({ 'overflow':'hidden', 'display': 'block',' padding':'2px'});        
+$('.box').css({"opacity":"0.8"});
+      
 
-
-  $('.box').animate({"left":lefto},200,"linear");
-
-	e.preventDefault();
+e.preventDefault();
 	
 });
 
@@ -168,7 +194,18 @@ function() {
 $("img.thumb1", this).stop().animate({"opacity": "1","-ms-filter":"progid:DXImageTransform.Microsoft.Alpha(opacity=0)"}, "50");
 
 });
-
+jQuery.fn.center = function ()
+{
+	  var pWidth = jQuery(window).width();
+      var pHeight = jQuery(window).height();
+	  var eWidth = $(this).width();
+	  var eHeight = $(this).height();
+      var lefto =  parseInt((pWidth / 2) - (eWidth / 2)) + 'px';
+	  var totop =  (pHeight/2 - (eHeight / 2)) + 'px';	
+	$(this).css({"top":totop});	
+alert(totop);
+    return this;
+}
 
 if( !Modernizr.input.required && !Modernizr.formvalidation ){  
 };  
@@ -217,11 +254,10 @@ $("img.thumb1", this).stop().animate({"opacity": "1","-ms-filter":"progid:DXImag
 
 });
     }else{
-	alert('new5');	
+	
 $("body").on("activate", function(e)
 {
-	
-	
+
 	$('#menu-arrowx').css("visibility", "visible");
   var $item = $(e.target);
   
@@ -248,6 +284,10 @@ $("#menu-arrowx").css('left',$item2 + 'px');
 		
 		
     }
+	
+
+
+	
  
 });	
 
@@ -262,7 +302,7 @@ $("#menu-arrowx").css('left',$item2 + 'px');
 
 
 
-
+//$('.box').center();	
 
 
 

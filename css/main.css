@@ -1,4 +1,10 @@
+#map-canvas img {
+  max-width: none;
+}
+#map-canvas {
+	color:#333;
 
+}
 body{margin:0;padding:0;
   
 }
@@ -1662,30 +1668,38 @@ padding: 1.25em;
 -webkit-border-radius: 4px;
 background: #f7f7f7;
 }
-.box .row-fluid .span4{
+.box-container .row-fluid .span4{
 	width:400px;
 	
 }
-.box .row-fluid .span5{
+.box-container .row-fluid .span5{
 	width:400px;
 	
 }
 .box-container{
-	width:80%;
-	margin-left:auto;
-	margin-right:auto;
+	width:60%;
+	position:fixed;
 	
+	 z-index:11;
 }
 .box {
+background: url(../img/overlay.png) repeat;
+opacity: 0.8;
+     position:fixed;
+	 display:hidden;
+	 top:0;
 	
-     position:absolute;
-	 padding-top:100px;
-	 background-color:#999;
+	
+
 	 width:100%;
 	 height:100%;
-    top:0;
+   
     left:-100%;
 	z-index:10;
+   
+}
+.box:after {
+
    
 }
 .closeButton
