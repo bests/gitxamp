@@ -13,7 +13,7 @@ $('.seven a:link').smoothScroll();
       });
     });
 
-$(".collapse").collapse();
+
 $("img.b").hover(
 function() {
 $(this).stop().animate({"opacity": "1","-ms-filter":"progid:DXImageTransform.Microsoft.Alpha(opacity=100)"}, "800");
@@ -304,7 +304,7 @@ $("#menu-arrowx").css('left',$item2 + 'px');
 
 //$('.box').center();	
 
-
+$(".collapse").collapse();
 
 $(window).resize(function(e) {
   //resize just happened, pixels changed
