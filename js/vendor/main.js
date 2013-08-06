@@ -23,7 +23,41 @@ $(this).stop().animate({"opacity": "0","-ms-filter":"progid:DXImageTransform.Mic
 });
 
 
+function initialize() {
+  var myLatlng = new google.maps.LatLng(59.32522, 18.07002);
+  var mapOptions = {
+	  scrollwheel: false,
+	  scaleControl: false,
+    zoom: 15,
+    center: myLatlng,
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+  }
+  var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+var contentString = '<div id="contentt">'+
+      
+      '<p>Attribution: Uluru, <a href="http://en.wikipedia.org/w/index.php?title=Uluru&oldid=297882194">'+
+      'http://en.wikipedia.org/w/index.php?title=Uluru</a> '+
+      '(last visited June 22, 2009).</p>'+
+      
+      '</div>';
 
+  var infowindow = new google.maps.InfoWindow({
+      content: contentString,
+	   maxWidth: 200
+  });
+  var marker = new google.maps.Marker({
+      position: myLatlng,
+	  animation: google.maps.Animation.DROP,
+      map: map,
+	  icon: 'img/nav-icon@2x.png',
+      title: 'Hello World!'
+  });
+   google.maps.event.addListener(marker, 'click', function() {
+    infowindow.open(map,marker);
+  });
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
 
 
 });
