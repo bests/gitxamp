@@ -98,7 +98,7 @@ filter: progid:DXImageTransform.M;
 width: 100%;
 position: fixed;
 border-bottom: 4px solid #CFCFCF;
-z-index: 54;
+z-index: 9999;
 }
 .seven {
 margin-bottom: 0px;
