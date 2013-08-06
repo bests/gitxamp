@@ -304,7 +304,7 @@ $("#menu-arrowx").css('left',$item2 + 'px');
 
 //$('.box').center();	
 
-$(".collapse").collapse();
+//$(".collapse").collapse();
 
 $(window).resize(function(e) {
   //resize just happened, pixels changed
