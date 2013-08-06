@@ -479,7 +479,7 @@ background: url(../img/pastel.png) repeat;
 }	
 .price{
 background-color: #FFF;
-
+position:relative;
 }
 	
 .aboutus .row-fluid{
@@ -489,6 +489,7 @@ padding-bottom:30px;
 .aboutus{
 background-color: #FFF;
 color:#FFF;
+position:relative;
 
 background: url(../img/pastel.png) repeat;
 	
@@ -646,7 +647,8 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 .anchor{
-
+padding-top: 40px;
+margin-top: -40px;
 	
 	}	
 body {
@@ -706,7 +708,7 @@ width: 140px;
 }
 .pricemain {
 list-style: none;
-position: relative;
+
 margin: 0 0 30px 0;
 
 text-align: center;
