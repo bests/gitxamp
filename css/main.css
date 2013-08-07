@@ -99,7 +99,11 @@ display: inline-block;
 }
 /* ==========================================================================
   Navigation menu
+ 
    ========================================================================== */
+   
+ .accordion-inner{
+	 background-color:#0C9;}  
 nav {
 background-color: #FFFFFF;
 background-repeat: repeat-x;
