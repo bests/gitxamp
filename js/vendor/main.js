@@ -62,13 +62,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
 });
 
-Modernizr.load({
- test: Modernizr.input.required && Modernizr.formvalidation,
- nope: 'http://localhost/gitxamp/js/vendor/jquery.animate-shadow-min.js',
-   callback: function (url, result, key) {
-  
-  }
-});
+
 $('.thumbnail-cap').hcaptions({
   effect: "fade"
  
@@ -207,10 +201,9 @@ alert(totop);
     return this;
 }
 
-if( !Modernizr.input.required && !Modernizr.formvalidation ){  
-};  
+
 if(!Modernizr.csstransitions) { 
-alert('old');
+
 $("body").on("activate", function(e)
 {
 $('#menu-arrowx').css("visibility", "visible");
@@ -315,7 +308,16 @@ $(window).resize(function(e) {
 
 
 /*---------  Screenshots Hover -------*/
+if(Modernizr.input.required && Modernizr.formvalidation){
 
+alert('old');  
+};  
 
-
+Modernizr.load({
+ test: Modernizr.input.required && Modernizr.formvalidation,
+ nope: 'http://localhost/gitxamp/js/vendor/jquery.animate-shadow-min.js',callback: function(url, res, key) {
+      alert(res);  
+    }
+ 
+});
 
