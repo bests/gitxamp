@@ -1047,6 +1047,14 @@ width: 100%;
 }	
 
 @media (min-width: 1200px) {
+	.box-container .row-fluid .span4{
+	width:55%;
+	
+}
+.box-container .row-fluid .span5{
+	width:30%;
+	
+}
 .aboutus .span5 {
 width: 65.17094%;
 }	
@@ -1195,6 +1203,15 @@ padding: 0px 15px;
 }				
 }
 @media (min-width: 980px) and (max-width: 1200px) {
+	
+.box-container .row-fluid .span4{
+	width:55%;
+	
+}
+.box-container .row-fluid .span5{
+	width:30%;
+	
+}	
 .logo .thumbnails .span3 {
 width: 29%;
 padding: 13px;
@@ -1300,6 +1317,14 @@ width: 48%;
   
 }
 @media (max-width: 979px) and (min-width: 768px){
+.box-container .row-fluid .span4{
+	width:55%;
+	
+}
+.box-container .row-fluid .span5{
+	width:30%;
+	
+}		
 	.home h1 {
 font-size: 50px;
 }
@@ -1443,6 +1468,15 @@ padding: 0px 12px;
 
 }
 @media (max-width: 767px){
+.box-container .row-fluid .span4{
+	width:55%;
+	display:none;
+	
+}
+.box-container .row-fluid .span5{
+	width:99%;
+	
+}		
 	.home h1 {
 font-size: 50px;
 }
@@ -1800,19 +1834,12 @@ padding: 1.25em;
 -webkit-border-radius: 4px;
 background: #f7f7f7;
 }
-.box-container .row-fluid .span4{
-	width:400px;
-	
-}
-.box-container .row-fluid .span5{
-	width:400px;
-	
-}
+
 .box-container{
 	background-color: #fff;
 color: #696969;
 padding: 20px;
-width: 60%;
+width: 61%;
 position: fixed;
 z-index: 11;
 }
