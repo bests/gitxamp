@@ -429,15 +429,10 @@
  </div>
  </div>
 </div>
-</div>      
-    
-  
-  
-  
-      
-       
-    <div class="accordion-group">
-        <div class="accordion-heading"><a href="#group-1" data-parent="#accordions" data-toggle="collapse" class="accordion-toggle">Accordion Group 1</a>  </div>
+
+
+
+   <div class="accordion-heading"><a href="#group-1" data-parent="#accordions" data-toggle="collapse" class="accordion-toggle">Accordion Group 1</a>  </div>
  <div id="group-1" class="accordion-body collapse in">
             <div class="accordion-inner">
             <div class="row-fluid">
@@ -455,7 +450,15 @@
  </div>
  </div>
 </div>
+
+
 </div>      
+    
+  
+  
+  
+      
+ 
        
         
        <div class="row-fluid paddingbot">
