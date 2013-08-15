@@ -131,7 +131,7 @@ $('.box').animate({"left":'0'},200,"linear");
 $('.box-container').animate({"left":lefto},200,"linear");
 
 
-//$('.box').css({"opacity":"0.8"});
+
       
 
 e.preventDefault();
