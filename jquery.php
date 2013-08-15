@@ -30,13 +30,13 @@ $validator
 	
 
 ;$what = "";
-//try {
+try {
 if (!$mailer->send($message, $errors)) { $what = "1"; }else{$what = "0";}
-//} catch (Swift_TransportException $e) {
-//  $what = "3";
-//} catch (Exception $e) {
-// $what = "3";
-//}
+} catch (Swift_TransportException $e) {
+  $what = "3";
+} catch (Exception $e) {
+ $what = "3";
+}
 
 if(isset($_POST['submit'])) {
 
