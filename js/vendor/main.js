@@ -1,4 +1,32 @@
 $(document).ready(function(){
+var $modal = $('#ajax-modal');
+ //$(".youtube").colorbox({iframe:true, innerWidth:640, innerHeight:390}); 
+$('.ajax').on('click', function(){
+	var $target = $(this).data('info');
+	
+  // create the backdrop and wait for next modal to be triggered
+  $('body').modalmanager('loading');
+ 
+  setTimeout(function(){
+     $modal.load($target, '', function(){
+      $modal.modal();
+    });
+  }, 1000);
+});
+ 
+$modal.on('click', '.update', function(){
+  $modal.modal('loading');
+  setTimeout(function(){
+    $modal
+      .modal('loading')
+      .find('.modal-body')
+        .prepend('<div class="alert alert-info fade in">' +
+          'Updated!<button type="button" class="close" data-dismiss="alert">&times;</button>' +
+        '</div>');
+  }, 1000);
+});
+	
+	
 $('.seven a:link').smoothScroll();
  $(function() {
       $('#slides').slidesjs({
@@ -35,9 +63,8 @@ function initialize() {
   var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 var contentString = '<div id="contentt">'+
       
-      '<p>Attribution: Uluru, <a href="http://en.wikipedia.org/w/index.php?title=Uluru&oldid=297882194">'+
-      'http://en.wikipedia.org/w/index.php?title=Uluru</a> '+
-      '(last visited June 22, 2009).</p>'+
+      'We are right here!'+
+     
       
       '</div>';
 
@@ -45,11 +72,14 @@ var contentString = '<div id="contentt">'+
       content: contentString,
 	   maxWidth: 200
   });
+ 
+ var icon = new google.maps.MarkerImage("img/marker.png", null, null, null, new google.maps.Size(41.5,59));
   var marker = new google.maps.Marker({
       position: myLatlng,
 	  animation: google.maps.Animation.DROP,
       map: map,
-	  icon: 'img/nav-icon@2x.png',
+	
+	  icon: icon,
       title: 'Hello World!'
   });
    google.maps.event.addListener(marker, 'click', function() {
@@ -72,8 +102,8 @@ $('.closeButton').click(function(e) {
     
 
 
-  $('.box').animate({"left":"-100%"},200,"linear");
-$('.box-container').animate({"left":"-100%"},200,"linear");
+  $('.box').animate({"left":"-130%"},200,"linear");
+$('.box-container').animate({"left":"-130%"},200,"linear");
 $('.box').css({'display': 'hidden'});
 	e.preventDefault();
 	
@@ -101,7 +131,7 @@ $('.box').animate({"left":'0'},200,"linear");
 $('.box-container').animate({"left":lefto},200,"linear");
 
 
-$('.box').css({"opacity":"0.8"});
+//$('.box').css({"opacity":"0.8"});
       
 
 e.preventDefault();
@@ -149,7 +179,7 @@ $(function menuswipe() {
 
 
 $('.tooltp').tooltip();
-$(".youtube").colorbox({iframe:true, innerWidth:640, innerHeight:390}); 
+
 // $(function(){
 	//	$('.jumbotron').css({'height':($(window).height())+'px'});
 	//	$(window).resize(function(){
@@ -297,7 +327,7 @@ $("#menu-arrowx").css('left',$item2 + 'px');
 
 //$('.box').center();	
 
-//$(".collapse").collapse();
+$(".collapse").collapse();
 
 $(window).resize(function(e) {
   //resize just happened, pixels changed
@@ -321,3 +351,7 @@ Modernizr.load({
  
 });
 
+
+  
+  
+  

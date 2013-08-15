@@ -41,7 +41,7 @@
        <!--[if IE 7]>
     <link rel="stylesheet" href="css/fontello-ie7.css"><![endif]-->  
 	 
-   <script type="text/javascript" src="js/vendor/modernizr.custom4.js"></script>
+   <script type="text/javascript" src="js/vendor/modernizr2.js"></script>
   
    <script type="text/javascript" src="//cdn.jsdelivr.net/foresight.js/2.0.0/foresight.min.js"></script> 
  
@@ -74,7 +74,7 @@
 	</nav>              
                   
         
-<section id="overview"><div id="menu-arrowx" class="top-arrowx animate" style="opacity: 1;"></div> 
+<section id="overview"><div id="menu-arrowx" class="top-arrowx animate" style="opacity: 1;"><img src="img/ar.png"></div> 
 <header class="home padding">
   <div class="container">
   <div class="logo">
@@ -92,7 +92,7 @@
  <h1><i class="icon-ok iconshead"></i>Simple and Modern</h1>
 <h2>Fix your workflow. Learn from others. Start your library today.</h2>
   
-   <a href="http://www.youtube.com/embed/VOJyrQa_WR4?rel=0&amp;wmode=transparent" class="btn btn-info youtube">Get Started</a>
+   <a href="" class="btn btn-info ajax" data-toggle="modal" data-info="ajax.html">Video</a>
    
    </div>
  </div>
@@ -114,14 +114,14 @@
 <div class="container padding">
  <div class="row-fluid">
  
- 
+
  
  
   <div class="span4">
 		                <h2 class="titleone">EVERYTHING IS DESIGNED.
 		                <br>FEW THINGS ARE DESIGNED well</h2>
 		                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras faucibus bibendum mauvel tempor metus tempor quis. Vivamus ullamcorper, dolor nec rhoncus bibendu.</p>
-		                <a href="" data-toggle="modal" class="btn btn-info">Get Started</a>
+		                <a href="#myModal" data-toggle="modal" class="btn btn-info ajax" data-info="ajax2.html">Get Started</a>
 	                </div>
 	                <div class="span8"> 
                 
@@ -233,7 +233,7 @@
 <div class="tick"></div> 
 <article id="home_gallery" class="gallery">
 
-<div class="box"><a href="#" class="closeButton"><img src="img/nav-icon@2x.png" width="32" height="32"></a></div> 
+<div class="box"><a href="#" class="closeButton"><img src="img/cross.png" width="46" height="43"></a></div> 
 <div class="box-container"></div>
 
         <div class="container padding">
@@ -253,41 +253,62 @@
                  <li class="span3">
             
   <a href="#" data-target="#myToggle2" class="thumbnail-cap">
-                  <img data-src="img/fire-med.jpg"  data-width="280" data-height="160" class="thumb1 fs-img2 loader">
+                  <img data-src="img/star-med.jpg"  data-width="280" data-height="160" class="thumb1 fs-img2 loader">
                </a>
-               <div id="myToggle2" class="cap-overlay hide">
-  <h5>Cupcakes</h5>
+<div id="myToggle2" class="cap-overlay hide">
+  <h5>Title</h5>
   <div class="content">
-    Name: cupcakes.png<br />
-    Photography: Ryun Shofner<br />
-    <a href="" data-info="#project2" class="btn btn-info pro"><i class="icon-ok"></i> Sign-up</a>
-  </div>
-         
-       </div>  
+    Project name<br />
+    Sydney<br />
+</div><a href="" data-info="#project2" class="btn btn-info pro"><i class="icon-eye"></i> More</a>
+ </div>  
              
               </li>
               
               
                <li class="span3">
-                <a href="#" class="thumbnail-v">
+                <a href="#" data-target="#myToggle3" class="thumbnail-cap">
                 
                   <img data-src="img/door-med.jpg" data-width="280" data-height="160" class="thumb1 fs-img2 loader">
                 </a>
+                <div id="myToggle3" class="cap-overlay hide">
+  <h5>Title</h5>
+  <div class="content">
+    Project name<br />
+    Sydney<br />
+</div> <a href="" data-info="#project3" class="btn btn-info pro"><i class="icon-eye"></i> More</a>
+ </div>  
               </li>
               
               
               <li class="span3">
-                <a href="#" class="thumbnail">
+                <a href="#" data-target="#myToggle4" class="thumbnail-cap">
                   <img data-src="img/house-med.jpg" data-width="280" data-height="160" class="thumb1 fs-img2 loader">
                 </a>
+                   <div id="myToggle4" class="cap-overlay hide">
+  <h5>Title</h5>
+  <div class="content">
+    Project name<br />
+    Sydney<br />
+</div> <a href="" data-info="#project4" class="btn btn-info pro"><i class="icon-eye"></i> More</a>
+ </div>  
               </li>
              
           
                   
               <li class="span3">
-                <a href="#" class="thumbnail">
+                <a href="#" data-target="#myToggle5" class="thumbnail-cap">
                   <img data-src="img/notesmed.jpg" data-width="280" data-height="160" class="thumb1 fs-img2 loader">
                 </a>
+                
+                 <div id="myToggle5" class="cap-overlay hide">
+  <h5>Title</h5>
+  <div class="content">
+    Project name<br />
+    Sydney<br />
+</div> <a href="" data-info="#project5" class="btn btn-info pro"><i class="icon-eye"></i> More</a>
+ </div>  
+                
               </li>
              
               
@@ -296,23 +317,46 @@
             
              <ul class="thumbnails">
               <li class="span3">
-                <a href="#" class="thumbnail">
+              <a href="#" data-target="#myToggle6" class="thumbnail-cap">
                   <img data-src="img/pumkinmed.jpg" data-width="280" data-height="160" class="thumb1 fs-img2">
                 </a>
+                 <div id="myToggle6" class="cap-overlay hide">
+  <h5>Title</h5>
+  <div class="content">
+    Project name<br />
+    Sydney<br />
+</div> <a href="" data-info="#project6" class="btn btn-info pro"><i class="icon-eye"></i> More</a>
+ </div>  
+                
+                
               </li>
               
                <li class="span3">
-                <a href="#" class="thumbnail">
+               <a href="#" data-target="#myToggle7" class="thumbnail-cap">
                 
                   <img data-src="img/rowmed.jpg" data-width="280" data-height="160" class="thumb1 fs-img2">
                 </a>
+                  <div id="myToggle7" class="cap-overlay hide">
+  <h5>Title</h5>
+  <div class="content">
+    Project name<br />
+    Sydney<br />
+</div> <a href="" data-info="#project7" class="btn btn-info pro"><i class="icon-eye"></i> More</a>
+ </div>  
               </li>
               
               
               <li class="span3">
-                <a href="#" class="thumbnail">
+               <a href="#" data-target="#myToggle8" class="thumbnail-cap">
                   <img data-src="img/skull-med.jpg" data-width="280" data-height="160" class="thumb1 fs-img2">
                 </a>
+                  <div id="myToggle8" class="cap-overlay hide">
+  <h5>Title</h5>
+  <div class="content">
+    Project name<br />
+    Sydney<br />
+</div> <a href="" data-info="#project8" class="btn btn-info pro"><i class="icon-eye"></i> More</a>
+ </div>  
               </li>
              
           
@@ -363,6 +407,55 @@
  <div class="title"><h1>Bootstrap</h1>
      Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
        </div>       
+   
+   
+     
+  <div class="accordion-group">
+        <div class="accordion-heading"><a href="#group-2" data-parent="#accordions" data-toggle="collapse" class="accordion-toggle">Accordion Group 1</a>  </div>
+ <div id="group-2" class="accordion-body collapse">
+            <div class="accordion-inner">
+            <div class="row-fluid">
+               <div class="span4">
+              <img src="img/815px-boot3.jpg">
+
+              </div>
+              
+              <div class="span5">
+
+             <h3>Thumbnail label</h3>
+                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+ <a href="" class="btn btn-info">Get Started</a>
+ </div>
+ </div>
+ </div>
+</div>
+</div>      
+    
+  
+  
+  
+      
+       
+    <div class="accordion-group">
+        <div class="accordion-heading"><a href="#group-1" data-parent="#accordions" data-toggle="collapse" class="accordion-toggle">Accordion Group 1</a>  </div>
+ <div id="group-1" class="accordion-body collapse in">
+            <div class="accordion-inner">
+            <div class="row-fluid">
+               <div class="span4">
+              <img src="img/960px-boot.jpg">
+
+              </div>
+              
+              <div class="span5">
+
+             <h3>Thumbnail label</h3>
+                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+ <a href="" class="btn btn-info">Get Started</a>
+ </div>
+ </div>
+ </div>
+</div>
+</div>      
        
         
        <div class="row-fluid paddingbot">
@@ -414,61 +507,7 @@
         
          <!-- End container .. container for carosel --> 
  
-    <h2>Accordion</h2>
-      
-       
-    <div class="accordion-group">
-        <div class="accordion-heading"><a href="#group-1" data-parent="#accordions" data-toggle="collapse" class="accordion-toggle">Accordion Group 1</a>  </div>
-
-      
-        <div id="group-1" class="accordion-body collapse">
-            <div class="accordion-inner">
-                
-                <div class="row-fluid">
   
-              <div class="span4">
-
-              <img src="img/960px-boot.jpg">
-            
-            
-            
-            
-            
-            
-            
-              </div>
-              
-              <div class="span5">
-              
-            
-             <h3>Thumbnail label</h3>
-                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-            
-            
-            <a href="" class="btn btn-info">Get Started</a>
-            
-            
-            
-            
-            
-            
-            
-            
-              </div>
-              
-              
-              
-              
-              
-              </div>
-                
-                
-                
-                
-            </div>
-        </div>
-    
-    </div>      
   
      
 
@@ -748,19 +787,80 @@
 
  <div id="map-canvas"></div>  
 
-        <div class="container padding"><h1>Send us a message</h1>
+        <div class="container padding">
+       
       <div class="row-fluid">
-      
-     
+ <?php
+
+include 'autoload.php';
+
+use HybridLogic\Validation\Validator;
+use HybridLogic\Validation\Rule;
+
+$validator = new Validator();
+
+$validator
+
+	->set_label('name', 'your name')
+	->add_filter('name', 'trim')
+	->add_rule('name', new Rule\NotEmpty())
+	->add_rule('name', new Rule\MinLength(5))
+	->add_rule('name', new Rule\MaxLength(10))
+
+	->add_filter('email', 'trim')
+	->add_filter('email', 'strtolower')
+	->add_rule('email', new Rule\NotEmpty())
+	
+	->add_rule('email', new Rule\Email())
+	
+
+;
+
+
+if(isset($_POST['submit'])) {
+
+	if($validator->is_valid($_POST)) {
+		echo 'Sent';
+	} else {
+		echo '<p>Errors were encountered:</p><ul>';
+		foreach($validator->get_errors() as $error) echo "<li>$error</li>";
+		echo '</ul>';
+	}
+
+}
+
+
+$jquery_validator = new HybridLogic\Validation\ClientSide\jQueryValidator($validator);
+$jquery = $jquery_validator->generate();
+
+
+?>     
+    
             <div class="span9"> 
-<form class="form">
+ <div class="alert alert-error alert-block hide">
+              <button type="button" class="close" data-dismiss="alert">×</button>
+              <h4>Warning!</h4>
+              <p>Best check yo self, you're not looking too good. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+            </div>
+             <div class="alert alert-success alert-block hide">
+              <button type="button" class="close" data-dismiss="alert">×</button>
+              <h4>Warning!</h4>
+              <p>Best check yo self, you're not looking too good. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+            </div>            
+             <div class="alert alert-error alert-block hide mailrr">
+              <button type="button" class="close" data-dismiss="alert">×</button>
+              <h4>Network!</h4>
+              <p>Best check yo self, you're not looking too good. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+            </div>   
+            
+<form action="#" class="form" id="form" method="post">
             <div class="row"><div class="span4"><label>Name</label>
-  <input type="text" placeholder="Name" required></div>
- <div class="span4"><label>Email</label> <input type="email" placeholder="Email" required></div>
+  <input type="text" placeholder="Name" name="name" required></div>
+ <div class="span4"><label>Email</label> <input type="email" name="email" placeholder="Email" required></div>
  <div class="span8"><label>Your message</label>
  <textarea rows="6" name="message" spellcheck="false" style=" white-space: pre-wrap; z-index: auto; position: relative; line-height: 20px; font-size: 14px; -webkit-transition: none; transition: none; overflow: auto; margin: 0px; height: 247px; background-position: initial initial !important; background-repeat: initial initial !important;"></textarea>
  </div>
-  <div class="span8"><button type="submit" class="btn">Sign in</button></div>
+  <div class="span8"><button type="submit" class="btn submit" name="submit" data-loading-text="Loading...">Sign in</button></div>
 </div>
 </form>
 </div>   
@@ -769,7 +869,8 @@
 
 
 
-<div class="span5"><address>
+<div class="span5">
+<address>
   <strong>Twitter, Inc.</strong><br>
   795 Folsom Ave, Suite 600<br>
   San Francisco, CA 94107<br>
@@ -792,6 +893,7 @@
   <strong>Full Name</strong><br>
   <a href="mailto:#">first.last@example.com</a>
 </address>
+
 
 
 </div>
@@ -851,28 +953,120 @@
               </div>
  
   </div>
-                
- 
-<div id="project2" class="pro" style="display:none">
+<div id="project3" class="pro" style="display:none">
 <div class="row-fluid">
 <div class="span4">
-<img src="img/fire@2x.jpg">
+<img src="img/door@2x.jpg">
  </div>
 <div class="span5">
 <h3>Thumbnail label</h3>
 <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-<a href="" class="btn btn-info">Get Started</a>
 </div>
 </div>
+</div>
+
+<div id="project4" class="pro" style="display:none">
+<div class="row-fluid">
+<div class="span4">
+<img src="img/house@2x.jpg">
+ </div>
+<div class="span5">
+<h3>Thumbnail label</h3>
+<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+</div>
+</div>
+</div>                     
+ 
+ 
+ <div id="project8" class="pro" style="display:none">
+<div class="row-fluid">
+<div class="span4">
+<img src="img/skull@2x.jpg">
+ </div>
+<div class="span5">
+<h3>Thumbnail label</h3>
+<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+</div>
+</div>
+</div>      
+ 
+ <div id="project7" class="pro" style="display:none">
+<div class="row-fluid">
+<div class="span4">
+<img src="img/road@2x.jpg">
+ </div>
+<div class="span5">
+<h3>Thumbnail label</h3>
+<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+</div>
+</div>
+</div>           
+ 
+ 
+ <div id="project5" class="pro" style="display:none">
+<div class="row-fluid">
+<div class="span4">
+<img src="img/notes@2x.jpg">
+ </div>
+<div class="span5">
+<h3>Thumbnail label</h3>
+<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+</div>
+</div>
+</div>       
+ 
+ <div id="project6" class="pro" style="display:none">
+<div class="row-fluid">
+<div class="span4">
+<img src="img/pumpkin@2x.jpg">
+ </div>
+<div class="span5">
+<h3>Thumbnail label</h3>
+<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+</div>
+</div>
+</div>     
+ 
+ 
+<div id="project2" class="pro" style="display:none">
+<div class="row-fluid">
+<div class="span4">
+<img src="img/star@2x.jpg">
+ </div>
+<div class="span5">
+<h3>Thumbnail label</h3>
+<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+
+</div>
+</div>
+
 </div>  
  
-
+<div id="ajax-modal" class="modal hide fade" tabindex="-1" style="display: none; margin-top: -128.5px;" aria-hidden="true"><div class="modal-header">
+	<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+	<h3>Modal header</h3>
+</div>
+<div class="modal-body">
+	<ul class="nav nav-tabs">
+		<li class="active"><a href="#tab1" data-toggle="tab">Tab 1</a></li>
+		<li><a href="#tab2" data-toggle="tab">Tab 2</a></li>
+	</ul>
+	<div class="tab-content">
+		<div class="tab-pane active" id="tab1"><p>This modal was loaded in via ajax</p></div>
+		<div class="tab-pane" id="tab2"><p>This is some other tab content</p></div>
+	</div>
+	<button class="btn update">Update</button>
+</div>
+<div class="modal-footer">
+	<button type="button" data-dismiss="modal" class="btn">Close</button>
+	<button type="button" class="btn btn-primary">Ok</button>
+</div></div>
      
    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 <script type="text/javascript" src="//cdn.jsdelivr.net/bootstrap/2.3.2/js/bootstrap.min.js"></script>
-
-
+<script src="js/vendor/bootstrap-modalmanager.js"></script> 
+<script src="js/vendor/bootstrap-modal.js"></script> 
  <script type="text/javascript" src="//cdn.jsdelivr.net/colorbox/1.4.4/jquery.colorbox-min.js"></script> 
  <script type="text/javascript" src="//cdn.jsdelivr.net/slidesjs/3.0.1/jquery.slides.min.js"></script>
    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.easing/1.3/jquery.easing.1.3.js"></script>   
@@ -880,6 +1074,64 @@
   <script src="js/vendor/jquery.smooth-scroll.min.js"></script> 
  <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
  <script src="js/vendor/main.js"></script>   
-  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.10.0/jquery.validate.js"></script>
+
+
+<script type="text/javascript">
+
+<?php foreach($jquery['methods'] as $method_name => $method_function): ?>
+	jQuery.validator.addMethod("<?php echo $method_name; ?>", <?php echo $method_function; ?>);
+<?php endforeach; ?>
+
+$("#form").validate({
+
+	submitHandler: function(form, e) {
+		
+		$('.submit').button('loading');
+	$.ajax({
+            url: "jquery.php",
+            type: "POST",
+            data: $("#form").serialize(),
+            success: function(response) {
+               if (response == 'true')
+                {
+					$('.alert-success').fadeIn(200).show();
+					$('.submit').button('reset')
+                     $.smoothScroll({
+direction: 'top',
+scrollTarget: '.alert'
+  });
+                }
+               if (response == 'false')
+                {$('.alert-error').fadeIn(200).show();
+                   $('.submit').button('reset')
+                }
+			   if (response == 'falsex')
+                {$('.mailrr').fadeIn(200).show();
+                   $('.submit').button('reset')
+                }
+			   
+			   },
+            error: function() {
+                alert('There has been an error, please alert us immediately');
+            }
+			   
+			   
+			   
+			   
+			   
+			   
+			   
+			   
+                      
+        });
+	},
+
+	rules: <?php echo json_encode($jquery['rules']); ?>,
+	messages: <?php echo json_encode($jquery['messages']); ?>
+
+});
+
+</script>
     </body>
 </html>
