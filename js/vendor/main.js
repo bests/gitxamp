@@ -287,7 +287,7 @@ $("body").on("activate", function(e)
 
 	
 
-   $(".seven li").addClass("bounce");
+  $(".seven li").addClass("bounce");
    $(".seven li").siblings().removeClass("bounce");
 
 

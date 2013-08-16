@@ -1474,8 +1474,7 @@ width: 48%;
 
 }
 .seven {
-	width:680px;
-
+	
 margin-right: auto;
 
 }
@@ -1586,6 +1585,11 @@ width: 100%;
 
 }
 @media (max-width: 670px){
+
+.work .title h1 {
+    font-size: 30px;
+    padding-bottom: 20px;
+}	
 	.aboutus .span5 {
 width: 100%;
 
