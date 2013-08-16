@@ -432,24 +432,7 @@
 
 
 
-   <div class="accordion-heading"><a href="#group-1" data-parent="#accordions" data-toggle="collapse" class="accordion-toggle">Accordion Group 1</a>  </div>
- <div id="group-1" class="accordion-body collapse in">
-            <div class="accordion-inner">
-            <div class="row-fluid">
-               <div class="span4">
-              <img src="img/960px-boot.jpg">
-
-              </div>
-              
-              <div class="span5">
-
-             <h3>Thumbnail label</h3>
-                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
- <a href="" class="btn btn-info">Get Started</a>
- </div>
- </div>
- </div>
-</div>
+ 
 
 
 </div>      

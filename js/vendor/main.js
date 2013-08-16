@@ -340,13 +340,13 @@ $(window).resize(function(e) {
 /*---------  Screenshots Hover -------*/
 if(Modernizr.input.required && Modernizr.formvalidation){
 
-alert('old');  
+//alert('old');  
 };  
 
 Modernizr.load({
  test: Modernizr.input.required && Modernizr.formvalidation,
  nope: 'http://localhost/gitxamp/js/vendor/jquery.animate-shadow-min.js',callback: function(url, res, key) {
-      alert(res);  
+     // alert(res);  
     }
  
 });
