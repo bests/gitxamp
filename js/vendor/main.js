@@ -108,6 +108,39 @@ $('.box').css({'display': 'hidden'});
 	e.preventDefault();
 	
 });
+$('.pro2').click(function(e) {
+	
+	
+	
+var $target = $(this).data('info');
+$('.box').css({'display': 'block',' padding':'2px'});
+
+ $('.box-container').html($($target).html());
+ 
+ 
+ var pWidth = jQuery(window).width();
+ var pHeight = jQuery(window).height();
+	  var eWidth = $('.box-container').outerWidth();
+	  var eHeight = $('.box-container').height();
+	  var lefto =  parseInt((pWidth / 2) - (eWidth / 2)) + 'px';
+	  var totop =  (pHeight/2 - (eHeight / 2)) + 'px';	
+$('.box-container').css({"top":totop});	
+$('.box').animate({"left":'0'},200,"linear");
+
+$('.box-container').animate({"left":lefto},200,"linear");
+
+
+
+      
+
+e.preventDefault();
+	
+});
+
+$('#myTab a').click(function (e) {
+  e.preventDefault();
+  $(this).tab('show');
+})
 
 $('.pro').click(function(e) {
 	
@@ -128,7 +161,7 @@ $('.box').css({'display': 'block',' padding':'2px'});
 $('.box-container').css({"top":totop});	
 $('.box').animate({"left":'0'},200,"linear");
 
-$('.box-container').animate({"left":lefto},200,"linear");
+$('.box-container').animate({"left":"50%"},200,"linear");
 
 
 

@@ -29,7 +29,9 @@ width: 100%;
 .modal.fade.in {
 	top: 50%;
 }
-
+.modal.fade.in2 {
+  left: 50%;
+}​
 .modal-body {
 	max-height: none;
 	overflow: visible;
@@ -1045,9 +1047,34 @@ font-size: 20px;
 input, textarea, .uneditable-input {
 width: 100%;
 }	
+.box-container{
+	background-color: #fff;
+color: #696969;
+padding: 20px;
 
+
+position: absolute;
+z-index: 11;
+}
 @media (min-width: 1200px) {
-	.box-container .row-fluid .span4{
+.box-container{
+
+
+width: 750px;
+margin-left:-393px;
+
+}
+	
+	
+.box-container .row-fluid .span4{
+	width:55%;
+	
+}
+.boxy .row-fluid .span5{
+	width:30%;
+	
+}
+.boxy .row-fluid .span4{
 	width:55%;
 	
 }
@@ -1203,6 +1230,13 @@ padding: 0px 15px;
 }				
 }
 @media (min-width: 980px) and (max-width: 1200px) {
+.box-container{
+
+
+width: 750px;
+margin-left:-393px;
+
+}
 	
 .box-container .row-fluid .span4{
 	width:55%;
@@ -1317,6 +1351,14 @@ width: 48%;
   
 }
 @media (max-width: 979px) and (min-width: 768px){
+.box-container{
+
+
+width: 700px;
+margin-left:-370px;
+
+}
+		
 .box-container .row-fluid .span4{
 	width:55%;
 	
@@ -1468,13 +1510,22 @@ padding: 0px 12px;
 
 }
 @media (max-width: 767px){
+.box-container{
+
+width: 412px;
+margin-left: -228px;
+
+}	
+	
+	
 .box-container .row-fluid .span4{
-	width:55%;
-	display:none;
+	width:100%;
+	
 	
 }
 .box-container .row-fluid .span5{
 	width:99%;
+	display:none;
 	
 }		
 	.home h1 {
@@ -1835,14 +1886,7 @@ padding: 1.25em;
 background: #f7f7f7;
 }
 
-.box-container{
-	background-color: #fff;
-color: #696969;
-padding: 20px;
-width: 61%;
-position: fixed;
-z-index: 11;
-}
+
 .cap-overlay .content{
 	margin-bottom:20px;
 	
@@ -1854,7 +1898,11 @@ background: url(../img/overlay.png) repeat;
      position:fixed;
 	 display:hidden;
 	 top:0;
-	
+	 bottom: 0;
+   
+    overflow: auto;
+
+ 
 	
 
 	 width:100%;
@@ -1871,7 +1919,7 @@ background: url(../img/overlay.png) repeat;
 .closeButton
 {
 top: 16%;
-left: 89%;
+left: 80%;
 display: block;
 position: absolute;
 margin: 50px;
