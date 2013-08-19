@@ -54,12 +54,12 @@
         <!-- This code is taken from http://twitter.github.com/bootstrap/examples/hero.html -->
 
     
- 
+<header class="home"></header>
                   
 <div id="menu-arrowx" class="top-arrowx animate"><img src="img/ar.png"></div>        
 <section id="overview">
 
- <header class="home">
+
    <nav id="navbar" class="clearfix navy">
                 
                    <img class="minilogo" src="img/minilogo.png">
@@ -80,7 +80,7 @@
 	</nav>              
   <div class="test"></div>
   
- </header>
+ 
   
   
   
