@@ -373,14 +373,14 @@
 <section id="aboutus" class="anchor"> 
  
  
- <div class="featuresbg">    
+  
      
 <div class="titlebg"><h2>About us</h2>
       We are a small design company that simply love what we do..
        </div> 
-  </div>
+
  <div class="tick"></div> 
-<article id="home_aboutus" class="aboutus">
+<article id="aboutus" class="aboutus">
        
       
  <div class="container padding">
