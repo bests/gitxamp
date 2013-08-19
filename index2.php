@@ -62,7 +62,7 @@
 
 <header class="home"><nav id="navbar">
                 
-                   <img class="minilogo" src="img/minilogo.png">
+               
 		<ul class="seven nav">
        
 			
