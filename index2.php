@@ -89,6 +89,10 @@
      
   </div>
 <article id="home_features" class="features"><!-- /container -->
+
+<div class="test"></div>
+
+
 </article>
 </section>
 
@@ -102,7 +106,7 @@
        </div> 
 </div>
 <article id="home_gallery" class="gallery">
-  
+  <div class="test"></div>
  
 </article>
 </section>
@@ -261,7 +265,12 @@
       We are a small design company that simply love what we do..
        </div> 
   </div>
- <article id="home_aboutus" class="aboutus"></article>
+ <article id="home_aboutus" class="aboutus">
+ 
+ <div class="test"></div>
+ 
+ 
+ </article>
 </section>
 <section id="price" class="anchor"> <div class="pricingbg">    
      

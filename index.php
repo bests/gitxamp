@@ -450,6 +450,12 @@
           </div>
      
   
+        <a href="#group-2" data-parent="#accordions" data-toggle="collapse" class="accordion-toggle">Accordion Group 1</a>
+ <div id="group-2" class="accordion-body collapse">
+            <div class="accordion-inner">
+           
+ </div>
+</div>
 
 
 

@@ -6,6 +6,8 @@
 	right: 0;
 	overflow: auto;
 }
+.test{
+	height:800px;}
 .modal .row-fluid .span4 {
 width: 100%;
 }
