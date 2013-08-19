@@ -52,21 +52,21 @@
         <![endif]-->
 
         <!-- This code is taken from http://twitter.github.com/bootstrap/examples/hero.html -->
-
+ 
+ 
     
-<header class="home"></header>
+
                   
      
 <section id="overview" class="anchor">
 
-
-   <nav id="navbar">
+<header class="home"><nav id="navbar">
                 
                    <img class="minilogo" src="img/minilogo.png">
 		<ul class="seven nav">
        
 			
-			<li><a href="#overview">Home</a></li>
+			<li><a href="#overviewm">Home</a></li>
 			<li><a href="#features">Features</a></li>
 			<li><a href="#gallery">Gallery</a></li>
             <li><a href="#work">Love</a></li>
@@ -79,8 +79,8 @@
 		<a href="#" id="pull"><img src="img/nav-icon@2x.png" width="32" height="32" ></a>
 	</nav>              
 
+  </header>
   
- 
   
   
   
