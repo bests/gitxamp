@@ -195,7 +195,7 @@
 <script src="js/vendor/bootstrap-modalmanager.js"></script> 
 <script src="js/vendor/bootstrap-modal.js"></script> 
 
- <script src="js/vendor/main.js"></script>   
+ 
  
 <script type="text/javascript">
 
