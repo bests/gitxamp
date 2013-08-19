@@ -128,142 +128,7 @@
        </div> 
 <div class="tick"></div>
   <article id="home_features" class="work">
-<div class="container padding">       
- 
- <div class="title"><h1>Bootstrap</h1>
-     Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-       </div>       
-   
-  <div class="bs-docs-example">
-            <ul id="myTab" class="nav nav-tabs">
-              <li class="active"><a href="#home" data-toggle="tab">Home</a></li>
-              <li class=""><a href="#profile" data-toggle="tab">Profile</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#dropdown1" data-toggle="tab">@fat</a></li>
-                  <li><a href="#dropdown2" data-toggle="tab">@mdo</a></li>
-                </ul>
-              </li>
-            </ul>
-            <div id="myTabContent" class="tab-content">
-              <div class="tab-pane fade active in" id="home">
-              <div class="row-fluid">
-               <div class="span4">
-              <img src="img/815px-boot3.jpg">
-
-              </div>
-              
-              <div class="span5">
-
-             <h3>Thumbnail label</h3>
-                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
- <a href="" class="btn btn-info">Get Started</a>
- </div>
- </div>
-              </div>
-              <div class="tab-pane fade" id="profile">
-                <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</p>
-              </div>
-              <div class="tab-pane fade" id="dropdown1">
-                <p>Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel fixie etsy retro mlkshk vice blog. Scenester cred you probably haven't heard of them, vinyl craft beer blog stumptown. Pitchfork sustainable tofu synth chambray yr.</p>
-              </div>
-              <div class="tab-pane fade" id="dropdown2">
-                <p>Trust fund seitan letterpress, keytar raw denim keffiyeh etsy art party before they sold out master cleanse gluten-free squid scenester freegan cosby sweater. Fanny pack portland seitan DIY, art party locavore wolf cliche high life echo park Austin. Cred vinyl keffiyeh DIY salvia PBR, banh mi before they sold out farm-to-table VHS viral locavore cosby sweater. Lomo wolf viral, mustache readymade thundercats keffiyeh craft beer marfa ethical. Wolf salvia freegan, sartorial keffiyeh echo park vegan.</p>
-              </div>
-            </div>
-          </div>
-     
-  
-       
-
-
- 
-
-     
-    
-  
-  
-  
-      
- 
-       
-        
-       <div class="row-fluid paddingbot">
-  
-              <div class="span4">
-                <div>
-                  <img src="img/heart.png" class="pulse moveup">
-                  <div class="caption">
-                    <h3>Thumbnail label</h3>
-                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                    
-                  </div>
-                </div>
-              </div>
-              
-              
-             
-              <div class="span4">
-                <div>
-                  <img src="img/idea.png" class="pulse moveup">
-                  <div class="caption">
-                    <h3>Thumbnail label</h3>
-                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                    
-                  </div>
-                </div>
-              </div>
-              
-              
-              
-              
-             
-              <div class="span4">
-                <div>
-                  <img src="img/music.png" class="pulse moveup">
-                  <div class="caption">
-                    <h3>Thumbnail label</h3>
-                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                    
-                  </div>
-                </div>
-              </div>
-              
-             
-    </div>          
-              
-        
-        
-        
-         <!-- End container .. container for carosel --> 
- 
-  
-  
-     
-
-
-          
-       <h2>Progress bars</h2>
-      
-     
-    <div class="progress">
-  <div class="bar bar-success" style="width: 35%;">Design 35%</div>
-  <div class="bar bar-warning" style="width: 30%;">PHP 30%</div>
-  <div class="bar bar-danger" style="width: 25%;">Javascript 20%</div>
-</div>
-         
-   
-
-           
-            
-        
-            
-            
-          
-            
-
-          </div>
+<div class="test"></div> 
         <!-- /container -->
 </article>
 </section>
@@ -279,7 +144,7 @@
        </div> 
 
 
-<article id="aboutusc" class="aboutus">
+<article id="aboutusl" class="aboutus">
        
  <div class="test"></div>
         
@@ -290,13 +155,13 @@
 
 
 <section id="price" class="anchor">  
-     
+    
 <div class="titlebg"><h2>Pricing</h2>
-      HTML5, built on Bootstrap, very fast.
+      HTML5, built on Bootstrap, very fast. 
          </div> 
-         
-         
          <div class="tick"></div> 
+         
+         
 <article id="price_features" class="price">
        
       
@@ -318,125 +183,7 @@
 <article id="home_contact" class="contact">
 
 
- <div id="map-canvas"></div>  
-
-        <div class="container padding">
-       
-      <div class="row-fluid">
- <?php
-
-include 'autoload.php';
-
-use HybridLogic\Validation\Validator;
-use HybridLogic\Validation\Rule;
-
-$validator = new Validator();
-
-$validator
-
-	->set_label('name', 'your name')
-	->add_filter('name', 'trim')
-	->add_rule('name', new Rule\NotEmpty())
-	->add_rule('name', new Rule\MinLength(5))
-	->add_rule('name', new Rule\MaxLength(10))
-
-	->add_filter('email', 'trim')
-	->add_filter('email', 'strtolower')
-	->add_rule('email', new Rule\NotEmpty())
-	
-	->add_rule('email', new Rule\Email())
-	
-
-;
-
-
-if(isset($_POST['submit'])) {
-
-	if($validator->is_valid($_POST)) {
-		echo 'Sent';
-	} else {
-		echo '<p>Errors were encountered:</p><ul>';
-		foreach($validator->get_errors() as $error) echo "<li>$error</li>";
-		echo '</ul>';
-	}
-
-}
-
-
-$jquery_validator = new HybridLogic\Validation\ClientSide\jQueryValidator($validator);
-$jquery = $jquery_validator->generate();
-
-
-?>     
-    
-            <div class="span9"> 
- <div class="alert alert-error alert-block hide">
-              <button type="button" class="close" data-dismiss="alert">×</button>
-              <h4>Warning!</h4>
-              <p>Best check yo self, you're not looking too good. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
-            </div>
-             <div class="alert alert-success alert-block hide">
-              <button type="button" class="close" data-dismiss="alert">×</button>
-              <h4>Warning!</h4>
-              <p>Best check yo self, you're not looking too good. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
-            </div>            
-             <div class="alert alert-error alert-block hide mailrr">
-              <button type="button" class="close" data-dismiss="alert">×</button>
-              <h4>Network!</h4>
-              <p>Best check yo self, you're not looking too good. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
-            </div>   
-            
-<form action="#" class="form" id="form" method="post">
-            <div class="row"><div class="span4"><label>Name</label>
-  <input type="text" placeholder="Name" name="name" required></div>
- <div class="span4"><label>Email</label> <input type="email" name="email" placeholder="Email" required></div>
- <div class="span8"><label>Your message</label>
- <textarea rows="6" name="message" spellcheck="false" style=" white-space: pre-wrap; z-index: auto; position: relative; line-height: 20px; font-size: 14px; -webkit-transition: none; transition: none; overflow: auto; margin: 0px; height: 247px; background-position: initial initial !important; background-repeat: initial initial !important;"></textarea>
- </div>
-  <div class="span8"><button type="submit" class="btn submit" name="submit" data-loading-text="Loading...">Sign in</button></div>
-</div>
-</form>
-</div>   
-
-
-
-
-
-<div class="span5">
-<address>
-  <strong>Twitter, Inc.</strong><br>
-  795 Folsom Ave, Suite 600<br>
-  San Francisco, CA 94107<br>
-  <abbr title="Phone">P:</abbr> (123) 456-7890
-</address>
- 
-<address>
-  <strong>Full Name</strong><br>
-  <a href="mailto:#">first.last@example.com</a>
-</address>
-
-<address>
-  <strong>Twitter, Inc.</strong><br>
-  795 Folsom Ave, Suite 600<br>
-  San Francisco, CA 94107<br>
-  <abbr title="Phone">P:</abbr> (123) 456-7890
-</address>
- 
-<address>
-  <strong>Full Name</strong><br>
-  <a href="mailto:#">first.last@example.com</a>
-</address>
-
-
-
-</div>
-             
-            </div>
-        
-                
-  
-          
-        </div> <!-- /container -->
+ <div class="test"></div> 
 </article>
 </section>
 
