@@ -265,12 +265,107 @@
       We are a small design company that simply love what we do..
        </div> 
   </div>
- <article id="home_aboutus" class="aboutus">
+ <div class="tick"></div> 
+<article id="home_aboutus" class="aboutus">
+       
+      
+       
+       
+       
+       
+        <div class="container padding">
+           
+        <div class="row-fluid">
+              
+              <div class="span4">
+
+              <img src="img/about1.png" style="margin-top: 0px;">
+
+              </div>
+              
+              <div class="span5">
+
+             <h3>We design</h3>
+                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            
+            
+            <a href="" class="btn btn-info">Get Started</a>
+
+              </div>
+              
+              
+
+              </div>
+              
+              
+              
+              
+              
+              
+              
+              
+              
+                  
+          <div class="row-fluid">
+  <div class="span5">
+
+             <h3>We develop</h3>
+                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            
+            
+            <a href="" class="btn btn-info">Get Started</a>
+
+              </div>
+              <div class="span4">
+
+              <img src="img/about2.png" style="margin-top: 0px;">
  
- <div class="test"></div>
+              </div>
+              
+              
+              
+              
+
+              </div>
+        
+   <!-- End container .. container for carosel --> 
+   
+    <div class="row-fluid">
+  
+              <div class="span4">
+
+              <img src="img/about2.png">
  
- 
- </article>
+              </div>
+              
+              <div class="span5">
+
+             <h3>We develop</h3>
+                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            
+            
+            <a href="" class="btn btn-info">Get Started</a>
+
+              </div>
+      </div>     
+  
+           
+           
+        
+             
+            
+          
+            
+            
+        
+            
+            
+            
+            
+ </div>
+            
+       
+</article>
 </section>
 <section id="price" class="anchor"> <div class="pricingbg">    
      
