@@ -54,7 +54,13 @@
         <!-- This code is taken from http://twitter.github.com/bootstrap/examples/hero.html -->
 
     
-  <nav id="navbar" class="clearfix navy">
+ 
+                  
+<div id="menu-arrowx" class="top-arrowx animate"><img src="img/ar.png"></div>        
+<section id="overview">
+
+ <header class="home">
+   <nav id="navbar" class="clearfix navy">
                 
                    <img class="minilogo" src="img/minilogo.png">
 		<ul class="seven clearfix nav">
@@ -72,12 +78,6 @@
 		
 		<a href="#" id="pull"><img src="img/nav-icon@2x.png" width="32" height="32" ></a>
 	</nav>              
-                  
-<div id="menu-arrowx" class="top-arrowx animate"><img src="img/ar.png"></div>        
-<section id="overview">
-
- <header class="home padding">
-  
   <div class="test"></div>
   
  </header>
