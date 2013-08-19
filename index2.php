@@ -56,7 +56,7 @@
     
 <header class="home"></header>
                   
-<div id="menu-arrowx" class="top-arrowx animate"><img src="img/ar.png"></div>        
+     
 <section id="overview" class="anchor">
 
 
@@ -78,7 +78,7 @@
 		
 		<a href="#" id="pull"><img src="img/nav-icon@2x.png" width="32" height="32" ></a>
 	</nav>              
-  <div class="test"></div>
+
   
  
   
