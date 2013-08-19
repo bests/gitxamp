@@ -57,13 +57,13 @@
 <header class="home"></header>
                   
 <div id="menu-arrowx" class="top-arrowx animate"><img src="img/ar.png"></div>        
-<section id="overview">
+<section id="overview" class="anchor">
 
 
-   <nav id="navbar" class="clearfix navy">
+   <nav id="navbar">
                 
                    <img class="minilogo" src="img/minilogo.png">
-		<ul class="seven clearfix nav">
+		<ul class="seven nav">
        
 			
 			<li><a href="#overview">Home</a></li>
