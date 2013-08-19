@@ -191,9 +191,7 @@
   
    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-<script type="text/javascript" src="//cdn.jsdelivr.net/bootstrap/2.3.2/js/bootstrap.min.js"></script>
-<script src="js/vendor/bootstrap-modalmanager.js"></script> 
-<script src="js/vendor/bootstrap-modal.js"></script> 
+
 
  
  
