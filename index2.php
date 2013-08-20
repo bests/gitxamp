@@ -80,10 +80,10 @@
 </section>
 
 
-<section id="features" class="anchor">
+<section class="anchor">
 
 
-<div class="titlebg"><h2>Features</h2>
+<div id="features" class="titlebg"><h2>Features</h2>
       HTML5, built on Bootstrap, very fast.
        </div> 
        
@@ -97,10 +97,10 @@
 
 
 
-<section id="gallery" class="anchor">
+<section  class="anchor">
   
      
-<div class="titlebg"><h2>Projects</h2>
+<div id="gallery" class="titlebg"><h2>Projects</h2>
       HTML5, built on Bootstrap, very fast.
        </div> 
 <div class="tick"></div>
@@ -111,10 +111,10 @@
 </section>
 
 
-<section id="work" class="anchor">
+<section class="anchor">
   
      
-<div class="titlebg"><h2>What we love..</h2>
+<div id="work" class="titlebg"><h2>What we love..</h2>
       HTML5, built on Bootstrap, very fast.
        </div> 
 <div class="tick"></div>
@@ -125,12 +125,12 @@
 </section>
 
 
-<section id="aboutus" class="anchor"> 
+<section class="anchor"> 
  
  
   
      
-<div class="titlebg"><h2>About us</h2>
+<div id="aboutus" class="titlebg"><h2>About us</h2>
       We are a small design company that simply love what we do..
        </div> 
 
@@ -145,9 +145,9 @@
 
 
 
-<section id="price" class="anchor">  
+<section class="anchor">  
     
-<div class="titlebg"><h2>Pricing</h2>
+<div id="price" class="titlebg"><h2>Pricing</h2>
       HTML5, built on Bootstrap, very fast. 
          </div> 
          <div class="tick"></div> 
@@ -165,9 +165,9 @@
 
 
 
-<section id="contact" class="anchor"><div class="contactbg">    
+<section class="anchor"><div class="contactbg">    
      
-<div class="titlebg"><h2>Contact us</h2>
+<div id="contact" class="titlebg"><h2>Contact us</h2>
       HTML5, built on Bootstrap, very fast.
        </div> 
   </div>    <div class="tick"></div> 
