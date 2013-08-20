@@ -1060,7 +1060,183 @@ padding: 20px;
 position: absolute;
 z-index: 11;
 }
+@media (min-width: 1200px) {
+.box-container{
 
+
+width: 750px;
+margin-left:-393px;
+
+}
+	
+	
+.box-container .row-fluid .span4{
+	width:55%;
+	
+}
+.boxy .row-fluid .span5{
+	width:30%;
+	
+}
+.boxy .row-fluid .span4{
+	width:55%;
+	
+}
+.box-container .row-fluid .span5{
+	width:30%;
+	
+}
+.aboutus .span5 {
+width: 65.17094%;
+}	
+.aboutus .span4 {
+	
+}		
+	
+input, .uneditable-input {
+width: 350px;
+}
+.contact .span5 {
+width:31.17094%
+}
+.contact .span9 {
+width: 65.358974%
+}
+.contact .span8 {
+	margin-left:0px;
+	padding-bottom:20px;
+}
+.contact .span4{
+	padding-bottom:20px;
+	margin-left:45px;
+	width: 330px;
+	
+}	
+.fetwidth {
+
+width: 380px;
+
+}		
+	
+.features .span4{
+line-height: 30px;	
+padding: 35px;
+	
+}	
+.features .span8 {
+	
+	width:68.1%;
+	text-align:center;
+	margin-left:0px;
+}		
+	
+.swiper-container {
+  width: 50%;
+  height:400px;
+  
+  color: #fff;
+  text-align: center;
+}
+.work .span10 {
+	
+	width:77%;
+	
+	
+	
+	
+	
+	}
+.work .span2 {
+	
+	
+	
+	
+	width: 200px;	
+	
+	
+	
+	
+}	
+
+		
+
+	
+.work .span4 img{
+	width:60%;
+	
+	
+	
+	
+	}
+		
+
+.row-fluid .thumbnails {
+margin-left: 8px;
+}
+.logo .thumbnails{
+	
+	
+	
+margin-right: auto;
+margin-left: auto;
+width: 39%;
+	
+	
+}	
+.logo .thumbnails img{
+	
+	
+
+width: 61%;
+	
+	
+}	
+
+.logo .thumbnails .span3 {
+width: 23%;
+padding: 23px;
+margin-left: 1px;
+	
+
+	
+	
+}	
+.thumbnails .span3 {
+	width:23%;
+	padding:2px;
+	
+
+	
+	
+	}
+nav a {
+
+margin: 0 0 0px 15px;
+padding: 0px 15px;
+
+
+}
+.accordion-inner .span4{
+	width:37%;
+
+}
+.accordion-inner .span4 img{
+	width:100%;
+
+	
+}	
+.accordion-inner .span5{
+	width:63%;
+	height:292px;
+	
+	margin-left:0px;
+
+}				
+}
+@media (min-width: 980px) and (max-width: 1200px) {
+
+  
+}
 @media (max-width: 979px) and (min-width: 768px){
 .box-container{
 
