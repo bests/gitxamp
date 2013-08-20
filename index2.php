@@ -44,7 +44,7 @@
   
    <script type="text/javascript" src="//cdn.jsdelivr.net/foresight.js/2.0.0/foresight.min.js"></script> 
     </head>
-    <body data-spy="scroll" data-target="#navbar" data-offset="300">
+    <body data-spy="scroll" data-target="#navbar" data-offset="170">
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
@@ -54,13 +54,13 @@
  
     
          
-     <nav id="navbar" class="clearfix navy">
+     <nav id="navbar" class="clearfix navbar-fixed-top">
                 
                    <img class="minilogo" src="img/minilogo.png">
 		<ul class="seven clearfix nav">
        
 			
-			<li><a href="#overviewn">Home</a></li>
+			<li><a href="#overview">Home</a></li>
 			<li><a href="#features">Features</a></li>
 			<li><a href="#gallery">Gallery</a></li>
             <li><a href="#work">Love</a></li>

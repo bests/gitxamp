@@ -269,6 +269,7 @@ if(!Modernizr.csstransitions) {
 
 $("body").on("activate", function(e)
 {
+	 var $spy = $(this).scrollspy('refresh');
 $('#menu-arrowx').css("visibility", "visible");
 var $item = $(e.target);
 if (e.originalEvent === undefined) {
