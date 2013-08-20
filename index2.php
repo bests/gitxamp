@@ -11,6 +11,30 @@
   
      
         <style>
+	nav a {
+
+margin: 0 0 0px 15px;
+padding: 0px 15px;
+
+
+}
+		
+.navbar-fixed-top {
+margin-bottom: 0px;
+}  
+.media:first-child {
+margin-top: 20px;
+}
+
+.navbar-inner
+.navbar-inverse .navbar-inner{
+filter:none!important;	
+	}	   
+	   .white{
+		   color:#FFF; 
+		  
+		     
+		   }		
 .anchor {
 padding-top: 40px;
 margin-top: -40px;
