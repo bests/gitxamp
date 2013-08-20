@@ -1,13 +1,4 @@
 
-.navbar-inner
-.navbar-inverse .navbar-inner{
-filter:none!important;	
-	}	   
-	   .white{
-		   color:#FFF; 
-		  
-		     
-		   }		
 .anchor {
 padding-top: 40px;
 margin-top: -40px;
@@ -574,22 +565,7 @@ transition: left 0.5s ease-in-out;
 /* ==========================================================================
    Positions
    ========================================================================== */
- .navbar-fixed-top {
-margin-bottom: 0px;
-}  
-.media:first-child {
-margin-top: 20px;
-}
-
-.navbar-inner
-.navbar-inverse .navbar-inner{
-filter:none!important;	
-	}	   
-	   .white{
-		   color:#FFF; 
-		  
-		     
-		   }
+ 
 	   
 .left-text{
 	text-align:left;
@@ -1258,124 +1234,7 @@ padding: 0px 15px;
 }				
 }
 @media (min-width: 980px) and (max-width: 1200px) {
-.box-container{
 
-
-width: 750px;
-margin-left:-393px;
-
-}
-	
-.box-container .row-fluid .span4{
-	width:55%;
-	
-}
-.box-container .row-fluid .span5{
-	width:30%;
-	
-}	
-.logo .thumbnails .span3 {
-width: 29%;
-padding: 13px;
-margin-left: 1px;
-}
-.logo .thumbnails {
-margin-right: auto;
-margin-left: auto;
-width: 70%;
-}	
-	
-.aboutus .span5 {
-width: 65.8925532%;	
-}	
-.aboutus .span4 {
-	
-}	
-.contact .span5 {
-width:31.17094%
-}
-.contact .span9 {
-width: 65.358974%
-}
-.contact .span8 {
-	margin-left:0px;
-	padding-bottom:20px;
-}
-.contact .span4{
-	padding-bottom:20px;
-	margin-left:0px;
-	width: 583px;
-	
-}	
-.features .span4{
-	
-padding: 18px;
-font-size: 12px;
-line-height: 18px;
-}
-.features .span4 h2{
-	
-
-font-size:25px;
-	
-}		
-.features .span8 {
-	
-	width:68%;
-	text-align:center;
-	margin-left:0px;
-}		
-.work .span4 img{
-	width:60%;
-
-}	
-.accordion-inner .span4{
-	width:37%;
-
-}
-.accordion-inner .span4 img{
-	width:100%;
-
-	
-}	
-.accordion-inner .span5{
-	width:63%;
-	height:235px;
-	
-	margin-left:0px;
-
-}			
-.row-fluid .thumbnails {
-margin-left: 9px;
-}		
-
-	nav a {
-
-margin: 0 0 0px 15px;
-padding: 0px 15px;
-
-
-}
-.swiper-container {
-  width: 50%;
-  height:auto;
-  
-  color: #fff;
-  text-align: center;
-}	
-
-	
-.thumbnails .span3 {
-	width: 23.28%;
-	
-	
-	
-}		
-.fetwidth {
-
-width: 48%;
-
-}	
   
 }
 @media (max-width: 979px) and (min-width: 768px){
