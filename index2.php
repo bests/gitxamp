@@ -69,7 +69,7 @@
            <li><a href="#contact">Contact</a></li>
 			
 		</ul>
-		<div id="menu-arrowx" class="top-arrowx animate">////////</div> 
+		
 		<a href="#" id="pull"><img src="img/nav-icon@2x.png" width="32" height="32" ></a>
 	</nav>              
                   
@@ -77,18 +77,7 @@
      
 <section id="overview">
 <header class="home padding">
-  <div class="container">
-  <div class="logo">
-   <img class="desktop" src="img/logox.png">
- <ul class="thumbnails">
- <li class="span3"><a href="#"><img class="pulse moveup" src="img/facebook.png"></a></li>
-  <li class="span3"><a href="#"><img class="pulse moveup" src="img/twit.png"></a></li>
-   <li class="span3"><a href="#"><img class="pulse moveup" src="img/google.png"></a></li>
- </ul>
-   </div>
-   
-    
-<!-- End container .. container for carosel -->
+  <div class="container"><!-- End container .. container for carosel -->
   <div class="container register">
  <h1><i class="icon-ok iconshead"></i>Simple and Modern</h1>
 <h2>Fix your workflow. Learn from others. Start your library today.</h2>
