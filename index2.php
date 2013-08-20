@@ -17,111 +17,7 @@
         <link type="text/css" rel="stylesheet" href="css/animate.css" /> 
         <link type="text/css" rel="stylesheet" href="css/retina.css" />  
         <style>
-	nav a {
-
-margin: 0 0 0px 15px;
-padding: 0px 15px;
-
-
-}
-		
-.navbar-fixed-top {
-margin-bottom: 0px;
-}  
-.media:first-child {
-margin-top: 20px;
-}
-
-.navbar-inner
-.navbar-inverse .navbar-inner{
-filter:none!important;	
-	}	   
-	   .white{
-		   color:#FFF; 
-		  
-		     
-		   }		
-.anchor {
-padding-top: 40px;
-margin-top: -40px;
-}
-.padding {
-padding-top: 80px;
-padding-bottom: 80px;
-}		
-.titlebg {
-padding: 35px 0;
-color: #ccc;
-text-align: center;
-}		
-.test{height:700px;}		
-nav {
-background-color: #FFFFFF;
-background-repeat: repeat-x;
-border-color: #252525;
-
-width: 100%;
-position: fixed;
-border-bottom: 4px solid #CFCFCF;
-z-index: 9999;
-}
-.seven {
-margin-bottom: 0px;
-margin-left: auto;
-
-list-style: none;
-}
-
- 
-nav ul {
-
-	padding: 0;
-	width:700px;
-
-
-	height: 53px;
-}
-
-nav li {
-
-text-align: center;
-float: left;
-}
-nav a {
-	color: #fff;
-	display: inline-block;
-
-	
-	text-decoration: none;
-	line-height: 53px;
--webkit-transition: all 0.2s ease-in-out;
--moz-transition: all 0.2s ease-in-out;
--ms-transition: all 0.2s ease-in-out;
--o-transition: all 0.2s ease-in-out;
-transition: all 0.2s ease-in-out;
-}
-nav li a {
-	color: #999;
-	
-
-	text-decoration: none;
-	
-}
-nav li:last-child a {
-	border-right: 0;
-}
-.nav li.active a {
-color: #4CC4D8 !important;
-
-}
-.nav li a:hover{
-   background-color: #FFF;
-   color: #4DC5D9 !important;
-}
-nav a#pull {
-	display: none;
-}
-	.exampleA {
+.exampleA {
 			/* 
 			 * Low-res is the original source, which is the default 
 			 * Hi-res replaces the browser width, in this case '320px', with the request width
@@ -143,8 +39,10 @@ nav a#pull {
                                    <link rel="shortcut icon" href="ico/favicon.png">
        <!--[if IE 7]>
     <link rel="stylesheet" href="css/fontello-ie7.css"><![endif]-->  
+
  <script type="text/javascript" src="js/vendor/modernizr2.js"></script>
- 
+  
+   <script type="text/javascript" src="//cdn.jsdelivr.net/foresight.js/2.0.0/foresight.min.js"></script> 
     </head>
     <body data-spy="scroll" data-target="#navbar" data-offset="300">
         <!--[if lt IE 7]>
@@ -156,11 +54,13 @@ nav a#pull {
  
     
          
-       <div class="home">     <nav id="navbar">
-		<ul class="seven nav">
+     <nav id="navbar" class="clearfix navy">
+                
+                   <img class="minilogo" src="img/minilogo.png">
+		<ul class="seven clearfix nav">
        
 			
-			<li><a href="#overviewm">Home</a></li>
+			<li><a href="#overviewn">Home</a></li>
 			<li><a href="#features">Features</a></li>
 			<li><a href="#gallery">Gallery</a></li>
             <li><a href="#work">Love</a></li>
@@ -169,13 +69,13 @@ nav a#pull {
            <li><a href="#contact">Contact</a></li>
 			
 		</ul>
-		
+		<div id="menu-arrowx" class="top-arrowx animate">////////</div> 
 		<a href="#" id="pull"><img src="img/nav-icon@2x.png" width="32" height="32" ></a>
 	</nav>              
- </div>  
+                  
                   
      
-<section id="overview"><div id="menu-arrowx" class="top-arrowx animate"><img src="img/ar.png"></div> 
+<section id="overview">
 <header class="home padding">
   <div class="container">
   <div class="logo">
@@ -303,9 +203,8 @@ nav a#pull {
  <div class="test"></div> 
 </article>
 </section>
-
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+     
+   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 <script type="text/javascript" src="//cdn.jsdelivr.net/bootstrap/2.3.2/js/bootstrap.min.js"></script>
 <script src="js/vendor/bootstrap-modalmanager.js"></script> 
