@@ -6,16 +6,10 @@
         <meta charset="utf-8">
        
         <title>waka</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width">
+     
   
-      <link type="text/css" rel="stylesheet" href="css/bootstrap.css" /> 
-      <link type="text/css" rel="stylesheet" href="css/bootstrap-responsive.css" /> 
       <link type="text/css" rel="stylesheet" href="css/main.css" /> 
-      <link type="text/css" rel="stylesheet" href="css/fontello.css" /> 
-       <link type="text/css" rel="stylesheet" href="css/colorbox.css" /> 
-        <link type="text/css" rel="stylesheet" href="css/animate.css" /> 
-        <link type="text/css" rel="stylesheet" href="css/retina.css" />  
+     
         <style>
 
 	.exampleA {
@@ -40,10 +34,7 @@
                                    <link rel="shortcut icon" href="ico/favicon.png">
        <!--[if IE 7]>
     <link rel="stylesheet" href="css/fontello-ie7.css"><![endif]-->  
-	 
-   <script type="text/javascript" src="js/vendor/modernizr2.js"></script>
-  
-   <script type="text/javascript" src="//cdn.jsdelivr.net/foresight.js/2.0.0/foresight.min.js"></script> 
+
  
     </head>
     <body data-spy="scroll" data-target="#navbar" data-offset="300">
