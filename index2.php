@@ -115,8 +115,164 @@
        </div> 
 <div class="tick"></div>
 <article id="home_gallery" class="gallery">
-  <div class="test"></div>
- 
+
+<div class="box"><div class="box-container"></div><a href="#" class="closeButton"><img src="img/cross.png" width="46" height="43"></a></div> 
+
+
+        <div class="container padding">
+      
+        
+    
+              
+       
+
+             
+                      
+    <div class="row-fluid"> 
+    
+  
+            <ul class="thumbnails">
+             
+                 <li class="span3">
+            
+  <div class="drop-panel" style="position: relative; overflow: hidden; display: block; padding: 2px;"><a href="#" data-target="#myToggle2" class="thumbnail-cap">
+                  <img data-src="img/star-med.jpg" data-width="280" data-height="160" class="thumb1 fs-img2 loader fs-standard-resolution fs-src-default" style="display: inline;" src="img/star-med.jpg">
+               </a><div id="myToggle2" class="cap-overlay hide" style="width: 263px; position: absolute; z-index: 3; overflow: hidden; left: 0px; top: 0px; display: none;">
+  <h5>Title</h5>
+  <div class="content">
+    Project name<br>
+    Sydney<br>
+</div><a href="" data-info="#project2" class="btn btn-info pro"><i class="icon-eye"></i> More</a>
+ </div></div>
+  
+             
+              </li>
+              
+              
+               <li class="span3">
+                <div class="drop-panel" style="position: relative; overflow: hidden; display: block; padding: 2px;"><a href="#" data-target="#myToggle3" class="thumbnail-cap">
+                
+                  <img data-src="img/door-med.jpg" data-width="280" data-height="160" class="thumb1 fs-img2 loader fs-standard-resolution fs-src-default" style="display: inline;" src="img/door-med.jpg">
+                </a><div id="myToggle3" class="cap-overlay hide" style="display: none; width: 263px; position: absolute; z-index: 3; overflow: hidden; left: 0px; top: 0px;">
+  <h5>Title</h5>
+  <div class="content">
+    Project name<br>
+    Sydney<br>
+</div> <a href="" data-info="#project3" class="btn btn-info pro"><i class="icon-eye"></i> More</a>
+ </div></div>
+                  
+              </li>
+              
+              
+              <li class="span3">
+                <div class="drop-panel" style="position: relative; overflow: hidden; display: block; padding: 2px;"><a href="#" data-target="#myToggle4" class="thumbnail-cap">
+                  <img data-src="img/house-med.jpg" data-width="280" data-height="160" class="thumb1 fs-img2 loader fs-standard-resolution fs-src-default" style="display: inline;" src="img/house-med.jpg">
+                </a><div id="myToggle4" class="cap-overlay hide" style="width: 263px; position: absolute; z-index: 3; overflow: hidden; left: 0px; top: 0px; display: none;">
+  <h5>Title</h5>
+  <div class="content">
+    Project name<br>
+    Sydney<br>
+</div> <a href="" data-info="#project4" class="btn btn-info pro"><i class="icon-eye"></i> More</a>
+ </div></div>
+                     
+              </li>
+             
+          
+                  
+              <li class="span3">
+                <div class="drop-panel" style="position: relative; overflow: hidden; display: block; padding: 2px;"><a href="#" data-target="#myToggle5" class="thumbnail-cap">
+                  <img data-src="img/notesmed.jpg" data-width="280" data-height="160" class="thumb1 fs-img2 loader fs-standard-resolution fs-src-default" style="display: inline;" src="img/notesmed.jpg">
+                </a><div id="myToggle5" class="cap-overlay hide" style="display: none; width: 263px; position: absolute; z-index: 3; overflow: hidden; left: 0px; top: 0px;">
+  <h5>Title</h5>
+  <div class="content">
+    Project name<br>
+    Sydney<br>
+</div> <a href="" data-info="#project5" class="btn btn-info pro"><i class="icon-eye"></i> More</a>
+ </div></div>
+                
+                   
+                
+              </li>
+             
+              
+              
+            </ul>     
+            
+             <ul class="thumbnails">
+              <li class="span3">
+              <div class="drop-panel" style="position: relative; overflow: hidden; display: block; padding: 2px;"><a href="#" data-target="#myToggle6" class="thumbnail-cap">
+                  <img data-src="img/pumkinmed.jpg" data-width="280" data-height="160" class="thumb1 fs-img2 fs-standard-resolution fs-src-default" style="display: inline;" src="img/pumkinmed.jpg">
+                </a><div id="myToggle6" class="cap-overlay hide" style="width: 263px; position: absolute; z-index: 3; overflow: hidden; left: 0px; top: 0px; display: none;">
+  <h5>Title</h5>
+  <div class="content">
+    Project name<br>
+    Sydney<br>
+</div> <a href="" data-info="#project6" class="btn btn-info pro"><i class="icon-eye"></i> More</a>
+ </div></div>
+                   
+                
+                
+              </li>
+              
+               <li class="span3">
+               <div class="drop-panel" style="position: relative; overflow: hidden; display: block; padding: 2px;"><a href="#" data-target="#myToggle7" class="thumbnail-cap">
+                
+                  <img data-src="img/rowmed.jpg" data-width="280" data-height="160" class="thumb1 fs-img2 fs-standard-resolution fs-src-default" style="display: inline;" src="img/rowmed.jpg">
+                </a><div id="myToggle7" class="cap-overlay hide" style="width: 263px; position: absolute; z-index: 3; overflow: hidden; left: 0px; top: 0px; display: none;">
+  <h5>Title</h5>
+  <div class="content">
+    Project name<br>
+    Sydney<br>
+</div> <a href="" data-info="#project7" class="btn btn-info pro"><i class="icon-eye"></i> More</a>
+ </div></div>
+                    
+              </li>
+              
+              
+              <li class="span3">
+               <div class="drop-panel" style="position: relative; overflow: hidden; display: block; padding: 2px;"><a href="#" data-target="#myToggle8" class="thumbnail-cap">
+                  <img data-src="img/skull-med.jpg" data-width="280" data-height="160" class="thumb1 fs-img2 fs-standard-resolution fs-src-default" style="display: inline;" src="img/skull-med.jpg">
+                </a><div id="myToggle8" class="cap-overlay hide" style="width: 263px; position: absolute; z-index: 3; overflow: hidden; left: 0px; top: 0px; display: none;">
+  <h5>Title</h5>
+  <div class="content">
+    Project name<br>
+    Sydney<br>
+</div> <a href="" data-info="#project8" class="btn btn-info pro"><i class="icon-eye"></i> More</a>
+ </div></div>
+                    
+              </li>
+             
+          
+                  
+                 <li class="span3">
+            
+  <div class="drop-panel" style="position: relative; overflow: hidden; display: block; padding: 2px;"><a href="#" data-target="#myToggle" class="thumbnail-cap">
+                  <img data-src="img/fire-med.jpg" data-width="280" data-height="160" class="thumb1 fs-img2 loader fs-standard-resolution fs-src-default" style="display: inline;" src="img/fire-med.jpg">
+               </a><div id="myToggle" class="cap-overlay hide" style="display: none; width: 263px; position: absolute; z-index: 3; overflow: hidden; left: 0px; top: 0px;">
+  <h5>Cupcakes</h5>
+  <div class="content">
+    Name: cupcakes.png<br>
+    Photography: Ryun Shofner<br>
+    <a href="" data-info="#project1" class="btn btn-info pro"><i class="icon-ok"></i> Sign-up</a>
+    <button class="demo btn btn-primary btn-large" data-toggle="modal" href="#responsive">View Demo</button>
+  </div>
+         
+       </div></div>
+                 
+             
+              </li>
+              
+              
+            </ul>     
+            
+            
+         
+          
+        
+
+         </div> 
+          
+        </div> <!-- /container -->
 </article>
 </section>
 
