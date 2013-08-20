@@ -51,9 +51,9 @@
      
 <section id="overview" class="anchor">
 
-<header class="home"><nav id="navbar">
+<header>
                 
-               
+       <div class="home">     <nav id="navbar">
 		<ul class="seven nav">
        
 			
@@ -69,7 +69,7 @@
 		
 		<a href="#" id="pull"><img src="img/nav-icon@2x.png" width="32" height="32" ></a>
 	</nav>              
-
+ </div>  
   </header>
   
   
@@ -165,12 +165,17 @@
 
 
 
-<section class="anchor"><div class="contactbg">    
+<section class="anchor">
+
+    
      
 <div id="contact" class="titlebg"><h2>Contact us</h2>
       HTML5, built on Bootstrap, very fast.
        </div> 
-  </div>    <div class="tick"></div> 
+  
+  
+  
+  <div class="tick"></div> 
 <article id="home_contact" class="contact">
 
 
