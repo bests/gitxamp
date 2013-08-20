@@ -1283,6 +1283,25 @@ width: 65.358974%
 	width: 583px;
 	
 }	
+.features .span4{
+	
+padding: 18px;
+font-size: 12px;
+line-height: 18px;
+}
+.features .span4 h2{
+	
+
+font-size:25px;
+	
+}		
+.features .span8 {
+	
+	width:68%;
+	text-align:center;
+	margin-left:0px;
+}		
+
 
 nav a {
 
