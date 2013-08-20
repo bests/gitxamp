@@ -1213,7 +1213,90 @@ padding: 0px 15px;
 }				
 }
 @media (min-width: 980px) and (max-width: 1200px) {
+.box-container{
 
+
+width: 750px;
+margin-left:-393px;
+
+}
+	
+.box-container .row-fluid .span4{
+	width:55%;
+	
+}
+.box-container .row-fluid .span5{
+	width:30%;
+	
+}	
+.logo .thumbnails .span3 {
+width: 29%;
+padding: 13px;
+margin-left: 1px;
+}
+.logo .thumbnails {
+margin-right: auto;
+margin-left: auto;
+width: 70%;
+}	
+	
+.aboutus .span5 {
+width: 65.8925532%;	
+}	
+.aboutus .span4 {
+	
+}	
+.contact .span5 {
+width:31.17094%
+}
+.contact .span9 {
+width: 65.358974%
+}
+.contact .span8 {
+	margin-left:0px;
+	padding-bottom:20px;
+}
+.contact .span4{
+	padding-bottom:20px;
+	margin-left:0px;
+	width: 583px;
+	
+}	
+.features .span4{
+	
+padding: 18px;
+font-size: 12px;
+line-height: 18px;
+}
+.features .span4 h2{
+	
+
+font-size:25px;
+	
+}		
+.features .span8 {
+	
+	width:68%;
+	text-align:center;
+	margin-left:0px;
+}		
+	
+
+
+
+
+	
+.thumbnails .span3 {
+	width: 23.28%;
+	
+	
+	
+}		
+.fetwidth {
+
+width: 48%;
+
+}	
 nav a {
 
 margin: 0 0 0px 15px;

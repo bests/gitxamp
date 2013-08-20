@@ -4,12 +4,18 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]--><head>
         <meta charset="utf-8">
-  <link type="text/css" rel="stylesheet" href="css/main.css" />       
+       
         <title>waka</title>
-     
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
   
-  
-     
+      <link type="text/css" rel="stylesheet" href="css/bootstrap.css" /> 
+      <link type="text/css" rel="stylesheet" href="css/bootstrap-responsive.css" /> 
+      <link type="text/css" rel="stylesheet" href="css/main.css" /> 
+      <link type="text/css" rel="stylesheet" href="css/fontello.css" /> 
+       <link type="text/css" rel="stylesheet" href="css/colorbox.css" /> 
+        <link type="text/css" rel="stylesheet" href="css/animate.css" /> 
+        <link type="text/css" rel="stylesheet" href="css/retina.css" />  
         <style>
 	nav a {
 
@@ -137,7 +143,7 @@ nav a#pull {
                                    <link rel="shortcut icon" href="ico/favicon.png">
        <!--[if IE 7]>
     <link rel="stylesheet" href="css/fontello-ie7.css"><![endif]-->  
-
+ <script type="text/javascript" src="js/vendor/modernizr2.js"></script>
  
     </head>
     <body data-spy="scroll" data-target="#navbar" data-offset="300">
@@ -149,13 +155,7 @@ nav a#pull {
  
  
     
-
-                  
-     
-<section id="overview" class="anchor">
-
-<header>
-                
+         
        <div class="home">     <nav id="navbar">
 		<ul class="seven nav">
        
@@ -173,13 +173,31 @@ nav a#pull {
 		<a href="#" id="pull"><img src="img/nav-icon@2x.png" width="32" height="32" ></a>
 	</nav>              
  </div>  
-  </header>
+                  
+     
+<section id="overview"><div id="menu-arrowx" class="top-arrowx animate"><img src="img/ar.png"></div> 
+<header class="home padding">
+  <div class="container">
+  <div class="logo">
+   <img class="desktop" src="img/logox.png">
+ <ul class="thumbnails">
+ <li class="span3"><a href="#"><img class="pulse moveup" src="img/facebook.png"></a></li>
+  <li class="span3"><a href="#"><img class="pulse moveup" src="img/twit.png"></a></li>
+   <li class="span3"><a href="#"><img class="pulse moveup" src="img/google.png"></a></li>
+ </ul>
+   </div>
+   
+    
+<!-- End container .. container for carosel -->
+  <div class="container register">
+ <h1><i class="icon-ok iconshead"></i>Simple and Modern</h1>
+<h2>Fix your workflow. Learn from others. Start your library today.</h2>
   
-  
-  <div class="test"></div> 
-  
-  
-  
+   <a href="" class="btn btn-info ajax" data-toggle="modal" data-info="ajax.html">Video</a>
+   
+   </div>
+ </div>
+</header>
 </section>
 
 
@@ -287,13 +305,21 @@ nav a#pull {
 </section>
 
 
-  
-   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/bootstrap/2.3.2/js/bootstrap.min.js"></script>
+<script src="js/vendor/bootstrap-modalmanager.js"></script> 
+<script src="js/vendor/bootstrap-modal.js"></script> 
+ <script type="text/javascript" src="//cdn.jsdelivr.net/colorbox/1.4.4/jquery.colorbox-min.js"></script> 
+ <script type="text/javascript" src="//cdn.jsdelivr.net/slidesjs/3.0.1/jquery.slides.min.js"></script>
+   <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.easing/1.3/jquery.easing.1.3.js"></script>   
+  <script src="js/vendor/jquery.hcaptions.js"></script> 
+  <script src="js/vendor/jquery.smooth-scroll.min.js"></script> 
+ <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+ <script src="js/vendor/main.js"></script>   
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.10.0/jquery.validate.js"></script>
 
 
- 
- 
 <script type="text/javascript">
 
 <?php foreach($jquery['methods'] as $method_name => $method_function): ?>
