@@ -1214,7 +1214,6 @@ padding: 0px 15px;
 }
 @media (min-width: 980px) and (max-width: 1200px) {
 
-
 nav a {
 
 margin: 0 0 0px 15px;
@@ -1222,20 +1221,6 @@ padding: 0px 15px;
 
 
 }
-
-
-	
-.thumbnails .span3 {
-	width: 23.28%;
-	
-	
-	
-}		
-.fetwidth {
-
-width: 48%;
-
-}	
   
 }
 @media (max-width: 979px) and (min-width: 768px){
