@@ -90,7 +90,7 @@
      
 
  <div class="tick"></div> 
-<article id="home_features" class="features">  
+<article id="home_featuresm" class="features">  
   <div class="test"></div>
 </article>
 </section>
