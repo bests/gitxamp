@@ -921,29 +921,6 @@ text-align: center;
 		font-family: 'open_sansbold', sans-serif;
 	
 	}	
-.work .title {
-	
-	width:70%;
-	
-	text-align:center;
-	margin-left:auto;
-	margin-right:auto;
-padding-bottom:60px;
-}
-.work .title h1 {
-font-size:60px;
-	
-padding-bottom:20px;
-
-}	
-.work .title h2 {
-	width:100%;
-	font-size:40px;
-	text-align:left;
-
-
-}	
-	
 
 @media (min-width: 1200px) {
 .box-container{
@@ -1186,10 +1163,7 @@ font-size:25px;
 	text-align:center;
 	margin-left:0px;
 }		
-.work .span4 img{
 	
-
-}	
 
 .row-fluid .thumbnails {
 margin-left: 9px;
