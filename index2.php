@@ -8,10 +8,89 @@
         <title>waka</title>
      
   
-      <link type="text/css" rel="stylesheet" href="css/main.css" /> 
+  
      
         <style>
+.anchor {
+padding-top: 40px;
+margin-top: -40px;
+}
+.padding {
+padding-top: 80px;
+padding-bottom: 80px;
+}		
+.titlebg {
+padding: 35px 0;
+color: #ccc;
+text-align: center;
+}		
+.test{height:700px;}		
+nav {
+background-color: #FFFFFF;
+background-repeat: repeat-x;
+border-color: #252525;
 
+width: 100%;
+position: fixed;
+border-bottom: 4px solid #CFCFCF;
+z-index: 9999;
+}
+.seven {
+margin-bottom: 0px;
+margin-left: auto;
+
+list-style: none;
+}
+
+ 
+nav ul {
+
+	padding: 0;
+	width:700px;
+
+
+	height: 53px;
+}
+
+nav li {
+
+text-align: center;
+float: left;
+}
+nav a {
+	color: #fff;
+	display: inline-block;
+
+	
+	text-decoration: none;
+	line-height: 53px;
+-webkit-transition: all 0.2s ease-in-out;
+-moz-transition: all 0.2s ease-in-out;
+-ms-transition: all 0.2s ease-in-out;
+-o-transition: all 0.2s ease-in-out;
+transition: all 0.2s ease-in-out;
+}
+nav li a {
+	color: #999;
+	
+
+	text-decoration: none;
+	
+}
+nav li:last-child a {
+	border-right: 0;
+}
+.nav li.active a {
+color: #4CC4D8 !important;
+
+}
+.nav li a:hover{
+   background-color: #FFF;
+   color: #4DC5D9 !important;
+}
+nav a#pull {
+	display: none;
+}
 	.exampleA {
 			/* 
 			 * Low-res is the original source, which is the default 
