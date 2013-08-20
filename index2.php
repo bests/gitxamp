@@ -416,7 +416,118 @@
 <article id="price_features" class="price">
        
       
-        <div class="test"></div>
+       
+       
+       
+       
+        <div class="container padding">
+      
+      
+        
+   <!-- End container .. container for carosel --> 
+   
+       <div class="row-fluid">
+           
+            <div class="span3">
+  
+           <ul class="pricemain">
+                        <li class="title">Plan A</li>
+                        <li class="pricetitle">$25<span> /mo</span></li>
+                        <li class="description">Checkout what you get below</li>
+                        
+                                <li><strong>2</strong> Domain Names</li>
+                                <li><strong>5</strong> Mysql Databases</li>
+                                <li><strong>10</strong> Email Accounts</li>
+                                <li><strong>20GB</strong> of Space</li>
+                                <li><strong>Ulimited</strong> Bandwidth</li>
+                       
+                        <li class="price-button">
+                            <a href="" class="btn btn-info"><i class="icon-ok"></i> Sign-up</a>
+                        </li>
+                    </ul> 
+   
+          </div>     
+            
+              <div class="span3">
+  
+           <ul class="pricemain">
+                        <li class="title">Plan A</li>
+                        <li class="pricetitle">$25<span> /mo</span></li>
+                        <li class="description">Checkout what you get below</li>
+                        
+                                <li><strong>2</strong> Domain Names</li>
+                                <li><strong>5</strong> Mysql Databases</li>
+                                <li><strong>10</strong> Email Accounts</li>
+                                <li><strong>20GB</strong> of Space</li>
+                                <li><strong>Ulimited</strong> Bandwidth</li>
+                       
+                        <li class="price-button">
+                            <a href="" class="btn btn-info"><i class="icon-ok"></i> Sign-up</a>
+                        </li>
+                    </ul> 
+   
+          </div>     
+          
+          
+          
+             <div class="span3">
+  
+           <ul class="pricemain">
+                        <li class="title">Plan A</li>
+                        <li class="pricetitle">$25<span> /mo</span></li>
+                        <li class="description">Checkout what you get below</li>
+                        
+                                <li><strong>2</strong> Domain Names</li>
+                                <li><strong>5</strong> Mysql Databases</li>
+                                <li><strong>10</strong> Email Accounts</li>
+                                <li><strong>20GB</strong> of Space</li>
+                                <li><strong>Ulimited</strong> Bandwidth</li>
+                       
+                        <li class="price-button">
+                            <a href="" class="btn btn-info"><i class="icon-ok"></i> Sign-up</a>
+                        </li>
+                    </ul> 
+   
+          </div>     
+           
+           
+           
+         
+             <div class="span3">
+  
+           <ul class="pricemain">
+                        <li class="title">Plan A</li>
+                        <li class="pricetitle">$25<span> /mo</span></li>
+
+                        <li class="description">Checkout what you get below</li>
+                        
+                                <li><strong>2</strong> Domain Names</li>
+                                <li><strong>5</strong> Mysql Databases</li>
+                                <li><strong>10</strong> Email Accounts</li>
+                                <li><strong>20GB</strong> of Space</li>
+                                <li><strong>Ulimited</strong> Bandwidth</li>
+                       
+                        <li class="price-button">
+                            <a href="" class="btn btn-info"><i class="icon-ok"></i> Sign-up</a>
+                        </li>
+                    </ul> 
+   
+          </div>       
+            
+           
+           
+            
+            
+            
+            
+     
+            
+        
+            
+    </div>          
+            
+            
+ </div>
             
       
 </article>
