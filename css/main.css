@@ -1,295 +1,4 @@
 
-.anchor {
-padding-top: 40px;
-margin-top: -40px;
-}
-.padding {
-padding-top: 80px;
-padding-bottom: 80px;
-}		
-.titlebg {
-padding: 35px 0;
-color: #ccc;
-text-align: center;
-}		
-.test{height:700px;}		
-nav {
-background-color: #FFFFFF;
-background-repeat: repeat-x;
-border-color: #252525;
-
-width: 100%;
-position: fixed;
-border-bottom: 4px solid #CFCFCF;
-z-index: 9999;
-}
-.seven {
-margin-bottom: 0px;
-margin-left: auto;
-
-list-style: none;
-}
-
- 
-nav ul {
-
-	padding: 0;
-	width:700px;
-
-
-	height: 53px;
-}
-
-nav li {
-
-text-align: center;
-float: left;
-}
-nav a {
-	color: #fff;
-	display: inline-block;
-
-	
-	text-decoration: none;
-	line-height: 53px;
--webkit-transition: all 0.2s ease-in-out;
--moz-transition: all 0.2s ease-in-out;
--ms-transition: all 0.2s ease-in-out;
--o-transition: all 0.2s ease-in-out;
-transition: all 0.2s ease-in-out;
-}
-nav li a {
-	color: #999;
-	
-
-	text-decoration: none;
-	
-}
-nav li:last-child a {
-	border-right: 0;
-}
-.nav li.active a {
-color: #4CC4D8 !important;
-
-}
-.nav li a:hover{
-   background-color: #FFF;
-   color: #4DC5D9 !important;
-}
-nav a#pull {
-	display: none;
-}
-
-.modal-scrollable {
-	position: fixed;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	overflow: auto;
-}
-.test{
-	height:800px;}
-.modal .row-fluid .span4 {
-width: 100%;
-}
-.modal {
-	border-radius: 0px;
-	outline: none;
-	position: absolute;
-	margin-top: 0;
-	top: 50%;
-	overflow: visible; /* allow content to popup out (i.e tooltips) */
-}
-
-.modal.fade {
-	top: -100%;
-	-webkit-transition: opacity 0.3s linear, top 0.3s ease-out, bottom 0.3s ease-out, margin-top 0.3s ease-out;	
-	   -moz-transition: opacity 0.3s linear, top 0.3s ease-out, bottom 0.3s ease-out, margin-top 0.3s ease-out;
-	     -o-transition: opacity 0.3s linear, top 0.3s ease-out, bottom 0.3s ease-out, margin-top 0.3s ease-out;
-	        transition: opacity 0.3s linear, top 0.3s ease-out, bottom 0.3s ease-out, margin-top 0.3s ease-out;
-}
-
-.modal.fade.in {
-	top: 50%;
-}
-.modal.fade.in2 {
-  left: 50%;
-}​
-.modal-body {
-	max-height: none;
-	overflow: visible;
-}
-
-.modal.modal-absolute {
-	position: absolute;
-	z-index: 950;
-}
-
-.modal .loading-mask {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	background: #fff;
-	border-radius: 6px;
-}
-
-.modal-backdrop.modal-absolute{
-	position: absolute;
-	z-index: 940;
-}
-
-.modal-backdrop, 
-.modal-backdrop.fade.in{
-	opacity: 0.7;
-	filter: alpha(opacity=70);
-	
-}
-
-
-
-#map-canvas img {
-  max-width: none;
-}
-#map-canvas {
-	color:#333;
-
-}
-.alert {
-width: 91%;
-
-  
-}
-.error {
-
-}
-input:required, textarea:required {
--moz-box-shadow:none; 
--webkit-box-shadow:none; 
--o-box-shadow:none; 
-box-shadow:none; 
-}
-body {
-padding-right: 0px;
-padding-left: 0px;
-}
-.ie .fs-img2{
-	width:auto;
-	height:auto;
-	
-	
-}
-.videomain {
-position: relative;
-padding-top: 0px;
-padding-bottom: 60.5%;
-width: 100%;
-height: 100%;
-margin-bottom: 0px;
-
-}
-.videoin{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-.videoin {
-  
-}
-.collapse {
-position: relative;
-height: 0;
-overflow: hidden;
-z-index:0;
-
--webkit-transition: height 0.35s ease;
--moz-transition: height 0.35s ease;
--o-transition: height 0.35s ease;
-transition: height 0.35s ease;
-}
-#map-canvas{
-	width:100%;
-	height:500px;}
-
-
-
-.icons {
-  font-size: 60px;
-  line-height: 24px;
-  margin-left:0em;
-  color:#4DC5D9;
-}
-.media-body h4{
-	 color:#575757;
-}
-
-[class^="icon-"], [class*=" icon-"] {
-display: inline-block;
-width: 1em;
-height: 0px;
-height:100%;
-margin-top: 0px;
-line-height: 14px;
-vertical-align: text-top;
-
-background-image:none;
-}
-
-/* ==========================================================================
- Header / Logos / More info  Modal window
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-   ========================================================================== */
-
-.minilogo{
-	float:left;
-	position:absolute;
-	
-	
-	}
-.btn:hover{
--webkit-transition: all 0.2s ease-in-out;
--moz-transition: all 0.2s ease-in-out;
--ms-transition: all 0.2s ease-in-out;
--o-transition: all 0.2s ease-in-out;
-transition: all 0.2s ease-in-out;
-
-}	
-.btn {text-transform: uppercase;
-border: 0;
-border-radius: 3px;
-padding: .9em 1.8em .8em;
-box-shadow: none;
-background:rgb(73, 73, 73);
-color: #fff;
-text-transform: uppercase;
-margin-right: 10px;
-text-shadow: none;
-font-size: 13px;
-line-height: 1;
-font-weight: bold;
--webkit-transition: all 0.3s ease-in-out;
--moz-transition: all 0.3s ease-in-out;
--ms-transition: all 0.3s ease-in-out;
--o-transition: all 0.3s ease-in-out;
-transition: all 0.3s ease-in-out;
-}
-
-.register h2 {
-text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
-font-size: 1.5rem;
-display: inline-block;
-}
-/* ==========================================================================
-  Navigation menu
- 
-   ========================================================================== */
-   
- .accordion-inner{
-	 background-color:#0C9;}  
 
 @media (max-width: 670px) {
 nav {
@@ -1234,7 +943,124 @@ padding: 0px 15px;
 }				
 }
 @media (min-width: 980px) and (max-width: 1200px) {
+.box-container{
 
+
+width: 750px;
+margin-left:-393px;
+
+}
+	
+.box-container .row-fluid .span4{
+	width:55%;
+	
+}
+.box-container .row-fluid .span5{
+	width:30%;
+	
+}	
+.logo .thumbnails .span3 {
+width: 29%;
+padding: 13px;
+margin-left: 1px;
+}
+.logo .thumbnails {
+margin-right: auto;
+margin-left: auto;
+width: 70%;
+}	
+	
+.aboutus .span5 {
+width: 65.8925532%;	
+}	
+.aboutus .span4 {
+	
+}	
+.contact .span5 {
+width:31.17094%
+}
+.contact .span9 {
+width: 65.358974%
+}
+.contact .span8 {
+	margin-left:0px;
+	padding-bottom:20px;
+}
+.contact .span4{
+	padding-bottom:20px;
+	margin-left:0px;
+	width: 583px;
+	
+}	
+.features .span4{
+	
+padding: 18px;
+font-size: 12px;
+line-height: 18px;
+}
+.features .span4 h2{
+	
+
+font-size:25px;
+	
+}		
+.features .span8 {
+	
+	width:68%;
+	text-align:center;
+	margin-left:0px;
+}		
+.work .span4 img{
+	width:60%;
+
+}	
+.accordion-inner .span4{
+	width:37%;
+
+}
+.accordion-inner .span4 img{
+	width:100%;
+
+	
+}	
+.accordion-inner .span5{
+	width:63%;
+	height:235px;
+	
+	margin-left:0px;
+
+}			
+.row-fluid .thumbnails {
+margin-left: 9px;
+}		
+
+	nav a {
+
+margin: 0 0 0px 15px;
+padding: 0px 15px;
+
+
+}
+.swiper-container {
+  width: 50%;
+  height:auto;
+  
+  color: #fff;
+  text-align: center;
+}	
+
+	
+.thumbnails .span3 {
+	width: 23.28%;
+	
+	
+	
+}		
+.fetwidth {
+
+width: 48%;
+
+}	
   
 }
 @media (max-width: 979px) and (min-width: 768px){
