@@ -1234,6 +1234,54 @@ padding: 0px 15px;
 }				
 }
 @media (min-width: 980px) and (max-width: 1200px) {
+.box-container{
+
+
+width: 750px;
+margin-left:-393px;
+
+}
+	
+.box-container .row-fluid .span4{
+	width:55%;
+	
+}
+.box-container .row-fluid .span5{
+	width:30%;
+	
+}	
+.logo .thumbnails .span3 {
+width: 29%;
+padding: 13px;
+margin-left: 1px;
+}
+.logo .thumbnails {
+margin-right: auto;
+margin-left: auto;
+width: 70%;
+}	
+	
+
+.features .span4 h2{
+	
+
+font-size:25px;
+	
+}		
+.features .span8 {
+	
+	width:68%;
+	text-align:center;
+	margin-left:0px;
+}		
+.work .span4 img{
+	width:60%;
+
+}	
+
+.row-fluid .thumbnails {
+margin-left: 9px;
+}		
 
 nav a {
 
