@@ -944,122 +944,7 @@ padding-bottom:20px;
 
 }	
 	
-.pricemain .title {
-	position:relative;
-font-size: 20px;
-font-weight: normal;
-padding: 20px;
-margin: -20px -20px 20px -20px;
-background-color: #eee;
-background-image: -moz-linear-gradient(#fff,#eee);
-background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#eee));
-background-image: -webkit-linear-gradient(#fff, #eee);
-background-image: -o-linear-gradient(#fff, #eee);
-background-image: -ms-linear-gradient(#fff, #eee);
-background-image: linear-gradient(#fff, #eee);
-}
-.pricemain .pricetitle {
-font-size: 20px;
-font-weight: normal;
-padding: 40px;
-margin: -20px -20px 0px -20px;
-background-color:#00A1C0;
-color:#FFF;
 
-border-top: 1px solid rgba(255, 255, 255, 0.4);
-text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.3), 1px 1px 0 rgba(255, 255, 255, 0.2);
-}
-.pricemain .description {
-
-padding: 10px;
-
-}
-.pricemain li {
-
-padding: 10px 0;
-}
-.pricemain .price-button{
-padding: 20px;
-
-
-text-transform: uppercase;
-
-padding: 20px 0;
-margin: 23px -20px -20px -20px;
-}
-.vhot {
-z-index: 2;
-top: -13px;
-
-padding: 30px 20px;
-
--moz-box-shadow: 20px 0 10px -10px rgba(0, 0, 0, .15), -20px 0 10px -10px rgba(0, 0, 0, .15);
--webkit-box-shadow: 20px 0 10px -10px rgba(0, 0, 0, .15), -20px 0 10px -10px rgba(0, 0, 0, .15);
-box-shadow: 20px 0 10px -10px rgba(0, 0, 0, .15), -20px 0 10px -10px rgba(0, 0, 0, .15);
-}
-
-.pricemain:hover {
-	
-
-
-	cursor:pointer;
-}
-.accordion-group {
-	color:#FFF;
-
-border: 0px solid #e5e5e5;
-
-}
-.accordion-inner {
-padding: 0px 0px;
-border-top: 0px solid #e5e5e5;
-}
-.accordion a:link{
-color: #8F8F8F;
-text-decoration:none;
-
-}
-.accordion-inner .span5{
-background-color: #4DC5D9;
-padding:15px;
-
-}	
-.accordion-heading {
-background-color: #F0F0F0;
-border-bottom: 0;
-border: 1px solid #E6E6E6;
-}	
-.paddingbot{
-	padding-bottom:50px;
-	padding-top:50px;
-
-	
-}
-
-.progress {
-height: 40px;
-
-}
-.progress .bar {
-
-padding-top: 9px;
-
-height: 100%;
-font-size: 20px;
-
-}
-input, textarea, .uneditable-input {
-width: 100%;
-}	
-.box-container{
-	background-color: #fff;
-color: #696969;
-padding: 20px;
-
-
-position: absolute;
-z-index: 11;
-}
 @media (min-width: 1200px) {
 .box-container{
 
@@ -1302,7 +1187,7 @@ font-size:25px;
 	margin-left:0px;
 }		
 .work .span4 img{
-	width:60%;
+	
 
 }	
 
