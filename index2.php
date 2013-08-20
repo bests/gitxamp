@@ -439,7 +439,125 @@
 <article id="home_contact" class="contact">
 
 
- <div class="test"></div> 
+ <div id="map-canvas"></div>  
+
+        <div class="container padding">
+       
+      <div class="row-fluid">
+ <?php
+
+include 'autoload.php';
+
+use HybridLogic\Validation\Validator;
+use HybridLogic\Validation\Rule;
+
+$validator = new Validator();
+
+$validator
+
+	->set_label('name', 'your name')
+	->add_filter('name', 'trim')
+	->add_rule('name', new Rule\NotEmpty())
+	->add_rule('name', new Rule\MinLength(5))
+	->add_rule('name', new Rule\MaxLength(10))
+
+	->add_filter('email', 'trim')
+	->add_filter('email', 'strtolower')
+	->add_rule('email', new Rule\NotEmpty())
+	
+	->add_rule('email', new Rule\Email())
+	
+
+;
+
+
+if(isset($_POST['submit'])) {
+
+	if($validator->is_valid($_POST)) {
+		echo 'Sent';
+	} else {
+		echo '<p>Errors were encountered:</p><ul>';
+		foreach($validator->get_errors() as $error) echo "<li>$error</li>";
+		echo '</ul>';
+	}
+
+}
+
+
+$jquery_validator = new HybridLogic\Validation\ClientSide\jQueryValidator($validator);
+$jquery = $jquery_validator->generate();
+
+
+?>     
+    
+            <div class="span9"> 
+ <div class="alert alert-error alert-block hide">
+              <button type="button" class="close" data-dismiss="alert">×</button>
+              <h4>Warning!</h4>
+              <p>Best check yo self, you're not looking too good. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+            </div>
+             <div class="alert alert-success alert-block hide">
+              <button type="button" class="close" data-dismiss="alert">×</button>
+              <h4>Warning!</h4>
+              <p>Best check yo self, you're not looking too good. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+            </div>            
+             <div class="alert alert-error alert-block hide mailrr">
+              <button type="button" class="close" data-dismiss="alert">×</button>
+              <h4>Network!</h4>
+              <p>Best check yo self, you're not looking too good. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+            </div>   
+            
+<form action="#" class="form" id="form" method="post">
+            <div class="row"><div class="span4"><label>Name</label>
+  <input type="text" placeholder="Name" name="name" required></div>
+ <div class="span4"><label>Email</label> <input type="email" name="email" placeholder="Email" required></div>
+ <div class="span8"><label>Your message</label>
+ <textarea rows="6" name="message" spellcheck="false" style=" white-space: pre-wrap; z-index: auto; position: relative; line-height: 20px; font-size: 14px; -webkit-transition: none; transition: none; overflow: auto; margin: 0px; height: 247px; background-position: initial initial !important; background-repeat: initial initial !important;"></textarea>
+ </div>
+  <div class="span8"><button type="submit" class="btn submit" name="submit" data-loading-text="Loading...">Sign in</button></div>
+</div>
+</form>
+</div>   
+
+
+
+
+
+<div class="span5">
+<address>
+  <strong>Twitter, Inc.</strong><br>
+  795 Folsom Ave, Suite 600<br>
+  San Francisco, CA 94107<br>
+  <abbr title="Phone">P:</abbr> (123) 456-7890
+</address>
+ 
+<address>
+  <strong>Full Name</strong><br>
+  <a href="mailto:#">first.last@example.com</a>
+</address>
+
+<address>
+  <strong>Twitter, Inc.</strong><br>
+  795 Folsom Ave, Suite 600<br>
+  San Francisco, CA 94107<br>
+  <abbr title="Phone">P:</abbr> (123) 456-7890
+</address>
+ 
+<address>
+  <strong>Full Name</strong><br>
+  <a href="mailto:#">first.last@example.com</a>
+</address>
+
+
+
+</div>
+             
+            </div>
+        
+                
+  
+          
+        </div> <!-- /container -->
 </article>
 </section>
      
