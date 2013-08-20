@@ -883,7 +883,110 @@ text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
 box-shadow: inset 0 8px 35px -6px rgba(0,0,0,.3), inset 0 -5px 57px -6px rgba(0,0,0,.4);	
 	
 }
+.padding {
+padding-top: 80px;
+padding-bottom: 80px;
+}
 
+
+
+.gallerybg{
+	background-color: #575757;
+/*background: url(../img/bg2.jpg) fixed 0 0 repeat;
+background-position: center center !important;
+background-size: cover !important;*/
+}	
+.featuresbg{
+	
+  background-color: #575757;
+  
+}
+.titlebg {
+padding:35px 0;		
+
+
+color:#FFF;	
+text-align: center;
+
+	  
+
+}
+.titlebg h2{
+	margin-top:0px;
+	font-size:4em;
+	font-weight:bold;
+	line-height:60px;
+	
+	text-transform: uppercase;
+		font-family: 'open_sansbold', sans-serif;
+	
+	}	
+.work .title {
+	
+	width:70%;
+	
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+padding-bottom:60px;
+}
+.work .title h1 {
+font-size:60px;
+	
+padding-bottom:20px;
+
+}	
+.work .title h2 {
+	width:100%;
+	font-size:40px;
+	text-align:left;
+
+
+}	
+	
+.pricemain .title {
+	position:relative;
+font-size: 20px;
+font-weight: normal;
+padding: 20px;
+margin: -20px -20px 20px -20px;
+background-color: #eee;
+background-image: -moz-linear-gradient(#fff,#eee);
+background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#eee));
+background-image: -webkit-linear-gradient(#fff, #eee);
+background-image: -o-linear-gradient(#fff, #eee);
+background-image: -ms-linear-gradient(#fff, #eee);
+background-image: linear-gradient(#fff, #eee);
+}
+.pricemain .pricetitle {
+font-size: 20px;
+font-weight: normal;
+padding: 40px;
+margin: -20px -20px 0px -20px;
+background-color:#00A1C0;
+color:#FFF;
+
+border-top: 1px solid rgba(255, 255, 255, 0.4);
+text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.3), 1px 1px 0 rgba(255, 255, 255, 0.2);
+}
+.pricemain .description {
+
+padding: 10px;
+
+}
+.pricemain li {
+
+padding: 10px 0;
+}
+.pricemain .price-button{
+padding: 20px;
+
+
+text-transform: uppercase;
+
+padding: 20px 0;
+margin: 23px -20px -20px -20px;
+}
 .vhot {
 z-index: 2;
 top: -13px;
@@ -957,300 +1060,7 @@ padding: 20px;
 position: absolute;
 z-index: 11;
 }
-@media (min-width: 1200px) {
-.box-container{
 
-
-width: 750px;
-margin-left:-393px;
-
-}
-	
-	
-.box-container .row-fluid .span4{
-	width:55%;
-	
-}
-.boxy .row-fluid .span5{
-	width:30%;
-	
-}
-.boxy .row-fluid .span4{
-	width:55%;
-	
-}
-.box-container .row-fluid .span5{
-	width:30%;
-	
-}
-.aboutus .span5 {
-width: 65.17094%;
-}	
-.aboutus .span4 {
-	
-}		
-	
-input, .uneditable-input {
-width: 350px;
-}
-.contact .span5 {
-width:31.17094%
-}
-.contact .span9 {
-width: 65.358974%
-}
-.contact .span8 {
-	margin-left:0px;
-	padding-bottom:20px;
-}
-.contact .span4{
-	padding-bottom:20px;
-	margin-left:45px;
-	width: 330px;
-	
-}	
-.fetwidth {
-
-width: 380px;
-
-}		
-	
-.features .span4{
-line-height: 30px;	
-padding: 35px;
-	
-}	
-.features .span8 {
-	
-	width:68.1%;
-	text-align:center;
-	margin-left:0px;
-}		
-	
-.swiper-container {
-  width: 50%;
-  height:400px;
-  
-  color: #fff;
-  text-align: center;
-}
-.work .span10 {
-	
-	width:77%;
-	
-	
-	
-	
-	
-	}
-.work .span2 {
-	
-	
-	
-	
-	width: 200px;	
-	
-	
-	
-	
-}	
-
-		
-
-	
-.work .span4 img{
-	width:60%;
-	
-	
-	
-	
-	}
-		
-
-.row-fluid .thumbnails {
-margin-left: 8px;
-}
-.logo .thumbnails{
-	
-	
-	
-margin-right: auto;
-margin-left: auto;
-width: 39%;
-	
-	
-}	
-.logo .thumbnails img{
-	
-	
-
-width: 61%;
-	
-	
-}	
-
-.logo .thumbnails .span3 {
-width: 23%;
-padding: 23px;
-margin-left: 1px;
-	
-
-	
-	
-}	
-.thumbnails .span3 {
-	width:23%;
-	padding:2px;
-	
-
-	
-	
-	}
-nav a {
-
-margin: 0 0 0px 15px;
-padding: 0px 15px;
-
-
-}
-.accordion-inner .span4{
-	width:37%;
-
-}
-.accordion-inner .span4 img{
-	width:100%;
-
-	
-}	
-.accordion-inner .span5{
-	width:63%;
-	height:292px;
-	
-	margin-left:0px;
-
-}				
-}
-@media (min-width: 980px) and (max-width: 1200px) {
-.box-container{
-
-
-width: 750px;
-margin-left:-393px;
-
-}
-	
-.box-container .row-fluid .span4{
-	width:55%;
-	
-}
-.box-container .row-fluid .span5{
-	width:30%;
-	
-}	
-.logo .thumbnails .span3 {
-width: 29%;
-padding: 13px;
-margin-left: 1px;
-}
-.logo .thumbnails {
-margin-right: auto;
-margin-left: auto;
-width: 70%;
-}	
-	
-.aboutus .span5 {
-width: 65.8925532%;	
-}	
-.aboutus .span4 {
-	
-}	
-.contact .span5 {
-width:31.17094%
-}
-.contact .span9 {
-width: 65.358974%
-}
-.contact .span8 {
-	margin-left:0px;
-	padding-bottom:20px;
-}
-.contact .span4{
-	padding-bottom:20px;
-	margin-left:0px;
-	width: 583px;
-	
-}	
-.features .span4{
-	
-padding: 18px;
-font-size: 12px;
-line-height: 18px;
-}
-.features .span4 h2{
-	
-
-font-size:25px;
-	
-}		
-.features .span8 {
-	
-	width:68%;
-	text-align:center;
-	margin-left:0px;
-}		
-.work .span4 img{
-	width:60%;
-
-}	
-.accordion-inner .span4{
-	width:37%;
-
-}
-.accordion-inner .span4 img{
-	width:100%;
-
-	
-}	
-.accordion-inner .span5{
-	width:63%;
-	height:235px;
-	
-	margin-left:0px;
-
-}			
-.row-fluid .thumbnails {
-margin-left: 9px;
-}		
-
-	nav a {
-
-margin: 0 0 0px 15px;
-padding: 0px 15px;
-
-
-}
-.swiper-container {
-  width: 50%;
-  height:auto;
-  
-  color: #fff;
-  text-align: center;
-}	
-
-	
-.thumbnails .span3 {
-	width: 23.28%;
-	
-	
-	
-}		
-.fetwidth {
-
-width: 48%;
-
-}	
-  
-}
 @media (max-width: 979px) and (min-width: 768px){
 .box-container{
 
