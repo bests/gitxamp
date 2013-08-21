@@ -26,7 +26,10 @@ $modal.on('click', '.update', function(){
   }, 1000);
 });
 	
-	
+$('.seven li a').click(function (e) {
+
+  
+})	
 $('.seven a:link').smoothScroll();
  $(function() {
       $('#slides').slidesjs({
@@ -269,7 +272,7 @@ if(!Modernizr.csstransitions) {
 
 $("body").on("activate", function(e)
 {
-	 var $spy = $(this).scrollspy('refresh');
+	 
 $('#menu-arrowx').css("visibility", "visible");
 var $item = $(e.target);
 if (e.originalEvent === undefined) {
@@ -315,6 +318,7 @@ $("img.thumb1", this).stop().animate({"opacity": "1","-ms-filter":"progid:DXImag
 $("body").on("activate", function(e)
 {
 
+  
 	$('#menu-arrowx').css("visibility", "visible");
   var $item = $(e.target);
   
@@ -323,7 +327,7 @@ $("body").on("activate", function(e)
 
   $(".seven li").addClass("bounce");
    $(".seven li").siblings().removeClass("bounce");
-
+$('.seven li.active').siblings().removeClass('active')
 
     if (e.originalEvent === undefined) {
      if(!$('#pull').is(":visible") ){
@@ -336,7 +340,7 @@ $("body").on("activate", function(e)
 //alert(e.target.id);
 //$("#menu-arrowx").animate({"left":$item2}, 50,"linear");
 $("#menu-arrowx").css('left',$item2 + 'px');
-		
+		//$(".seven li").siblings().addClass('active')
 		
 		
 		
