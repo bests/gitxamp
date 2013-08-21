@@ -327,7 +327,7 @@ $("body").on("activate", function(e)
 
   $(".seven li").addClass("bounce");
    $(".seven li").siblings().removeClass("bounce");
-$('.seven li.active').removeClass('active');
+$('.seven li').removeClass('active');
 //alert(e.target.id+" and "+$(e.target).attr('class'));
 //
     if (e.originalEvent === undefined) {
