@@ -73,17 +73,19 @@ nav li a {
 nav li:last-child a {
 	border-right: 0;
 }
-.nav li.active a {
-color: #4CC4D8 !important;
 
-}
 .nav li a:hover{
    background-color: #FFF;
-   color: #4CC4D8 !important;
+   color: #4CC4D8;
 }
 a:hover, a:focus {
 color: #4CC4D8;
 text-decoration: underline;
+}
+
+.nav li.active a {
+color: #4CC4D8 !important;
+
 }
 nav a#pull {
 	display: none;
