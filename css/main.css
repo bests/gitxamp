@@ -79,7 +79,11 @@ color: #4CC4D8 !important;
 }
 .nav li a:hover{
    background-color: #FFF;
-   color: #4DC5D9 !important;
+   color: #4CC4D8 !important;
+}
+a:hover, a:focus {
+color: #4CC4D8;
+text-decoration: underline;
 }
 nav a#pull {
 	display: none;
