@@ -60,7 +60,7 @@
 		<ul class="seven clearfix nav">
        
 			
-			<li><a href="#overview">Home</a></li>
+			<li id="ho"><a href="#overview">Home</a></li>
 			<li><a href="#features">Features</a></li>
 			<li><a href="#gallery">Gallery</a></li>
             <li><a href="#work">Love</a></li>

@@ -327,20 +327,23 @@ $("body").on("activate", function(e)
 
   $(".seven li").addClass("bounce");
    $(".seven li").siblings().removeClass("bounce");
-$('.seven li.active').siblings().removeClass('active')
-
+$('.seven li.active').removeClass('active');
+//alert(e.target.id+" and "+$(e.target).attr('class'));
+//
     if (e.originalEvent === undefined) {
      if(!$('#pull').is(":visible") ){
+		 
+$item.addClass('active');
 		$item.addClass('animated');
 	$item.addClass('bounce');
 		}
 		
 		var $item2 =$item.offset().left + $item.width() / 2 - 35 - $('#navbar').offset().left;
 
-//alert(e.target.id);
+
 //$("#menu-arrowx").animate({"left":$item2}, 50,"linear");
 $("#menu-arrowx").css('left',$item2 + 'px');
-		//$(".seven li").siblings().addClass('active')
+		//
 		
 		
 		
