@@ -371,9 +371,9 @@
         
                  
               
-  <img src="img/star-low.jpg" class="pulse moveup">      
- <img src="img/star-low.jpg" class="pulse moveup">        
-  <img src="img/star-low.jpg" class="pulse moveup">       
+  <img src="img/star-low.jpg" class="pulse moveup tet">      
+ <img src="img/star-low.jpg" class="pulse moveup tet">        
+  <img src="img/star-low.jpg" class="pulse moveup tet">       
          <!-- End container .. container for carosel --> 
  <div class="row-fluid paddingbot">
   

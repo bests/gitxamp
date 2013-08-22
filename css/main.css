@@ -52,10 +52,7 @@ text-align: center;
 float: left;
 }
 
-#navbar{
--webkit-perspective: 1000;
--webkit-backface-visibility: hidden;
-}
+
 nav a {
 	color: #fff;
 	display: inline-block;
@@ -1233,6 +1230,10 @@ padding: 0px 15px;
 }				
 }
 @media (min-width: 980px) and (max-width: 1200px) {
+.tet {
+	width:20%;
+	
+}	
 img{
 	
 	max-width:none;
