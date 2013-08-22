@@ -375,7 +375,49 @@
         
         
          <!-- End container .. container for carosel --> 
- 
+ <div class="row-fluid paddingbot">
+  
+              <div class="span4">
+                <div>
+                  <img src="img/star-low.jpg" class="pulse moveup">
+                  <div class="caption">
+                    <h3>Thumbnail label</h3>
+                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    
+                  </div>
+                </div>
+              </div>
+              
+              
+             
+              <div class="span4">
+                <div>
+                  <img src="img/star-low.jpg" class="pulse moveup">
+                  <div class="caption">
+                    <h3>Thumbnail label</h3>
+                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    
+                  </div>
+                </div>
+              </div>
+              
+              
+              
+              
+             
+              <div class="span4">
+                <div>
+                  <img src="img/star-low.jpg" class="pulse moveup">
+                  <div class="caption">
+                    <h3>Thumbnail label</h3>
+                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    
+                  </div>
+                </div>
+              </div>
+              
+             
+    </div>
   
   
      
