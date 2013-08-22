@@ -1225,12 +1225,30 @@ padding: 0px 15px;
 }				
 }
 @media (min-width: 980px) and (max-width: 1200px) {
+img{
+	
+	max-width:none;
+	
+	
+	}
 .circle img{
 	width:80%;
 	max-width:none;
 	
 	
-	}		
+	}
+.tab-pane img{
+	width:100%;
+	max-width:none;
+	
+	
+	}
+.aboutus img{
+	width:100%;
+	max-width:none;
+	
+	
+	}					
 nav li a:hover {
 background-color: #FFF;
 color: #999;
