@@ -53,7 +53,8 @@ float: left;
 }
 
 #navbar{
--webkit-transform: translateZ(0);	
+-webkit-perspective: 1000;
+-webkit-backface-visibility: hidden;
 }
 nav a {
 	color: #fff;
