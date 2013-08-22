@@ -1225,6 +1225,12 @@ padding: 0px 15px;
 }				
 }
 @media (min-width: 980px) and (max-width: 1200px) {
+.circle img{
+	width:70%;
+	
+	
+	
+	}		
 nav li a:hover {
 background-color: #FFF;
 color: #999;
@@ -1302,19 +1308,7 @@ font-size:25px;
 }		
 	
 
-.row-fluid .thumbnails {
-margin-left: 9px;
-}		
 
-
-
-	
-.thumbnails .span3 {
-	width: 23.28%;
-	
-	
-	
-}		
 .fetwidth {
 
 width: 48%;
@@ -1330,6 +1324,7 @@ padding: 0px 15px;
   
 }
 @media (max-width: 979px) and (min-width: 768px){
+
 .box-container{
 
 
