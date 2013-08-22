@@ -1225,12 +1225,7 @@ padding: 0px 15px;
 }				
 }
 @media (min-width: 980px) and (max-width: 1200px) {
-.circle img{
-	width:70%;
-	
-	
-	
-	}		
+		
 nav li a:hover {
 background-color: #FFF;
 color: #999;
@@ -1266,12 +1261,7 @@ margin-left: auto;
 width: 70%;
 }	
 	
-.aboutus .span5 {
-width: 65.8925532%;	
-}	
-.aboutus .span4 {
-	
-}	
+
 .contact .span5 {
 width:31.17094%
 }
@@ -1288,7 +1278,18 @@ width: 65.358974%
 	width: 583px;
 	
 }	
+.features .span4{
 	
+padding: 18px;
+font-size: 12px;
+line-height: 18px;
+}
+.features .span4 h2{
+	
+
+font-size:25px;
+	
+}		
 .features .span8 {
 	
 	width:68%;
