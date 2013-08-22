@@ -51,9 +51,9 @@ nav li {
 text-align: center;
 float: left;
 }
-html, body {height:100%;overflow:auto}
+
 #navbar{
-	
+-webkit-transform: translateZ(0);	
 }
 nav a {
 	color: #fff;
