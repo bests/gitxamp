@@ -373,7 +373,7 @@
   
               <div class="span4">
                 <div class="circle">
-                  <img src="img/heart.png">
+                  <img src="img/heart.png" class="pulse moveup">
                   <div class="caption">
                     <h3>Thumbnail label</h3>
                     <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
@@ -386,7 +386,7 @@
              
               <div class="span4">
                 <div class="circle">
-                  <img src="img/idea.png">
+                  <img src="img/idea.png" class="pulse moveup">
                   <div class="caption">
                     <h3>Thumbnail label</h3>
                     <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
@@ -401,7 +401,7 @@
              
               <div class="span4">
                 <div class="circle">
-                  <img src="img/music.png">
+                  <img src="img/music.png" class="pulse moveup">
                   <div class="caption">
                     <h3>Thumbnail label</h3>
                     <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
