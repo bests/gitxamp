@@ -415,27 +415,37 @@
        
         <div class="row-fluid tet">
               
-              <div class="span4">
+              <div class="span4 circle">
 
               <img src="img/heart.png" class="pulse moveup">
  <h3>We develop</h3>
                     <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
               </div>
               
-              <div class="span4">
+              <div class="span4 circle">
   <img src="img/heart.png" class="pulse moveup">
  <h3>We develop</h3>
                     <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
               </div>
               
-                 <div class="span4">
+                 <div class="span4 circle">
   <img src="img/heart.png" class="pulse moveup">
  <h3>We develop</h3>
                     <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
               </div>
 
               </div>
+     <div class="paddingbot"> 
+    <h2>Progress bars</h2>
+      
+     
+    <div class="progress">
+  <div class="bar bar-success" style="width: 35%;">Design 35%</div>
+  <div class="bar bar-warning" style="width: 30%;">PHP 30%</div>
+  <div class="bar bar-danger" style="width: 25%;">Javascript 20%</div>
+</div></div>
 
+<div class="paddingbot"> 
 <div class="bs-docs-example">
             <ul id="myTab" class="nav nav-tabs">
               <li class="active"><a href="#home" data-toggle="tab">Home</a></li>
@@ -477,7 +487,7 @@
           </div>
    
          
-  
+  </div>
            
            
         
