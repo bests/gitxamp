@@ -116,8 +116,114 @@
      
 
  <div class="tick"></div> 
-<article id="home_featuresm" class="features">  
-  <div class="test"></div>
+<article id="home_features" class="features">  
+ 
+<div class="container padding">
+ <div class="row-fluid">
+ 
+
+ 
+ 
+  <div class="span4">
+		                <h2 class="titleone">EVERYTHING IS DESIGNED.
+		                <br>FEW THINGS ARE DESIGNED well</h2>
+		                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras faucibus bibendum mauvel tempor metus tempor quis. Vivamus ullamcorper, dolor nec rhoncus bibendu.</p>
+		                <a href="#myModal" data-toggle="modal" class="btn btn-info ajax" data-info="ajax2.html">Get Started</a>
+	                </div>
+	                <div class="span8"> 
+                
+               <div id="slides">
+      <img src="slider/responsive.png" alt="Photo by: Missy S Link: http://www.flickr.com/photos/listenmissy/5087404401/">
+      <img src="slider/screen.png" alt="Photo by: Daniel Parks Link: http://www.flickr.com/photos/parksdh/5227623068/">
+      <img src="slider/responsive.png" alt="Photo by: Mike Ranweiler Link: http://www.flickr.com/photos/27874907@N04/4833059991/">
+    
+    </div>
+	                	
+	</div> 
+     
+     
+     
+     
+     
+     </div>
+     
+     
+                 
+  
+        
+      
+        
+   <!-- End container .. container for carosel --> 
+   <div class="postimgright"> 
+ <div class="media left-text fetwidth">
+              <a href="#" class="pull-left coloranim">
+               <i class="icon-cog icons"></i>
+              </a>
+             
+              <div class="media-body">
+                <h4 class="media-heading">Built on Bootstrap</h4>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. 
+              </div>
+            </div>
+    <div class="media left-text fetwidth">
+              <a href="#" class="pull-left">
+                 <i class="icon-globe icons"></i>
+              </a>
+              <div class="media-body">
+                <h4 class="media-heading">Responsive</h4>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. 
+              </div>
+           </div>
+            
+          <div class="media left-text fetwidth">
+              <a href="#" class="pull-left">
+                 <i class="icon-wrench icons"></i>
+              </a>
+              <div class="media-body">
+                <h4 class="media-heading">Media heading</h4>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. 
+              </div>
+            </div>
+    <div class="media left-text fetwidth">
+              <a href="#" class="pull-left">
+                <i class="icon-rocket icons"></i>
+              </a>
+              <div class="media-body">
+                <h4 class="media-heading">Media heading</h4>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. 
+              </div>
+           </div>   
+            
+            
+            
+            
+            
+               
+          <div class="media left-text fetwidth">
+              <a href="#" class="pull-left">
+               <i class="icon-eye icons"></i>
+              </a>
+              <div class="media-body">
+                <h4 class="media-heading">Media heading</h4>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. 
+              </div>
+            </div>
+    <div class="media left-text fetwidth">
+              <a href="#" class="pull-left">
+                <i class="icon-gauge icons"></i>
+              </a>
+              <div class="media-body">
+                <h4 class="media-heading">Media heading</h4>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. 
+              </div>
+           </div>   
+            
+            
+            
+            
+ </div>
+            
+        </div> <!-- /container -->
 </article>
 </section>
 
@@ -368,35 +474,9 @@
       
  
        
-        
-                 
-              
-  <img src="img/star-low.jpg" class="pulse moveup tet">      
- <img src="img/star-low.jpg" class="pulse moveup tet">        
-  <img src="img/star-low.jpg" class="pulse moveup tet">       
+      
          <!-- End container .. container for carosel --> 
- <div class="row-fluid paddingbot">
-  
-              <div class="span4">
-                
-              </div>
-              
-              
-             
-              <div class="span4">
-               
-              </div>
-              
-              
-              
-              
-             
-              <div class="span4">
-                
-              </div>
-              
-             
-    </div>
+
   
   
      
