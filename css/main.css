@@ -1239,12 +1239,7 @@ img{
 	
 	
 	}
-.circle img{
-	width:80%;
-	max-width:none;
-	
-	
-	}
+
 .tab-pane img{
 	width:100%;
 	max-width:none;
@@ -1256,7 +1251,14 @@ img{
 	max-width:none;
 	
 	
-	}					
+	}
+	
+.circle img{
+	width:100%;
+	max-width:none;
+	
+	
+	}						
 nav li a:hover {
 background-color: #FFF;
 color: #999;
@@ -1291,7 +1293,12 @@ margin-right: auto;
 margin-left: auto;
 width: 70%;
 }	
+	.circle .span5 {
+width: 65.8925532%;	
+}	
+.circle .span4 {
 	
+}	
 .aboutus .span5 {
 width: 65.8925532%;	
 }	

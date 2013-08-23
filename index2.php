@@ -461,9 +461,29 @@
            
  </div>
 </div>
+<div class="circle">
+<div class="row-fluid">
+              
+              <div class="span4">
 
-<img src="img/about2.png" style="margin-top: 0px;">
+              <img src="img/about1.png" style="margin-top: 0px;">
 
+              </div>
+              
+              <div class="span5">
+
+             <h3>We design</h3>
+                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            
+            
+            <a href="" class="btn btn-info">Get Started</a>
+
+              </div>
+              
+              
+
+</div>
+</div>
  <div class="row-fluid paddingbot">
   
               <div class="span4">
