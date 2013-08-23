@@ -462,9 +462,51 @@
  </div>
 </div>
 
+<img src="img/about2.png" style="margin-top: 0px;">
 
-
- 
+ <div class="row-fluid paddingbot">
+  
+              <div class="span4">
+                <div>
+                  
+                  <div class="caption">
+                    <h3>Thumbnail label</h3>
+                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    
+                  </div>
+                </div>
+              </div>
+              
+              
+             
+              <div class="span4">
+                <div>
+                 
+                  <div class="caption">
+                    <h3>Thumbnail label</h3>
+                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    
+                  </div>
+                </div>
+              </div>
+              
+              
+              
+              
+             
+              <div class="span4">
+                <div>
+                 
+                  <div class="caption">
+                    <h3>Thumbnail label</h3>
+                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    
+                  </div>
+                </div>
+              </div>
+              
+             
+    </div>
 
      
     
