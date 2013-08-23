@@ -1230,8 +1230,9 @@ padding: 0px 15px;
 }				
 }
 @media (min-width: 980px) and (max-width: 1200px) {
-.tet {
-	width:30%;
+.work img {
+	width: 84%;
+max-width: none;
 	
 }	
 img{

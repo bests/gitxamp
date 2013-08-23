@@ -406,7 +406,7 @@
       HTML5, built on Bootstrap, very fast.
        </div> 
 <div class="tick"></div>
-  <article id="home_aboutus" class="aboutus">
+ <article id="work_features" class="work">
        
       
        
@@ -415,23 +415,23 @@
        
         <div class="container padding">
            
-        <div class="row-fluid">
+        <div class="row-fluid tet">
               
               <div class="span4">
 
-              <img src="img/about1.png" style="margin-top: 0px;">
+              <img src="img/heart.png" class="pulse moveup">
  <h3>We develop</h3>
                     <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
               </div>
               
               <div class="span4">
- <img src="img/about1.png" style="margin-top: 0px;">
+  <img src="img/heart.png" class="pulse moveup">
  <h3>We develop</h3>
                     <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
               </div>
               
                  <div class="span4">
- <img src="img/about1.png" style="margin-top: 0px;">
+  <img src="img/heart.png" class="pulse moveup">
  <h3>We develop</h3>
                     <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
               </div>
