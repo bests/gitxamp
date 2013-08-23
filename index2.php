@@ -484,7 +484,7 @@
 
 </div>
 </div>
- <div class="row-fluid paddingbot">
+ <div class="row-fluid">
   
               <div class="span4">
                 <div>
