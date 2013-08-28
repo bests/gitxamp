@@ -235,10 +235,11 @@ transition: height 0.35s ease;
 
 
 .icons {
-  font-size: 60px;
-  line-height: 24px;
-  margin-left:0em;
-  color:#4DC5D9;
+ font-size: 60px;
+margin-bottom: 10px;
+line-height: 24px;
+margin-left: 0em;
+color: #4DC5D9;
 }
 .media-body h4{
 	 color:#575757;
@@ -495,9 +496,11 @@ transition: left 0.5s ease-in-out;
    Positions
    ========================================================================== */
  
-	   
+.media:first-child {
+margin-top: 20px;
+}	   
 .left-text{
-	text-align:left;
+	text-align:center;
  float: left;
 display: inline;
 
@@ -974,15 +977,20 @@ padding: 20px;
 position: absolute;
 z-index: 11;
 }
-@media (min-width: 1200px) {
 .closeButton {
-top: 11%;
-left: 79%;
+top: 50%;
+
 display: block;
 position: absolute;
-margin: 50px;
+
 width: 30px;
 height: 29px;
+}	
+
+@media (min-width: 1200px) {
+.closeButton {
+margin-left: -450px;
+left: 50%;
 }	
 .nav li a:hover{
    background-color: #FFF;
@@ -1155,15 +1163,9 @@ padding: 0px 15px;
 }				
 }
 @media (min-width: 980px) and (max-width: 1200px) {
-.closeButton
-{
-top: 20%;
-left: 83%;
-display: block;
-position: absolute;
-margin: 50px;
-width: 30px;
-height: 29px;
+.closeButton {
+margin-left: -450px;
+left: 50%;
 }	
 .work img {
 	width: 61%;
@@ -1439,7 +1441,7 @@ margin-left:0px;
 @media (max-width: 979px){
 nav ul {
 padding: 0;
-width: 571px;
+width: 600px;
 
 }	
 nav li a:hover {
@@ -1476,15 +1478,12 @@ padding: 0px 12px;
 
 }
 @media (max-width: 767px){
+
 .closeButton {
-top: 11%;
-left: 79%;
-display: block;
-position: absolute;
-margin: 50px;
-width: 30px;
-height: 29px;
-}			
+margin-left: -290px;
+left: 50%;
+}	
+			
 .box-container{
 
 width: 412px;
@@ -2039,3 +2038,4 @@ position: relative;
 		border-bottom: 1px solid #576979;
 	}
 }
+

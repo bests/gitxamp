@@ -156,7 +156,7 @@
    <!-- End container .. container for carosel --> 
    <div class="postimgright"> 
  <div class="media left-text fetwidth">
-              <a href="#" class="pull-left coloranim">
+              <a href="#" class="coloranim">
                <i class="icon-cog icons"></i>
               </a>
              
@@ -166,7 +166,7 @@
               </div>
             </div>
     <div class="media left-text fetwidth">
-              <a href="#" class="pull-left">
+              <a href="#">
                  <i class="icon-globe icons"></i>
               </a>
               <div class="media-body">
@@ -176,7 +176,7 @@
            </div>
             
           <div class="media left-text fetwidth">
-              <a href="#" class="pull-left">
+              <a href="#">
                  <i class="icon-wrench icons"></i>
               </a>
               <div class="media-body">
@@ -185,7 +185,7 @@
               </div>
             </div>
     <div class="media left-text fetwidth">
-              <a href="#" class="pull-left">
+              <a href="#">
                 <i class="icon-rocket icons"></i>
               </a>
               <div class="media-body">
@@ -200,8 +200,8 @@
             
                
           <div class="media left-text fetwidth">
-              <a href="#" class="pull-left">
-               <i class="icon-eye icons"></i>
+              <a href="#">
+               <i class="icon-gauge icons"></i>
               </a>
               <div class="media-body">
                 <h4 class="media-heading">Media heading</h4>
@@ -209,7 +209,7 @@
               </div>
             </div>
     <div class="media left-text fetwidth">
-              <a href="#" class="pull-left">
+              <a href="#">
                 <i class="icon-gauge icons"></i>
               </a>
               <div class="media-body">
