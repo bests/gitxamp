@@ -119,7 +119,8 @@ var $target = $(this).data('info');
 $('.box').css({'display': 'block',' padding':'2px'});
 
  $('.box-container').html($($target).html());
- 
+ $(".closeButton")
+    .appendTo(".box-container");
  
  var pWidth = jQuery(window).width();
  var pHeight = jQuery(window).height();

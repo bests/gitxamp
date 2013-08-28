@@ -238,7 +238,7 @@
 <div class="tick"></div>
 <article id="home_gallery" class="gallery">
 
-<div class="box"><div class="box-container"></div><a href="#" class="closeButton"><img src="img/cross.png" width="46" height="43"></a></div> 
+<div class="box"><a href="#" class="closeButton"><img src="img/cross.png" width="46" height="43"></a><div class="box-container"></div></div> 
 
 
         <div class="container padding">
@@ -258,7 +258,7 @@
                  <li class="span3">
             
   <div class="drop-panel" style="position: relative; overflow: hidden; display: block; padding: 2px;"><a href="#" data-target="#myToggle2" class="thumbnail-cap">
-                  <img data-src="img/star-med.jpg" data-width="280" data-height="160" class="thumb1 fs-img2 loader fs-standard-resolution fs-src-default" style="display: inline;" src="img/star-low.jpg">
+                  <img data-src="img/star-med.jpg" data-width="280" data-height="160" class="thumb1 fs-img2 loader fs-standard-resolution fs-src-default" style="display: inline;" src="img/star-low.jpg" alt="project2">
                </a><div id="myToggle2" class="cap-overlay hide" style="width: 263px; position: absolute; z-index: 3; overflow: hidden; left: 0px; top: 0px; display: none;">
   <h5>Title</h5>
   <div class="content">
@@ -274,7 +274,7 @@
                <li class="span3">
                 <div class="drop-panel" style="position: relative; overflow: hidden; display: block; padding: 2px;"><a href="#" data-target="#myToggle3" class="thumbnail-cap">
                 
-                  <img data-src="img/door-med.jpg" data-width="280" data-height="160" class="thumb1 fs-img2 loader fs-standard-resolution fs-src-default" style="display: inline;" src="img/door-med.jpg">
+                  <img data-src="img/door-med.jpg" data-width="280" data-height="160" class="thumb1 fs-img2 loader fs-standard-resolution fs-src-default" style="display: inline;" src="img/door-med.jpg" alt="project3">
                 </a><div id="myToggle3" class="cap-overlay hide" style="display: none; width: 263px; position: absolute; z-index: 3; overflow: hidden; left: 0px; top: 0px;">
   <h5>Title</h5>
   <div class="content">

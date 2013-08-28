@@ -975,6 +975,15 @@ position: absolute;
 z-index: 11;
 }
 @media (min-width: 1200px) {
+.closeButton {
+top: 11%;
+left: 79%;
+display: block;
+position: absolute;
+margin: 50px;
+width: 30px;
+height: 29px;
+}	
 .nav li a:hover{
    background-color: #FFF;
    color: #4CC4D8;
@@ -1146,6 +1155,16 @@ padding: 0px 15px;
 }				
 }
 @media (min-width: 980px) and (max-width: 1200px) {
+.closeButton
+{
+top: 20%;
+left: 83%;
+display: block;
+position: absolute;
+margin: 50px;
+width: 30px;
+height: 29px;
+}	
 .work img {
 	width: 61%;
 max-width: none;
@@ -1193,11 +1212,11 @@ margin-left:-393px;
 }
 	
 .box-container .row-fluid .span4{
-	width:55%;
+	width:48%;
 	
 }
 .box-container .row-fluid .span5{
-	width:30%;
+	width:27%;
 	
 }	
 .logo .thumbnails .span3 {
@@ -1274,6 +1293,9 @@ padding: 0px 15px;
   
 }
 @media (max-width: 979px) and (min-width: 768px){
+
+	
+	
 img {img-width : none;} 
 .box-container{
 
@@ -1284,11 +1306,11 @@ margin-left:-370px;
 }
 		
 .box-container .row-fluid .span4{
-	width:55%;
+	width:42%;
 	
 }
 .box-container .row-fluid .span5{
-	width:30%;
+	width:25%;
 	
 }		
 	.home h1 {
@@ -1454,6 +1476,15 @@ padding: 0px 12px;
 
 }
 @media (max-width: 767px){
+.closeButton {
+top: 11%;
+left: 79%;
+display: block;
+position: absolute;
+margin: 50px;
+width: 30px;
+height: 29px;
+}			
 .box-container{
 
 width: 412px;
@@ -1639,14 +1670,14 @@ max-width: 70%;
 	
 	
 .row-fluid .thumbnails {
-	width:440px;
+	width:400px;
 margin-left: auto;
 margin-right: auto;
 }		
 	
 	
 .thumbnails .span3 {
-width: 450px;
+width: 400px;
 margin-left:0;
 padding:10px;
 }	
@@ -1858,16 +1889,7 @@ background: url(../img/overlay.png) repeat;
 
    
 }
-.closeButton
-{
-top: 16%;
-left: 80%;
-display: block;
-position: absolute;
-margin: 50px;
-width: 30px;
-height: 29px;
-}
+
 
 
 
