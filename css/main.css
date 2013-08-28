@@ -1639,14 +1639,14 @@ max-width: 70%;
 	
 	
 .row-fluid .thumbnails {
-	width:280px;
+	width:440px;
 margin-left: auto;
 margin-right: auto;
 }		
 	
 	
 .thumbnails .span3 {
-width: 300px;
+width: 450px;
 margin-left:0;
 padding:10px;
 }	
