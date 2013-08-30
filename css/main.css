@@ -1,3 +1,45 @@
+.social .span3{
+	width:12%;
+	
+}
+.fetwidth{
+
+color: #fff;
+padding: 20px;
+background-color: #4DC5D9;	
+}
+a{
+-webkit-transition: all 0.2s linear;
+-moz-transition: all 0.2s linear;
+-o-transition: all 0.2s linear;
+transition: all 0.2s linear;
+
+
+}
+
+.nav-tabs > li > a {
+padding-top: 8px;
+padding-bottom: 8px;
+line-height: 20px;
+border: 1px solid transparent;
+-webkit-border-radius: 4px 4px 4px 4px;
+-moz-border-radius: 4px 4px 4px 4px;
+border-radius: 4px 4px 4px 4px;
+}
+.nav-tabs {
+border-bottom: 0px solid #ddd;
+}
+.tab-pane .row-fluid{
+background-color: #575757;
+color:#fff;	
+	
+}
+
+label, input, button, select, textarea {
+font-size: 22px;
+padding-bottom: 10px;
+
+}
 .navbar-fixed-top, .navbar-fixed-bottom {
 position: fixed;
 right: 0;
@@ -17,10 +59,20 @@ margin-left: 0px;
 .padding {
 padding-top: 80px;
 padding-bottom: 80px;
-}		
-.titlebg {
-padding: 35px 0;
-color: #ccc;
+}
+.titlebg{
+	font-size:25px;
+	font-weight:bold;
+
+
+text-align: center;
+}				
+.titlebg h2 {
+	margin-bottom:35px;
+	font-size:70px;
+	font-weight:bold;
+
+
 text-align: center;
 }		
 .test{height:700px;}		
@@ -235,14 +287,15 @@ transition: height 0.35s ease;
 
 
 .icons {
- font-size: 60px;
+font-size: 90px;
 margin-bottom: 10px;
 line-height: 24px;
-margin-left: 0em;
-color: #4DC5D9;
+margin-right: 35px;
+color: #fff;
 }
 .media-body h4{
-	 color:#575757;
+	font-size:20px;
+	 color:#1C93AA;
 }
 
 [class^="icon-"], [class*=" icon-"] {
@@ -495,18 +548,14 @@ transition: left 0.5s ease-in-out;
 /* ==========================================================================
    Positions
    ========================================================================== */
- 
-.media:first-child {
-margin-top: 20px;
-}	   
+  
 .left-text{
 	text-align:center;
  float: left;
 display: inline;
 
-margin-right: 10px;
-	margin-bottom: 20px;
-	margin-top: 20px;
+	
+
 	
 	}
 
@@ -862,25 +911,21 @@ padding-bottom:20px;
 }	
 	
 .pricemain .title {
-	position:relative;
+position:relative;
 font-size: 20px;
-font-weight: normal;
+font-weight: bold;
 padding: 20px;
+color:#FFF;
 margin: -20px -20px 20px -20px;
-background-color: #eee;
-background-image: -moz-linear-gradient(#fff,#eee);
-background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#eee));
-background-image: -webkit-linear-gradient(#fff, #eee);
-background-image: -o-linear-gradient(#fff, #eee);
-background-image: -ms-linear-gradient(#fff, #eee);
-background-image: linear-gradient(#fff, #eee);
+background-color: #00A1C0;
+
 }
 .pricemain .pricetitle {
 font-size: 20px;
 font-weight: normal;
 padding: 40px;
 margin: -20px -20px 0px -20px;
-background-color:#00A1C0;
+background-color:#575757;
 color:#FFF;
 
 border-top: 1px solid rgba(255, 255, 255, 0.4);
@@ -988,6 +1033,34 @@ height: 29px;
 }	
 
 @media (min-width: 1200px) {
+.fetwidth {
+	width: 342px;
+color: #fff;
+padding: 20px;
+background-color: #4DC5D9;
+
+
+}		
+.media, .media .media {
+margin-top: 8px;
+margin-right: 8px;
+} 
+.media:first-child {
+margin-top: 8px;
+}	 	
+.tab-pane .span5{
+width:40%;
+	
+}
+.tab-pane .span4{
+width:40%;
+	
+}		
+.circle img {
+    max-width: none;
+    width: 61%;
+}	
+	
 .closeButton {
 margin-left: -450px;
 left: 50%;
@@ -1047,11 +1120,7 @@ width: 65.358974%
 	width: 330px;
 	
 }	
-.fetwidth {
-
-width: 380px;
-
-}		
+	
 	
 .features .span4{
 line-height: 30px;	
@@ -1131,10 +1200,10 @@ margin-left: 1px;
 	
 }	
 .thumbnails .span3 {
-	width:23%;
-	padding:2px;
-	
-
+	width:25%;
+	padding:0px;
+	margin-left: 0%;
+margin-bottom: -9px;
 	
 	
 	}
@@ -1163,6 +1232,32 @@ padding: 0px 15px;
 }				
 }
 @media (min-width: 980px) and (max-width: 1200px) {
+	.media, .media .media {
+margin-top: 6px;
+margin-right: 6px;
+} 
+.media:first-child {
+margin-top: 6px;
+}	 	
+.tab-pane .span5{
+width:40%;
+	
+}
+.tab-pane .span4{
+width:40%;
+	
+}		
+	
+.thumbnails .span3 {
+	width:25%;
+	padding:0px;
+	margin-left: 0%;
+margin-bottom: -9px;
+	
+	
+	}	
+	
+	
 .closeButton {
 margin-left: -450px;
 left: 50%;
@@ -1260,6 +1355,7 @@ width: 65.358974%
 	
 }	
 .features .span4{
+	width:100%;
 	
 padding: 18px;
 font-size: 12px;
@@ -1273,7 +1369,7 @@ font-size:25px;
 }		
 .features .span8 {
 	
-	width:68%;
+	width:100%;
 	text-align:center;
 	margin-left:0px;
 }		
@@ -1282,7 +1378,7 @@ font-size:25px;
 
 .fetwidth {
 
-width: 48%;
+width: 424px;
 
 }	
 nav a {
@@ -1295,8 +1391,21 @@ padding: 0px 15px;
   
 }
 @media (max-width: 979px) and (min-width: 768px){
-
+.media, .media .media {
+margin-top: 6px;
+margin-right: 6px;
+} 
+.media:first-child {
+margin-top: 6px;
+}	 	
+.tab-pane .span5{
+width:40%;
 	
+}
+.tab-pane .span4{
+width:57%;
+	
+}		
 	
 img {img-width : none;} 
 .box-container{
@@ -1346,7 +1455,7 @@ margin-right: auto;
 	
 .fetwidth {
 
-width: 352px;
+width: 316px;
 
 }	
 .contact .span5 {
@@ -1478,7 +1587,23 @@ padding: 0px 12px;
 
 }
 @media (max-width: 767px){
-
+.media, .media .media {
+margin-top: 3px;
+margin-right: 3px;
+} 
+.media:first-child {
+margin-top: 3px;
+}	 		
+.tab-pane .span5{
+	padding:10px;
+width:40%;
+	
+}
+.tab-pane .span4{
+	margin-bottom:0px;
+width:40%;
+	
+}	
 .closeButton {
 margin-left: -290px;
 left: 50%;
@@ -1529,7 +1654,7 @@ float: left;
 	
 .fetwidth {
 
-width: 48%;
+width: 43.3%;
 
 }
 .seven {
@@ -1576,17 +1701,14 @@ width: 98%;
 	
 	}		
 	
-	
-.work .span4 img{
-	width:35%;
-	
-	
-	
-	
-}
+.circle img {
+    max-width: none;
+    width: 35%;
+}	
+
 .work .span4{
 	width:100%;
-	margin-bottom:30px;
+
 	
 	
 	
@@ -1644,7 +1766,11 @@ width: 100%;
 
 }
 @media (max-width: 670px){
+.fetwidth {
 
+width: auto;
+
+}
 .work .title h1 {
     font-size: 30px;
     padding-bottom: 20px;
@@ -1839,7 +1965,7 @@ max-width: 60%;
 .cap-overlay {
 width: 100%;height:100%;
 color: #fff;
-background: rgba(0, 0, 0, 0.43);
+background: rgba(0, 0, 0, 0.63);
 left: 0;
 padding: 12px;
 line-height: 1.4em;
@@ -2039,3 +2165,33 @@ position: relative;
 	}
 }
 
+.nav-tabs li.active a {
+background-color: #575757;
+color: #FFFFFF !important;
+}
+.nav-tabs li a {
+
+color #666 !important;
+}
+.nav-tabs .nav-tabs > .active > a, .nav-tabs > .active > a:hover, .nav-tabs > .active > a:focus {
+color: #555555;
+cursor: default;
+background-color: #575757;
+border: 1px solid #ddd;
+border-bottom-color: 1px solid #ddd;
+}
+.contact .span5 {
+	font-size:17px;
+	
+}
+.nav-tabs .nav li a:hover{
+   background-color: #999;
+   color: #4CC4D8;
+}	
+strong{
+	font-size:20px;
+}
+a {
+color: #666;
+text-decoration: none;
+}

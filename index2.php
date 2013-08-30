@@ -106,10 +106,10 @@
 </section>
 
 
-<section class="anchor">
+<section id="features"  class="anchor">
 
 
-<div id="features" class="titlebg"><h2>Features</h2>
+<div class="titlebg"><h2>Features</h2>
       HTML5, built on Bootstrap, very fast.
        </div> 
        
@@ -260,11 +260,11 @@
   <div class="drop-panel" style="position: relative; overflow: hidden; display: block; padding: 2px;"><a href="#" data-target="#myToggle2" class="thumbnail-cap">
                   <img data-src="img/star-med.jpg" data-width="280" data-height="160" class="thumb1 fs-img2 loader fs-standard-resolution fs-src-default" style="display: inline;" src="img/star-low.jpg" alt="project2">
                </a><div id="myToggle2" class="cap-overlay hide" style="width: 263px; position: absolute; z-index: 3; overflow: hidden; left: 0px; top: 0px; display: none;">
-  <h5>Title</h5>
+  <h2>Title</h2>
   <div class="content">
     Project name<br>
     Sydney<br>
-</div><a href="" data-info="#project2" class="btn btn-info pro"><i class="icon-eye"></i> More</a>
+</div><a href="" data-info="#project2" class="btn btn-info pro"> More</a>
  </div></div>
   
              
@@ -276,11 +276,11 @@
                 
                   <img data-src="img/door-med.jpg" data-width="280" data-height="160" class="thumb1 fs-img2 loader fs-standard-resolution fs-src-default" style="display: inline;" src="img/door-med.jpg" alt="project3">
                 </a><div id="myToggle3" class="cap-overlay hide" style="display: none; width: 263px; position: absolute; z-index: 3; overflow: hidden; left: 0px; top: 0px;">
-  <h5>Title</h5>
+  <h2>Title</h2>
   <div class="content">
     Project name<br>
     Sydney<br>
-</div> <a href="" data-info="#project3" class="btn btn-info pro"><i class="icon-eye"></i> More</a>
+</div> <a href="" data-info="#project3" class="btn btn-info pro">More</a>
  </div></div>
                   
               </li>
@@ -290,11 +290,11 @@
                 <div class="drop-panel" style="position: relative; overflow: hidden; display: block; padding: 2px;"><a href="#" data-target="#myToggle4" class="thumbnail-cap">
                   <img data-src="img/house-med.jpg" data-width="280" data-height="160" class="thumb1 fs-img2 loader fs-standard-resolution fs-src-default" style="display: inline;" src="img/house-med.jpg">
                 </a><div id="myToggle4" class="cap-overlay hide" style="width: 263px; position: absolute; z-index: 3; overflow: hidden; left: 0px; top: 0px; display: none;">
-  <h5>Title</h5>
+  <h2>Title</h2>
   <div class="content">
     Project name<br>
     Sydney<br>
-</div> <a href="" data-info="#project4" class="btn btn-info pro"><i class="icon-eye"></i> More</a>
+</div> <a href="" data-info="#project4" class="btn btn-info pro">More</a>
  </div></div>
                      
               </li>
@@ -305,11 +305,11 @@
                 <div class="drop-panel" style="position: relative; overflow: hidden; display: block; padding: 2px;"><a href="#" data-target="#myToggle5" class="thumbnail-cap">
                   <img data-src="img/notesmed.jpg" data-width="280" data-height="160" class="thumb1 fs-img2 loader fs-standard-resolution fs-src-default" style="display: inline;" src="img/notesmed.jpg">
                 </a><div id="myToggle5" class="cap-overlay hide" style="display: none; width: 263px; position: absolute; z-index: 3; overflow: hidden; left: 0px; top: 0px;">
-  <h5>Title</h5>
+  <h2>Title</h2>
   <div class="content">
     Project name<br>
     Sydney<br>
-</div> <a href="" data-info="#project5" class="btn btn-info pro"><i class="icon-eye"></i> More</a>
+</div> <a href="" data-info="#project5" class="btn btn-info pro">More</a>
  </div></div>
                 
                    
@@ -325,11 +325,11 @@
               <div class="drop-panel" style="position: relative; overflow: hidden; display: block; padding: 2px;"><a href="#" data-target="#myToggle6" class="thumbnail-cap">
                   <img data-src="img/pumkinmed.jpg" data-width="280" data-height="160" class="thumb1 fs-img2 fs-standard-resolution fs-src-default" style="display: inline;" src="img/pumkinmed.jpg">
                 </a><div id="myToggle6" class="cap-overlay hide" style="width: 263px; position: absolute; z-index: 3; overflow: hidden; left: 0px; top: 0px; display: none;">
-  <h5>Title</h5>
+  <h2>Title</h2>
   <div class="content">
     Project name<br>
     Sydney<br>
-</div> <a href="" data-info="#project6" class="btn btn-info pro"><i class="icon-eye"></i> More</a>
+</div> <a href="" data-info="#project6" class="btn btn-info pro">More</a>
  </div></div>
                    
                 
@@ -341,11 +341,11 @@
                 
                   <img data-src="img/rowmed.jpg" data-width="280" data-height="160" class="thumb1 fs-img2 fs-standard-resolution fs-src-default" style="display: inline;" src="img/rowmed.jpg">
                 </a><div id="myToggle7" class="cap-overlay hide" style="width: 263px; position: absolute; z-index: 3; overflow: hidden; left: 0px; top: 0px; display: none;">
-  <h5>Title</h5>
+  <h2>Title</h2>
   <div class="content">
     Project name<br>
     Sydney<br>
-</div> <a href="" data-info="#project7" class="btn btn-info pro"><i class="icon-eye"></i> More</a>
+</div> <a href="" data-info="#project7" class="btn btn-info pro">More</a>
  </div></div>
                     
               </li>
@@ -355,11 +355,11 @@
                <div class="drop-panel" style="position: relative; overflow: hidden; display: block; padding: 2px;"><a href="#" data-target="#myToggle8" class="thumbnail-cap">
                   <img data-src="img/skull-med.jpg" data-width="280" data-height="160" class="thumb1 fs-img2 fs-standard-resolution fs-src-default" style="display: inline;" src="img/skull-med.jpg">
                 </a><div id="myToggle8" class="cap-overlay hide" style="width: 263px; position: absolute; z-index: 3; overflow: hidden; left: 0px; top: 0px; display: none;">
-  <h5>Title</h5>
+  <h2>Title</h2>
   <div class="content">
     Project name<br>
     Sydney<br>
-</div> <a href="" data-info="#project8" class="btn btn-info pro"><i class="icon-eye"></i> More</a>
+</div> <a href="" data-info="#project8" class="btn btn-info pro">More</a>
  </div></div>
                     
               </li>
@@ -371,12 +371,12 @@
   <div class="drop-panel" style="position: relative; overflow: hidden; display: block; padding: 2px;"><a href="#" data-target="#myToggle" class="thumbnail-cap">
                   <img data-src="img/fire-med.jpg" data-width="280" data-height="160" class="thumb1 fs-img2 loader fs-standard-resolution fs-src-default" style="display: inline;" src="img/fire-med.jpg">
                </a><div id="myToggle" class="cap-overlay hide" style="display: none; width: 263px; position: absolute; z-index: 3; overflow: hidden; left: 0px; top: 0px;">
-  <h5>Cupcakes</h5>
+  <h2>Cupcakes</h2>
   <div class="content">
     Name: cupcakes.png<br>
     Photography: Ryun Shofner<br>
-    <a href="" data-info="#project1" class="btn btn-info pro"><i class="icon-ok"></i> Sign-up</a>
-    <button class="demo btn btn-primary btn-large" data-toggle="modal" href="#responsive">View Demo</button>
+    <a href="" data-info="#project1" class="btn btn-info pro">More</a>
+   
   </div>
          
        </div></div>
@@ -423,13 +423,13 @@
               </div>
               
               <div class="span4 circle">
-  <img src="img/heart.png" class="pulse moveup">
+  <img src="img/idea.png" class="pulse moveup">
  <h3>We develop</h3>
                     <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
               </div>
               
                  <div class="span4 circle">
-  <img src="img/heart.png" class="pulse moveup">
+  <img src="img/music.png" class="pulse moveup">
  <h3>We develop</h3>
                     <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
               </div>
@@ -439,27 +439,29 @@
     <h2>Progress bars</h2>
       
      
-    <div class="progress">
-  <div class="bar bar-success" style="width: 35%;">Design 35%</div>
-  <div class="bar bar-warning" style="width: 30%;">PHP 30%</div>
-  <div class="bar bar-danger" style="width: 25%;">Javascript 20%</div>
-</div></div>
+ <div class="progress progress-info">
+  <div class="bar" style="width: 20%">20%</div>
+</div>
+<div class="progress progress-info">
+  <div class="bar" style="width: 40%">40%</div>
+</div>
+<div class="progress progress-info">
+  <div class="bar" style="width: 60%">60%</div>
+</div>
+<div class="progress progress-info">
+  <div class="bar" style="width: 80%">80%</div>
+</div>
+</div>
 
 <div class="paddingbot"> 
 <div class="bs-docs-example">
             <ul id="myTab" class="nav nav-tabs">
-              <li class="active"><a href="#home" data-toggle="tab">Home</a></li>
-              <li class=""><a href="#profile" data-toggle="tab">Profile</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#dropdown1" data-toggle="tab">@fat</a></li>
-                  <li><a href="#dropdown2" data-toggle="tab">@mdo</a></li>
-                </ul>
-              </li>
+              <li class=""><a href="#home" data-toggle="tab">Home</a></li>
+              <li class="active"><a href="#profile" data-toggle="tab">Profile</a></li>
+             
             </ul>
             <div id="myTabContent" class="tab-content">
-              <div class="tab-pane fade active in" id="home">
+              <div class="tab-pane fade" id="home">
               <div class="row-fluid">
                <div class="span4">
               <img src="img/815px-boot3.jpg">
@@ -470,19 +472,26 @@
 
              <h3>Thumbnail label</h3>
                     <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
- <a href="" class="btn btn-info">Get Started</a>
+ 
  </div>
  </div>
               </div>
-              <div class="tab-pane fade" id="profile">
-                <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</p>
+              <div class="tab-pane fade active in" id="profile">
+               <div class="row-fluid">
+               <div class="span4">
+              <img src="img/815px-boot2.jpg">
+
               </div>
-              <div class="tab-pane fade" id="dropdown1">
-                <p>Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel fixie etsy retro mlkshk vice blog. Scenester cred you probably haven't heard of them, vinyl craft beer blog stumptown. Pitchfork sustainable tofu synth chambray yr.</p>
+              
+              <div class="span5">
+
+             <h3>Thumbnail label</h3>
+                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                     
+ </div>
+ </div>
               </div>
-              <div class="tab-pane fade" id="dropdown2">
-                <p>Trust fund seitan letterpress, keytar raw denim keffiyeh etsy art party before they sold out master cleanse gluten-free squid scenester freegan cosby sweater. Fanny pack portland seitan DIY, art party locavore wolf cliche high life echo park Austin. Cred vinyl keffiyeh DIY salvia PBR, banh mi before they sold out farm-to-table VHS viral locavore cosby sweater. Lomo wolf viral, mustache readymade thundercats keffiyeh craft beer marfa ethical. Wolf salvia freegan, sartorial keffiyeh echo park vegan.</p>
-              </div>
+             
             </div>
           </div>
    
@@ -541,7 +550,7 @@
                     <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
             
             
-            <a href="" class="btn btn-info">Get Started</a>
+           
 
               </div>
               
@@ -565,7 +574,7 @@
                     <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
             
             
-            <a href="" class="btn btn-info">Get Started</a>
+          
 
               </div>
               <div class="span4">
@@ -595,8 +604,7 @@
              <h3>We develop</h3>
                     <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
             
-            
-            <a href="" class="btn btn-info">Get Started</a>
+         
 
               </div>
       </div>     
@@ -668,7 +676,7 @@
               <div class="span3">
   
            <ul class="pricemain">
-                        <li class="title">Plan A</li>
+                        <li class="title">Simple 1</li>
                         <li class="pricetitle">$25<span> /mo</span></li>
                         <li class="description">Checkout what you get below</li>
                         
@@ -875,7 +883,11 @@ $jquery = $jquery_validator->generate();
   <strong>Full Name</strong><br>
   <a href="mailto:#">first.last@example.com</a>
 </address>
-
+<ul class="social">
+ <li class="span3"><a href="#"><img class="pulse moveup" src="img/facebook.png"></a></li>
+  <li class="span3"><a href="#"><img class="pulse moveup" src="img/twit.png"></a></li>
+   <li class="span3"><a href="#"><img class="pulse moveup" src="img/google.png"></a></li>
+ </ul>
 
 
 </div>
