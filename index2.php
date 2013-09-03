@@ -71,6 +71,7 @@
 		</ul>
 		
 		<a href="#" id="pull"><img src="img/nav-icon@2x.png" width="32" height="32" ></a>
+        <div class="bar"></div>
 	</nav>              
                   
                   
@@ -96,9 +97,10 @@
   
   <div class="container register">
  <h1><i class="icon-ok iconshead"></i>Simple and Modern</h1>
-<h2>Fix your workflow. Learn from others. Start your library today.</h2>
-  
-   <a href="" class="btn btn-info ajax" data-toggle="modal" data-info="ajax.html">Video</a>
+<h2>Fix your workflow. Learn from others. Start your library today.</h2><br>
+
+
+   <a href="" class="btn btn-info ajax" data-toggle="modal" data-info="ajax.html">Ajax Video</a>
    
    </div>
  </div>
@@ -128,7 +130,7 @@
 		                <h2 class="titleone">EVERYTHING IS DESIGNED.
 		                <br>FEW THINGS ARE DESIGNED well</h2>
 		                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras faucibus bibendum mauvel tempor metus tempor quis. Vivamus ullamcorper, dolor nec rhoncus bibendu.</p>
-		                <a href="#myModal" data-toggle="modal" class="btn btn-info ajax" data-info="ajax2.html">Get Started</a>
+		                <a href="#myModal" data-toggle="modal" class="btn btn-info ajax" data-info="ajax2.html">Ajax modal</a>
 	                </div>
 	                <div class="span8"> 
                 
@@ -152,11 +154,11 @@
   
         
       
-        
+       
    <!-- End container .. container for carosel --> 
-   <div class="postimgright"> 
+   <div class="postimgright"> <h3>Some great features</h3> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras faucibus bibendum mauvel tempor metus tempor quis. Vivamus ullamcorper, dolor nec rhoncus bibendu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras faucibus bibendum mauvel tempor metus tempor quis. Vivamus ullamcorper, dolor nec rhoncus bibendu.</p>
  <div class="media left-text fetwidth">
-              <a href="#" class="coloranim">
+              <a href="#">
                <i class="icon-cog icons"></i>
               </a>
              
@@ -257,62 +259,62 @@
              
                  <li class="span3">
             
-  <div class="drop-panel" style="position: relative; overflow: hidden; display: block; padding: 2px;"><a href="#" data-target="#myToggle2" class="thumbnail-cap">
-                  <img data-src="img/star-med.jpg" data-width="280" data-height="160" class="thumb1 fs-img2 loader fs-standard-resolution fs-src-default" style="display: inline;" src="img/star-low.jpg" alt="project2">
-               </a><div id="myToggle2" class="cap-overlay hide" style="width: 263px; position: absolute; z-index: 3; overflow: hidden; left: 0px; top: 0px; display: none;">
-  <h2>Title</h2>
+  <a href="#" data-target="#myToggle2" class="thumbnail-cap">
+                  <img data-src="img/star-med.jpg"  data-width="280" data-height="160" class="thumb1 fs-img2 loader">
+               </a>
+<div id="myToggle2" class="cap-overlay hide">
+  <h5>Title</h5>
   <div class="content">
-    Project name<br>
-    Sydney<br>
-</div><a href="" data-info="#project2" class="btn btn-info pro"> More</a>
- </div></div>
-  
+    Project name<br />
+    Sydney<br />
+</div><a href="" data-info="#project2" class="btn btn-info pro"><i class="icon-eye"></i> More</a>
+ </div>  
              
               </li>
               
               
                <li class="span3">
-                <div class="drop-panel" style="position: relative; overflow: hidden; display: block; padding: 2px;"><a href="#" data-target="#myToggle3" class="thumbnail-cap">
+                <a href="#" data-target="#myToggle3" class="thumbnail-cap">
                 
-                  <img data-src="img/door-med.jpg" data-width="280" data-height="160" class="thumb1 fs-img2 loader fs-standard-resolution fs-src-default" style="display: inline;" src="img/door-med.jpg" alt="project3">
-                </a><div id="myToggle3" class="cap-overlay hide" style="display: none; width: 263px; position: absolute; z-index: 3; overflow: hidden; left: 0px; top: 0px;">
-  <h2>Title</h2>
+                  <img data-src="img/door-med.jpg" data-width="280" data-height="160" class="thumb1 fs-img2 loader">
+                </a>
+                <div id="myToggle3" class="cap-overlay hide">
+  <h5>Title</h5>
   <div class="content">
-    Project name<br>
-    Sydney<br>
-</div> <a href="" data-info="#project3" class="btn btn-info pro">More</a>
- </div></div>
-                  
+    Project name<br />
+    Sydney<br />
+</div> <a href="" data-info="#project3" class="btn btn-info pro"><i class="icon-eye"></i> More</a>
+ </div>  
               </li>
               
               
               <li class="span3">
-                <div class="drop-panel" style="position: relative; overflow: hidden; display: block; padding: 2px;"><a href="#" data-target="#myToggle4" class="thumbnail-cap">
-                  <img data-src="img/house-med.jpg" data-width="280" data-height="160" class="thumb1 fs-img2 loader fs-standard-resolution fs-src-default" style="display: inline;" src="img/house-med.jpg">
-                </a><div id="myToggle4" class="cap-overlay hide" style="width: 263px; position: absolute; z-index: 3; overflow: hidden; left: 0px; top: 0px; display: none;">
-  <h2>Title</h2>
+                <a href="#" data-target="#myToggle4" class="thumbnail-cap">
+                  <img data-src="img/house-med.jpg" data-width="280" data-height="160" class="thumb1 fs-img2 loader">
+                </a>
+                   <div id="myToggle4" class="cap-overlay hide">
+  <h5>Title</h5>
   <div class="content">
-    Project name<br>
-    Sydney<br>
-</div> <a href="" data-info="#project4" class="btn btn-info pro">More</a>
- </div></div>
-                     
+    Project name<br />
+    Sydney<br />
+</div> <a href="" data-info="#project4" class="btn btn-info pro"><i class="icon-eye"></i> More</a>
+ </div>  
               </li>
              
           
                   
               <li class="span3">
-                <div class="drop-panel" style="position: relative; overflow: hidden; display: block; padding: 2px;"><a href="#" data-target="#myToggle5" class="thumbnail-cap">
-                  <img data-src="img/notesmed.jpg" data-width="280" data-height="160" class="thumb1 fs-img2 loader fs-standard-resolution fs-src-default" style="display: inline;" src="img/notesmed.jpg">
-                </a><div id="myToggle5" class="cap-overlay hide" style="display: none; width: 263px; position: absolute; z-index: 3; overflow: hidden; left: 0px; top: 0px;">
-  <h2>Title</h2>
-  <div class="content">
-    Project name<br>
-    Sydney<br>
-</div> <a href="" data-info="#project5" class="btn btn-info pro">More</a>
- </div></div>
+                <a href="#" data-target="#myToggle5" class="thumbnail-cap">
+                  <img data-src="img/notesmed.jpg" data-width="280" data-height="160" class="thumb1 fs-img2 loader">
+                </a>
                 
-                   
+                 <div id="myToggle5" class="cap-overlay hide">
+  <h5>Title</h5>
+  <div class="content">
+    Project name<br />
+    Sydney<br />
+</div> <a href="" data-info="#project5" class="btn btn-info pro"><i class="icon-eye"></i> More</a>
+ </div>  
                 
               </li>
              
@@ -322,65 +324,65 @@
             
              <ul class="thumbnails">
               <li class="span3">
-              <div class="drop-panel" style="position: relative; overflow: hidden; display: block; padding: 2px;"><a href="#" data-target="#myToggle6" class="thumbnail-cap">
-                  <img data-src="img/pumkinmed.jpg" data-width="280" data-height="160" class="thumb1 fs-img2 fs-standard-resolution fs-src-default" style="display: inline;" src="img/pumkinmed.jpg">
-                </a><div id="myToggle6" class="cap-overlay hide" style="width: 263px; position: absolute; z-index: 3; overflow: hidden; left: 0px; top: 0px; display: none;">
-  <h2>Title</h2>
+              <a href="#" data-target="#myToggle6" class="thumbnail-cap">
+                  <img data-src="img/pumkinmed.jpg" data-width="280" data-height="160" class="thumb1 fs-img2">
+                </a>
+                 <div id="myToggle6" class="cap-overlay hide">
+  <h5>Title</h5>
   <div class="content">
-    Project name<br>
-    Sydney<br>
-</div> <a href="" data-info="#project6" class="btn btn-info pro">More</a>
- </div></div>
-                   
+    Project name<br />
+    Sydney<br />
+</div> <a href="" data-info="#project6" class="btn btn-info pro"><i class="icon-eye"></i> More</a>
+ </div>  
                 
                 
               </li>
               
                <li class="span3">
-               <div class="drop-panel" style="position: relative; overflow: hidden; display: block; padding: 2px;"><a href="#" data-target="#myToggle7" class="thumbnail-cap">
+               <a href="#" data-target="#myToggle7" class="thumbnail-cap">
                 
-                  <img data-src="img/rowmed.jpg" data-width="280" data-height="160" class="thumb1 fs-img2 fs-standard-resolution fs-src-default" style="display: inline;" src="img/rowmed.jpg">
-                </a><div id="myToggle7" class="cap-overlay hide" style="width: 263px; position: absolute; z-index: 3; overflow: hidden; left: 0px; top: 0px; display: none;">
-  <h2>Title</h2>
+                  <img data-src="img/rowmed.jpg" data-width="280" data-height="160" class="thumb1 fs-img2">
+                </a>
+                  <div id="myToggle7" class="cap-overlay hide">
+  <h5>Title</h5>
   <div class="content">
-    Project name<br>
-    Sydney<br>
-</div> <a href="" data-info="#project7" class="btn btn-info pro">More</a>
- </div></div>
-                    
+    Project name<br />
+    Sydney<br />
+</div> <a href="" data-info="#project7" class="btn btn-info pro"><i class="icon-eye"></i> More</a>
+ </div>  
               </li>
               
               
               <li class="span3">
-               <div class="drop-panel" style="position: relative; overflow: hidden; display: block; padding: 2px;"><a href="#" data-target="#myToggle8" class="thumbnail-cap">
-                  <img data-src="img/skull-med.jpg" data-width="280" data-height="160" class="thumb1 fs-img2 fs-standard-resolution fs-src-default" style="display: inline;" src="img/skull-med.jpg">
-                </a><div id="myToggle8" class="cap-overlay hide" style="width: 263px; position: absolute; z-index: 3; overflow: hidden; left: 0px; top: 0px; display: none;">
-  <h2>Title</h2>
+               <a href="#" data-target="#myToggle8" class="thumbnail-cap">
+                  <img data-src="img/skull-med.jpg" data-width="280" data-height="160" class="thumb1 fs-img2">
+                </a>
+                  <div id="myToggle8" class="cap-overlay hide">
+  <h5>Title</h5>
   <div class="content">
-    Project name<br>
-    Sydney<br>
-</div> <a href="" data-info="#project8" class="btn btn-info pro">More</a>
- </div></div>
-                    
+    Project name<br />
+    Sydney<br />
+</div> <a href="" data-info="#project8" class="btn btn-info pro"><i class="icon-eye"></i> More</a>
+ </div>  
               </li>
              
           
                   
                  <li class="span3">
             
-  <div class="drop-panel" style="position: relative; overflow: hidden; display: block; padding: 2px;"><a href="#" data-target="#myToggle" class="thumbnail-cap">
-                  <img data-src="img/fire-med.jpg" data-width="280" data-height="160" class="thumb1 fs-img2 loader fs-standard-resolution fs-src-default" style="display: inline;" src="img/fire-med.jpg">
-               </a><div id="myToggle" class="cap-overlay hide" style="display: none; width: 263px; position: absolute; z-index: 3; overflow: hidden; left: 0px; top: 0px;">
-  <h2>Cupcakes</h2>
+  <a href="#" data-target="#myToggle" class="thumbnail-cap">
+                  <img data-src="img/fire-med.jpg"  data-width="280" data-height="160" class="thumb1 fs-img2 loader">
+               </a>
+               <div id="myToggle" class="cap-overlay hide">
+  <h5>Cupcakes</h5>
   <div class="content">
-    Name: cupcakes.png<br>
-    Photography: Ryun Shofner<br>
-    <a href="" data-info="#project1" class="btn btn-info pro">More</a>
-   
+    Name: cupcakes.png<br />
+    Photography: Ryun Shofner<br />
+    <a href="" data-info="#project1" class="btn btn-info pro"><i class="icon-ok"></i> Sign-up</a>
+    <button class="demo btn btn-primary btn-large" data-toggle="modal" href="#responsive">View Demo</button>
   </div>
          
-       </div></div>
-                 
+       </div>  
              
               </li>
               
@@ -435,9 +437,36 @@
               </div>
 
               </div>
+              
      <div class="paddingbot"> 
-    <h2>Progress bars</h2>
-      
+<div class="bs-docs-example">
+            <ul id="myTab" class="nav nav-tabs">
+              <li class="active"><a href="#home" data-toggle="tab">Features</a></li>
+              <li class=""><a href="#profile" data-toggle="tab">Skills</a></li>
+             <li class=""><a href="#cola" data-toggle="tab">Cool Tabs</a></li>
+            </ul>
+            <div id="myTabContent" class="tab-content">
+              <div class="tab-pane fade active in" id="home">
+              <div class="row-fluid">
+               <div class="span4">
+              <img src="img/815px-boot3.jpg">
+
+              </div>
+              
+              <div class="span5">
+
+             <h3>Modern design </h3>
+                    <p class="bold">A very easy to use template. </p><br>
+<br>
+<p>Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+ 
+ </div>
+ </div>
+              </div>
+              <div class="tab-pane fade" id="profile">
+               <div class="row-fluid">
+                
+        <div class="span4">
      
  <div class="progress progress-info">
   <div class="bar" style="width: 20%">20%</div>
@@ -453,51 +482,33 @@
 </div>
 </div>
 
-<div class="paddingbot"> 
-<div class="bs-docs-example">
-            <ul id="myTab" class="nav nav-tabs">
-              <li class=""><a href="#home" data-toggle="tab">Home</a></li>
-              <li class="active"><a href="#profile" data-toggle="tab">Profile</a></li>
-             
-            </ul>
-            <div id="myTabContent" class="tab-content">
-              <div class="tab-pane fade" id="home">
-              <div class="row-fluid">
-               <div class="span4">
-              <img src="img/815px-boot3.jpg">
+<div class="span5">
+ <h3>Skills</h3>
+                    <p class="bold">We are good at</p><br>
+<br>
+<p>Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
 
-              </div>
-              
-              <div class="span5">
+</div>
 
-             <h3>Thumbnail label</h3>
-                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
- 
- </div>
  </div>
               </div>
-              <div class="tab-pane fade active in" id="profile">
+<div class="tab-pane fade" id="cola">
                <div class="row-fluid">
-               <div class="span4">
-              <img src="img/815px-boot2.jpg">
-
-              </div>
-              
-              <div class="span5">
-
-             <h3>Thumbnail label</h3>
-                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                     
+              <div class="accordion-heading">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+                      Collapsible Group Item #1
+                    </a>
+                  </div>
  </div>
- </div>
-              </div>
-             
+              </div>             
             </div>
           </div>
    
          
   </div>
            
+    
+
            
         
              
@@ -547,7 +558,9 @@
               <div class="span5">
 
              <h3>We design</h3>
-                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                   <p>yao avenger cereal bearfgfg fggfizzard charlie sheen in tooghh ellphone one does not simply wodka gag on that like a boss luke. Friendzoned yao avenger cereal bear all the things face megusta ba dumm tss. Le me fun you dohg charlie sheen in too </p><br>
+
+                    <a href="" data-info="" class="btn btn-info pro">Check it out</a>
             
             
            
@@ -571,7 +584,9 @@
   <div class="span5">
 
              <h3>We develop</h3>
-                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    <p>yao avenger cereal bearfgfg fggfizzard charlie sheen in tooghh ellphone one does not simply wodka gag on that like a boss luke. Friendzoned yao avenger cereal bear all the things face megusta ba dumm tss. Le me fun you dohg charlie sheen in too </p><br>
+
+                    <a href="" data-info="" class="btn btn-info pro">Check it out</a>
             
             
           
@@ -602,7 +617,9 @@
               <div class="span5">
 
              <h3>We develop</h3>
-                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                     <p>yao avenger cereal bearfgfg fggfizzard charlie sheen in tooghh ellphone one does not simply wodka gag on that like a boss luke. Friendzoned yao avenger cereal bear all the things face megusta ba dumm tss. Le me fun you dohg charlie sheen in too </p><br>
+
+                    <a href="" data-info="" class="btn btn-info pro">Check it out</a>
             
          
 

@@ -36,11 +36,28 @@ $('.seven a:link').smoothScroll();
         width: 960,
         height: 500,
         play: {
-          active: true,
+          active: false,
           auto: true,
           interval: 4000,
           swap: true
-        }
+        },
+		pagination: {
+      active: false,
+        // [boolean] Create pagination items.
+        // You cannot use your own pagination. Sorry.
+      effect: "slide"
+        // [string] Can be either "slide" or "fade".
+    },
+		 navigation: {
+      active: false,
+        // [boolean] Generates next and previous buttons.
+        // You can set to false and use your own buttons.
+        // User defined buttons must have the following:
+        // previous button: class="slidesjs-previous slidesjs-navigation"
+        // next button: class="slidesjs-next slidesjs-navigation"
+      effect: "slide"
+        // [string] Can be either "slide" or "fade".
+    }
       });
     });
 

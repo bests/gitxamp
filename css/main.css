@@ -1,3 +1,37 @@
+.features .span4 h2 {
+	color:#FFF;
+}
+.aboutus h3 {
+	color:#FFF;
+	font-size: 36px;
+}
+.gallery h2 {
+	color:#FFF;
+	font-size:20px;
+}
+body {
+	background-color: #575757;
+	color:#A8A8B1;
+	   font-family: 'open_sansregular', sans-serif;					
+            }
+h1, h2, h3, h4, h5, h6 {
+	color: #666;
+
+
+
+  font-family: 'open_sansbold';
+
+}
+.bold{
+	font-size: 18px;
+
+}
+.bar{
+display: block;
+width: 100%;
+height: 7px;
+background: url(../img/bar.png) top repeat-x;	
+	}
 .social .span3{
 	width:12%;
 	
@@ -16,10 +50,22 @@ transition: all 0.2s linear;
 
 
 }
-
+.nav-tabs li a:hover{
+   background-color: #999;
+   color: #fff;
+}	
 .nav-tabs > li > a {
-padding-top: 8px;
-padding-bottom: 8px;
+	padding: 1em 2.0em 1em;
+box-shadow: none;
+
+
+text-transform: uppercase;
+margin-right: 10px;
+text-shadow: none;
+font-size: 13px;
+	
+	font-weight: bold;
+
 line-height: 20px;
 border: 1px solid transparent;
 -webkit-border-radius: 4px 4px 4px 4px;
@@ -29,9 +75,13 @@ border-radius: 4px 4px 4px 4px;
 .nav-tabs {
 border-bottom: 0px solid #ddd;
 }
+.tab-pane h3{
+	font-size:45px;
+margin-bottom: 16px;
+}
 .tab-pane .row-fluid{
-background-color: #575757;
-color:#fff;	
+background-color: #FFFFFF;
+color: #181818;
 	
 }
 
@@ -68,6 +118,7 @@ padding-bottom: 80px;
 text-align: center;
 }				
 .titlebg h2 {
+	color:#fff;
 	margin-bottom:35px;
 	font-size:70px;
 	font-weight:bold;
@@ -83,7 +134,6 @@ border-color: #252525;
 
 width: 100%;
 
-border-bottom: 4px solid #CFCFCF;
 }
 .seven {
 margin-bottom: 0px;
@@ -287,6 +337,7 @@ transition: height 0.35s ease;
 
 
 .icons {
+	
 font-size: 90px;
 margin-bottom: 10px;
 line-height: 24px;
@@ -294,8 +345,10 @@ margin-right: 35px;
 color: #fff;
 }
 .media-body h4{
-	font-size:20px;
-	 color:#1C93AA;
+	margin-top: 8px;
+margin-bottom: 8px;
+	font-size:25px;
+	 color:#377C8A;
 }
 
 [class^="icon-"], [class*=" icon-"] {
@@ -332,7 +385,7 @@ transition: all 0.2s ease-in-out;
 .btn {text-transform: uppercase;
 border: 0;
 border-radius: 3px;
-padding: .9em 1.8em .8em;
+padding: 1em 2.0em 1em;
 box-shadow: none;
 background:rgb(73, 73, 73);
 color: #fff;
@@ -352,6 +405,7 @@ transition: all 0.3s ease-in-out;
 .register h2 {
 text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
 font-size: 1.5rem;
+color:#fff;
 display: inline-block;
 }
 /* ==========================================================================
@@ -680,6 +734,7 @@ text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
 font-weight: bold;
 letter-spacing: -1px;
 line-height: 1;
+color:#fff;
 }
 
 /* ==========================================================================
@@ -742,20 +797,13 @@ color: #FFF;
 	
 	}
 
-h1, h2, h3, h4, h5, h6 {
 
-  font-family: 'open_sansbold';
-
-}
 .anchor{
 padding-top: 40px;
 margin-top: -40px;
 	
 	}	
-body {
-	background-color: #575757;
-	   font-family: 'open_sansregular', sans-serif;					
-            }
+
 @font-face {
     font-family: 'open_sansbold';
     src: url('font/opensans-bold-webfont.eot');
@@ -992,8 +1040,8 @@ border-bottom: 0;
 border: 1px solid #E6E6E6;
 }	
 .paddingbot{
-	padding-bottom:40px;
-	padding-top:40px;
+	
+	padding-top:70px;
 
 	
 }
@@ -1065,10 +1113,7 @@ width:40%;
 margin-left: -450px;
 left: 50%;
 }	
-.nav li a:hover{
-   background-color: #FFF;
-   color: #4CC4D8;
-}	
+
 .box-container{
 
 
@@ -1095,7 +1140,7 @@ margin-left:-393px;
 	
 }
 .aboutus .span5 {
-width: 65.17094%;
+width: 58.17094%;
 }	
 .aboutus .span4 {
 	
@@ -1123,7 +1168,7 @@ width: 65.358974%
 	
 	
 .features .span4{
-line-height: 30px;	
+line-height: 29px;	
 padding: 35px;
 	
 }	
@@ -2189,7 +2234,7 @@ border-bottom-color: 1px solid #ddd;
    color: #4CC4D8;
 }	
 strong{
-	font-size:20px;
+	
 }
 a {
 color: #666;
