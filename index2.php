@@ -132,14 +132,17 @@
 		                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras faucibus bibendum mauvel tempor metus tempor quis. Vivamus ullamcorper, dolor nec rhoncus bibendu.</p>
 		                <a href="#myModal" data-toggle="modal" class="btn btn-info ajax" data-info="ajax2.html">Ajax modal</a>
 	                </div>
-	                <div class="span8"> 
-                
-               <div id="slides">
-      <img src="slider/responsive.png" alt="Photo by: Missy S Link: http://www.flickr.com/photos/listenmissy/5087404401/">
-      <img src="slider/screen.png" alt="Photo by: Daniel Parks Link: http://www.flickr.com/photos/parksdh/5227623068/">
-      <img src="slider/responsive.png" alt="Photo by: Mike Ranweiler Link: http://www.flickr.com/photos/27874907@N04/4833059991/">
+	                <div class="span8">  
+ <a href="" onclick="mySwipe2.next()" class="next"></a>
+                    
+                <div id='fetswipe' style='max-width:748px;' class='swipe'>
+  <div class='swipe-wrap'>
+    <div> <img src="slider/responsive.png"></div>
+  
+    <div> <img src="slider/responsive.png"></div>
     
-    </div>
+  </div> </div>
+               
 	                	
 	</div> 
      
@@ -440,13 +443,50 @@
               
      <div class="paddingbot"> 
 <div class="bs-docs-example">
-            <ul id="myTab" class="nav nav-tabs">
-              <li class="active"><a href="#home" data-toggle="tab">Features</a></li>
-              <li class=""><a href="#profile" data-toggle="tab">Skills</a></li>
-             <li class=""><a href="#cola" data-toggle="tab">Cool Tabs</a></li>
+            <ul id="myTab" class="nav nav-tabs"><li class="active"><a href="#cola" data-toggle="tab">Clients</a></li><li class=""><a href="#profile" data-toggle="tab">Skills</a></li>
+              <li class=""><a href="#home" data-toggle="tab">Features</a></li>
+              
+             
             </ul>
             <div id="myTabContent" class="tab-content">
-              <div class="tab-pane fade active in" id="home">
+            
+            <div class="tab-pane fade active in" id="cola">
+              <div class="row-fluid">
+               <div class="span4">
+              <div id='mySwipe' style='max-width:500px;margin:0 auto' class='swipe'>
+  <div class='swipe-wrap'>
+    <div> <img src="img/wizz.png"></div>
+    <div> <img src="img/mr.png"></div>
+    <div> <img src="img/ratio.png"></div>
+    
+  </div>
+</div>
+    
+   
+               
+               
+              
+
+              </div>
+              
+              <div class="span5">
+
+             <h3>We work together</h3>
+                    <p class="bold">A very easy to use template. </p><br>
+<br>
+<p>Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p><div style='text-align:center;padding-top:20px;'>
+  
+  <button onclick='mySwipe.prev()'>prev</button> 
+  <button onclick='mySwipe.next()'>next</button>
+
+</div>
+ 
+ </div>
+ </div>
+              </div>
+            
+            
+              <div class="tab-pane fade" id="home">
               <div class="row-fluid">
                <div class="span4">
               <img src="img/815px-boot3.jpg">
@@ -467,16 +507,19 @@
                <div class="row-fluid">
                 
         <div class="span4">
-     
+   <div class="skill">Java</div>   
  <div class="progress progress-info">
   <div class="bar" style="width: 20%">20%</div>
 </div>
+ <div class="skill">Design</div>  
 <div class="progress progress-info">
-  <div class="bar" style="width: 40%">40%</div>
+  <div class="bar" style="width: 90%">90%</div>
 </div>
+<div class="skill">PHP</div>  
 <div class="progress progress-info">
-  <div class="bar" style="width: 60%">60%</div>
+  <div class="bar" style="width: 60%">99%</div>
 </div>
+<div class="skill">Javascript</div>  
 <div class="progress progress-info">
   <div class="bar" style="width: 80%">80%</div>
 </div>
@@ -492,15 +535,7 @@
 
  </div>
               </div>
-<div class="tab-pane fade" id="cola">
-               <div class="row-fluid">
-              <div class="accordion-heading">
-                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
-                      Collapsible Group Item #1
-                    </a>
-                  </div>
- </div>
-              </div>             
+             
             </div>
           </div>
    
@@ -1100,13 +1135,70 @@ $jquery = $jquery_validator->generate();
  <script src="js/vendor/main.js"></script>   
   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.10.0/jquery.validate.js"></script>
 
+<script src='js/vendor/swipe.js'></script>
+<script>
+
+// pure JS
+var elem = document.getElementById('mySwipe');
+window.mySwipe = Swipe(elem, {
+  // startSlide: 4,
+  // auto: 3000,
+  // continuous: true,
+  // disableScroll: true,
+  // stopPropagation: true,
+  // callback: function(index, element) {},
+  // transitionEnd: function(index, element) {}
+});
+var elem = document.getElementById('fetswipe');
+window.mySwipe2 = Swipe(elem, {
+  // startSlide: 4,
+  auto: 3000,
+  // continuous: true,
+  // disableScroll: true,
+  // stopPropagation: true,
+  // callback: function(index, element) {},
+  // transitionEnd: function(index, element) {}
+});
+// with jQuery
+//window.mySwipe2 = $('#fetswipe').Swipe().data('Swipe');
+
+</script>
 
 <script type="text/javascript">
 
 <?php foreach($jquery['methods'] as $method_name => $method_function): ?>
 	jQuery.validator.addMethod("<?php echo $method_name; ?>", <?php echo $method_function; ?>);
 <?php endforeach; ?>
-
+$(function() {
+      $('#slides2').slidesjs({
+        width: 560,
+        height: 420,
+        play: {
+          active: false,
+          auto: true,
+          interval: 4000,
+          swap: true,
+		  restartDelay: 2500
+        },
+		pagination: {
+      active: false,
+        // [boolean] Create pagination items.
+        // You cannot use your own pagination. Sorry.
+      effect: "slide"
+        // [string] Can be either "slide" or "fade".
+    },
+		 navigation: {
+      active: false,
+        // [boolean] Generates next and previous buttons.
+        // You can set to false and use your own buttons.
+        // User defined buttons must have the following:
+        // previous button: class="slidesjs-previous slidesjs-navigation"
+        // next button: class="slidesjs-next slidesjs-navigation"
+      effect: "slide"
+        // [string] Can be either "slide" or "fade".
+    }
+      });
+    });
 $("#form").validate({
 
 	submitHandler: function(form, e) {

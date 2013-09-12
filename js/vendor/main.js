@@ -62,6 +62,8 @@ $('.seven a:link').smoothScroll();
     });
 
 
+
+
 $("img.b").hover(
 function() {
 $(this).stop().animate({"opacity": "1","-ms-filter":"progid:DXImageTransform.Microsoft.Alpha(opacity=100)"}, "800");
@@ -117,7 +119,11 @@ $('.thumbnail-cap').hcaptions({
   effect: "fade"
  
 });
-
+$('.next').click(function(e) {
+	
+	e.preventDefault();
+	
+});
 $('.closeButton').click(function(e) {
     
 
