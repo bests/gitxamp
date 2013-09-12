@@ -124,6 +124,13 @@ $('.next').click(function(e) {
 	e.preventDefault();
 	
 });
+
+$('.prev').click(function(e) {
+	
+	e.preventDefault();
+	
+});
+
 $('.closeButton').click(function(e) {
     
 

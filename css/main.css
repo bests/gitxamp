@@ -1096,7 +1096,13 @@ margin-top: -143px;
 
 }	
 	
-	
+.prev{
+
+top: 50%;
+margin-left: 288px;
+margin-top: -143px;
+
+}		
 .fetwidth {
 	width: 342px;
 color: #fff;
@@ -1298,7 +1304,14 @@ top: 39%;
 margin-left: 200px;
 margin-top: -143px;
 
-}		
+}
+.prev{
+
+top: 39%;
+margin-left: 259px;
+margin-top: -143px;
+
+}				
 .media, .media .media {
 margin-top: 6px;
 margin-right: 6px;
@@ -2293,6 +2306,14 @@ text-decoration: none;
   position: relative;
 }
 .next{
+position: absolute;
+
+z-index: 1160;
+height: 45px;
+width: 45px;
+background-image: url(../img/arrows.png);
+}
+.prev{
 position: absolute;
 
 z-index: 1160;

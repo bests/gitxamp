@@ -134,7 +134,7 @@
 	                </div>
 	                <div class="span8">  
  <a href="" onclick="mySwipe2.next()" class="next"></a>
-                    
+  <a href="" onclick="mySwipe2.prev()" class="prev"></a>                  
                 <div id='fetswipe' style='max-width:748px;' class='swipe'>
   <div class='swipe-wrap'>
     <div> <img src="slider/responsive.png"></div>
