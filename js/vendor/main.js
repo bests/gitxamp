@@ -1,10 +1,21 @@
 $(document).ready(function(){
+// ================
+// Mosaic Plugn
+// Controls projects section, hover images
+// More info http://buildinternet.com/project/mosaic/
+// ================
+$('.cover2').mosaic({
+					animation	:	'slide',	//fade or slide
+					anchor_y	:	'top',		//Vertical anchor position
+					hover_y		:	'90px'		//Vertical position on hover
+				});	
+	
+	
 var $modal = $('#ajax-modal');
- //$(".youtube").colorbox({iframe:true, innerWidth:640, innerHeight:390}); 
+
 $('.ajax').on('click', function(){
 	var $target = $(this).data('info');
-	
-  // create the backdrop and wait for next modal to be triggered
+
   $('body').modalmanager('loading');
  
   setTimeout(function(){
@@ -14,6 +25,10 @@ $('.ajax').on('click', function(){
   }, 1000);
 });
  
+ 
+ 
+ 
+ 
 $modal.on('click', '.update', function(){
   $modal.modal('loading');
   setTimeout(function(){
@@ -21,46 +36,14 @@ $modal.on('click', '.update', function(){
       .modal('loading')
       .find('.modal-body')
         .prepend('<div class="alert alert-info fade in">' +
-          'Updated!<button type="button" class="close" data-dismiss="alert">&times;</button>' +
+          'Updated!<star@2x type="star@2x" class="close" data-dismiss="alert">&times;</star@2x>' +
         '</div>');
   }, 1000);
 });
 	
-$('.seven li a').click(function (e) {
 
-  
-})	
 $('.seven a:link').smoothScroll();
- $(function() {
-      $('#slides').slidesjs({
-        width: 960,
-        height: 500,
-        play: {
-          active: false,
-          auto: true,
-          interval: 4000,
-          swap: true
-        },
-		pagination: {
-      active: false,
-        // [boolean] Create pagination items.
-        // You cannot use your own pagination. Sorry.
-      effect: "slide"
-        // [string] Can be either "slide" or "fade".
-    },
-		 navigation: {
-      active: false,
-        // [boolean] Generates next and previous buttons.
-        // You can set to false and use your own buttons.
-        // User defined buttons must have the following:
-        // previous button: class="slidesjs-previous slidesjs-navigation"
-        // next button: class="slidesjs-next slidesjs-navigation"
-      effect: "slide"
-        // [string] Can be either "slide" or "fade".
-    }
-      });
-    });
-
+ 
 
 
 
@@ -115,22 +98,12 @@ google.maps.event.addDomListener(window, 'load', initialize);
 });
 
 
-$('.thumbnail-cap').hcaptions({
-  effect: "fade"
- 
-});
-$('.next').click(function(e) {
+
+$('.default').click(function(e) {
 	
 	e.preventDefault();
 	
 });
-
-$('.prev').click(function(e) {
-	
-	e.preventDefault();
-	
-});
-
 $('.closeButton').click(function(e) {
     
 
@@ -141,9 +114,134 @@ $('.box').css({'display': 'hidden'});
 	e.preventDefault();
 	
 });
+
+
+$('.servicelink').click(function(e) {
+	
+		
+//$('.accordion-service').collapse('show');
+	
+	$('.fetwidth').removeClass("srvactive");
+	//$.scrollTo($(this).attr('href'), 1400, {offset: {top:-280} });
+ 
+  
+  var $target = $(this).data('info');
+
+
+ $('#services').html($($target).html());
+ 
+ 
+  $(this).addClass("srvactive");
+	
+
+	e.preventDefault();
+	
+	//$('.projects').fadeToggle(400);
+	//$('.slider1').scrollTo($(this).attr('href'), 1400, {offset: {left:-lefto} }, { axis:'x' } );
+	//alert('-'+lefto);
+	//$.scrollTo('3000px', 2500, {axis:'x'}); 
+});
+
+
+
+
+
+
+
+$('.ajax2').click(function(e) {
+	//alert($(this).attr('href'));
+ $('#hugex').html('<div class="progress progress-striped active"><div class="bar" style="width: 100%"></div></div>');		
+$('.accordion-body').collapse('show');
+	
+	
+	//$.scrollTo($(this).attr('href'), 1400, {offset: {top:-280} });
+  $.smoothScroll({
+		  speed: 400,
+    offset: -90,
+    scrollTarget:$(this).attr('href'),
+	afterScroll: function() {
+	
+		//$('.projects').fadeOut(400);
+		
+		}
+  });
+  var $target = $(this).data('info');
+  
+    $('#hugex').load($target+'.html',function(){
+            $('#loadingdiv').hide();
+        });
+	$(".projects").attr("href", '#'+$target);
+	
+
+	e.preventDefault();
+	
+	//$('.projects').fadeToggle(400);
+	//$('.slider1').scrollTo($(this).attr('href'), 1400, {offset: {left:-lefto} }, { axis:'x' } );
+	//alert('-'+lefto);
+	//$.scrollTo('3000px', 2500, {axis:'x'}); 
+});
+
+$('body').on('click', '.projects', function() {
+	$('.accordion-body').collapse('hide');
+var pHeight = jQuery(window).height();
+	 var $target = $(this).attr('href');//alert($target);  
+	  var eHeight = $('#one').height();
+	 
+	  var $totop =  (pHeight/2 - (eHeight / 2));	
+	
+	 
+	  $.smoothScroll({
+		  speed: 400,
+    offset: -100,
+    scrollTarget: $target,
+	afterScroll: function() {
+		
+1		//$('.projects').fadeOut(400);
+		
+		}
+  });
+
+
+ // 
+ //$.scrollTo($target, 1400);
+  e.preventDefault();
+   // $('#hugex').load($target, function(){
+       
+  // });
+	
+});
+$('.pro23').click(function(e) {
+	
+	 
+	
+var $target = $(this).data('info');
+$('.box').css({'display': 'block',' padding':'2px'});
+
+ $('.box-container').html($($target).html());
+ $(".closeButton")
+    .appendTo(".box-container");
+ 
+ var pWidth = jQuery(window).width();
+ var pHeight = jQuery(window).height();
+	  var eWidth = $('.box-container').outerWidth();
+	  var eHeight = $('.box-container').height();
+	  var lefto =  parseInt((pWidth / 2) - (eWidth / 2)) + 'px';
+	  var totop =  (pHeight/2 - (eHeight / 2)) + 'px';	
+$('.box-container').css({"top":totop});	
+$('.box').animate({"left":'0'},200,"linear");
+
+$('.box-container').animate({"left":lefto},200,"linear");
+
+
+
+      
+
+e.preventDefault();
+	
+});
 $('.pro2').click(function(e) {
 	
-	
+	 
 	
 var $target = $(this).data('info');
 $('.box').css({'display': 'block',' padding':'2px'});
@@ -261,18 +359,7 @@ $('.tooltp').tooltip();
     function() {
       $(this).stop().animate({"opacity": "1","-ms-filter":"progid:DXImageTransform.Microsoft.Alpha(opacity=0)"}, "50");
   }); 
-   $('.pricemain').hover(
-    function() {
-   $(this).stop().animate({boxShadow: '0 0 20px rgb(223, 223, 223)'},0.2).animate({'margin-top': '-10px'}, 'normal');
-	
-
-
-    },
-    function() {
-		
-      $(this).stop().animate({'margin-top': '0'}, 'fast').animate({boxShadow: '0 0 0px rgb(223, 223, 223)'}, 'fast'); 
-	
-  });
+  
 $('.thumbnail').css('background-image', 'url(img/zoom.png)');  
 $(".thumbnail").hover(
 function() {
@@ -321,7 +408,18 @@ $("#menu-arrowx").animate(
    
 });
 
+ $('.pricemain').hover(
+    function() {
+   $(this).stop().animate({boxShadow: '0 0 20px rgb(223, 223, 223)'},0.2).animate({'margin-top': '-10px'}, 'normal');
+	
 
+
+    },
+    function() {
+		
+      $(this).stop().animate({'margin-top': '0'}, 'fast').animate({boxShadow: '0 0 0px rgb(223, 223, 223)'}, 'fast'); 
+	
+  });
 
 
 $('.pulse').hover(

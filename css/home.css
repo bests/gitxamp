@@ -1,0 +1,132 @@
+/* ================= 
+
+Section Global HOME
+   
+
+=====================*/	
+
+.home h1 {
+font-size:65px;
+
+
+}
+.home .iconshead {
+margin-top: 14px;
+margin-right: 20px;
+	
+
+
+}
+.home h1 {
+
+font-weight: bold;
+letter-spacing: 6px;
+line-height: 1;
+color:#fff;
+}
+.iconhome{
+	color:#FFF;
+	font-size:50px;
+	
+}
+.logo{
+position: relative;
+
+}
+.logo img{
+width:35%;	
+
+
+}   
+.home {
+
+
+
+text-align: center;
+}  
+.home h2 {
+
+
+color:#fff;
+display: inline-block;
+} 
+
+.logo .thumbnails .span3 {
+float: left;
+
+}
+@media (min-width: 1200px){
+.logo .thumbnails {
+margin-left: auto;
+margin-right: auto;
+width: 45%;
+margin-top: 60px;
+}
+.logo .thumbnails .span3 {
+font-size: 50px;
+margin-left: 6px;
+padding: 13px;
+width: 18%;
+}
+
+.thumbnails .span3 {
+
+margin-bottom: -9px;
+	
+	}
+}
+@media (max-width: 1200px) and (min-width: 980px){
+.logo .thumbnails {
+margin-right: auto;
+margin-left: auto;
+width: 70%;
+}
+.logo .thumbnails .span3 {
+width: 20%;
+padding: 13px;
+margin-left: 6px;
+font-size: 50px;
+
+}
+
+}
+
+
+@media (max-width: 979px) and (min-width: 768px){
+.logo .thumbnails .span3 {
+width: 20%;
+padding: 13px;
+margin-left: 1px;
+}	
+.logo .thumbnails {
+margin-right: auto;
+margin-left: auto;
+width: 82%;
+}	
+.home h1 {
+font-size: 55px;
+}
+
+}
+@media (max-width: 767px){
+.logo .thumbnails .span3 {
+width: 24%;
+padding: 13px;
+margin-left: 1px;
+}		
+.logo .thumbnails {
+margin-right: auto;
+margin-left: auto;
+width: 89%;
+}	
+	.home h1 {
+font-size: 43px;
+}
+.iconhome{
+		font-size:60px;}
+}
+@media (max-width: 540px){
+	.iconhome{
+		font-size:40px;}
+
+}

@@ -12,10 +12,21 @@
       <link type="text/css" rel="stylesheet" href="css/bootstrap.css" /> 
       <link type="text/css" rel="stylesheet" href="css/bootstrap-responsive.css" /> 
       <link type="text/css" rel="stylesheet" href="css/main.css" /> 
+       <link type="text/css" rel="stylesheet" href="css/core.css" /> 
       <link type="text/css" rel="stylesheet" href="css/fontello.css" /> 
        <link type="text/css" rel="stylesheet" href="css/colorbox.css" /> 
         <link type="text/css" rel="stylesheet" href="css/animate.css" /> 
         <link type="text/css" rel="stylesheet" href="css/retina.css" />  
+        <link type="text/css" rel="stylesheet" href="css/mosaic.css" />
+         <link type="text/css" rel="stylesheet" href="css/jquery.sidr.light.css" />
+         <link type="text/css" rel="stylesheet" href="css/features.css" /> 
+         <link type="text/css" rel="stylesheet" href="css/home.css" /> 
+            <link type="text/css" rel="stylesheet" href="css/project.css" /> 
+             <link type="text/css" rel="stylesheet" href="css/love.css" />
+             <link type="text/css" rel="stylesheet" href="css/about.css" /> 
+             <link type="text/css" rel="stylesheet" href="css/price.css" /> 
+              <link type="text/css" rel="stylesheet" href="css/contact.css" /> 
+              <link type="text/css" rel="stylesheet" href="css/flaxt.css" /> 
         <style>
 .exampleA {
 			/* 
@@ -38,11 +49,11 @@
                     <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
                                    <link rel="shortcut icon" href="ico/favicon.png">
        <!--[if IE 7]>
-    <link rel="stylesheet" href="css/fontello-ie7.css"><![endif]-->  
+    <link rel="stylesheet" href="css/fontello-ie7.css"> <script type="text/javascript" src="//cdn.jsdelivr.net/foresight.js/2.0.0/foresight.min.js"></script> <![endif]-->  
 
  <script type="text/javascript" src="js/vendor/modernizr2.js"></script>
   
-   <script type="text/javascript" src="//cdn.jsdelivr.net/foresight.js/2.0.0/foresight.min.js"></script> 
+  
     </head>
     <body data-spy="scroll" data-target="#navbar" data-offset="170">
         <!--[if lt IE 7]>
@@ -55,8 +66,12 @@
     
          
      <nav id="navbar" class="clearfix navbar-fixed-top">
-                
-                   <img class="minilogo" src="img/minilogo.png">
+                 <div id="mobile-header">
+ 
+
+                 <a id="responsive-menu-button" href="#sidr-main" class="minilogo">
+                 <i class="icon-menu icons"></i>
+              </a></div>
 		<ul class="seven clearfix nav">
        
 			
@@ -71,38 +86,56 @@
 		</ul>
 		
 		<a href="#" id="pull"><img src="img/nav-icon@2x.png" width="32" height="32" ></a>
-        <div class="bar"></div>
+       
 	</nav>              
-                  
-                  
+  
+ 
+<div id="navigation">
+    <nav class="navn">
+        <ul>
+            <li><a href="#download">Download</a></li>
+            <li><a href="#getstarted">Get started</a></li>
+            <li><a href="#usage">Demos &amp; Usage</a></li>
+            <li><a href="#documentation">Documentation</a></li>
+            <li><a href="#themes">Themes</a></li>
+            <li><a href="#support">Support</a></li>
+        </ul>
+    </nav>
+</div>               
+
+                      
      
-<section id="overview">
+<section id="home" class="bluegreen">
 <header class="home padding">
 
 
 
 
 
-  <div class="container"><!-- End container .. container for carosel -->
+  <div class="container homecenter"><!-- End container .. container for carosel -->
   
-  <div class="logo">
+  <div class="logo align-center">
    <img class="desktop" src="img/logox.png" >
  <ul class="thumbnails">
- <li class="span3"><a href="#"><img class="pulse moveup" src="img/facebook.png" ></a></li>
-  <li class="span3"><a href="#"><img class="pulse moveup" src="img/twit.png" ></a></li>
-   <li class="span3"><a href="#"><img class="pulse moveup" src="img/google.png" ></a></li>
+ 
+  <li class="span3"><a href="#"><i class="icon-twitter iconhome pulse moveup"></i></a></li>
+ <li class="span3"><a href="#"><i class="icon-facebook iconhome pulse moveup"></i></a></li>
+  <li class="span3"><a href="#"><i class="icon-instagramm iconhome pulse moveup"></i></a></li>
+   <li class="span3"><a href="#"><i class="icon-gplus iconhome pulse moveup"></i></a></li>
  </ul>
-   </div>
-  
-  
-  <div class="container register">
- <h1><i class="icon-ok iconshead"></i>Simple and Modern</h1>
+ 
+ <div class="container">
+ 
 <h2>Fix your workflow. Learn from others. Start your library today.</h2><br>
 
 
    <a href="" class="btn btn-info ajax" data-toggle="modal" data-info="ajax.html">Ajax Video</a>
    
    </div>
+   </div>
+  
+  
+  
  </div>
 </header>
 </section>
@@ -113,83 +146,85 @@
 
 <div class="titlebg"><h2>Features</h2>
       HTML5, built on Bootstrap, very fast.
-       </div> 
+  </div> 
        
      
 
  <div class="tick"></div> 
 <article id="home_features" class="features">  
  
-<div class="container padding">
+<div class="container paddingtop">
+
+
+
  <div class="row-fluid">
  
 
  
  
-  <div class="span4">
-		                <h2 class="titleone">EVERYTHING IS DESIGNED.
-		                <br>FEW THINGS ARE DESIGNED well</h2>
-		                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras faucibus bibendum mauvel tempor metus tempor quis. Vivamus ullamcorper, dolor nec rhoncus bibendu.</p>
-		                <a href="#myModal" data-toggle="modal" class="btn btn-info ajax" data-info="ajax2.html">Ajax modal</a>
-	                </div>
+  
 	                <div class="span8">  
- <a href="" onclick="mySwipe2.next()" class="next"></a>
-  <a href="" onclick="mySwipe2.prev()" class="prev"></a>                  
-                <div id='fetswipe' style='max-width:748px;' class='swipe'>
+ <a href="" onclick="mySwipe2.next()" class="next default"> <i class="icon-left-open iconsize"></i></a>
+  <a href="" onclick="mySwipe2.prev()" class="prev default"> <i class="icon-right-open iconsize"></i></a>                  
+                <div id='fetswipe' style='max-width:1800px;' class='swipe'>
   <div class='swipe-wrap'>
     <div> <img src="slider/responsive.png"></div>
   
     <div> <img src="slider/responsive.png"></div>
     
+   
+    
+    
   </div> </div>
                
-	                	
+	 
+                	
 	</div> 
      
      
-     
+     <div class="span4">
+		                <h2 class="titleone">EVERYTHING IS DESIGNED.
+		                <br>FEW THINGS ARE DESIGNED well</h2>
+		                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras faucibus bibendum mauvel tempor metus tempor quis. Vivamus ullamcorper, dolor nec rhoncus bibendu.</p>
+		                <a href="#myModal" data-toggle="modal" class="btn btn-info ajax" data-info="ajax2.html">Ajax modal</a>
+        </div>
      
      
      </div>
      
-     
+  <div class="title"> <h1>Great features</h1> <p class="medium">We are a creative agency located in <strong>Brooklyn New York.</strong> We’ve won a ton of awards<br>
+
+     and have been featured in all of the magazines.</p>
+ </div>   
                  
   
         
       
        
    <!-- End container .. container for carosel --> 
-   <div class="postimgright"> <h3>Some great features</h3> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras faucibus bibendum mauvel tempor metus tempor quis. Vivamus ullamcorper, dolor nec rhoncus bibendu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras faucibus bibendum mauvel tempor metus tempor quis. Vivamus ullamcorper, dolor nec rhoncus bibendu.</p>
- <div class="media left-text fetwidth">
-              <a href="#">
-               <i class="icon-cog icons"></i>
-              </a>
+  
+
+ 
+    <div class="left-text fetwidth servicelink" data-info="#project6">
              
-              <div class="media-body">
-                <h4 class="media-heading">Built on Bootstrap</h4>
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. 
-              </div>
-            </div>
-    <div class="media left-text fetwidth">
-              <a href="#">
                  <i class="icon-globe icons"></i>
-              </a>
+              
               <div class="media-body">
                 <h4 class="media-heading">Responsive</h4>
                 Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. 
               </div>
            </div>
             
-          <div class="media left-text fetwidth">
-              <a href="#">
+         <div class="left-text fetwidth servicelink" data-info="#project6">
+             
                  <i class="icon-wrench icons"></i>
-              </a>
+             
               <div class="media-body">
                 <h4 class="media-heading">Media heading</h4>
                 Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. 
               </div>
             </div>
-    <div class="media left-text fetwidth">
+    <div class="left-text fetwidth">
               <a href="#">
                 <i class="icon-rocket icons"></i>
               </a>
@@ -199,215 +234,208 @@
               </div>
            </div>   
             
-            
-            
-            
-            
-               
-          <div class="media left-text fetwidth">
+   <div class="left-text fetwidth">
               <a href="#">
-               <i class="icon-gauge icons"></i>
+                <i class="icon-rocket icons"></i>
               </a>
               <div class="media-body">
                 <h4 class="media-heading">Media heading</h4>
                 Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. 
               </div>
-            </div>
-    <div class="media left-text fetwidth">
+           </div> 
+           
+    
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                           
+        </div><!-- /container -->
+ <div id="collapseTwo" class="paddingbottom paddingtop accordion-service collapse in">
+      <div class="accordion-inner">
+        <div id="services" class="container">
+        
+         <div class="row-fluid">      
+       <div class="span3">
+       
+        <div class="left-text fetwidth">
               <a href="#">
-                <i class="icon-gauge icons"></i>
+                <i class="icon-rocket icons"></i>
               </a>
               <div class="media-body">
                 <h4 class="media-heading">Media heading</h4>
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. 
+                Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
               </div>
-           </div>   
-            
-            
-            
-            
- </div>
-            
-        </div> <!-- /container -->
+           </div> 
+       
+       
+       </div>   
+        
+         <div class="span7"><p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p></div>   
+         
+         
+         </div>
+        
+        
+        </div>
+        </div>
+        </div>       
+        
+         
 </article>
 </section>
 
 
 
-<section  class="anchor">
-  
+<section id="gallery" class="anchor">
+
      
-<div id="gallery" class="titlebg"><h2>Projects</h2>
+<div class="titlebg"><h2>Projects</h2>
       HTML5, built on Bootstrap, very fast.
        </div> 
 <div class="tick"></div>
-<article id="home_gallery" class="gallery">
+<article id="home_gallery" class="gallery bluegreen">
 
 <div class="box"><a href="#" class="closeButton"><img src="img/cross.png" width="46" height="43"></a><div class="box-container"></div></div> 
 
 
-        <div class="container padding">
-      
-        
-    
-              
-       
+ <div class="container padding"> 
+ <div class="mosiac-parent">      
+<div class="mosaic-block cover2">
+			<a href="http://yourather.com/questions/135" target="_blank" class="mosaic-overlay">
+ <img src="" alt="" data-src="img/star@1x.jpg" data-ret="image@2x.jpg" data-alt="My Image" class="retina" id="one" />           
+            
+         </a>
+		
+				<div class="details">
+					 <h5>Title</h5>
 
-             
-                      
-    <div class="row-fluid"> 
-    
+ <a href="" data-info="#project1" class="btn btn-info pro">More</a> 
+ <a class="btn btn-info ajax2" data-info="one" href="#hugex">Ajax</a>                    
+                    
+                    
+				</div>
+		
+		</div>
+        
+  <div class="mosaic-block cover2">
+			<a href="http://yourather.com/questions/135" target="_blank" class="mosaic-overlay"><img src="" alt="" data-src="img/door@1x.jpg" data-ret="image@2x.jpg" data-alt="My Image" class="retina" id="two" /> </a>
+				<div class="details">
+					 <h5>Title</h5>
+ <a href="" data-info="#project2" class="btn btn-info pro">More</a> 
+ <a class="btn btn-info ajax2" data-info="two" href="#hugex">Ajax</a>                    
+                    
+                    
+				</div>
+		</div>
+        
   
-            <ul class="thumbnails">
-             
-                 <li class="span3">
-            
-  <a href="#" data-target="#myToggle2" class="thumbnail-cap">
-                  <img data-src="img/star-med.jpg"  data-width="280" data-height="160" class="thumb1 fs-img2 loader">
-               </a>
-<div id="myToggle2" class="cap-overlay hide">
-  <h5>Title</h5>
-  <div class="content">
-    Project name<br />
-    Sydney<br />
-</div><a href="" data-info="#project2" class="btn btn-info pro"><i class="icon-eye"></i> More</a>
- </div>  
-             
-              </li>
-              
-              
-               <li class="span3">
-                <a href="#" data-target="#myToggle3" class="thumbnail-cap">
-                
-                  <img data-src="img/door-med.jpg" data-width="280" data-height="160" class="thumb1 fs-img2 loader">
-                </a>
-                <div id="myToggle3" class="cap-overlay hide">
-  <h5>Title</h5>
-  <div class="content">
-    Project name<br />
-    Sydney<br />
-</div> <a href="" data-info="#project3" class="btn btn-info pro"><i class="icon-eye"></i> More</a>
- </div>  
-              </li>
-              
-              
-              <li class="span3">
-                <a href="#" data-target="#myToggle4" class="thumbnail-cap">
-                  <img data-src="img/house-med.jpg" data-width="280" data-height="160" class="thumb1 fs-img2 loader">
-                </a>
-                   <div id="myToggle4" class="cap-overlay hide">
-  <h5>Title</h5>
-  <div class="content">
-    Project name<br />
-    Sydney<br />
-</div> <a href="" data-info="#project4" class="btn btn-info pro"><i class="icon-eye"></i> More</a>
- </div>  
-              </li>
-             
-          
-                  
-              <li class="span3">
-                <a href="#" data-target="#myToggle5" class="thumbnail-cap">
-                  <img data-src="img/notesmed.jpg" data-width="280" data-height="160" class="thumb1 fs-img2 loader">
-                </a>
-                
-                 <div id="myToggle5" class="cap-overlay hide">
-  <h5>Title</h5>
-  <div class="content">
-    Project name<br />
-    Sydney<br />
-</div> <a href="" data-info="#project5" class="btn btn-info pro"><i class="icon-eye"></i> More</a>
- </div>  
-                
-              </li>
-             
-              
-              
-            </ul>     
-            
-             <ul class="thumbnails">
-              <li class="span3">
-              <a href="#" data-target="#myToggle6" class="thumbnail-cap">
-                  <img data-src="img/pumkinmed.jpg" data-width="280" data-height="160" class="thumb1 fs-img2">
-                </a>
-                 <div id="myToggle6" class="cap-overlay hide">
-  <h5>Title</h5>
-  <div class="content">
-    Project name<br />
-    Sydney<br />
-</div> <a href="" data-info="#project6" class="btn btn-info pro"><i class="icon-eye"></i> More</a>
- </div>  
-                
-                
-              </li>
-              
-               <li class="span3">
-               <a href="#" data-target="#myToggle7" class="thumbnail-cap">
-                
-                  <img data-src="img/rowmed.jpg" data-width="280" data-height="160" class="thumb1 fs-img2">
-                </a>
-                  <div id="myToggle7" class="cap-overlay hide">
-  <h5>Title</h5>
-  <div class="content">
-    Project name<br />
-    Sydney<br />
-</div> <a href="" data-info="#project7" class="btn btn-info pro"><i class="icon-eye"></i> More</a>
- </div>  
-              </li>
-              
-              
-              <li class="span3">
-               <a href="#" data-target="#myToggle8" class="thumbnail-cap">
-                  <img data-src="img/skull-med.jpg" data-width="280" data-height="160" class="thumb1 fs-img2">
-                </a>
-                  <div id="myToggle8" class="cap-overlay hide">
-  <h5>Title</h5>
-  <div class="content">
-    Project name<br />
-    Sydney<br />
-</div> <a href="" data-info="#project8" class="btn btn-info pro"><i class="icon-eye"></i> More</a>
- </div>  
-              </li>
-             
-          
-                  
-                 <li class="span3">
-            
-  <a href="#" data-target="#myToggle" class="thumbnail-cap">
-                  <img data-src="img/fire-med.jpg"  data-width="280" data-height="160" class="thumb1 fs-img2 loader">
-               </a>
-               <div id="myToggle" class="cap-overlay hide">
-  <h5>Cupcakes</h5>
-  <div class="content">
-    Name: cupcakes.png<br />
-    Photography: Ryun Shofner<br />
-    <a href="" data-info="#project1" class="btn btn-info pro"><i class="icon-ok"></i> Sign-up</a>
-    <button class="demo btn btn-primary btn-large" data-toggle="modal" href="#responsive">View Demo</button>
-  </div>
-         
-       </div>  
-             
-              </li>
-              
-              
-            </ul>     
-            
-            
-         
-          
+  <div class="mosaic-block cover2">
+			<a href="http://yourather.com/questions/135" target="_blank" class="mosaic-overlay"><img src="" alt="" data-src="img/house@1x.jpg" data-ret="house@2x.jpg" data-alt="My Image" class="retina" id="three" /></a>
+				<div class="details">
+					 <h5>Title</h5>
+ <a href="" data-info="#project3" class="btn btn-info pro">More</a> 
+ <a class="btn btn-info ajax2" data-info="three" href="#hugex">Ajax</a>                    
+                    
+                    
+				</div>
+		</div>
+     
+     <div class="mosaic-block cover2">
+			<a href="http://yourather.com/questions/135" target="_blank" class="mosaic-overlay"><img src="" alt="" data-src="img/notes@1x.jpg" data-ret="house@2x.jpg" data-alt="My Image" class="retina" id="four" /></a>
+				<div class="details">
+					 <h5>Title</h5>
+ <a href="" data-info="#project4" class="btn btn-info pro">More</a> 
+ <a class="btn btn-info ajax2" data-info="four" href="#hugex">Ajax</a>                    
+                    
+                    
+				</div>
+		</div>
         
-
-         </div> 
-          
-        </div> <!-- /container -->
+        <div class="mosaic-block cover2">
+			<a href="http://yourather.com/questions/135" target="_blank" class="mosaic-overlay"><img src="" alt="" data-src="img/fire@1x.jpg" data-ret="house@2x.jpg" data-alt="My Image" class="retina" id="five" /></a>
+				<div class="details">
+					 <h5>Title</h5>
+ <a href="" data-info="#project5" class="btn btn-info pro">More</a> 
+ <a class="btn btn-info ajax2" data-info="five" href="#hugex">Ajax</a>                    
+                    
+                    
+				</div>
+		</div>
+        
+ 
+ <div class="mosaic-block cover2">
+			<a href="http://yourather.com/questions/135" target="_blank" class="mosaic-overlay"><img src="" alt="" data-src="img/pumpkin@1x.jpg" data-ret="house@2x.jpg" data-alt="My Image" class="retina" id="six" /></a>
+				<div class="details">
+					 <h5>Title</h5>
+ <a href="" data-info="#project6" class="btn btn-info pro">More</a> 
+ <a class="btn btn-info ajax2" data-info="six" href="#hugex">Ajax</a>                    
+                    
+                    
+				</div>
+		</div>
+ 
+  <div class="mosaic-block cover2">
+			<a href="http://yourather.com/questions/135" target="_blank" class="mosaic-overlay"><img src="" alt="" data-src="img/road@1x.jpg" data-ret="house@2x.jpg" data-alt="My Image" class="retina" id="seven" /></a>
+				<div class="details">
+					 <h5>Title</h5>
+ <a href="" data-info="#project7" class="btn btn-info pro">More</a> 
+ <a class="btn btn-info ajax2" data-info="seven" href="#hugex">Ajax</a>                    
+                    
+                    
+				</div>
+		</div>
+  <div class="mosaic-block cover2">
+			<a href="http://yourather.com/questions/135" target="_blank" class="mosaic-overlay"><img src="" alt="" data-src="img/skull@1x.jpg" data-ret="house@2x.jpg" data-alt="My Image" class="retina" id="eight" /></a>
+				<div class="details">
+					 <h5>Title</h5>
+ <a href="" data-info="#project8" class="btn btn-info pro">More</a> 
+ <a class="btn btn-info ajax2" data-info="eight" href="#hugex">Ajax</a>                    
+                    
+                    
+				</div>
+		</div>
+        
+     </div>
+     
+           
+        
+      
+     </div>          
+        <div id="collapseOne" class="accordion-body collapse">
+      <div class="accordion-inner"><a class="projects default" href="#"><i class="icon-up-dir icons"></i></a>
+        <div id="hugex" class="container"></div>
+        </div>
+        </div>
+        
+        
+        
+   
+        </div>
+        
+        
+        
+        
+        </div>
 </article>
 </section>
 
 
-<section class="anchor">
+<section id="work" class="anchor">
   
      
-<div id="work" class="titlebg"><h2>What we love..</h2>
+<div class="titlebg"><h2>What we love..</h2>
       HTML5, built on Bootstrap, very fast.
        </div> 
 <div class="tick"></div>
@@ -415,33 +443,33 @@
        
 <div class="container padding">
            <div class="title"><h1>Bootstrap</h1>
-     Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+     <p class="medium">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. <strong>Nullam id dolor</strong> id nibh ultricies vehicula ut id elit.</p>
        </div>    
        
-        <div class="row-fluid tet">
+        <div class="row-fluid">
               
               <div class="span4 circle">
 
               <img src="img/heart.png" class="pulse moveup">
- <h3>We develop</h3>
+ <h3>We love..</h3>
                     <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
               </div>
               
               <div class="span4 circle">
   <img src="img/idea.png" class="pulse moveup">
- <h3>We develop</h3>
+ <h3>ideas and..</h3>
                     <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
               </div>
               
                  <div class="span4 circle">
   <img src="img/music.png" class="pulse moveup">
- <h3>We develop</h3>
+ <h3>music.</h3>
                     <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
               </div>
 
               </div>
               
-     <div class="paddingbot"> 
+     <div class="paddingbot paddingtop"> 
 <div class="bs-docs-example">
             <ul id="myTab" class="nav nav-tabs"><li class="active"><a href="#cola" data-toggle="tab">Clients</a></li><li class=""><a href="#profile" data-toggle="tab">Skills</a></li>
               <li class=""><a href="#home" data-toggle="tab">Features</a></li>
@@ -453,7 +481,7 @@
             <div class="tab-pane fade active in" id="cola">
               <div class="row-fluid">
                <div class="span4">
-              <div id='mySwipe' style='max-width:500px;margin:0 auto' class='swipe'>
+              <div id='mySwipe' style='max-width:600px;margin:0 auto' class='swipe'>
   <div class='swipe-wrap'>
     <div> <img src="img/wizz.png"></div>
     <div> <img src="img/mr.png"></div>
@@ -472,12 +500,16 @@
               <div class="span5">
 
              <h3>We work together</h3>
-                    <p class="bold">A very easy to use template. </p><br>
+                    <p class="medium">A very easy to use <strong>template.</strong> </p>
 <br>
-<p>Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p><div style='text-align:center;padding-top:20px;'>
-  
-  <button onclick='mySwipe.prev()'>prev</button> 
-  <button onclick='mySwipe.next()'>next</button>
+<p>Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p><div style='padding-top:20px;'>
+  <a href="#" class="pre default" onClick="mySwipe.prev()">
+                 <i class="icon-left-open iconsize"></i>
+              </a>
+  <a href="#" class="nxt default" onClick="mySwipe.next()">
+                 <i class="icon-right-open iconsize"></i>
+              </a>
+ 
 
 </div>
  
@@ -496,7 +528,7 @@
               <div class="span5">
 
              <h3>Modern design </h3>
-                    <p class="bold">A very easy to use template. </p><br>
+                    <p class="medium">Many <strong>options</strong> to choose from.</p>
 <br>
 <p>Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
  
@@ -527,7 +559,7 @@
 
 <div class="span5">
  <h3>Skills</h3>
-                    <p class="bold">We are good at</p><br>
+                    <p class="medium">We <strong>can do</strong> many things, but not everyhing.</p>
 <br>
 <p>Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
 
@@ -563,17 +595,17 @@
 </section>
 
 
-<section class="anchor"> 
+<section id="aboutus" class="anchor"> 
  
  
   
      
-<div id="aboutus" class="titlebg"><h2>About us</h2>
+<div class="titlebg"><h2>About us</h2>
       We are a small design company that simply love what we do..
        </div> 
+<div class="tick"></div>
 
-
-<article id="home_aboutus" class="aboutus">
+<article id="home_aboutus" class="aboutus bluegreen">
        
       
        
@@ -595,7 +627,7 @@
              <h3>We design</h3>
                    <p>yao avenger cereal bearfgfg fggfizzard charlie sheen in tooghh ellphone one does not simply wodka gag on that like a boss luke. Friendzoned yao avenger cereal bear all the things face megusta ba dumm tss. Le me fun you dohg charlie sheen in too </p><br>
 
-                    <a href="" data-info="" class="btn btn-info pro">Check it out</a>
+                    <a href="" data-info="" class="btn btn-info">Check it out</a>
             
             
            
@@ -621,7 +653,7 @@
              <h3>We develop</h3>
                     <p>yao avenger cereal bearfgfg fggfizzard charlie sheen in tooghh ellphone one does not simply wodka gag on that like a boss luke. Friendzoned yao avenger cereal bear all the things face megusta ba dumm tss. Le me fun you dohg charlie sheen in too </p><br>
 
-                    <a href="" data-info="" class="btn btn-info pro">Check it out</a>
+                    <a href="" data-info="" class="btn btn-info">Check it out</a>
             
             
           
@@ -654,7 +686,7 @@
              <h3>We develop</h3>
                      <p>yao avenger cereal bearfgfg fggfizzard charlie sheen in tooghh ellphone one does not simply wodka gag on that like a boss luke. Friendzoned yao avenger cereal bear all the things face megusta ba dumm tss. Le me fun you dohg charlie sheen in too </p><br>
 
-                    <a href="" data-info="" class="btn btn-info pro">Check it out</a>
+                    <a href="" data-info="" class="btn btn-info">Check it out</a>
             
          
 
@@ -682,9 +714,9 @@
 
 
 
-<section class="anchor">  
+<section id="price" class="anchor">  
     
-<div id="price" class="titlebg"><h2>Pricing</h2>
+<div class="titlebg"><h2>Pricing</h2>
       HTML5, built on Bootstrap, very fast. 
          </div> 
          <div class="tick"></div> 
@@ -712,11 +744,11 @@
                         <li class="pricetitle">$25<span> /mo</span></li>
                         <li class="description">Checkout what you get below</li>
                         
-                                <li><strong>2</strong> Domain Names</li>
-                                <li><strong>5</strong> Mysql Databases</li>
-                                <li><strong>10</strong> Email Accounts</li>
-                                <li><strong>20GB</strong> of Space</li>
-                                <li><strong>Ulimited</strong> Bandwidth</li>
+                                <li><strong><i class="icon-ok"></i></strong> Domain Names</li>
+                                <li><strong><i class="icon-ok"></i></strong> </strong> Mysql Databases</li>
+                                <li><strong><i class="icon-ok"></i></strong> </strong> Email Accounts</li>
+                                <li><strong><i class="icon-ok"></i></strong> </strong> of Space</li>
+                                <li><strong><i class="icon-ok"></i></strong> </strong> Bandwidth</li>
                        
                         <li class="price-button">
                             <a href="" class="btn btn-info"><i class="icon-ok"></i> Sign-up</a>
@@ -727,7 +759,7 @@
             
               <div class="span3">
   
-           <ul class="pricemain">
+           <ul class="pricemain activeit">
                         <li class="title">Simple 1</li>
                         <li class="pricetitle">$25<span> /mo</span></li>
                         <li class="description">Checkout what you get below</li>
@@ -813,24 +845,24 @@
 
 
 
-<section class="anchor">
+<section id="contact" class="anchor">
 
     
      
-<div id="contact" class="titlebg"><h2>Contact us</h2>
+<div class="titlebg"><h2>Contact us</h2>
       HTML5, built on Bootstrap, very fast.
        </div> 
   
   
   
   <div class="tick"></div> 
-<article id="home_contact" class="contact">
+<article id="home_contact" class="contact bluegreen">
 
 
  <div id="map-canvas"></div>  
 
-        <div class="container padding">
-       
+        <div class="container paddingbottom">
+ 
       <div class="row-fluid">
  <?php
 
@@ -896,13 +928,13 @@ $jquery = $jquery_validator->generate();
             </div>   
             
 <form action="#" class="form" id="form" method="post">
-            <div class="row"><div class="span4"><label>Name</label>
+            <div class="row"><div class="span4"><label><i class="icon-user iconform"></i>Name</label>
   <input type="text" placeholder="Name" name="name" required></div>
- <div class="span4"><label>Email</label> <input type="email" name="email" placeholder="Email" required></div>
- <div class="span8"><label>Your message</label>
+ <div class="span4"><label><i class="icon-mail-alt iconform"></i>Email</label> <input type="email" name="email" placeholder="Email" required></div>
+ <div class="span8"><label><i class="icon-comment iconform"></i>Your message</label>
  <textarea rows="6" name="message" spellcheck="false" style=" white-space: pre-wrap; z-index: auto; position: relative; line-height: 20px; font-size: 14px; -webkit-transition: none; transition: none; overflow: auto; margin: 0px; height: 247px; background-position: initial initial !important; background-repeat: initial initial !important;"></textarea>
  </div>
-  <div class="span8"><button type="submit" class="btn submit" name="submit" data-loading-text="Loading...">Sign in</button></div>
+  <div class="span8"><button type="submit" class="btn submit" name="submit" data-loading-text="Loading..."><i class="icon-right-big iconform"></i>Send</button></div>
 </div>
 </form>
 </div>   
@@ -935,11 +967,18 @@ $jquery = $jquery_validator->generate();
   <strong>Full Name</strong><br>
   <a href="mailto:#">first.last@example.com</a>
 </address>
-<ul class="social">
- <li class="span3"><a href="#"><img class="pulse moveup" src="img/facebook.png"></a></li>
-  <li class="span3"><a href="#"><img class="pulse moveup" src="img/twit.png"></a></li>
-   <li class="span3"><a href="#"><img class="pulse moveup" src="img/google.png"></a></li>
+<address>
+ <ul class="social">
+ <li class="span3"><a href="#"><i class="icon-twitter pulse moveup"></i></a></li>
+ <li class="span3"><a href="#"><i class="icon-facebook pulse moveup"></i></a></li>
+  <li class="span3"><a href="#"><i class="icon-instagramm pulse moveup"></i></a></li>
+   <li class="span3"><a href="#"><i class="icon-gplus pulse moveup"></i></a></li>
+
+   
+    
  </ul>
+
+</address>
 
 
 </div>
@@ -952,8 +991,13 @@ $jquery = $jquery_validator->generate();
         </div> <!-- /container -->
 </article>
 </section>
- 
-    <div id="project1" class="pro" style="display:none">
+ <footer class="footer">
+      <div class="container">
+  2013 © Simple. All rights reserved.
+      </div>
+    </footer>
+    
+    <div id="project5" class="pro" style="display:none">
          <div class="row-fluid">
   
               <div class="span4">
@@ -998,23 +1042,13 @@ $jquery = $jquery_validator->generate();
               </div>
  
   </div>
-<div id="responsive" class="boxy modal hide fade" tabindex="-1" data-width="760">
- <div class="row-fluid">
-<div class="span4">
-<img src="img/door@2x.jpg">
- </div>
-<div class="span5">
-<h3>Thumbnail label</h3>
-<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-</div>
-</div>
-</div>
+
  
   
-<div id="project3" class="pro" style="display:none">
+<div id="project2" class="pro" style="display:none">
 <div class="row-fluid">
 <div class="span4">
-<img src="img/door@2x.jpg">
+<img src="img/door@1x.jpg">
  </div>
 <div class="span5">
 <h3>Thumbnail label</h3>
@@ -1023,10 +1057,10 @@ $jquery = $jquery_validator->generate();
 </div>
 </div>
 
-<div id="project4" class="pro" style="display:none">
+<div id="project3" class="pro" style="display:none">
 <div class="row-fluid">
 <div class="span4">
-<img src="img/house@2x.jpg">
+<img src="img/house@1x.jpg">
  </div>
 <div class="span5">
 <h3>Thumbnail label</h3>
@@ -1039,7 +1073,7 @@ $jquery = $jquery_validator->generate();
  <div id="project8" class="pro" style="display:none">
 <div class="row-fluid">
 <div class="span4">
-<img src="img/skull@2x.jpg">
+<img src="img/skull@1x.jpg">
  </div>
 <div class="span5">
 <h3>Thumbnail label</h3>
@@ -1051,7 +1085,7 @@ $jquery = $jquery_validator->generate();
  <div id="project7" class="pro" style="display:none">
 <div class="row-fluid">
 <div class="span4">
-<img src="img/road@2x.jpg">
+<img src="img/road@1x.jpg">
  </div>
 <div class="span5">
 <h3>Thumbnail label</h3>
@@ -1061,10 +1095,10 @@ $jquery = $jquery_validator->generate();
 </div>           
  
 
- <div id="project5" class="pro" style="display:none">
+ <div id="project4" class="pro" style="display:none">
 <div class="row-fluid">
 <div class="span4">
-<img src="img/notes@2x.jpg">
+<img src="img/notes@1x.jpg">
  </div>
 <div class="span5">
 <h3>Thumbnail label</h3>
@@ -1074,22 +1108,33 @@ $jquery = $jquery_validator->generate();
 </div>       
  
  <div id="project6" class="pro" style="display:none">
-<div class="row-fluid">
-<div class="span4">
-<img src="img/pumpkin@2x.jpg">
- </div>
-<div class="span5">
-<h3>Thumbnail label</h3>
-<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-</div>
-</div>
+<div class="row-fluid">      
+       <div class="span3">
+       
+        <div class="left-text fetwidth">
+              <a href="#">
+                <i class="icon-rocket icons"></i>
+              </a>
+              <div class="media-body">
+                <h4 class="media-heading">Media heading</h4>
+                Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+              </div>
+           </div> 
+       
+       
+       </div>   
+        
+         <div class="span7">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</div>   
+         
+         
+         </div>
 </div>     
  
  
-<div id="project2" class="pro" style="display:none">
+<div id="project1" class="pro" style="display:none">
 <div class="row-fluid">
 <div class="span4">
-<img src="img/star@2x.jpg">
+<img src="img/star@1x.jpg">
  </div>
 <div class="span5">
 <h3>Thumbnail label</h3>
@@ -1119,48 +1164,39 @@ $jquery = $jquery_validator->generate();
 	<button type="button" data-dismiss="modal" class="btn">Close</button>
 	<button type="button" class="btn btn-primary">Ok</button>
 </div></div>
- 
-     
+
    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-<script type="text/javascript" src="//cdn.jsdelivr.net/bootstrap/2.3.2/js/bootstrap.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery.js"><\/script>')</script>
+        <script src="js/vendor/jquery.retinise.min.js"></script> 
+<script>   
+        $( document ).ready(function() {
+    $(function() {
+			$('.retina').retinise();
+		});
+});</script>     
+<script type="text/javascript" src="js/vendor/bootstrap.min.js"></script>
+
 <script src="js/vendor/bootstrap-modalmanager.js"></script> 
 <script src="js/vendor/bootstrap-modal.js"></script> 
  <script type="text/javascript" src="//cdn.jsdelivr.net/colorbox/1.4.4/jquery.colorbox-min.js"></script> 
  <script type="text/javascript" src="//cdn.jsdelivr.net/slidesjs/3.0.1/jquery.slides.min.js"></script>
-   <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.easing/1.3/jquery.easing.1.3.js"></script>   
-  <script src="js/vendor/jquery.hcaptions.js"></script> 
+   <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.easing/1.3/jquery.easing.1.3.js"></script><script src='js/vendor/mosaic.1.0.1.min.js'></script>   
+
   <script src="js/vendor/jquery.smooth-scroll.min.js"></script> 
  <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
  <script src="js/vendor/main.js"></script>   
   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.10.0/jquery.validate.js"></script>
 
 <script src='js/vendor/swipe.js'></script>
+
+<script src='js/vendor/jquery.sidr.min.js'></script>
+
+
+
 <script>
 
-// pure JS
-var elem = document.getElementById('mySwipe');
-window.mySwipe = Swipe(elem, {
-  // startSlide: 4,
-  // auto: 3000,
-  // continuous: true,
-  // disableScroll: true,
-  // stopPropagation: true,
-  // callback: function(index, element) {},
-  // transitionEnd: function(index, element) {}
-});
-var elem = document.getElementById('fetswipe');
-window.mySwipe2 = Swipe(elem, {
-  // startSlide: 4,
-  auto: 3000,
-  // continuous: true,
-  // disableScroll: true,
-  // stopPropagation: true,
-  // callback: function(index, element) {},
-  // transitionEnd: function(index, element) {}
-});
-// with jQuery
-//window.mySwipe2 = $('#fetswipe').Swipe().data('Swipe');
+
+
 
 </script>
 
@@ -1169,36 +1205,21 @@ window.mySwipe2 = Swipe(elem, {
 <?php foreach($jquery['methods'] as $method_name => $method_function): ?>
 	jQuery.validator.addMethod("<?php echo $method_name; ?>", <?php echo $method_function; ?>);
 <?php endforeach; ?>
-$(function() {
-      $('#slides2').slidesjs({
-        width: 560,
-        height: 420,
-        play: {
-          active: false,
-          auto: true,
-          interval: 4000,
-          swap: true,
-		  restartDelay: 2500
-        },
-		pagination: {
-      active: false,
-        // [boolean] Create pagination items.
-        // You cannot use your own pagination. Sorry.
-      effect: "slide"
-        // [string] Can be either "slide" or "fade".
-    },
-		 navigation: {
-      active: false,
-        // [boolean] Generates next and previous buttons.
-        // You can set to false and use your own buttons.
-        // User defined buttons must have the following:
-        // previous button: class="slidesjs-previous slidesjs-navigation"
-        // next button: class="slidesjs-next slidesjs-navigation"
-      effect: "slide"
-        // [string] Can be either "slide" or "fade".
-    }
-      });
+window.mySwipe = $('#mySwipe').Swipe({
+        auto: 3000
+    }).data('Swipe');	
+window.mySwipe2 = $('#fetswipe').Swipe({
+        auto: 3000
+    }).data('Swipe');	
+	
+	 $('#responsive-menu-button').sidr({
+      name: 'sidr-main',
+      source: '#navigation'
     });
+	if(navigator.appVersion.indexOf("MSIE 7.")!=-1){
+$('#one').attr('src', 'img/star@1x.jpg');
+
+}   
 $("#form").validate({
 
 	submitHandler: function(form, e) {

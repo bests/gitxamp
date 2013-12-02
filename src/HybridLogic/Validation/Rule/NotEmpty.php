@@ -34,7 +34,7 @@ class NotEmpty implements \HybridLogic\Validation\Rule, \HybridLogic\Validation\
 	 * @return string Error message
 	 **/
 	public function get_error_message($field, $value, $validator) {
-		return $validator->get_label($field) . ' must not be empty';
+		return $validator->get_label($field) . ' must not be empty<i class="icon-cancel iconshead"></i>';
 	} // end func: get_error_message
 
 

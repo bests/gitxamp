@@ -1,0 +1,113 @@
+.work .span4{
+
+text-align:center;
+
+}
+.work{
+background-color: #FFF;
+position: relative;
+
+
+}
+
+.work .title {
+	
+	width:70%;
+	
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+padding-bottom:60px;
+}
+.work .title h1 {
+font-size:60px;
+	
+padding-bottom:20px;
+
+}	
+.bad-work .title h2 {
+	width:100%;
+	font-size:40px;
+	text-align:left;
+
+
+}	
+	
+@media (min-width: 1200px){
+.circle img {
+    max-width: none;
+    width: 61%;
+}
+.tab-pane img{
+	width:100%;
+	max-width:none;
+}	
+.tab-pane .span5{
+width:40%;
+	
+}
+.tab-pane .span4{
+width:40%;
+	
+}
+}
+@media (max-width: 1200px) and (min-width: 980px){
+.circle img{
+	width:61%;
+	max-width:none;
+}
+.tab-pane .span5{
+width:40%;
+	
+}
+.tab-pane .span4{
+width:40%;
+	
+}				
+	
+}
+@media (max-width: 979px) and (min-width: 768px){
+.tab-pane img {
+width: 100%;
+max-width: none;
+}	
+.circle img {
+width: 90%;
+}
+.tab-pane .span5{
+width:51%;
+	
+}
+.tab-pane .span4{
+width:46%;
+	
+}		
+}
+@media (max-width: 767px){
+.circle img {
+max-width: none;
+width: 35%;
+}
+.work .span4{
+	width:100%;
+	
+}
+.tab-pane .span5{
+	padding:10px;
+width:95%;
+float:left;
+
+	
+}
+}
+@media (max-width: 670px){
+.tab-pane .span4 {
+    width: 100%;
+	float:left;
+}
+.tab-pane .span5 {
+    width: 100%;
+	float:left;
+	text-align:center;
+}	
+}
