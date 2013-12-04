@@ -1,3 +1,16 @@
+.price .title {
+
+color:#fff;
+text-align: left;
+margin-left: auto;
+margin-right: auto;
+padding-bottom: 60px;
+}
+.price .title h1 {
+
+color:#fff;
+
+}
 .pricemain {
 list-style: none;
 
@@ -14,13 +27,13 @@ padding: 20px;
 cursor:pointer;
 }
 .pricemain .title {
-position:relative;
-font-size:20px;
+position: relative;
+font-size: 20px;
 font-weight: bold;
 padding: 20px;
-color:#FFF;
+color: #41BACE;
 margin: -20px -20px 20px -20px;
-background-color: #4DC5D9;
+background-color: #575757;
 
 }
 .pricemain .pricetitle span {

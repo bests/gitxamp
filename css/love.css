@@ -4,7 +4,7 @@ text-align:center;
 
 }
 .work{
-background-color: #FFF;
+
 position: relative;
 
 
@@ -109,5 +109,9 @@ float:left;
     width: 100%;
 	float:left;
 	text-align:center;
+}	
+.work .title h1 {
+    font-size: 45px;
+    padding-bottom: 20px;
 }	
 }

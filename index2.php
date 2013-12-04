@@ -144,14 +144,12 @@
 <section id="features"  class="anchor">
 
 
-<div class="titlebg"><h2>Features</h2>
-      HTML5, built on Bootstrap, very fast.
-  </div> 
+
        
      
 
- <div class="tick"></div> 
-<article id="home_features" class="features">  
+ 
+<article id="home_features" class="features white">  
  
 <div class="container paddingtop">
 
@@ -182,12 +180,7 @@
 	</div> 
      
      
-     <div class="span4">
-		                <h2 class="titleone">EVERYTHING IS DESIGNED.
-		                <br>FEW THINGS ARE DESIGNED well</h2>
-		                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras faucibus bibendum mauvel tempor metus tempor quis. Vivamus ullamcorper, dolor nec rhoncus bibendu.</p>
-		                <a href="#myModal" data-toggle="modal" class="btn btn-info ajax" data-info="ajax2.html">Ajax modal</a>
-        </div>
+     
      
      
      </div>
@@ -301,16 +294,16 @@
 <section id="gallery" class="anchor">
 
      
-<div class="titlebg"><h2>Projects</h2>
-      HTML5, built on Bootstrap, very fast.
-       </div> 
-<div class="tick"></div>
+
 <article id="home_gallery" class="gallery bluegreen">
 
 <div class="box"><a href="#" class="closeButton"><img src="img/cross.png" width="46" height="43"></a><div class="box-container"></div></div> 
 
 
  <div class="container padding"> 
+  
+      <div class="title"> <h1>Great features</h1> <p class="medium">We are a creative agency located in We’ve won a ton of awards.</p>
+ </div>
  <div class="mosiac-parent">      
 <div class="mosaic-block cover2">
 			<a href="http://yourather.com/questions/135" target="_blank" class="mosaic-overlay">
@@ -435,11 +428,9 @@
 <section id="work" class="anchor">
   
      
-<div class="titlebg"><h2>What we love..</h2>
-      HTML5, built on Bootstrap, very fast.
-       </div> 
-<div class="tick"></div>
- <article id="work_features" class="work">
+
+
+ <article id="work_features" class="work white">
        
 <div class="container padding">
            <div class="title"><h1>Bootstrap</h1>
@@ -595,134 +586,16 @@
 </section>
 
 
-<section id="aboutus" class="anchor"> 
- 
- 
-  
-     
-<div class="titlebg"><h2>About us</h2>
-      We are a small design company that simply love what we do..
-       </div> 
-<div class="tick"></div>
 
-<article id="home_aboutus" class="aboutus bluegreen">
-       
-      
-       
-       
-       
-       
-        <div class="container padding">
-           
-        <div class="row-fluid">
-              
-              <div class="span4">
-
-              <img src="img/about1.png" style="margin-top: 0px;">
-
-              </div>
-              
-              <div class="span5">
-
-             <h3>We design</h3>
-                   <p>yao avenger cereal bearfgfg fggfizzard charlie sheen in tooghh ellphone one does not simply wodka gag on that like a boss luke. Friendzoned yao avenger cereal bear all the things face megusta ba dumm tss. Le me fun you dohg charlie sheen in too </p><br>
-
-                    <a href="" data-info="" class="btn btn-info">Check it out</a>
-            
-            
-           
-
-              </div>
-              
-              
-
-              </div>
-              
-              
-              
-              
-              
-              
-              
-              
-              
-                  
-          <div class="row-fluid">
-  <div class="span5">
-
-             <h3>We develop</h3>
-                    <p>yao avenger cereal bearfgfg fggfizzard charlie sheen in tooghh ellphone one does not simply wodka gag on that like a boss luke. Friendzoned yao avenger cereal bear all the things face megusta ba dumm tss. Le me fun you dohg charlie sheen in too </p><br>
-
-                    <a href="" data-info="" class="btn btn-info">Check it out</a>
-            
-            
-          
-
-              </div>
-              <div class="span4">
-
-              <img src="img/about2.png" style="margin-top: 0px;">
- 
-              </div>
-              
-              
-              
-              
-
-              </div>
-        
-   <!-- End container .. container for carosel --> 
-   
-    <div class="row-fluid">
-  
-              <div class="span4">
-
-              <img src="img/about2.png">
- 
-              </div>
-              
-              <div class="span5">
-
-             <h3>We develop</h3>
-                     <p>yao avenger cereal bearfgfg fggfizzard charlie sheen in tooghh ellphone one does not simply wodka gag on that like a boss luke. Friendzoned yao avenger cereal bear all the things face megusta ba dumm tss. Le me fun you dohg charlie sheen in too </p><br>
-
-                    <a href="" data-info="" class="btn btn-info">Check it out</a>
-            
-         
-
-              </div>
-      </div>     
-  
-           
-           
-        
-             
-            
-          
-            
-            
-        
-            
-            
-            
-            
- </div>
-            
-       
-</article>
-</section>
 
 
 
 <section id="price" class="anchor">  
     
-<div class="titlebg"><h2>Pricing</h2>
-      HTML5, built on Bootstrap, very fast. 
-         </div> 
-         <div class="tick"></div> 
+
          
          
-<article id="price_features" class="price">
+<article id="price_features" class="price bluegreen">
        
       
        
@@ -731,7 +604,8 @@
        
         <div class="container padding">
       
-      
+      <div class="title"> <h1>Great features</h1> <p class="medium">We are a creative agency located in We’ve won a ton of awards.</p>
+ </div>
         
    <!-- End container .. container for carosel --> 
    
@@ -849,19 +723,15 @@
 
     
      
-<div class="titlebg"><h2>Contact us</h2>
-      HTML5, built on Bootstrap, very fast.
-       </div> 
+
   
   
-  
-  <div class="tick"></div> 
-<article id="home_contact" class="contact bluegreen">
+<article id="home_contact" class="contact white">
 
 
  <div id="map-canvas"></div>  
 
-        <div class="container paddingbottom">
+        <div class="container paddingbottom paddingtop">
  
       <div class="row-fluid">
  <?php
@@ -909,46 +779,15 @@ $jquery = $jquery_validator->generate();
 
 
 ?>     
-    
-            <div class="span9"> 
- <div class="alert alert-error alert-block hide">
-              <button type="button" class="close" data-dismiss="alert">×</button>
-              <h4>Warning!</h4>
-              <p>Best check yo self, you're not looking too good. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
-            </div>
-             <div class="alert alert-success alert-block hide">
-              <button type="button" class="close" data-dismiss="alert">×</button>
-              <h4>Warning!</h4>
-              <p>Best check yo self, you're not looking too good. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
-            </div>            
-             <div class="alert alert-error alert-block hide mailrr">
-              <button type="button" class="close" data-dismiss="alert">×</button>
-              <h4>Network!</h4>
-              <p>Best check yo self, you're not looking too good. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
-            </div>   
-            
-<form action="#" class="form" id="form" method="post">
-            <div class="row"><div class="span4"><label><i class="icon-user iconform"></i>Name</label>
-  <input type="text" placeholder="Name" name="name" required></div>
- <div class="span4"><label><i class="icon-mail-alt iconform"></i>Email</label> <input type="email" name="email" placeholder="Email" required></div>
- <div class="span8"><label><i class="icon-comment iconform"></i>Your message</label>
- <textarea rows="6" name="message" spellcheck="false" style=" white-space: pre-wrap; z-index: auto; position: relative; line-height: 20px; font-size: 14px; -webkit-transition: none; transition: none; overflow: auto; margin: 0px; height: 247px; background-position: initial initial !important; background-repeat: initial initial !important;"></textarea>
- </div>
-  <div class="span8"><button type="submit" class="btn submit" name="submit" data-loading-text="Loading..."><i class="icon-right-big iconform"></i>Send</button></div>
-</div>
-</form>
-</div>   
-
-
-
-
-
-<div class="span5">
+   <div class="span6">
+  <h2>Hi! We look forward<br>
+ to your message.</h2> 
+   
 <address>
   <strong>Twitter, Inc.</strong><br>
   795 Folsom Ave, Suite 600<br>
   San Francisco, CA 94107<br>
-  <abbr title="Phone">P:</abbr> (123) 456-7890
+  <i class="icon-mail iconform"></i>(123) 456-7890
 </address>
  
 <address>
@@ -956,12 +795,7 @@ $jquery = $jquery_validator->generate();
   <a href="mailto:#">first.last@example.com</a>
 </address>
 
-<address>
-  <strong>Twitter, Inc.</strong><br>
-  795 Folsom Ave, Suite 600<br>
-  San Francisco, CA 94107<br>
-  <abbr title="Phone">P:</abbr> (123) 456-7890
-</address>
+
  
 <address>
   <strong>Full Name</strong><br>
@@ -981,7 +815,41 @@ $jquery = $jquery_validator->generate();
 </address>
 
 
+</div> 
+            <div class="span6"> 
+ <div class="alert alert-error alert-block hide">
+              <button type="button" class="close" data-dismiss="alert">×</button>
+              <h4>Warning!</h4>
+              <p>Best check yo self, you're not looking too good. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+            </div>
+             <div class="alert alert-success alert-block hide">
+              <button type="button" class="close" data-dismiss="alert">×</button>
+              <h4>Warning!</h4>
+              <p>Best check yo self, you're not looking too good. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+            </div>            
+             <div class="alert alert-error alert-block hide mailrr">
+              <button type="button" class="close" data-dismiss="alert">×</button>
+              <h4>Network!</h4>
+              <p>Best check yo self, you're not looking too good. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+            </div>   
+            
+<form action="#" class="form" id="form" method="post">
+            <div class="row"><div class="span4">
+  <input type="text" placeholder="Name" name="name" required></div>
+ <div class="span4"> <input type="email" name="email" placeholder="Email" required></div>
+ <div class="span8">
+ <textarea rows="6" name="message" placeholder="Email" spellcheck="false" style=" white-space: pre-wrap; z-index: auto; position: relative; line-height: 20px; font-size: 14px; -webkit-transition: none; transition: none; overflow: auto; margin: 0px; height: 247px; background-position: initial initial !important; background-repeat: initial initial !important;"></textarea>
+ </div>
+  <div class="span8"><button type="submit" class="btn submit" name="submit" data-loading-text="Loading..."><i class="icon-right-big iconform"></i>Send</button></div>
 </div>
+</form>
+</div>   
+
+
+
+
+
+
              
             </div>
         

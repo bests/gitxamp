@@ -20,7 +20,17 @@ h3{
 	.tab-content {
 overflow: hidden;
 }
+.tickw {
+background: transparent url('../img/tickwh.png') 0 0 no-repeat;
+background-size: 140px 35px;
+z-index:4;
+height: 35px;
+left: 50%;
+margin-left: -70px;
+position: absolute;
+width: 140px;
 
+}
 .tick {
 background: transparent url('../img/tickw.png') 0 0 no-repeat;
 background-size: 140px 35px;
@@ -268,26 +278,7 @@ margin-left: 0px;
 padding-top: 80px;
 padding-bottom: 80px;
 }
-.titlebg{
-	font-size:25px;
-	font-weight:bold;
-padding:35px 0;		
 
-
-color:#FFF;	
-
-text-align: center;
-}
-			
-.titlebg h2 {
-	color:#fff;
-	margin-bottom:35px;
-	font-size:70px;
-	font-weight:bold;
-
-
-text-align: center;
-}		
 .test{height:700px;}		
 nav {
 background-color: #FFFFFF;
@@ -638,11 +629,7 @@ background:url(../img/loader.gif) no-repeat center center;
 
 
 
-.anchor{
-padding-top: 40px;
-margin-top: -40px;
-	
-	}	
+
 
 
 
@@ -820,9 +807,7 @@ left: 50%;
 
 /* WHATTT */
 
-input, .uneditable-input {
-width: 350px;
-}
+
 	/* WHATTT */
 
 
@@ -1221,10 +1206,7 @@ width: 590px;
 
 
 
-.work .title h1 {
-    font-size: 30px;
-    padding-bottom: 20px;
-}	
+
 
 	.fetwidth {
 
@@ -1811,9 +1793,7 @@ transition: all 0.2s linear;
 	
 	}
 	
-	h1, .h1 {
-font-size: 61px;
-}
+	
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 font-family: "Lato", Helvetica, Arial, sans-serif;
@@ -1825,11 +1805,7 @@ line-height: 1.1;
 	
 text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);	
 }
-#home {
-height: 100%;
-position: relative;
-width: 100%;
-}
+
 .home-pattern {
 background: url(images/home_pattern.png) repeat;
 width: 100%;

@@ -107,7 +107,12 @@ Modals
 
 
 
-=====================*/			
+=====================*/	
+.white{
+	
+background-color: #FFF;	
+
+}		
 .modal-scrollable {
 	position: fixed;
 	top: 0;
@@ -149,12 +154,79 @@ Modals
 
 =====================*/		
 
+			
+
 .price{
 background-color: #FFF;
 position:relative;
 }
+.titlebg h2 {
+	color:#fff;
+	margin-bottom:15px;
+	font-size:70px;
+	font-weight:bold;
 
-.bluegreen{background-color: #4DC5D9;}
+
+text-align: center;
+}
+.titlebg{
+	font-size:25px;
+	font-weight:bold;
+padding:35px 0;		
+
+
+color:#FFF;	
+
+text-align: center;
+}		
+.bluegreen{background-color: #4DC5D9;
+
+}
+.trip{background-color: #4DC5D9;background: url('../img/trip.png') center top repeat;
+}
+noise{
+	
+background: url('../img/noi.png') center top repeat;
+	
+	}
+
 h2, .h2 {
-font-size: 53px;
+font-size: 50px;
+}
+h1, .h1 {
+font-size: 61px;
+}
+.anchor{
+padding-top: 53px;
+margin-top: -53px;
+	
+	}	
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+background-color: #4DC5D9;
+border: 0px solid #cccccc;
+
+height: 35px;
+}
+@media (max-width: 670px){
+.titlebg{
+	font-size:18px;
+	
+}		
+			
+.titlebg h2 {
+	
+	font-size:50px;
+	
+
+
+}			
+h2, .h2 {
+font-size: 33px;
+}
+h1, .h1 {
+font-size: 48px;
+}	
+.nav-tabs > li, .nav-pills > li {
+float: none;
+}	
 }

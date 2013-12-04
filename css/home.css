@@ -4,7 +4,12 @@ Section Global HOME
    
 
 =====================*/	
-
+#home {
+height: 100%;
+min-height:600px;
+position: relative;
+width: 100%;
+}
 .home h1 {
 font-size:65px;
 
@@ -125,8 +130,12 @@ font-size: 43px;
 .iconhome{
 		font-size:60px;}
 }
-@media (max-width: 540px){
+@media (max-width: 670px){
 	.iconhome{
-		font-size:40px;}
+		font-size:30px;}
+.logo img{
+width:50%;	
 
+
+}   
 }
