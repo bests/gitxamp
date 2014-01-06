@@ -12,13 +12,21 @@
       <link type="text/css" rel="stylesheet" href="css/bootstrap.css" /> 
       <link type="text/css" rel="stylesheet" href="css/bootstrap-responsive.css" /> 
       <link type="text/css" rel="stylesheet" href="css/main.css" /> 
+       <link type="text/css" rel="stylesheet" href="css/core.css" /> 
       <link type="text/css" rel="stylesheet" href="css/fontello.css" /> 
        <link type="text/css" rel="stylesheet" href="css/colorbox.css" /> 
         <link type="text/css" rel="stylesheet" href="css/animate.css" /> 
         <link type="text/css" rel="stylesheet" href="css/retina.css" />  
         <link type="text/css" rel="stylesheet" href="css/mosaic.css" />
          <link type="text/css" rel="stylesheet" href="css/jquery.sidr.light.css" />
-         
+         <link type="text/css" rel="stylesheet" href="css/features.css" /> 
+         <link type="text/css" rel="stylesheet" href="css/home.css" /> 
+            <link type="text/css" rel="stylesheet" href="css/project.css" /> 
+             <link type="text/css" rel="stylesheet" href="css/love.css" />
+             <link type="text/css" rel="stylesheet" href="css/about.css" /> 
+             <link type="text/css" rel="stylesheet" href="css/price.css" /> 
+              <link type="text/css" rel="stylesheet" href="css/contact.css" /> 
+              <link type="text/css" rel="stylesheet" href="css/flaxt.css" /> 
         <style>
 .exampleA {
 			/* 
@@ -67,18 +75,18 @@
 		<ul class="seven clearfix nav">
        
 			
-			<li><a href="#overview">Home</a></li>
+			<li><a href="#home">Home</a></li>
 			<li><a href="#features">Features</a></li>
 			<li><a href="#gallery">Gallery</a></li>
             <li><a href="#work">Love</a></li>
-            <li><a href="#aboutus">About</a></li>
+        
             <li><a href="#price">Pricing</a></li>
            <li><a href="#contact">Contact</a></li>
 			
 		</ul>
 		
 		<a href="#" id="pull"><img src="img/nav-icon@2x.png" width="32" height="32" ></a>
-        <div class="bar"></div>
+       
 	</nav>              
   
  
@@ -97,33 +105,37 @@
 
                       
      
-<section id="overview">
-<header class="home padding bluegreen">
+<section id="home" class="bluegreen">
+<header class="home padding">
 
 
 
 
 
-  <div class="container"><!-- End container .. container for carosel -->
+  <div class="container homecenter"><!-- End container .. container for carosel -->
   
-  <div class="logo">
+  <div class="logo align-center">
    <img class="desktop" src="img/logox.png" >
  <ul class="thumbnails">
- <li class="span3"><a href="#"><img class="pulse moveup" src="img/facebook.png" ></a></li>
-  <li class="span3"><a href="#"><img class="pulse moveup" src="img/twit.png" ></a></li>
-   <li class="span3"><a href="#"><img class="pulse moveup" src="img/google.png" ></a></li>
+ 
+  <li class="span3"><a href="#"><i class="icon-twitter iconhome pulse moveup"></i></a></li>
+ <li class="span3"><a href="#"><i class="icon-facebook iconhome pulse moveup"></i></a></li>
+  <li class="span3"><a href="#"><i class="icon-instagramm iconhome pulse moveup"></i></a></li>
+   <li class="span3"><a href="#"><i class="icon-gplus iconhome pulse moveup"></i></a></li>
  </ul>
-   </div>
-  
-  
-  <div class="container register">
- <h1><i class="icon-ok iconshead"></i>Simple and Modern</h1>
-<h2>Fix your workflow. Learn from others. Start your library today.</h2><br>
+ 
+ <div class="title">
+ 
+<h2>Incredibly fast and incredibly easy.</h2><br>
 
 
    <a href="" class="btn btn-info ajax" data-toggle="modal" data-info="ajax.html">Ajax Video</a>
    
    </div>
+   </div>
+  
+  
+  
  </div>
 </header>
 </section>
@@ -131,127 +143,275 @@
 
 <section id="features"  class="anchor">
 
-
 <div class="titlebg"><h2>Features</h2>
-      HTML5, built on Bootstrap, very fast.
-       </div> 
+     <hr></hr>
+       </div>
        
+       
+       
+
+       <div class="tick"></div>
      
 
- <div class="tick"></div> 
-<article id="home_features" class="features">  
  
-<div class="container padding">
- <div class="row-fluid">
- 
-
- 
- 
-  <div class="span4">
-		                <h2 class="titleone">EVERYTHING IS DESIGNED.
-		                <br>FEW THINGS ARE DESIGNED well</h2>
-		                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras faucibus bibendum mauvel tempor metus tempor quis. Vivamus ullamcorper, dolor nec rhoncus bibendu.</p>
-		                <a href="#myModal" data-toggle="modal" class="btn btn-info ajax" data-info="ajax2.html">Ajax modal</a>
-	                </div>
-	                <div class="span8">  
+<article id="home_features" class="features white">  
+<div class="row-fluid">
+<div class="span8 css3-shadow paddingtop">  
  <a href="" onclick="mySwipe2.next()" class="next default"> <i class="icon-left-open iconsize"></i></a>
   <a href="" onclick="mySwipe2.prev()" class="prev default"> <i class="icon-right-open iconsize"></i></a>                  
-                <div id='fetswipe' style='max-width:792px;' class='swipe'>
-  <div class='swipe-wrap'>
-    <div> <img src="slider/responsive.png"></div>
+           
+  <div id='fetswipe' style='max-width:3000px;' class='swipe'>
+  <div class='swipe-wrap'> <div><img src="slider/responsive.png"></div>
+   
+    <div><img src="slider/t.png"></div>
   
-    <div> <img src="slider/responsive.png"></div>
     
-  </div> </div>
+    
+  </div> 
+  
+  </div>
                
-	                	
+	  
+                	
 	</div> 
+ 
+     </div> 
+<div class="container">
+
+
+
+ 
      
-     
-     
-     
-     
-     </div>
-     
-     
+  <div class="title"> <h1>Great features</h1> <p class="medium">We are a creative agency located in <strong>Brooklyn New York.</strong> We’ve won a ton of awards
+
+     and have been featured in all of the magazines.</p>
+ </div>   
                  
   
         
       
        
    <!-- End container .. container for carosel --> 
-   <div class="postimgright"> <h3>Some great features</h3> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras faucibus bibendum mauvel tempor metus tempor quis. Vivamus ullamcorper, dolor nec rhoncus bibendu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras faucibus bibendum mauvel tempor metus tempor quis. Vivamus ullamcorper, dolor nec rhoncus bibendu.</p>
- <div class="media left-text fetwidth">
-              <a href="#">
-               <i class="icon-cog icons"></i>
-              </a>
+  
+
+ 
+    <div class="left-text fetwidth servicelink" data-info="1">
              
+                 <i class="icon-globe icons"></i>
+              
               <div class="media-body">
-                <h4 class="media-heading">Built on Bootstrap</h4>
+                <h4 class="media-heading">Multipurpose</h4>
                 Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. 
               </div>
-            </div>
-    <div class="media left-text fetwidth">
+           </div>
+           
+           
+           
+            
+         
+    <div class="left-text fetwidth servicelink" data-info="3">
               <a href="#">
-                 <i class="icon-globe icons"></i>
+                <i class="icon-tablet icons"></i>
               </a>
               <div class="media-body">
                 <h4 class="media-heading">Responsive</h4>
                 Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. 
               </div>
-           </div>
-            
-          <div class="media left-text fetwidth">
-              <a href="#">
-                 <i class="icon-wrench icons"></i>
-              </a>
-              <div class="media-body">
-                <h4 class="media-heading">Media heading</h4>
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. 
-              </div>
-            </div>
-    <div class="media left-text fetwidth">
-              <a href="#">
-                <i class="icon-rocket icons"></i>
-              </a>
-              <div class="media-body">
-                <h4 class="media-heading">Media heading</h4>
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. 
-              </div>
            </div>   
             
-            
-            
-            
-            
-               
-          
+   <div class="left-text fetwidth servicelink" data-info="4">
+              <a href="#">
+                <i class="icon-thumbs-up icons"></i>
+              </a>
+              <div class="media-body">
+                <h4 class="media-heading">Friendly</h4>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. 
+              </div>
+           </div> 
+           
+    
+         <div class="left-text fetwidth servicelink srvactive" data-info="2">
+             
+                 <i class="icon-wrench icons"></i>
+             
+              <div class="media-body">
+                <h4 class="media-heading">Fine-tuned</h4>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. 
+              </div>
+            </div>       
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                           
+        </div><!-- /container -->
+    <div>    
+        
+        
+ <div id="slider1" class="container">
+		
+		<div class="viewport paddingtop">
+			<ul class="overview">
+				<li>   <div class="row-fluid">      
+       <div class="span3">
        
-            
-            
-            
-            
- </div>
-            
-        </div> <!-- /container -->
+        <div class="left-text fetwidth">
+              <a href="#">
+                <i class="icon-globe icons"></i>
+              </a>
+              <div class="media-body">
+                <h4 class="media-heading">Multipurpose</h4>
+                Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+              </div>
+           </div> 
+       
+       
+       </div>   
+        
+         <div class="span7"><h2>True diveristy</h2>
+     <p class="medium">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. <strong>Nullam id dolor</strong> id nibh ultricies vehicula ut id elit.</p>
+       </div>   
+         
+         
+         </div></li>
+				<li>   
+                <div class="row-fluid">      
+       <div class="span3">
+       
+        <div class="left-text fetwidth">
+              <a href="#">
+                <i class="icon-wrench icons"></i>
+              </a>
+              <div class="media-body">
+                <h4 class="media-heading">Fine-tuned</h4>
+                Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+              </div>
+           </div> 
+       
+       
+       </div>   
+        
+         <div class="span7"><h2>Built smartly</h2>
+     <p class="medium">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. <strong>Nullam id dolor</strong> id nibh ultricies vehicula ut id elit.</p>
+       </div>   
+         
+         
+         </div>
+         
+         </li>
+				<li>   <div class="row-fluid">      
+       <div class="span3">
+       
+        <div class="left-text fetwidth">
+              <a href="#">
+                <i class="icon-tablet icons"></i>
+              </a>
+              <div class="media-body">
+                <h4 class="media-heading">Media heading</h4>
+                Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+              </div>
+           </div> 
+       
+       
+       </div>   
+        
+         <div class="span7"><h2>Bootstrap</h2>
+     <p class="medium">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. <strong>Nullam id dolor</strong> id nibh ultricies vehicula ut id elit.</p>
+       </div>   
+         
+         
+         </div></li>									
+				<li>   <div class="row-fluid">      
+       <div class="span3">
+       
+        <div class="left-text fetwidth">
+              <a href="#">
+                <i class="icon-thumbs-up icons"></i>
+              </a>
+              <div class="media-body">
+                <h4 class="media-heading">Friendly</h4>
+                Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+              </div>
+           </div> 
+       
+       
+       </div>   
+        
+         <div class="span7"><h2>Easy to use.</h2>
+     <p class="medium">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. <strong>Nullam id dolor</strong> id nibh ultricies vehicula ut id elit.</p>
+       </div>   
+         
+         
+         </div></li>
+				<li>   <div class="row-fluid">      
+       <div class="span3">
+       
+        <div class="left-text fetwidth">
+              <a href="#">
+                <i class="icon-wrench icons"></i>
+              </a>
+              <div class="media-body">
+                <h4 class="media-heading">Media heading</h4>
+                Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+              </div>
+           </div> 
+       
+       
+       </div>   
+        
+         <div class="span7"><h2>Bootstrap</h2>
+     <p class="medium">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. <strong>Nullam id dolor</strong> id nibh ultricies vehicula ut id elit.</p>
+       </div>   
+         
+         
+         </div></li>
+				
+			</ul>
+		</div>
+		
+	</div>       
+      
+        </div> 
 </article>
 </section>
 
+<article class="parallax"><div class="container"><img src="img/tablets.png"></div></article>
 
 
-<section class="anchor">
-
+<section id="gallery" class="anchor">
+<div class="titlebg"><h2>Projects</h2>
+    <hr></hr>
+       </div>
+       
+       <div class="tick"></div>
      
-<div id="gallery" class="titlebg"><h2>Projects</h2>
-      HTML5, built on Bootstrap, very fast.
-       </div> 
-<div class="tick"></div>
+
 <article id="home_gallery" class="gallery bluegreen">
 
 <div class="box"><a href="#" class="closeButton"><img src="img/cross.png" width="46" height="43"></a><div class="box-container"></div></div> 
 
 
- <div class="container padding">       
+ <div class="container padding"> 
+  
+      <div class="title"> <h1>Great features</h1> <p class="medium">We are a creative agency located in We’ve won a ton of awards.</p>
+ </div>
+ 
+ 
+ 
+ 
+ 
+ 
+ <div class="mosiac-parent">      
 <div class="mosaic-block cover2">
 			<a href="http://yourather.com/questions/135" target="_blank" class="mosaic-overlay">
  <img src="" alt="" data-src="img/star@1x.jpg" data-ret="image@2x.jpg" data-alt="My Image" class="retina" id="one" />           
@@ -326,42 +486,24 @@
 				</div>
 		</div>
  
-  <div class="mosaic-block cover2">
-			<a href="http://yourather.com/questions/135" target="_blank" class="mosaic-overlay"><img src="" alt="" data-src="img/road@1x.jpg" data-ret="house@2x.jpg" data-alt="My Image" class="retina" id="seven" /></a>
-				<div class="details">
-					 <h5>Title</h5>
- <a href="" data-info="#project7" class="btn btn-info pro">More</a> 
- <a class="btn btn-info ajax2" data-info="seven" href="#hugex">Ajax</a>                    
-                    
-                    
-				</div>
-		</div>
-  <div class="mosaic-block cover2">
-			<a href="http://yourather.com/questions/135" target="_blank" class="mosaic-overlay"><img src="" alt="" data-src="img/skull@1x.jpg" data-ret="house@2x.jpg" data-alt="My Image" class="retina" id="eight" /></a>
-				<div class="details">
-					 <h5>Title</h5>
- <a href="" data-info="#project8" class="btn btn-info pro">More</a> 
- <a class="btn btn-info ajax2" data-info="eight" href="#hugex">Ajax</a>                    
-                    
-                    
-				</div>
-		</div>
+  
+  
         
      </div>
      
            
         
-        
+      
+     </div>          
         <div id="collapseOne" class="accordion-body collapse">
-      <div class="accordion-inner"><a class="projects" href="#"><i class="icon-up-dir icons"></i></a>
+      <div class="accordion-inner"><a class="projects default" href="#"><i class="icon-up-dir icons"></i></a>
         <div id="hugex" class="container"></div>
         </div>
         </div>
         
         
         
-        
-        
+   
         </div>
         
         
@@ -372,44 +514,58 @@
 </section>
 
 
-<section class="anchor">
+<section id="work" class="anchor">
   
-     
-<div id="work" class="titlebg"><h2>What we love..</h2>
-      HTML5, built on Bootstrap, very fast.
-       </div> 
-<div class="tick"></div>
- <article id="work_features" class="work">
+     <div class="titlebg"><h2>Love</h2>
+     <hr></hr>
+       </div>
+       
+       <div class="tick"></div>
+
+
+ <article id="work_features" class="work white">
        
 <div class="container padding">
            <div class="title"><h1>Bootstrap</h1>
-     Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+     <p class="medium">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. <strong>Nullam id dolor</strong> id nibh ultricies vehicula ut id elit.</p>
        </div>    
        
-        <div class="row-fluid tet">
+        <div class="row-fluid">
               
               <div class="span4 circle">
 
               <img src="img/heart.png" class="pulse moveup">
- <h3>We develop</h3>
+ <h3>We love..</h3>
                     <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
               </div>
               
               <div class="span4 circle">
   <img src="img/idea.png" class="pulse moveup">
- <h3>We develop</h3>
+ <h3>ideas and..</h3>
                     <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
               </div>
               
                  <div class="span4 circle">
   <img src="img/music.png" class="pulse moveup">
- <h3>We develop</h3>
+ <h3>music.</h3>
                     <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
               </div>
 
               </div>
               
-     <div class="paddingbot"> 
+              
+  
+
+</div>
+<div class="middle">
+<div class="title">
+
+<p class="myclass">The right look IS the right look.</p></div>
+</div>
+
+
+            
+ <div class="container paddingbot paddingtop"> 
 <div class="bs-docs-example">
             <ul id="myTab" class="nav nav-tabs"><li class="active"><a href="#cola" data-toggle="tab">Clients</a></li><li class=""><a href="#profile" data-toggle="tab">Skills</a></li>
               <li class=""><a href="#home" data-toggle="tab">Features</a></li>
@@ -421,7 +577,7 @@
             <div class="tab-pane fade active in" id="cola">
               <div class="row-fluid">
                <div class="span4">
-              <div id='mySwipe' style='max-width:500px;margin:0 auto' class='swipe'>
+              <div id='mySwipe' style='max-width:600px;margin:0 auto' class='swipe'>
   <div class='swipe-wrap'>
     <div> <img src="img/wizz.png"></div>
     <div> <img src="img/mr.png"></div>
@@ -440,7 +596,7 @@
               <div class="span5">
 
              <h3>We work together</h3>
-                    <p class="bold">A very easy to use template. </p><br>
+                    <p class="medium">A very easy to use <strong>template.</strong> </p>
 <br>
 <p>Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p><div style='padding-top:20px;'>
   <a href="#" class="pre default" onClick="mySwipe.prev()">
@@ -468,7 +624,7 @@
               <div class="span5">
 
              <h3>Modern design </h3>
-                    <p class="bold">A very easy to use template. </p><br>
+                    <p class="medium">Many <strong>options</strong> to choose from.</p>
 <br>
 <p>Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
  
@@ -499,7 +655,7 @@
 
 <div class="span5">
  <h3>Skills</h3>
-                    <p class="bold">We are good at</p><br>
+                    <p class="medium">We <strong>can do</strong> many things, but not everyhing.</p>
 <br>
 <p>Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
 
@@ -512,166 +668,136 @@
           </div>
    
          
-  </div>
-           
-    
-
-           
-        
-             
-            
-          
-            
-            
-        
-            
-            
-            
-            
- </div>
-            
-       
+  </div>      
 </article>
 </section>
 
+<article class="parallax">
 
-<section class="anchor"> 
- 
- 
-  
-     
-<div id="aboutus" class="titlebg"><h2>About us</h2>
-      We are a small design company that simply love what we do..
-       </div> 
-<div class="tick"></div>
+<div class="container">
+<div class="row-fluid">
+               <div class="span3 leftmargin">
+              <ul class="team">  
+               <li class="title">Sam Valicio</li>
+               
+               <li>
+               
+               
+            <div class="mosaic-block white-blue">
+<div class="mosaic-overlay"><img src="img/team1.jpg"/></div>
 
-<article id="home_aboutus" class="aboutus bluegreen">
-       
-      
-       
-       
-       
-       
-        <div class="container padding">
-           
-        <div class="row-fluid">
-              
-              <div class="span4">
+<div class="details">
+<i class="icon-mail bround"></i>
+<div class="email">vak@simply.com</div>
+<ul class="thumbnails">
 
-              <img src="img/about1.png" style="margin-top: 0px;">
+  <li class="span3"><a href="#" class="iconlove"><i class="icon-twitter iconlove"></i></a></li>
+ <li class="span3"><a href="#" class="iconlove"><i class="icon-facebook iconlove"></i></a></li>
+  <li class="span3"><a href="#" class="iconlove"><i class="icon-instagramm iconlove"></i></a></li>
+   <li class="span3"><a href="#" class="iconlove"><i class="icon-gplus iconlove"></i></a></li>
+ </ul>
+</div>
 
-              </div>
-              
-              <div class="span5">
-
-             <h3>We design</h3>
-                   <p>yao avenger cereal bearfgfg fggfizzard charlie sheen in tooghh ellphone one does not simply wodka gag on that like a boss luke. Friendzoned yao avenger cereal bear all the things face megusta ba dumm tss. Le me fun you dohg charlie sheen in too </p><br>
-
-                    <a href="" data-info="" class="btn btn-info">Check it out</a>
-            
-            
-           
-
-              </div>
-              
-              
-
-              </div>
-              
-              
-              
-              
-              
-              
-              
-              
-              
-                  
-          <div class="row-fluid">
-  <div class="span5">
-
-             <h3>We develop</h3>
-                    <p>yao avenger cereal bearfgfg fggfizzard charlie sheen in tooghh ellphone one does not simply wodka gag on that like a boss luke. Friendzoned yao avenger cereal bear all the things face megusta ba dumm tss. Le me fun you dohg charlie sheen in too </p><br>
-
-                    <a href="" data-info="" class="btn btn-info">Check it out</a>
-            
-            
-          
-
-              </div>
-              <div class="span4">
-
-              <img src="img/about2.png" style="margin-top: 0px;">
- 
-              </div>
-              
-              
-              
-              
-
-              </div>
-        
-   <!-- End container .. container for carosel --> 
-   
-    <div class="row-fluid">
-  
-              <div class="span4">
-
-              <img src="img/about2.png">
- 
-              </div>
-              
-              <div class="span5">
-
-             <h3>We develop</h3>
-                     <p>yao avenger cereal bearfgfg fggfizzard charlie sheen in tooghh ellphone one does not simply wodka gag on that like a boss luke. Friendzoned yao avenger cereal bear all the things face megusta ba dumm tss. Le me fun you dohg charlie sheen in too </p><br>
-
-                    <a href="" data-info="" class="btn btn-info">Check it out</a>
-            
-         
-
-              </div>
-      </div>     
-  
-           
-           
-        
+</div>
+               
+               
+               
+               </li>
              
-            
-          
-            
-            
-        
-            
-            
-            
-            
+ </ul>
  </div>
+
+
+ <div class="span3 leftmargin">
+                <ul class="team">  
+               <li class="title">Vick Van Dur</li>
+               
+               <li>
+               
+               
+            <div class="mosaic-block white-blue">
+<div class="mosaic-overlay"><img src="img/team2.jpg"/></div>
+
+<div class="details">
+<i class="icon-mail bround"></i>
+<div class="email">Vick@simply.com</div>
+<ul class="thumbnails">
+
+  <li class="span3"><a href="#" class="iconlove"><i class="icon-twitter iconlove"></i></a></li>
+ <li class="span3"><a href="#" class="iconlove"><i class="icon-facebook iconlove"></i></a></li>
+  <li class="span3"><a href="#" class="iconlove"><i class="icon-instagramm iconlove"></i></a></li>
+   <li class="span3"><a href="#" class="iconlove"><i class="icon-gplus iconlove"></i></a></li>
+ </ul>
+</div>
+
+</div>
+               
+               
+               
+               </li>
+             
+ </ul>
+ </div>
+  <div class="span3 leftmargin">
+                <ul class="team">  
+               <li class="title">Kim Gotffried</li>
+               
+               <li>
+               
+               
+            <div class="mosaic-block white-blue">
+<div class="mosaic-overlay"><img src="img/team3.jpg"/></div>
+
+<div class="details">
+<i class="icon-mail bround"></i>
+<div class="email">kim@simply.com</div>
+<ul class="thumbnails">
+
+  <li class="span3"><a href="#" class="iconlove"><i class="icon-twitter iconlove"></i></a></li>
+ <li class="span3"><a href="#" class="iconlove"><i class="icon-facebook iconlove"></i></a></li>
+  <li class="span3"><a href="#" class="iconlove"><i class="icon-instagramm iconlove"></i></a></li>
+   <li class="span3"><a href="#" class="iconlove"><i class="icon-gplus iconlove"></i></a></li>
+ </ul>
+</div>
+
+</div>
+               
+               
+               
+               </li>
+             
+ </ul>
+ </div>           
+      
             
-       
+               
+               </div>
+
+</div>
 </article>
-</section>
 
 
 
-<section class="anchor">  
+
+<section id="price" class="anchor">  
     
-<div id="price" class="titlebg"><h2>Pricing</h2>
-      HTML5, built on Bootstrap, very fast. 
-         </div> 
-         <div class="tick"></div> 
+<div class="titlebg"><h2>Projects</h2>
+      <hr></hr>
+       </div>
+       
+       <div class="tick"></div>
          
          
-<article id="price_features" class="price">
+<article id="price_features" class="price bluegreen">
        
       
-       
        
        
        
         <div class="container padding">
       
-      
+      <div class="title"> <h1>Great features</h1> <p class="medium">We are a creative agency located in We’ve won a ton of awards.</p>
+ </div>
         
    <!-- End container .. container for carosel --> 
    
@@ -684,11 +810,11 @@
                         <li class="pricetitle">$25<span> /mo</span></li>
                         <li class="description">Checkout what you get below</li>
                         
-                                <li><strong>2</strong> Domain Names</li>
-                                <li><strong>5</strong> Mysql Databases</li>
-                                <li><strong>10</strong> Email Accounts</li>
-                                <li><strong>20GB</strong> of Space</li>
-                                <li><strong>Ulimited</strong> Bandwidth</li>
+                                <li><strong><i class="icon-ok"></i></strong> Domain Names</li>
+                                <li><strong><i class="icon-ok"></i></strong> </strong> Mysql Databases</li>
+                                <li><strong><i class="icon-ok"></i></strong> </strong> Email Accounts</li>
+                                <li><strong><i class="icon-ok"></i></strong> </strong> of Space</li>
+                                <li><strong><i class="icon-ok"></i></strong> </strong> Bandwidth</li>
                        
                         <li class="price-button">
                             <a href="" class="btn btn-info"><i class="icon-ok"></i> Sign-up</a>
@@ -699,7 +825,7 @@
             
               <div class="span3">
   
-           <ul class="pricemain">
+           <ul class="pricemain activeit">
                         <li class="title">Simple 1</li>
                         <li class="pricetitle">$25<span> /mo</span></li>
                         <li class="description">Checkout what you get below</li>
@@ -785,24 +911,24 @@
 
 
 
-<section class="anchor">
+<section id="contact" class="anchor">
 
-    
+    <div class="titlebg"><h2>Projects</h2>
+      <hr></hr>
+       </div>
+       
+       <div class="tick"></div>
      
-<div id="contact" class="titlebg"><h2>Contact us</h2>
-      HTML5, built on Bootstrap, very fast.
-       </div> 
+
   
   
-  
-  <div class="tick"></div> 
-<article id="home_contact" class="contact bluegreen">
+<article id="home_contact" class="contact white">
 
 
  <div id="map-canvas"></div>  
 
-        <div class="container padding">
-       
+        <div class="container paddingbottom paddingtop">
+ 
       <div class="row-fluid">
  <?php
 
@@ -849,8 +975,44 @@ $jquery = $jquery_validator->generate();
 
 
 ?>     
+   <div class="span6">
+  <h2>Hi! We look forward<br>
+ to your message.</h2> 
+   
+<address>
+  <strong>Twitter, Inc.</strong><br>
+  795 Folsom Ave, Suite 600<br>
+  San Francisco, CA 94107<br>
+  <i class="icon-mail iconform"></i>(123) 456-7890
+</address>
+ 
+<address>
+  <strong>Full Name</strong><br>
+  <a href="mailto:#">first.last@example.com</a>
+</address>
+
+
+ 
+<address>
+  <strong>Full Name</strong><br>
+  <a href="mailto:#">first.last@example.com</a>
+</address>
+<address>
+ <ul class="social">
+ <li class="span3"><a href="#"><i class="icon-twitter pulse moveup"></i></a></li>
+ <li class="span3"><a href="#"><i class="icon-facebook pulse moveup"></i></a></li>
+  <li class="span3"><a href="#"><i class="icon-instagramm pulse moveup"></i></a></li>
+   <li class="span3"><a href="#"><i class="icon-gplus pulse moveup"></i></a></li>
+
+   
     
-            <div class="span9"> 
+ </ul>
+
+</address>
+
+
+</div> 
+            <div class="span6"> 
  <div class="alert alert-error alert-block hide">
               <button type="button" class="close" data-dismiss="alert">×</button>
               <h4>Warning!</h4>
@@ -868,13 +1030,13 @@ $jquery = $jquery_validator->generate();
             </div>   
             
 <form action="#" class="form" id="form" method="post">
-            <div class="row"><div class="span4"><label>Name</label>
+            <div class="row"><div class="span4">
   <input type="text" placeholder="Name" name="name" required></div>
- <div class="span4"><label>Email</label> <input type="email" name="email" placeholder="Email" required></div>
- <div class="span8"><label>Your message</label>
- <textarea rows="6" name="message" spellcheck="false" style=" white-space: pre-wrap; z-index: auto; position: relative; line-height: 20px; font-size: 14px; -webkit-transition: none; transition: none; overflow: auto; margin: 0px; height: 247px; background-position: initial initial !important; background-repeat: initial initial !important;"></textarea>
+ <div class="span4"> <input type="email" name="email" placeholder="Email" required></div>
+ <div class="span8">
+ <textarea rows="6" name="message" placeholder="Email" spellcheck="false" style=" white-space: pre-wrap; z-index: auto; position: relative; line-height: 20px; font-size: 14px; -webkit-transition: none; transition: none; overflow: auto; margin: 0px; height: 247px; background-position: initial initial !important; background-repeat: initial initial !important;"></textarea>
  </div>
-  <div class="span8"><button type="submit" class="btn submit" name="submit" data-loading-text="Loading...">Sign in</button></div>
+  <div class="span8"><button type="submit" class="btn submit" name="submit" data-loading-text="Loading..."><i class="icon-right-big iconform"></i>Send</button></div>
 </div>
 </form>
 </div>   
@@ -883,41 +1045,7 @@ $jquery = $jquery_validator->generate();
 
 
 
-<div class="span5">
-<address>
-  <strong>Twitter, Inc.</strong><br>
-  795 Folsom Ave, Suite 600<br>
-  San Francisco, CA 94107<br>
-  <abbr title="Phone">P:</abbr> (123) 456-7890
-</address>
- 
-<address>
-  <strong>Full Name</strong><br>
-  <a href="mailto:#">first.last@example.com</a>
-</address>
 
-<address>
-  <strong>Twitter, Inc.</strong><br>
-  795 Folsom Ave, Suite 600<br>
-  San Francisco, CA 94107<br>
-  <abbr title="Phone">P:</abbr> (123) 456-7890
-</address>
- 
-<address>
-  <strong>Full Name</strong><br>
-  <a href="mailto:#">first.last@example.com</a>
-</address>
-<address>
- <ul class="social">
- <li class="span3"><a href="#"><img class="pulse moveup" src="img/facebook.png"></a></li>
-  <li class="span3"><a href="#"><img class="pulse moveup" src="img/twit.png"></a></li>
-   <li class="span3"><a href="#"><img class="pulse moveup" src="img/google.png"></a></li>
- </ul>
-
-</address>
-
-
-</div>
              
             </div>
         
@@ -927,7 +1055,12 @@ $jquery = $jquery_validator->generate();
         </div> <!-- /container -->
 </article>
 </section>
- 
+ <footer class="footer">
+      <div class="container">
+  2013 © Simple. All rights reserved.
+      </div>
+    </footer>
+    
     <div id="project5" class="pro" style="display:none">
          <div class="row-fluid">
   
@@ -973,17 +1106,7 @@ $jquery = $jquery_validator->generate();
               </div>
  
   </div>
-<div id="responsive" class="boxy modal hide fade" tabindex="-1" data-width="760">
- <div class="row-fluid">
-<div class="span4">
-<img src="img/door@1x.jpg">
- </div>
-<div class="span5">
-<h3>Thumbnail label</h3>
-<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-</div>
-</div>
-</div>
+
  
   
 <div id="project2" class="pro" style="display:none">
@@ -1049,29 +1172,54 @@ $jquery = $jquery_validator->generate();
 </div>       
  
  <div id="project6" class="pro" style="display:none">
-<div class="row-fluid">
-<div class="span4">
-<img src="img/pumpkin@1x.jpg">
- </div>
-<div class="span5">
-<h3>Thumbnail label</h3>
-<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-</div>
-</div>
+<div class="row-fluid">      
+       <div class="span3">
+       
+        <div class="left-text fetwidth">
+              <a href="#">
+                <i class="icon-wrench icons"></i>
+              </a>
+              <div class="media-body">
+                <h4 class="media-heading">Media heading</h4>
+                Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+              </div>
+           </div> 
+       
+       
+       </div>   
+        
+         <div class="span7"><h2>Bootstrap</h2>
+     <p class="medium">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. <strong>Nullam id dolor</strong> id nibh ultricies vehicula ut id elit.</p>
+       </div>   
+         
+         
+         </div>
 </div>     
  
  
 <div id="project1" class="pro" style="display:none">
-<div class="row-fluid">
-<div class="span4">
-<img src="img/star@1x.jpg">
- </div>
-<div class="span5">
-<h3>Thumbnail label</h3>
-<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-
-</div>
-</div>
+<div class="row-fluid">      
+       <div class="span3">
+       
+        <div class="left-text fetwidth">
+              <a href="#">
+                <i class="icon-home icons"></i>
+              </a>
+              <div class="media-body">
+                <h4 class="media-heading">sadsdsdg</h4>
+                Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+              </div>
+           </div> 
+       
+       
+       </div>   
+        
+         <div class="span7"><h2>asdsads</h2>
+     <p class="medium">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. <strong>Nullam id dolor</strong> id nibh ultricies vehicula ut id elit.</p>
+       </div>   
+         
+         
+         </div>
 
 </div>  
  
@@ -1096,7 +1244,7 @@ $jquery = $jquery_validator->generate();
 </div></div>
 
    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery.js"><\/script>')</script>
         <script src="js/vendor/jquery.retinise.min.js"></script> 
 <script>   
         $( document ).ready(function() {
@@ -1104,7 +1252,7 @@ $jquery = $jquery_validator->generate();
 			$('.retina').retinise();
 		});
 });</script>     
-<script type="text/javascript" src="//cdn.jsdelivr.net/bootstrap/2.3.2/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/vendor/bootstrap.min.js"></script>
 
 <script src="js/vendor/bootstrap-modalmanager.js"></script> 
 <script src="js/vendor/bootstrap-modal.js"></script> 
@@ -1118,81 +1266,35 @@ $jquery = $jquery_validator->generate();
   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.10.0/jquery.validate.js"></script>
 
 <script src='js/vendor/swipe.js'></script>
-
+<script src='js/vendor/tiny.js'></script>
 <script src='js/vendor/jquery.sidr.min.js'></script>
 
-
-
-<script>
-
-// pure JS
-var elem = document.getElementById('mySwipe');
-window.mySwipe = Swipe(elem, {
-  // startSlide: 4,
-  // auto: 3000,
-  // continuous: true,
-  // disableScroll: true,
-  // stopPropagation: true,
-  // callback: function(index, element) {},
-  // transitionEnd: function(index, element) {}
-});
-var elem = document.getElementById('fetswipe');
-window.mySwipe2 = Swipe(elem, {
-  // startSlide: 4,
-  auto: 3000,
-  // continuous: true,
-  // disableScroll: true,
-  // stopPropagation: true,
-  // callback: function(index, element) {},
-  // transitionEnd: function(index, element) {}
-});
-// with jQuery
-//window.mySwipe2 = $('#fetswipe').Swipe().data('Swipe');
-
-</script>
-
+<script type="text/javascript">
+		$(document).ready(function(){
+			$('#slider1').tinycarousel({ start: 2,controls: false,axis: 'y'});
+		});
+	</script>	
 <script type="text/javascript">
 
 <?php foreach($jquery['methods'] as $method_name => $method_function): ?>
 	jQuery.validator.addMethod("<?php echo $method_name; ?>", <?php echo $method_function; ?>);
 <?php endforeach; ?>
-$(function() {
-      $('#slides2').slidesjs({
-        width: 560,
-        height: 420,
-        play: {
-          active: false,
-          auto: true,
-          interval: 4000,
-          swap: true,
-		  restartDelay: 2500
-        },
-		pagination: {
-      active: false,
-        // [boolean] Create pagination items.
-        // You cannot use your own pagination. Sorry.
-      effect: "slide"
-        // [string] Can be either "slide" or "fade".
-    },
-		 navigation: {
-      active: false,
-        // [boolean] Generates next and previous buttons.
-        // You can set to false and use your own buttons.
-        // User defined buttons must have the following:
-        // previous button: class="slidesjs-previous slidesjs-navigation"
-        // next button: class="slidesjs-next slidesjs-navigation"
-      effect: "slide"
-        // [string] Can be either "slide" or "fade".
-    }
-      });
-    });
-	
+window.mySwipe = $('#mySwipe').Swipe({
+        auto: 3000
+    }).data('Swipe');	
+
+window.mySwipe2 = $('#fetswipe').Swipe({
+        auto: 3000
+    }).data('Swipe');	
 	
 	 $('#responsive-menu-button').sidr({
       name: 'sidr-main',
       source: '#navigation'
     });
-	
+	if(navigator.appVersion.indexOf("MSIE 7.")!=-1){
+$('#one').attr('src', 'img/star@1x.jpg');
+
+}   
 $("#form").validate({
 
 	submitHandler: function(form, e) {

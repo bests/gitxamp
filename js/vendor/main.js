@@ -7,9 +7,14 @@ $(document).ready(function(){
 $('.cover2').mosaic({
 					animation	:	'slide',	//fade or slide
 					anchor_y	:	'top',		//Vertical anchor position
-					hover_y		:	'90px'		//Vertical position on hover
+					hover_y		:	'90px',
+					speed:20		//Vertical position on hover
 				});	
-	
+$('.team').mosaic({
+					animation	:	'slide',	//fade or slide
+					hover_x		:	'400px',
+					speed:350		//Horizontal position on hover
+				});
 	
 var $modal = $('#ajax-modal');
 
@@ -25,8 +30,15 @@ $('.ajax').on('click', function(){
   }, 1000);
 });
  
+ var oSlider7 = $('#slider1');
+ $('.servicelink').click(function(){ 
  
  
+  var $target = $(this).data('info');
+ 
+    oSlider7.tinycarousel_move($target);
+    return false;
+});
  
  
 $modal.on('click', '.update', function(){
@@ -123,17 +135,17 @@ $('.servicelink').click(function(e) {
 	
 	$('.fetwidth').removeClass("srvactive");
 	//$.scrollTo($(this).attr('href'), 1400, {offset: {top:-280} });
+ 	
  
-  
   var $target = $(this).data('info');
 
 
  $('#services').html($($target).html());
- 
+  
  
   $(this).addClass("srvactive");
-	
-
+// 
+$('#services').addClass("bounce");
 	e.preventDefault();
 	
 	//$('.projects').fadeToggle(400);
@@ -272,6 +284,9 @@ e.preventDefault();
 $('#myTab a').click(function (e) {
   e.preventDefault();
   $(this).tab('show');
+  
+ 
+  
 })
 
 $('.pro').click(function(e) {

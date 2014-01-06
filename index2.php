@@ -75,11 +75,11 @@
 		<ul class="seven clearfix nav">
        
 			
-			<li><a href="#overview">Home</a></li>
+			<li><a href="#home">Home</a></li>
 			<li><a href="#features">Features</a></li>
 			<li><a href="#gallery">Gallery</a></li>
             <li><a href="#work">Love</a></li>
-            <li><a href="#aboutus">About</a></li>
+        
             <li><a href="#price">Pricing</a></li>
            <li><a href="#contact">Contact</a></li>
 			
@@ -106,15 +106,15 @@
                       
      
 <section id="home" class="bluegreen">
-<header class="home padding">
+<header class="home padding homecenter">
 
 
 
 
 
-  <div class="container homecenter"><!-- End container .. container for carosel -->
+  <div class="container"><!-- End container .. container for carosel -->
   
-  <div class="logo align-center">
+  <div class="logo">
    <img class="desktop" src="img/logox.png" >
  <ul class="thumbnails">
  
@@ -124,9 +124,9 @@
    <li class="span3"><a href="#"><i class="icon-gplus iconhome pulse moveup"></i></a></li>
  </ul>
  
- <div class="container">
+ <div class="title">
  
-<h2>Fix your workflow. Learn from others. Start your library today.</h2><br>
+<h2>Incredibly fast and incredibly easy.</h2><br>
 
 
    <a href="" class="btn btn-info ajax" data-toggle="modal" data-info="ajax.html">Ajax Video</a>
@@ -143,49 +143,46 @@
 
 <section id="features"  class="anchor">
 
-
-
+<div class="titlebg"><h2>Features</h2>
+     <hr></hr>
+       </div>
        
+       
+       
+
+       <div class="tick"></div>
      
 
  
 <article id="home_features" class="features white">  
- 
-<div class="container paddingtop">
-
-
-
- <div class="row-fluid">
- 
-
- 
- 
-  
-	                <div class="span8">  
+<div class="row-fluid">
+<div class="span8">  
  <a href="" onclick="mySwipe2.next()" class="next default"> <i class="icon-left-open iconsize"></i></a>
   <a href="" onclick="mySwipe2.prev()" class="prev default"> <i class="icon-right-open iconsize"></i></a>                  
-                <div id='fetswipe' style='max-width:1800px;' class='swipe'>
-  <div class='swipe-wrap'>
-    <div> <img src="slider/responsive.png"></div>
-  
-    <div> <img src="slider/responsive.png"></div>
-    
+           
+  <div id='fetswipe' style='max-width:3000px;' class='swipe'>
+  <div class='swipe-wrap'> <div><img src="img/tablets.png"></div>
    
+    <div><img src="slider/pc.jpg"></div>
+  
+     <div><img src="slider/t.png"></div>
     
-    
-  </div> </div>
+  </div> 
+  
+  </div>
                
-	 
+	  
                 	
 	</div> 
+ 
+     </div> 
+<div class="container">
+
+
+
+ 
      
-     
-     
-     
-     
-     </div>
-     
-  <div class="title"> <h1>Great features</h1> <p class="medium">We are a creative agency located in <strong>Brooklyn New York.</strong> We’ve won a ton of awards<br>
+  <div class="title"> <h1>Great features</h1> <p class="medium">We are a creative agency located in <strong>Brooklyn New York.</strong> We’ve won a ton of awards
 
      and have been featured in all of the magazines.</p>
  </div>   
@@ -198,47 +195,50 @@
   
 
  
-    <div class="left-text fetwidth servicelink" data-info="#project6">
+    <div class="left-text fetwidth bluegreen servicelink" data-info="1">
              
                  <i class="icon-globe icons"></i>
               
               <div class="media-body">
-                <h4 class="media-heading">Responsive</h4>
+                <h4 class="media-heading">Multipurpose</h4>
                 Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. 
               </div>
            </div>
+           
+           
+           
             
-         <div class="left-text fetwidth servicelink" data-info="#project6">
-             
-                 <i class="icon-wrench icons"></i>
-             
-              <div class="media-body">
-                <h4 class="media-heading">Media heading</h4>
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. 
-              </div>
-            </div>
-    <div class="left-text fetwidth">
+         
+    <div class="left-text fetwidth bluegreen servicelink" data-info="3">
               <a href="#">
-                <i class="icon-rocket icons"></i>
+                <i class="icon-tablet icons"></i>
               </a>
               <div class="media-body">
-                <h4 class="media-heading">Media heading</h4>
+                <h4 class="media-heading">Responsive</h4>
                 Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. 
               </div>
            </div>   
             
-   <div class="left-text fetwidth">
+   <div class="left-text fetwidth bluegreen servicelink" data-info="4">
               <a href="#">
-                <i class="icon-rocket icons"></i>
+                <i class="icon-thumbs-up icons"></i>
               </a>
               <div class="media-body">
-                <h4 class="media-heading">Media heading</h4>
+                <h4 class="media-heading">Friendly</h4>
                 Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. 
               </div>
            </div> 
            
     
-                
+         <div class="left-text bluegreen fetwidth servicelink srvactive" data-info="2">
+             
+                 <i class="icon-wrench icons"></i>
+             
+              <div class="media-body">
+                <h4 class="media-heading">Fine-tuned</h4>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. 
+              </div>
+            </div>       
                 
                 
                 
@@ -255,16 +255,66 @@
                 
                            
         </div><!-- /container -->
- <div id="collapseTwo" class="paddingbottom paddingtop accordion-service collapse in">
-      <div class="accordion-inner">
-        <div id="services" class="container">
+    <div>    
         
-         <div class="row-fluid">      
+        
+ <div id="slider1" class="container">
+		
+		<div class="viewport paddingtop">
+			<ul class="overview">
+				<li>   <div class="row-fluid">      
        <div class="span3">
        
-        <div class="left-text fetwidth">
+        <div class="left-text fetwidth bluegreen">
               <a href="#">
-                <i class="icon-rocket icons"></i>
+                <i class="icon-globe icons"></i>
+              </a>
+              <div class="media-body">
+                <h4 class="media-heading">Multipurpose</h4>
+                Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+              </div>
+           </div> 
+       
+       
+       </div>   
+        
+         <div class="span7"><h2>True diveristy</h2>
+     <p class="medium">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. <strong>Nullam id dolor</strong> id nibh ultricies vehicula ut id elit.</p>
+       </div>   
+         
+         
+         </div></li>
+				<li>   
+                <div class="row-fluid">      
+       <div class="span3">
+       
+        <div class="left-text fetwidth bluegreen">
+              <a href="#">
+                <i class="icon-wrench icons"></i>
+              </a>
+              <div class="media-body">
+                <h4 class="media-heading">Fine-tuned</h4>
+                Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+              </div>
+           </div> 
+       
+       
+       </div>   
+        
+         <div class="span7"><h2>Built smartly</h2>
+     <p class="medium">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. <strong>Nullam id dolor</strong> id nibh ultricies vehicula ut id elit.</p>
+       </div>   
+         
+         
+         </div>
+         
+         </li>
+				<li>   <div class="row-fluid">      
+       <div class="span3">
+       
+        <div class="left-text fetwidth bluegreen">
+              <a href="#">
+                <i class="icon-tablet icons"></i>
               </a>
               <div class="media-body">
                 <h4 class="media-heading">Media heading</h4>
@@ -275,24 +325,75 @@
        
        </div>   
         
-         <div class="span7"><p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p></div>   
+         <div class="span7"><h2>Bootstrap</h2>
+     <p class="medium">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. <strong>Nullam id dolor</strong> id nibh ultricies vehicula ut id elit.</p>
+       </div>   
          
          
-         </div>
+         </div></li>									
+				<li>   <div class="row-fluid">      
+       <div class="span3">
+       
+        <div class="left-text fetwidth bluegreen">
+              <a href="#">
+                <i class="icon-thumbs-up icons"></i>
+              </a>
+              <div class="media-body">
+                <h4 class="media-heading">Friendly</h4>
+                Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+              </div>
+           </div> 
+       
+       
+       </div>   
         
-        
-        </div>
-        </div>
-        </div>       
-        
+         <div class="span7"><h2>Easy to use.</h2>
+     <p class="medium">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. <strong>Nullam id dolor</strong> id nibh ultricies vehicula ut id elit.</p>
+       </div>   
          
+         
+         </div></li>
+				<li>   <div class="row-fluid">      
+       <div class="span3">
+       
+        <div class="left-text fetwidth">
+              <a href="#">
+                <i class="icon-wrench icons"></i>
+              </a>
+              <div class="media-body">
+                <h4 class="media-heading">Media heading</h4>
+                Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+              </div>
+           </div> 
+       
+       
+       </div>   
+        
+         <div class="span7"><h2>Bootstrap</h2>
+     <p class="medium">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. <strong>Nullam id dolor</strong> id nibh ultricies vehicula ut id elit.</p>
+       </div>   
+         
+         
+         </div></li>
+				
+			</ul>
+		</div>
+		
+	</div>       
+      
+        </div> 
 </article>
 </section>
 
+<article class="parallax-1"><div class="container fadeJS-down-up"><img src="img/tablets.png"></div></article>
 
 
 <section id="gallery" class="anchor">
-
+<div class="titlebg"><h2>Projects</h2>
+    <hr></hr>
+       </div>
+       
+       <div class="tick"></div>
      
 
 <article id="home_gallery" class="gallery bluegreen">
@@ -304,10 +405,16 @@
   
       <div class="title"> <h1>Great features</h1> <p class="medium">We are a creative agency located in We’ve won a ton of awards.</p>
  </div>
+ 
+ 
+ 
+ 
+ 
+ 
  <div class="mosiac-parent">      
 <div class="mosaic-block cover2">
 			<a href="http://yourather.com/questions/135" target="_blank" class="mosaic-overlay">
- <img src="" alt="" data-src="img/star@1x.jpg" data-ret="image@2x.jpg" data-alt="My Image" class="retina" id="one" />           
+ <img src="" alt="" data-src="img/fishpic@x1.png" data-ret="retina/fishpic@x2.png" data-alt="My Image" class="retina" id="one" />           
             
          </a>
 		
@@ -323,7 +430,7 @@
 		</div>
         
   <div class="mosaic-block cover2">
-			<a href="http://yourather.com/questions/135" target="_blank" class="mosaic-overlay"><img src="" alt="" data-src="img/door@1x.jpg" data-ret="image@2x.jpg" data-alt="My Image" class="retina" id="two" /> </a>
+			<a href="http://yourather.com/questions/135" target="_blank" class="mosaic-overlay"><img src="" alt="" data-src="img/camp@x1.png" data-ret="camp@x2.png" data-alt="My Image" class="retina" id="two" /> </a>
 				<div class="details">
 					 <h5>Title</h5>
  <a href="" data-info="#project2" class="btn btn-info pro">More</a> 
@@ -335,7 +442,7 @@
         
   
   <div class="mosaic-block cover2">
-			<a href="http://yourather.com/questions/135" target="_blank" class="mosaic-overlay"><img src="" alt="" data-src="img/house@1x.jpg" data-ret="house@2x.jpg" data-alt="My Image" class="retina" id="three" /></a>
+			<a href="http://yourather.com/questions/135" target="_blank" class="mosaic-overlay"><img src="" alt="" data-src="img/robo@x1.png" data-ret="robo@x2.png" data-alt="My Image" class="retina" id="three" /></a>
 				<div class="details">
 					 <h5>Title</h5>
  <a href="" data-info="#project3" class="btn btn-info pro">More</a> 
@@ -379,26 +486,8 @@
 				</div>
 		</div>
  
-  <div class="mosaic-block cover2">
-			<a href="http://yourather.com/questions/135" target="_blank" class="mosaic-overlay"><img src="" alt="" data-src="img/road@1x.jpg" data-ret="house@2x.jpg" data-alt="My Image" class="retina" id="seven" /></a>
-				<div class="details">
-					 <h5>Title</h5>
- <a href="" data-info="#project7" class="btn btn-info pro">More</a> 
- <a class="btn btn-info ajax2" data-info="seven" href="#hugex">Ajax</a>                    
-                    
-                    
-				</div>
-		</div>
-  <div class="mosaic-block cover2">
-			<a href="http://yourather.com/questions/135" target="_blank" class="mosaic-overlay"><img src="" alt="" data-src="img/skull@1x.jpg" data-ret="house@2x.jpg" data-alt="My Image" class="retina" id="eight" /></a>
-				<div class="details">
-					 <h5>Title</h5>
- <a href="" data-info="#project8" class="btn btn-info pro">More</a> 
- <a class="btn btn-info ajax2" data-info="eight" href="#hugex">Ajax</a>                    
-                    
-                    
-				</div>
-		</div>
+  
+  
         
      </div>
      
@@ -427,7 +516,11 @@
 
 <section id="work" class="anchor">
   
-     
+     <div class="titlebg"><h2>Love</h2>
+     <hr></hr>
+       </div>
+       
+       <div class="tick"></div>
 
 
  <article id="work_features" class="work white">
@@ -460,7 +553,19 @@
 
               </div>
               
-     <div class="paddingbot paddingtop"> 
+              
+  
+
+</div>
+<div class="middle bluegreen">
+<div class="title">
+
+<p class="myclass">The right look IS the right look.</p></div>
+</div>
+
+
+            
+ <div class="container paddingbot paddingtop"> 
 <div class="bs-docs-example">
             <ul id="myTab" class="nav nav-tabs"><li class="active"><a href="#cola" data-toggle="tab">Clients</a></li><li class=""><a href="#profile" data-toggle="tab">Skills</a></li>
               <li class=""><a href="#home" data-toggle="tab">Features</a></li>
@@ -563,25 +668,7 @@
           </div>
    
          
-  </div>
-           
-    
-
-           
-        
-             
-            
-          
-            
-            
-        
-            
-            
-            
-            
- </div>
-            
-       
+  </div>      
 </article>
 </section>
 
@@ -590,15 +677,125 @@
 
 
 
+<article class="parallax-2">
+
+<div class="container">
+<div class="row-fluid">
+               <div class="span3 leftmargin  offset2">
+              <ul class="team">  
+               <li class="title">Sam Valicio</li>
+               
+               <li>
+               
+               
+            <div class="mosaic-block white-blue">
+<div class="mosaic-overlay"><img src="img/team1.jpg"/></div>
+
+<div class="details">
+<i class="icon-mail bround"></i>
+<div class="email">vak@simply.com</div>
+<ul class="thumbnails">
+
+  <li class="span3"><a href="#" class="iconlove"><i class="icon-twitter iconlove"></i></a></li>
+ <li class="span3"><a href="#" class="iconlove"><i class="icon-facebook iconlove"></i></a></li>
+  <li class="span3"><a href="#" class="iconlove"><i class="icon-instagramm iconlove"></i></a></li>
+   <li class="span3"><a href="#" class="iconlove"><i class="icon-gplus iconlove"></i></a></li>
+ </ul>
+</div>
+
+</div>
+               
+               
+               
+               </li>
+             
+ </ul>
+ </div>
+
+
+ <div class="span3 leftmargin">
+                <ul class="team">  
+               <li class="title">Vick Van Dur</li>
+               
+               <li>
+               
+               
+            <div class="mosaic-block white-blue">
+<div class="mosaic-overlay"><img src="img/team2.jpg"/></div>
+
+<div class="details">
+<i class="icon-mail bround"></i>
+<div class="email">Vick@simply.com</div>
+<ul class="thumbnails">
+
+  <li class="span3"><a href="#" class="iconlove"><i class="icon-twitter iconlove"></i></a></li>
+ <li class="span3"><a href="#" class="iconlove"><i class="icon-facebook iconlove"></i></a></li>
+  <li class="span3"><a href="#" class="iconlove"><i class="icon-instagramm iconlove"></i></a></li>
+   <li class="span3"><a href="#" class="iconlove"><i class="icon-gplus iconlove"></i></a></li>
+ </ul>
+</div>
+
+</div>
+               
+               
+               
+               </li>
+             
+ </ul>
+ </div>
+  <div class="span3 leftmargin">
+                <ul class="team">  
+               <li class="title">Kim Gotffried</li>
+               
+               <li>
+               
+               
+            <div class="mosaic-block white-blue">
+<div class="mosaic-overlay"><img src="img/team3.jpg"/></div>
+
+<div class="details">
+<i class="icon-mail bround"></i>
+<div class="email">kim@simply.com</div>
+<ul class="thumbnails">
+
+  <li class="span3"><a href="#" class="iconlove"><i class="icon-twitter iconlove"></i></a></li>
+ <li class="span3"><a href="#" class="iconlove"><i class="icon-facebook iconlove"></i></a></li>
+  <li class="span3"><a href="#" class="iconlove"><i class="icon-instagramm iconlove"></i></a></li>
+   <li class="span3"><a href="#" class="iconlove"><i class="icon-gplus iconlove"></i></a></li>
+ </ul>
+</div>
+
+</div>
+               
+               
+               
+               </li>
+             
+ </ul>
+ </div>           
+      
+            
+               
+               </div>
+
+</div>
+</article>
+
+
+
+
 <section id="price" class="anchor">  
     
-
+<div class="titlebg"><h2>Projects</h2>
+      <hr></hr>
+       </div>
+       
+       <div class="tick"></div>
          
          
 <article id="price_features" class="price bluegreen">
        
       
-       
        
        
        
@@ -721,7 +918,11 @@
 
 <section id="contact" class="anchor">
 
-    
+    <div class="titlebg"><h2>Projects</h2>
+      <hr></hr>
+       </div>
+       
+       <div class="tick"></div>
      
 
   
@@ -981,7 +1182,7 @@ $jquery = $jquery_validator->generate();
        
         <div class="left-text fetwidth">
               <a href="#">
-                <i class="icon-rocket icons"></i>
+                <i class="icon-wrench icons"></i>
               </a>
               <div class="media-body">
                 <h4 class="media-heading">Media heading</h4>
@@ -992,7 +1193,9 @@ $jquery = $jquery_validator->generate();
        
        </div>   
         
-         <div class="span7">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</div>   
+         <div class="span7"><h2>Bootstrap</h2>
+     <p class="medium">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. <strong>Nullam id dolor</strong> id nibh ultricies vehicula ut id elit.</p>
+       </div>   
          
          
          </div>
@@ -1000,16 +1203,28 @@ $jquery = $jquery_validator->generate();
  
  
 <div id="project1" class="pro" style="display:none">
-<div class="row-fluid">
-<div class="span4">
-<img src="img/star@1x.jpg">
- </div>
-<div class="span5">
-<h3>Thumbnail label</h3>
-<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-
-</div>
-</div>
+<div class="row-fluid">      
+       <div class="span3">
+       
+        <div class="left-text fetwidth">
+              <a href="#">
+                <i class="icon-home icons"></i>
+              </a>
+              <div class="media-body">
+                <h4 class="media-heading">sadsdsdg</h4>
+                Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+              </div>
+           </div> 
+       
+       
+       </div>   
+        
+         <div class="span7"><h2>asdsads</h2>
+     <p class="medium">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. <strong>Nullam id dolor</strong> id nibh ultricies vehicula ut id elit.</p>
+       </div>   
+         
+         
+         </div>
 
 </div>  
  
@@ -1047,7 +1262,7 @@ $jquery = $jquery_validator->generate();
 <script src="js/vendor/bootstrap-modalmanager.js"></script> 
 <script src="js/vendor/bootstrap-modal.js"></script> 
  <script type="text/javascript" src="//cdn.jsdelivr.net/colorbox/1.4.4/jquery.colorbox-min.js"></script> 
- <script type="text/javascript" src="//cdn.jsdelivr.net/slidesjs/3.0.1/jquery.slides.min.js"></script>
+ 
    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.easing/1.3/jquery.easing.1.3.js"></script><script src='js/vendor/mosaic.1.0.1.min.js'></script>   
 
   <script src="js/vendor/jquery.smooth-scroll.min.js"></script> 
@@ -1056,18 +1271,20 @@ $jquery = $jquery_validator->generate();
   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.10.0/jquery.validate.js"></script>
 
 <script src='js/vendor/swipe.js'></script>
-
+<script src='js/vendor/tiny.js'></script>
 <script src='js/vendor/jquery.sidr.min.js'></script>
-
-
-
-<script>
-
-
-
-
-</script>
-
+<script src='js/vendor/waypoints.min.js'></script>
+<script src='js/vendor/jquery.parallax-1.1.3.js'></script>
+<script type="text/javascript">
+		$(document).ready(function(){
+			$('#slider1').tinycarousel({ start: 2,controls: false,axis: 'y'});
+			$('.parallax-1').parallax("80%", 0.3);
+			$('.parallax-2').parallax("50%", 0.1);
+			$('.parallax-1 .container').waypoint(function() {
+    $(this).delay(10).animate({opacity:1,bottom:"0px"},1000);
+}, { offset: 500 });
+		});
+	</script>	
 <script type="text/javascript">
 
 <?php foreach($jquery['methods'] as $method_name => $method_function): ?>
@@ -1075,7 +1292,9 @@ $jquery = $jquery_validator->generate();
 <?php endforeach; ?>
 window.mySwipe = $('#mySwipe').Swipe({
         auto: 3000
+		
     }).data('Swipe');	
+
 window.mySwipe2 = $('#fetswipe').Swipe({
         auto: 3000
     }).data('Swipe');	

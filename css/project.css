@@ -41,9 +41,10 @@ color: #4DC5D9;
 @media (min-width: 1200px){
 	
 .mosaic-block {
-width:24.8%;
-min-height: 292px;
-margin:1px;
+width: 33.2%;
+min-height: 391px;
+margin: 0px;
+overflow: hidden;
 }	
 .accordion-inner .span4 {
 width: 37%;

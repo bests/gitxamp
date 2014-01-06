@@ -100,7 +100,32 @@ Location
     font-style: normal;
 
 }
-
+body {
+	background-color: #3E3F47;
+	color:#8A8A8A;
+	
+	   font-family: 'open_sansregular', sans-serif;		
+	   font-family: "Lato", Helvetica, Arial, sans-serif;			
+            }
+.btn {text-transform: uppercase;
+border: 0;
+border-radius: 0px;
+padding: 1em 2.0em 1em;
+box-shadow: none;
+background:#3E3F47;
+color: #fff;
+text-transform: uppercase;
+margin-right: 10px;
+text-shadow: none;
+font-size: 13px;
+line-height: 1;
+font-weight: bold;
+-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-ms-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+}
 /* ================= 
 
 Modals
@@ -110,7 +135,7 @@ Modals
 =====================*/	
 .white{
 	
-background-color: #FFF;	
+background-color:#F9F9F9;	
 
 }		
 .modal-scrollable {
@@ -170,16 +195,14 @@ position:relative;
 text-align: center;
 }
 .titlebg{
-	font-size:25px;
-	font-weight:bold;
-padding:35px 0;		
-
-
-color:#FFF;	
-
+font-size: 25px;
+font-weight: bold;
+padding: 35px 0;
+color: #FFF;
+background-color: #3E3F47;
 text-align: center;
 }		
-.bluegreen{background-color: #4DC5D9;
+.bluegreen{background-color: #3DB4D8;
 
 }
 .trip{background-color: #4DC5D9;background: url('../img/trip.png') center top repeat;
@@ -189,24 +212,113 @@ noise{
 background: url('../img/noi.png') center top repeat;
 	
 	}
-
-h2, .h2 {
-font-size: 50px;
-}
-h1, .h1 {
-font-size: 61px;
-}
-.anchor{
-padding-top: 53px;
-margin-top: -53px;
+.fadeJS-down-up{
+	opacity:0.0;
+	bottom:-200px;
+	position:relative;
+	
 	
 	}	
+.fadeJS{
+	opacity:0.0;
+	
+	
+	}
+h2, .h2 {
+font-size: 45px;
+}
+h1, .h1 {
+font-size: 55px;
+}
+.anchor{
+padding-top: 40px;
+margin-top: -40px;
+	
+	}	
+.padding {
+padding-top: 70px;
+padding-bottom: 70px;
+}
+p.myclass:before, p.myclass:after {
+    content: '"';
+	
+}
 textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
-background-color: #4DC5D9;
+background-color: #3DB4D8;
 border: 0px solid #cccccc;
 
 height: 35px;
 }
+.middle {
+	
+padding: 55px;
+text-align: center;
+
+	
+}
+.middle p{
+
+	font-size:50px;
+	font-weight:700;
+	color:#FFF;
+	
+}
+nav li a {
+	color: #999;
+	
+
+	text-decoration: none;
+	
+}
+hr {
+margin-left: auto;
+margin-right: auto;
+margin-top: 0px;
+margin-bottom: 10px;
+width: 160px;
+text-align: center;
+border: 0;
+border-top: 7px solid #3DB4D8;
+}
+.seven .active a:link {
+color: #fff !important;
+background-color: #3DB4D8;
+cursor: default !important;
+pointer-events: none;
+}
+.active a:link{
+
+}
+#slider1 { height: 1%; overflow:hidden; padding: 0 0 10px;  
+
+-webkit-transform: translateZ(0); 
+
+ }
+#slider1 .viewport { 
+
+
+margin-top: 55px;
+padding-bottom: 40px;
+
+height:255px;
+overflow: hidden;
+position: relative;
+
+
+
+}
+section{
+	position:relative;
+	z-index:1;
+	
+
+}
+
+#slider1 .buttons { background:url("../images/buttons.png") no-repeat scroll 0 0 transparent; display: block; margin: 30px 10px 0 0; background-position: 0 -38px; text-indent: -999em; float: left; width: 39px; height: 37px; overflow: hidden; position: relative; }
+#slider1 .next { background-position: 0 0; margin: 30px 0 0 10px;  }
+#slider1 .disable { visibility: hidden; }
+#slider1 .overview { list-style: none; position: absolute; padding: 0; margin: 0; width: 740px; left: 0 top: 0; }
+#slider1 .overview li{ float: left; margin: 0 20px 0 0; padding: 1px; height: 421px;width: 1236px;}
 @media (max-width: 670px){
 .titlebg{
 	font-size:18px;
