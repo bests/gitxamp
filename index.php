@@ -251,28 +251,10 @@
 		
 		<div class="viewport paddingtop">
 			<ul class="overview">
-				<li>   <div class="row-fluid">      
-       <div class="span3">
-       
-        <div class="left-text fetwidth bluegreen">
-              <a href="#">
-                <i class="icon-globe icons"></i>
-              </a>
-              <div class="media-body">
-                <h4 class="media-heading">Multipurpose</h4>
-                Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-              </div>
-           </div> 
-       
-       
-       </div>   
-        
-         <div class="span7"><h2>True diveristy</h2>
-     <p class="medium">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. <strong>Nullam id dolor</strong> id nibh ultricies vehicula ut id elit.</p>
-       </div>   
-         
-         
-         </div></li>
+				<li><div class="title"> <i class="icon-globe icons"></i> <h2>Multipurpose</h2><hr> <p class="medium">We are a creative agency located in <strong>Brooklyn New York.</strong> We’ve won a ton of awards
+
+     and have been featured in all of the magazines  and have been featured in all of the magazines  and have been featured in all of the magazines.</p>
+ </div></li>
 				<li>   
               <div class="title"> <i class="icon-wrench icons"></i> <h2>Built smartly</h2><hr> <p class="medium">We are a creative agency located in <strong>Brooklyn New York.</strong> We’ve won a ton of awards
 
@@ -280,50 +262,14 @@
  </div>
          
          </li>
-				<li>   <div class="row-fluid">      
-       <div class="span3">
-       
-        <div class="left-text fetwidth bluegreen">
-              <a href="#">
-                <i class="icon-tablet icons"></i>
-              </a>
-              <div class="media-body">
-                <h4 class="media-heading">Media heading</h4>
-                Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-              </div>
-           </div> 
-       
-       
-       </div>   
-        
-         <div class="span7"><h2>Bootstrap</h2>
-     <p class="medium">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. <strong>Nullam id dolor</strong> id nibh ultricies vehicula ut id elit.</p>
-       </div>   
-         
-         
-         </div></li>									
-				<li>   <div class="row-fluid">      
-       <div class="span3">
-       
-        <div class="left-text fetwidth bluegreen">
-              <a href="#">
-                <i class="icon-thumbs-up icons"></i>
-              </a>
-              <div class="media-body">
-                <h4 class="media-heading">Friendly</h4>
-                Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-              </div>
-           </div> 
-       
-       
-       </div>   
-        
-         <div class="span7"><h2>Easy to use.</h2>
-     <p class="medium">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. <strong>Nullam id dolor</strong> id nibh ultricies vehicula ut id elit.</p>
-       </div>   
-         
-         
-         </div></li>
+				<li><div class="title"> <i class="icon-tablet icons"></i> <h2>Bootstrap</h2><hr> <p class="medium">We are a creative agency located in <strong>Brooklyn New York.</strong> We’ve won a ton of awards
+
+     and have been featured in all of the magazines  and have been featured in all of the magazines  and have been featured in all of the magazines.</p>
+ </div></li>									
+				<li> <div class="title"> <i class="icon-thumbs-up icons"></i> <h2>Easy to use</h2><hr> <p class="medium">We are a creative agency located in <strong>Brooklyn New York.</strong> We’ve won a ton of awards
+
+     and have been featured in all of the magazines  and have been featured in all of the magazines  and have been featured in all of the magazines.</p>
+ </div></li>
 				<li>   <div class="row-fluid">      
        <div class="span3">
        
@@ -355,7 +301,12 @@
         </div> 
 </article>
 </section>
+<article class="parallax-1 paddingtop"><div class="container fadeJS-down-up">
 
+<div class="title"> <h2>Great features</h2> <p class="medium">We are a creative agency located in We’ve won a ton of awards.</p>
+ </div>
+
+<img src="img/tablets.png"></div></article>
 <section id="contact" class="anchor">
 
     <div class="titlebg"><h2>Projects</h2>
@@ -541,7 +492,7 @@ $jquery = $jquery_validator->generate();
 			$('.parallax-2').parallax("50%", 0.1);
 			$('.parallax-1 .container').waypoint(function() {
     $(this).delay(10).animate({opacity:1,bottom:"0px"},1000);
-}, { offset: 500 });
+}, { offset: 600 });
 		});
 	</script>	
 <script type="text/javascript">

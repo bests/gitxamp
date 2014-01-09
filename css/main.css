@@ -1,4 +1,14 @@
+.parallax-1 .title {
+color: #fff;
+text-align: left;
+margin-left: auto;
+margin-right: auto;
 
+}
+.parallax-1 .title h2 {
+color: #fff;
+
+}
 .parallax-1 {
 background-image: url(../img/ko.jpg);
 background-attachment: fixed;

@@ -384,7 +384,10 @@
 </article>
 </section>
 
-<article class="parallax-1"><div class="container fadeJS-down-up"><img src="img/tablets.png"></div></article>
+<article class="parallax-1"><div class="container fadeJS-down-up">
+
+
+<img src="img/tablets.png"></div></article>
 
 
 <section id="gallery" class="anchor">
