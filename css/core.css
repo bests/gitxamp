@@ -105,7 +105,8 @@ body {
 	color:#8A8A8A;
 	
 	   font-family: 'open_sansregular', sans-serif;		
-	   font-family: "Lato", Helvetica, Arial, sans-serif;			
+	   font-family: "Lato", Helvetica, Arial, sans-serif;		
+	   overflow-x: hidden;	
             }
 .btn {text-transform: uppercase;
 border: 0;
@@ -195,16 +196,20 @@ position:relative;
 text-align: center;
 }
 .titlebg{
-font-size: 25px;
-font-weight: bold;
+
 padding: 35px 0;
-color: #FFF;
+
 background-color: #3E3F47;
-text-align: center;
+
 }		
 .bluegreen{background-color: #3DB4D8;
 
 }
+.bluegreentxt {color: #3DB4D8;
+
+}
+
+
 .trip{background-color: #4DC5D9;background: url('../img/trip.png') center top repeat;
 }
 noise{
@@ -289,37 +294,40 @@ pointer-events: none;
 .active a:link{
 
 }
-#slider1 { height: 1%; overflow:hidden; padding: 0 0 10px;  
 
--webkit-transform: translateZ(0); 
-
- }
-#slider1 .viewport { 
-
-
-margin-top: 55px;
-padding-bottom: 40px;
-
-height:255px;
-overflow: hidden;
-position: relative;
-
-
-
-}
 section{
 	position:relative;
 	z-index:1;
 	
 
 }
-
+.center {
+   margin: 0 auto !important;
+   float: none !important;
+}
 #slider1 .buttons { background:url("../images/buttons.png") no-repeat scroll 0 0 transparent; display: block; margin: 30px 10px 0 0; background-position: 0 -38px; text-indent: -999em; float: left; width: 39px; height: 37px; overflow: hidden; position: relative; }
 #slider1 .next { background-position: 0 0; margin: 30px 0 0 10px;  }
 #slider1 .disable { visibility: hidden; }
-#slider1 .overview { list-style: none; position: absolute; padding: 0; margin: 0; width: 740px; left: 0 top: 0; }
-#slider1 .overview li{ float: left; margin: 0 20px 0 0; padding: 1px; height: 421px;width: 1236px;}
+#slider1 .overview { list-style: none; position: absolute; padding: 0; margin: 0; left: 0 top: 0; }
+#slider1 .overview li{ float: none; margin: 0 20px 0 0; padding: 1px; height: 421px;
+width: auto;}
+
+@media (max-width: 767px){
+.container {
+width: 650px;
+}
+}
+
+
+
+
 @media (max-width: 670px){
+	
+.container {
+width: 400px;
+}	
+	
+	
 .titlebg{
 	font-size:18px;
 	
@@ -333,12 +341,17 @@ section{
 
 }			
 h2, .h2 {
-font-size: 33px;
+font-size: 28px;
 }
 h1, .h1 {
-font-size: 48px;
+font-size: 44px;
 }	
 .nav-tabs > li, .nav-pills > li {
 float: none;
 }	
 }
+
+@media (max-width: 450px){
+.container {
+width:350px;
+}}

@@ -16,41 +16,38 @@ font-size:65px;
 
 
 }
-.home .iconshead {
+.middlecenter{
+	display: table-cell;
+vertical-align: middle;
+	
+}
+.homecenter .iconshead {
 margin-top: 14px;
 margin-right: 20px;
 	
 
 
 }
-.home h1 {
 
-font-weight: bold;
-letter-spacing: 6px;
-line-height: 1;
-color:#fff;
-}
 .iconhome{
 	color:#FFF;
 	font-size:45px;
 	
 }
-.logo{
-position: relative;
-margin-top: 16%;
-}
-.logo img{
-width:35%;	
 
+  
 
-}   
-.home {
-
-
-
+.homecenter {
+height: 100%;
+display: table;
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+width: 100%;
 text-align: center;
 }  
-.home h2 {
+.homecenter h2 {
 
 padding-top: 20px;
 padding-bottom: 20px;
@@ -62,37 +59,36 @@ display: inline-block;
 float: left;
 
 }
+.logo{
+width:50%;	
+
+
+} 
 @media (min-width: 1200px){
-.logo .thumbnails {
+  
+.homecenter .thumbnails {
 margin-left: auto;
 margin-right: auto;
 width: 45%;
 margin-top: 60px;
 }
-.logo .thumbnails .span3 {
-font-size: 50px;
-margin-left: 6px;
-padding: 13px;
+.homecenter .thumbnails .span3 {
+
 width: 18%;
 }
 
-.thumbnails .span3 {
 
-margin-bottom: -9px;
-	
-	}
 }
 @media (max-width: 1200px) and (min-width: 980px){
-.logo .thumbnails {
-margin-right: auto;
+.homecenter .thumbnails {
 margin-left: auto;
-width: 70%;
+margin-right: auto;
+width: 80%;
+margin-top: 60px;
 }
-.logo .thumbnails .span3 {
+.homecenter .thumbnails .span3 {
 width: 20%;
-padding: 13px;
-margin-left: 6px;
-font-size: 50px;
+
 
 }
 
@@ -100,44 +96,48 @@ font-size: 50px;
 
 
 @media (max-width: 979px) and (min-width: 768px){
-.logo .thumbnails .span3 {
+.homecenter .thumbnails .span3 {
 width: 20%;
-padding: 13px;
-margin-left: 1px;
+
+
+
 }	
-.logo .thumbnails {
-margin-right: auto;
+.homecenter .thumbnails {
 margin-left: auto;
-width: 82%;
+margin-right: auto;
+width: 80%;
+margin-top: 60px;
 }	
-.home h1 {
-font-size: 55px;
-}
+
 
 }
 @media (max-width: 767px){
-.logo .thumbnails .span3 {
+.homecenter .thumbnails .span3 {
+float: left;
 width: 24%;
 padding: 13px;
 margin-left: 1px;
-}		
-.logo .thumbnails {
-margin-right: auto;
-margin-left: auto;
-width: 89%;
 }	
-	.home h1 {
-font-size: 43px;
+.homecenter .thumbnails {
+margin-left: auto;
+margin-right: auto;
+width: 80%;
+margin-top: 60px;
+}	
+.logo{
+width:70%;	
+
+
 }
-.iconhome{
-		font-size:60px;}
+
 }
 @media (max-width: 670px){
 	.iconhome{
 		font-size:30px;}
-.logo img{
-width:50%;	
+		.logo{
+width:70%;	
 
 
-}   
+}
+
 }

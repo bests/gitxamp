@@ -7,8 +7,7 @@
        
         <title>waka</title>
         <meta name="description" content="">
-       
-  <meta name="viewport" content="width=100%; initial-scale=1; maximum-scale=1; minimum-scale=1; user-scalable=no;" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link type="text/css" rel="stylesheet" href="css/bootstrap.css" /> 
       <link type="text/css" rel="stylesheet" href="css/bootstrap-responsive.css" /> 
       <link type="text/css" rel="stylesheet" href="css/main.css" /> 
@@ -430,7 +429,7 @@
 		</div>
         
   <div class="mosaic-block cover2">
-			<a href="http://yourather.com/questions/135" target="_blank" class="mosaic-overlay"><img src="" alt="" data-src="img/camp@x1.png" data-ret="camp@x2.png" data-alt="My Image" class="retina" id="two" /> </a>
+			<a href="http://yourather.com/questions/135" target="_blank" class="mosaic-overlay"><img src="" alt="" data-src="img/camp@x1.png" data-ret="retina/camp@x2.png" data-alt="My Image" class="retina" id="two" /> </a>
 				<div class="details">
 					 <h5>Title</h5>
  <a href="" data-info="#project2" class="btn btn-info pro">More</a> 
@@ -442,7 +441,7 @@
         
   
   <div class="mosaic-block cover2">
-			<a href="http://yourather.com/questions/135" target="_blank" class="mosaic-overlay"><img src="" alt="" data-src="img/robo@x1.png" data-ret="robo@x2.png" data-alt="My Image" class="retina" id="three" /></a>
+			<a href="http://yourather.com/questions/135" target="_blank" class="mosaic-overlay"><img src="" alt="" data-src="img/robo@x1.png" data-ret="retina/robo@x2.png" data-alt="My Image" class="retina" id="three" /></a>
 				<div class="details">
 					 <h5>Title</h5>
  <a href="" data-info="#project3" class="btn btn-info pro">More</a> 
@@ -453,7 +452,7 @@
 		</div>
      
      <div class="mosaic-block cover2">
-			<a href="http://yourather.com/questions/135" target="_blank" class="mosaic-overlay"><img src="" alt="" data-src="img/notes@1x.jpg" data-ret="house@2x.jpg" data-alt="My Image" class="retina" id="four" /></a>
+			<a href="http://yourather.com/questions/135" target="_blank" class="mosaic-overlay"><img src="" alt="" data-src="img/ufo@1x.png" data-ret="retina/ufo@2x.png" data-alt="My Image" class="retina" id="four" /></a>
 				<div class="details">
 					 <h5>Title</h5>
  <a href="" data-info="#project4" class="btn btn-info pro">More</a> 
@@ -680,6 +679,11 @@
 <article class="parallax-2">
 
 <div class="container">
+
+
+
+
+
 <div class="row-fluid">
                <div class="span3 leftmargin  offset2">
               <ul class="team">  
