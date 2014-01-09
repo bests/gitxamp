@@ -9,6 +9,10 @@ margin-right: auto;
 color: #fff;
 
 }
+.touch .parallax-1 {
+background-position: center top !important;
+background-attachment: scroll !important;
+}
 .parallax-1 {
 background-image: url(../img/ko.jpg);
 background-repeat: no-repeat; 
