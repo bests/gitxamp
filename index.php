@@ -13,9 +13,10 @@
       <link type="text/css" rel="stylesheet" href="css/main.css" /> 
        <link type="text/css" rel="stylesheet" href="css/core.css" /> 
       <link type="text/css" rel="stylesheet" href="css/fontello.css" /> 
-     <link type="text/css" rel="stylesheet" href="css/jquery.sidr.light.css" />
+    
          <link type="text/css" rel="stylesheet" href="css/home.css" /> 
           <link type="text/css" rel="stylesheet" href="css/features.css" /> 
+         
         <style>
 .exampleA {
 			/* 
@@ -51,17 +52,19 @@
 
         <!-- This code is taken from http://twitter.github.com/bootstrap/examples/hero.html -->
  
- 
-    
-         
-     <nav id="navbar" class="clearfix navbar-fixed-top">
-                 <div id="mobile-header">
+
+    <div id="menu-arrowx" class="top-arrow"></div>
+     <div id="mobile-header">
  
 
-                 <a id="responsive-menu-button" href="#sidr-main" class="minilogo">
+                 <a id="responsive-menu-button" href="#navbar" class="minilogo">
                  <i class="icon-menu icons"></i>
-              </a></div>
-		<ul class="seven clearfix nav">
+              </a></div>    
+              
+              
+     <nav id="navbar" class="clearfix navbar-fixed-top">
+       
+		<ul id="res" class="seven clearfix nav">
        
 			
 			<li><a href="#home">Home</a></li>
@@ -74,23 +77,11 @@
 			
 		</ul>
 		
-		<a href="#" id="pull"><img src="img/nav-icon@2x.png" width="32" height="32" ></a>
-       
+      <a href="#" id="pull"><img src="img/nav-icon@2x.png" width="32" height="32"></a>
 	</nav>              
   
- 
-<div id="navigation">
-    <nav class="navn">
-        <ul>
-            <li><a href="#download">Download</a></li>
-            <li><a href="#getstarted">Get started</a></li>
-            <li><a href="#usage">Demos &amp; Usage</a></li>
-            <li><a href="#documentation">Documentation</a></li>
-            <li><a href="#themes">Themes</a></li>
-            <li><a href="#support">Support</a></li>
-        </ul>
-    </nav>
-</div>               
+
+  
 
 <section id="home" class="bluegreen">
 <header class="home homecenter">
@@ -146,8 +137,8 @@
 <article id="home_features" class="features white">  
 <div class="row-fluid">
 <div class="span8">  
- <a href="" onclick="mySwipe2.next()" class="next default"> <i class="icon-left-open iconsize"></i></a>
-  <a href="" onclick="mySwipe2.prev()" class="prev default"> <i class="icon-right-open iconsize"></i></a>                  
+ <a href="" onclick="mySwipe2.next()" class="next bluegreentxt clickslider"> <i class="icon-left-open iconsize"></i></a>
+  <a href="" onclick="mySwipe2.prev()" class="prev bluegreentxt clickslider"> <i class="icon-right-open iconsize"></i></a>                  
            
   <div id='fetswipe' style='max-width:3000px;' class='swipe'>
   <div class='swipe-wrap'> <div><img src="img/tablets.png"></div>
@@ -457,7 +448,6 @@ $jquery = $jquery_validator->generate();
 
 
 
-
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery.js"><\/script>')</script>
         <script src="js/vendor/jquery.retinise.min.js"></script> 
@@ -482,11 +472,15 @@ $jquery = $jquery_validator->generate();
 
 <script src='js/vendor/swipe.js'></script>
 <script src='js/vendor/tiny.js'></script>
-<script src='js/vendor/jquery.sidr.min.js'></script>
+<script src='js/vendor/jquery.slicknav.min.js'></script>
 <script src='js/vendor/waypoints.min.js'></script>
 <script src='js/vendor/jquery.parallax-1.1.3.js'></script>
+
 <script type="text/javascript">
 		$(document).ready(function(){
+
+		
+
 			$('#slider1').tinycarousel({ start: 2,controls: false,axis: 'y'});
 			$('.parallax-1').parallax("80%", 0.3);
 			$('.parallax-2').parallax("50%", 0.1);
@@ -509,10 +503,8 @@ window.mySwipe2 = $('#fetswipe').Swipe({
         auto: 3000
     }).data('Swipe');	
 	
-	 $('#responsive-menu-button').sidr({
-      name: 'sidr-main',
-      source: '#navigation'
-    });
+	 
+	 
 	if(navigator.appVersion.indexOf("MSIE 7.")!=-1){
 $('#one').attr('src', 'img/star@1x.jpg');
 

@@ -113,7 +113,7 @@ border: 0;
 border-radius: 0px;
 padding: 1em 2.0em 1em;
 box-shadow: none;
-background:#3E3F47;
+background:#2C3E50;
 color: #fff;
 text-transform: uppercase;
 margin-right: 10px;
@@ -187,7 +187,7 @@ background-color: #FFF;
 position:relative;
 }
 .titlebg h2 {
-	color:#fff;
+	color:#F9F9F9;
 	margin-bottom:15px;
 	font-size:70px;
 	font-weight:bold;
@@ -199,13 +199,13 @@ text-align: center;
 
 padding: 35px 0;
 
-background-color: #3E3F47;
+background-color: #2C3E50;
 
 }		
-.bluegreen{background-color: #3DB4D8;
+.bluegreen{background-color: #45A2D6;
 
 }
-.bluegreentxt {color: #3DB4D8;
+.bluegreentxt {color: #45A2D6;
 
 }
 
@@ -283,11 +283,10 @@ margin-bottom: 10px;
 width: 160px;
 text-align: center;
 border: 0;
-border-top: 7px solid #3DB4D8;
+border-top: 7px solid #45A2D6;
 }
 .seven .active a:link {
-color: #fff !important;
-background-color: #3DB4D8;
+
 cursor: default !important;
 pointer-events: none;
 }

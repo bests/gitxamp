@@ -55,9 +55,25 @@ $modal.on('click', '.update', function(){
 	
 
 $('.seven a:link').smoothScroll();
- 
 
 
+
+
+	var $trigger = $("#pull");
+	var $menu = $("nav ul");
+	$(pull).on('click', function(e) {
+		
+		
+		
+		
+	
+	});
+
+
+
+
+
+	
 
 $("img.b").hover(
 function() {
@@ -111,7 +127,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
 
 
-$('.default').click(function(e) {
+$('.clickslider').click(function(e) {
 	
 	e.preventDefault();
 	
@@ -337,23 +353,23 @@ $('.btn-infvo').click(function(e) {
 	
 });
 
-$(function menuswipe() {
-			var pull 		= $('#pull');
-				menu 		= $('nav ul');
-				menuHeight	= menu.height();
+//$(function menuswipe() {
+		//	var pull 		= $('#pull');
+		//		menu 		= $('nav ul');
+		//		menuHeight	= menu.height();
 
-			$(pull).on('click', function(e) {
-				e.preventDefault();
-				menu.slideToggle('100','linear');
-			});
+		//	$(pull).on('click', function(e) {
+			//	e.preventDefault();
+		//		menu.slideToggle('100','linear');
+		//	});
 
-			$(window).resize(function(){
-        		var w = $(window).width();
-        		if(w > 320 && menu.is(':hidden')) {
-        			menu.removeAttr('style');
-        		}
-    		});
-		});
+		//	$(window).resize(function(){
+        	//	var w = $(window).width();
+        	//	if(w > 320 && menu.is(':hidden')) {
+        	//		menu.removeAttr('style');
+        	//	}
+    		//});
+		//});
 
 
 
@@ -458,6 +474,33 @@ $("img.thumb1", this).stop().animate({"opacity": "1","-ms-filter":"progid:DXImag
 
 });
     }else{
+$(window).on('resize', function(event){
+	
+clearTimeout(this.id);
+    this.id = setTimeout(moveline, 500);
+	
+		
+	
+	//var $item2 = $('.prev').offset().left;
+	//var $item3 =$item.offset().left + $item.width() / 2 - 35 - $('#navbar').offset().left;
+
+	//alert($item);
+	
+	
+//var $per = $item2 / jQuery(window).width() * 100;
+
+
+   
+    });
+function moveline(){
+	var $item = $(".seven li.active");
+	var $item2 =$item.offset().left + $item.width() / 2 - 85 - $('#navbar').offset().left;
+  $("#menu-arrowx").css( "left", $item2 );
+}
+
+	
+	
+	
 	
 $("body").on("activate", function(e)
 {
@@ -482,9 +525,10 @@ $("body").on("activate", function(e)
 	$item.addClass('bounce');
 		}
 		
-		var $item2 =$item.offset().left + $item.width() / 2 - 35 - $('#navbar').offset().left;
-
-
+		var $item2 =$item.offset().left + $item.width() / 2 - 10 - $('#navbar').offset().left;
+//var $per = $item2 / jQuery(window).width() * 100;
+//alert(e.target.nodeName);
+//alert($(".seven li.active").width());
 //$("#menu-arrowx").animate({"left":$item2}, 50,"linear");
 $("#menu-arrowx").css('left',$item2 + 'px');
 		//

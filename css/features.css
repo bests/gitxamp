@@ -1,5 +1,5 @@
 .swipe {
-	background-color: #EEEEEE;
+	background-color: #E0E3E6;
   overflow: hidden;
   z-index: 2;
   visibility: hidden;
@@ -59,7 +59,7 @@ width: 45px;
 
 .fetwidth .icons {
 
-color: #fff;
+color: #F9F9F9;
 }
 .icons {
 	
@@ -67,7 +67,7 @@ font-size: 90px;
 margin-bottom: 10px;
 line-height: 24px;
 margin-right: 35px;
-color: #3DB4D8;
+color: #45A2D6;
 }
 
 .left-text{
@@ -81,7 +81,7 @@ display: inline;
 	}
 
 .features a:hover {
-	color:#3E3F47;
+	color:#2C3E50;
 
 }
 
@@ -98,7 +98,7 @@ z-index: 1;
 }
 
 .fetwidth{
-color: #fff;
+color: #F9F9F9;
 padding: 20px;
 
 }
@@ -110,7 +110,7 @@ padding: 20px;
     -webkit-transform:scale(1.1,1.1); /* Safari and Chrome */
     -o-transform:scale(1.1,1.1); /* Opera */
     -moz-transform:scale(1.1,1.1); /* Firefox */
-	background-color:#64C5E2;
+	background-color:#75bae1;
 }		
 .srvactive{
 transform: scale(1.1,1.1);
@@ -118,7 +118,7 @@ transform: scale(1.1,1.1);
 -webkit-transform: scale(1.1,1.1);
 -o-transform: scale(1.1,1.1);
 -moz-transform: scale(1.1,1.1);
-background-color: #64C5E2;	
+background-color: #75bae1;	
 }
 .media-body h4{
 margin-top: 15px;
@@ -162,14 +162,14 @@ text-align: center;
 margin-left: 0px;
 }
 .next{
-color: #3DB4D8;
+
 top: 24.9%;
 left: 0%;
 margin-top: -143px;
 }	
 	
 .prev{
-color: #3DB4D8;
+
 top: 24.9%;
 left: 90%;
 margin-top: -143px;

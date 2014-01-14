@@ -1,3 +1,20 @@
+
+#menu-arrowx {
+visibility: hidden;
+}
+.top-arrow {
+background-color: #45A2D6;
+z-index: 2259;
+top: 55px;
+position: fixed;
+display: inline-block;
+width: 34px;
+height: 6px;
+-webkit-transition: left 0.5s ease-in-out;
+-moz-transition: left 0.5s ease-in-out;
+-o-transition: left 0.5s ease-in-out;
+transition: left 0.5s ease-in-out;
+}
 .parallax-1 .title {
 color: #fff;
 text-align: left;
@@ -64,7 +81,7 @@ max-width: 100%;
 height: auto;
  }
 strong{
-	color:#3DB4D8;}
+	color:#45A2D6;}
 .medium{
 	
 font-size: 18px;	
@@ -387,8 +404,8 @@ color: #4CC4D8 !important;
 
 }
 .nav li a:hover {
-color: #ffffff !important;
-background-color:#3DB4D8;
+color: #E0E3E6 !important;
+background-color:#ffffff;
 }
 nav a#pull {
 	display: none;
@@ -487,6 +504,7 @@ box-shadow: inset 0 0px 0 rgba(0, 0, 0, 0.15);
 
 }
 .minilogo{
+	z-index: 2000;
 	float:left;
 	position:absolute;
 	
@@ -830,38 +848,19 @@ left: 50%;
 .work .span10 {
 	
 	width:77%;
-	
-	
-	
-	
-	
+
 	}
 .work .span2 {
-	
-	
-	
+
 	
 	width: 200px;	
 	
-	
-	
-	
 }	
-
-		
-
-	
-
-		
-
-
-
-	
 
 nav a {
 
 margin: 0 0 0px 15px;
-padding: 0px 15px;
+padding: 10px 15px;
 
 
 }
@@ -1082,8 +1081,6 @@ margin-right: auto;
 }
 	
 .minilogo{
-	display:none;
-	
 	
 }
 nav a {
@@ -1148,7 +1145,12 @@ margin-left: -228px;
 	
 
 .seven {
-	
+background-color: rgb(255, 255, 255);
+height: 100%;
+width: 200px;
+position: fixed;
+left: -50%;
+display: block;	
 margin-right: auto;
 
 }
@@ -1670,3 +1672,7 @@ position: relative;
 padding-left: 0px;
 right: 0px;
 }
+/*
+    Mobile Menu Core Style
+*/
+
