@@ -111,6 +111,7 @@ padding: 20px;
     -o-transform:scale(1.1,1.1); /* Opera */
     -moz-transform:scale(1.1,1.1); /* Firefox */
 	background-color:#75bae1;
+	z-index:2;
 }		
 .srvactive{
 transform: scale(1.1,1.1);
@@ -149,135 +150,27 @@ padding-bottom: 0px;
 padding-top: 0px;
 }	
 	
-@media (min-width: 1200px){
-.swipe-wrap img {
-	width:70%;
+
+
+
+
+
+
+
+
+@media (max-width: 350px){
 	
-	
-}
-
-.features .span8 {
-width: 100%;
-text-align: center;
-margin-left: 0px;
-}
-.next{
-
-top: 24.9%;
-left: 0%;
-margin-top: -143px;
-}	
-	
-.prev{
-
-top: 24.9%;
-left: 90%;
-margin-top: -143px;
-
-}
-
-.fetwidth {
-width: 244px;
-margin-top: 8px;
-margin-right: 8px;
-
-}		
-
-}
-
-@media (max-width: 1200px) and (min-width: 980px){
-.fetwidth {
-width: 188px;
-margin-top: 6px;
-margin-right: 6px;
-
-}		
-
-.features .span8 {
-	
-	width:100%;
-	text-align:center;
-	margin-left:0px;
-}	
-#slider1 .viewport {
-margin-top: 40px;
-height: 280px;
+	#slider1 .viewport {
+margin-top: -43px;
+height: 329px;
 overflow: hidden;
 position: relative;
 }	
-#slider1 .overview li {
-float: none;
-margin: 0 20px 0 0;
-padding: 1px;
-height: 421px;
-width: auto;
-}	
-
 	
+
+
 }
 
-@media (max-width: 979px) and (min-width: 768px){
-.fetwidth {
-margin-top: 6px;
-margin-right: 0px;
-width: 316px;
-margin-left: 6px;
-}		
-.srvactive {
-transform: scale(1.0,1.0);
--ms-transform: scale(1.0,1.0);
--webkit-transform: scale(1.0,1.0);
--o-transform: scale(1.0,1.0);
--moz-transform: scale(1.0,1.0);
-background-color: #64C5E2;
-}	
-	
-#slider1 .viewport {
-margin-top: 40px;
-height: 280px;
-overflow: hidden;
-position: relative;
-}	
-#slider1 .overview li {
-float: none;
-margin: 0 20px 0 0;
-padding: 1px;
-height: 421px;
-width: auto;
-}		
-	
-	
-}
-
-@media (max-width: 767px){
-.fetwidth {
-margin-top: 6px;
-margin-right: 0px;
-width: 276px;
-margin-left: 6px;
-}		
-.srvactive {
-transform: scale(1.0,1.0);
--ms-transform: scale(1.0,1.0);
--webkit-transform: scale(1.0,1.0);
--o-transform: scale(1.0,1.0);
--moz-transform: scale(1.0,1.0);
-background-color: #64C5E2;
-}	
-#slider1 .viewport {
-margin-top: 40px;
-height: 280px;
-overflow: hidden;
-position: relative;
-}	
-#slider1 .overview li {
-float: none;
-margin: 0 20px 0 0;
-padding: 1px;
-height: 421px;
-width: auto;
-}	
-}
 @media (max-width: 670px){
 	.swipe-wrap img {
 	width:100%;
@@ -295,11 +188,7 @@ padding-top: 70px;
 }	
 	
 	
-.fetwidth {
 
-width: auto;
-
-}
 #slider1 .viewport {
 margin-top: -43px;
 height: 329px;
@@ -314,15 +203,112 @@ height: 421px;
 width: auto;
 }	
 }
-@media (max-width: 350px){
-	
-	#slider1 .viewport {
-margin-top: -43px;
-height: 329px;
+@media (max-width: 767px){
+.fetwidth:hover {
+cursor: pointer;
+transform: scale(1.0,1.0);
+-ms-transform: scale(1.0,1.0);
+-webkit-transform: scale(1.0,1.0);
+-o-transform: scale(1.0,1.0);
+-moz-transform: scale(1.0,1.0);
+background-color: #75bae1;
+z-index: 2;
+}	
+.srvactive {
+transform: scale(1.0,1.0);
+-ms-transform: scale(1.0,1.0);
+-webkit-transform: scale(1.0,1.0);
+-o-transform: scale(1.0,1.0);
+-moz-transform: scale(1.0,1.0);
+background-color: #75bae1;
+}	
+#slider1 .viewport {
+margin-top: 40px;
+height: 280px;
 overflow: hidden;
 position: relative;
 }	
+#slider1 .overview li {
+float: none;
+margin: 0 20px 0 0;
+padding: 1px;
+height: 421px;
+width: auto;
+}	
+}
+@media (min-width: 768px){
+		
+.srvactive {
+transform: scale(1.0,1.0);
+-ms-transform: scale(1.0,1.0);
+-webkit-transform: scale(1.0,1.0);
+-o-transform: scale(1.0,1.0);
+-moz-transform: scale(1.0,1.0);
+background-color: #64C5E2;
+}	
 	
+#slider1 .viewport {
+margin-top: 40px;
+height: 280px;
+overflow: hidden;
+position: relative;
+}	
+#slider1 .overview li {
+float: none;
+margin: 0 20px 0 0;
+padding: 1px;
+height: 421px;
+width: auto;
+}		
+	
+	
+}
 
+@media (min-width: 992px){
+	
+#slider1 .viewport {
+margin-top: 34px;
+height: 310px;
+overflow: hidden;
+position: relative;
+}	
+#slider1 .overview li {
+float: none;
+margin: 0 20px 0 0;
+padding: 1px;
+height: 421px;
+width: auto;
+}	
+
+	
+}
+
+
+
+
+@media (min-width: 1200px){
+.swipe-wrap img {
+margin: 0 auto !important;
+float: none !important;
+	
+	
+}
+
+.next{
+
+top: 24.9%;
+left: 0%;
+margin-top: -143px;
+}	
+	
+.prev{
+
+top: 24.9%;
+left: 90%;
+margin-top: -143px;
+
+}
+
+	
 
 }

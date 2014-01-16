@@ -9,8 +9,8 @@
         <meta name="description" content="">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link type="text/css" rel="stylesheet" href="css/bootstrap.css" /> 
-      <link type="text/css" rel="stylesheet" href="css/bootstrap-responsive.css" /> 
-      <link type="text/css" rel="stylesheet" href="css/main.css" /> 
+     
+  
        <link type="text/css" rel="stylesheet" href="css/core.css" /> 
       <link type="text/css" rel="stylesheet" href="css/fontello.css" /> 
     
@@ -93,13 +93,13 @@
   <div class="container middlecenter"><!-- End container .. container for carosel -->
   
   <div class="span12 center">
-   <img class="logo" src="img/logox.png">
- <ul class="thumbnails">
+   <img class="logo img-responsive" src="img/logox.png">
+ <ul class="list-inline">
  
-  <li class="span3"><a href="#"><i class="icon-twitter iconhome pulse moveup"></i></a></li>
- <li class="span3"><a href="#"><i class="icon-facebook iconhome pulse moveup"></i></a></li>
-  <li class="span3"><a href="#"><i class="icon-instagramm iconhome pulse moveup"></i></a></li>
-   <li class="span3"><a href="#"><i class="icon-gplus iconhome pulse moveup"></i></a></li>
+  <li><a href="#"><i class="icon-twitter iconhome pulse moveup"></i></a></li>
+ <li><a href="#"><i class="icon-facebook iconhome pulse moveup"></i></a></li>
+  <li><a href="#"><i class="icon-instagramm iconhome pulse moveup"></i></a></li>
+   <li><a href="#"><i class="icon-gplus iconhome pulse moveup"></i></a></li>
  </ul>
  
  <div class="title">
@@ -135,17 +135,17 @@
 
  
 <article id="home_features" class="features white">  
-<div class="row-fluid">
-<div class="span8">  
+<div class="row">
+<div class="col-sm-12 col-md-12 center">  
  <a href="" onclick="mySwipe2.next()" class="next bluegreentxt clickslider"> <i class="icon-left-open iconsize"></i></a>
   <a href="" onclick="mySwipe2.prev()" class="prev bluegreentxt clickslider"> <i class="icon-right-open iconsize"></i></a>                  
            
   <div id='fetswipe' style='max-width:3000px;' class='swipe'>
-  <div class='swipe-wrap'> <div><img src="img/tablets.png"></div>
+  <div class='swipe-wrap'> <div><img class="img-responsive" src="img/tablets.png"></div>
    
-    <div><img src="slider/pc.jpg"></div>
+    <div><img class="img-responsive" src="slider/pc.jpg"></div>
   
-     <div><img src="slider/t.png"></div>
+     <div><img class="img-responsive" src="slider/t.png"></div>
     
   </div> 
   
@@ -173,9 +173,9 @@
        
    <!-- End container .. container for carosel --> 
   
-
+<div class="row">
  
-    <div class="left-text fetwidth bluegreen servicelink" data-info="1">
+    <div class="col-xs-6 col-sm-3 left-text fetwidth bluegreen servicelink" data-info="1">
              
                  <i class="icon-globe icons"></i>
               
@@ -189,7 +189,7 @@
            
             
          
-    <div class="left-text fetwidth bluegreen servicelink" data-info="3">
+    <div class="col-xs-6 col-sm-3 left-text fetwidth bluegreen servicelink" data-info="3">
               <a href="#">
                 <i class="icon-tablet icons"></i>
               </a>
@@ -199,7 +199,7 @@
               </div>
            </div>   
             
-   <div class="left-text fetwidth bluegreen servicelink" data-info="4">
+   <div class="col-xs-6 col-sm-3 left-text fetwidth bluegreen servicelink" data-info="4">
               <a href="#">
                 <i class="icon-thumbs-up icons"></i>
               </a>
@@ -210,7 +210,7 @@
            </div> 
            
     
-         <div class="left-text bluegreen fetwidth servicelink srvactive" data-info="2">
+         <div class="col-xs-6 col-sm-3 left-text bluegreen fetwidth servicelink srvactive" data-info="2">
              
                  <i class="icon-wrench icons"></i>
              
@@ -223,7 +223,7 @@
                 
                 
                 
-                
+</div>                
                 
                 
                 
@@ -261,7 +261,7 @@
 
      and have been featured in all of the magazines  and have been featured in all of the magazines  and have been featured in all of the magazines.</p>
  </div></li>
-				<li>   <div class="row-fluid">      
+				<li>   <div class="row">      
        <div class="span3">
        
         <div class="left-text fetwidth">
@@ -297,7 +297,7 @@
 <div class="title"> <h2>Great features</h2> <p class="medium">We are a creative agency located in We’ve won a ton of awards.</p>
  </div>
 
-<img src="img/tablets.png"></div></article>
+<img class="img-responsive" src="img/tablets.png"></div></article>
 <section id="contact" class="anchor">
 
     <div class="titlebg"><h2>Projects</h2>
@@ -316,7 +316,7 @@
 
         <div class="container paddingbottom paddingtop">
  
-      <div class="row-fluid">
+      <div class="row">
  <?php
 
 include 'autoload.php';
@@ -362,7 +362,7 @@ $jquery = $jquery_validator->generate();
 
 
 ?>     
-   <div class="span6">
+   <div class="col-sm-6 col-md-6">
   <h2>Hi! We look forward<br>
  to your message.</h2> 
    
@@ -399,7 +399,7 @@ $jquery = $jquery_validator->generate();
 
 
 </div> 
-            <div class="span6"> 
+            <div class="col-sm-6 col-md-6"> 
  <div class="alert alert-error alert-block hide">
               <button type="button" class="close" data-dismiss="alert">×</button>
               <h4>Warning!</h4>

@@ -4,9 +4,13 @@ Section Global HOME
    
 
 =====================*/	
+
+
+
+
 #home {
 height: 100%;
-min-height:600px;
+min-height:360px;
 z-index: 1;
 position: relative;
 width: 100%;
@@ -49,111 +53,151 @@ text-align: center;
 }  
 .homecenter h2 {
 
-padding-top: 20px;
-padding-bottom: 20px;
 color:#fff;
 display: inline-block;
 } 
 
-.logo .thumbnails .span3 {
+.logo .img-thumbnails .span3 {
 float: left;
 
 }
 
-.homecenter .thumbnails > li {
+.homecenter .img-thumbnails > li {
 margin-left: 26px;
+}
+ .logo{
+	  display:inline;
+
+
+
+} 
+
+
+
+
+@media(max-width:767px){
+.logo{
+width:49%;	
+
+
+} 
+.homecenter .list-inline {
+margin-left: auto;
+margin-right: auto;
+width: 45%;
+margin-top: 24px;
+}
+.homecenter .list-inline > li {
+
+width: 18%;
+}
+.iconhome{
+	color:#FFF;
+	font-size:25px;
+	
+}
+.homecenter h2 {
+
+padding-top: 0px;
+padding-bottom: 0px;
+color:#fff;
+display: inline-block;
+} 
+}
+
+@media (max-width: 350px){
+	
+.logo{
+width:100%;	
+
+
+}
+.homecenter .list-inline {
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+margin-top: 24px;
+}
+.homecenter .list-inline > li {
+
+width: 20%;
+}	
+
+
 }
 
 
 
-@media (min-width: 1200px){
-  .logo{
+@media(min-width:768px){
+.logo{
 width:45%;	
 
 
 } 
-.homecenter .thumbnails {
+.homecenter .list-inline {
 margin-left: auto;
 margin-right: auto;
 width: 45%;
-margin-top: 60px;
+margin-top: 24px;
 }
-.homecenter .thumbnails .span3 {
+.homecenter .list-inline > li {
 
 width: 18%;
 }
-
-
+.iconhome {
+color: #FFF;
+font-size: 35px;
 }
-@media (max-width: 1200px) and (min-width: 980px){
+
+.homecenter h2 {
+
+padding-top: 0px;
+padding-bottom: 0px;
+color:#fff;
+display: inline-block;
+} 
+}
+@media(min-width:992px){
 .logo{
-width:55%;	
+width:45%;	
 
 
 } 	
-.homecenter .thumbnails {
+.homecenter .list-inline {
 margin-left: auto;
 margin-right: auto;
-width: 80%;
-margin-top: 60px;
+width: 45%;
+margin-top: 24px;
 }
-.homecenter .thumbnails .span3 {
-width: 20%;
+.homecenter .list-inline > li {
 
-
+width: 18%;
 }
-
+.iconhome {
+color: #FFF;
+font-size: 35px;
 }
-
-
-@media (max-width: 979px) and (min-width: 768px){
-.logo{
-width:65%;	
-
+}
+@media (min-width: 1200px){
+ .logo{
+  
+width:44%;	
 
 } 
-.homecenter .thumbnails .span3 {
-width:15%;
-
-
-
-}	
-.homecenter .thumbnails {
+.homecenter .list-inline {
 margin-left: auto;
 margin-right: auto;
-width: 80%;
-margin-top: 60px;
-}	
-
-
+width: 45%;
+margin-top: 24px;
 }
-@media (max-width: 767px){
-.homecenter .thumbnails .span3 {
-float: left;
-width: 24%;
-padding: 13px;
-margin-left: 1px;
-}	
-.homecenter .thumbnails {
-margin-left: auto;
-margin-right: auto;
-width: 80%;
-margin-top: 60px;
-}	
-.logo{
-width:70%;	
+.homecenter .list-inline > li {
 
-
+width: 18%;
 }
-
-}
-@media (max-width: 670px){
-	.iconhome{
-		font-size:30px;}
-		.logo{
-width:70%;	
-
-
+.iconhome{
+	color:#FFF;
+	font-size:35px;
+	
 }
 
 }

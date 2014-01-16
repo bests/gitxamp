@@ -180,6 +180,167 @@ Modals
 
 =====================*/		
 
+.paddingbottom{
+	padding-bottom:80px;
+	
+}
+.paddingtop{
+	padding-top:80px;
+	
+}
+
+.medium{
+	
+font-size: 18px;	
+
+}
+
+[class^="icon-"], [class*=" icon-"] {
+display: inline-block;
+width: 1em;
+height: 0px;
+height:100%;
+margin-top: 0px;
+line-height: 14px;
+vertical-align: text-top;
+
+background-image:none;
+}
+html {
+height: 100%;
+width: 100%;
+}
+body {
+height: 100%;
+width: 100%;
+padding-right: 0px;
+padding-left: 0px;
+}
+strong{
+	color:#45A2D6;}
+.tick {
+background: transparent url('../img/tickw.png') 0 0 no-repeat;
+background-size: 140px 35px;
+z-index:4;
+height: 35px;
+left: 50%;
+margin-left: -70px;
+position: absolute;
+width: 140px;
+margin-top: -1px;
+}
+
+
+
+nav {
+background-color: #FFFFFF;
+background-repeat: repeat-x;
+border-color: #252525;
+
+width: 100%;
+
+}
+.seven {
+margin-bottom: 0px;
+margin-left: auto;
+
+list-style: none;
+}
+
+ 
+nav ul {
+
+	padding: 0;
+	width:650px;
+
+
+	
+}
+
+nav li {
+
+text-align: center;
+float: left;
+}
+.minilogo {
+z-index: 2000;
+float: left;
+position: absolute;
+}
+#menu-arrowx {
+visibility: hidden;
+}
+.top-arrow {
+background-color: #45A2D6;
+z-index: 2259;
+top: 55px;
+position: fixed;
+display: inline-block;
+width: 34px;
+height: 6px;
+-webkit-transition: left 0.5s ease-in-out;
+-moz-transition: left 0.5s ease-in-out;
+-o-transition: left 0.5s ease-in-out;
+transition: left 0.5s ease-in-out;
+}
+.parallax-1 .title {
+color: #fff;
+text-align: left;
+margin-left: auto;
+margin-right: auto;
+
+}
+.parallax-1 .title h2 {
+color: #fff;
+
+}
+.touch .parallax-1 {
+background-position: center top !important;
+background-attachment: scroll !important;
+}
+.parallax-1 {
+background-image: url(../img/ko.jpg);
+background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;       
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+.parallax-1:after {
+content: "";
+display: block;
+position: fixed;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+z-index: -1;
+background-color: rgba(0,0,0,0.2);
+}
+.parallax-2 {
+background-image: url(../img/img-6.jpg);	
+background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;       
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+	position:fixed;
+}
+.parallax-2 .container {
+position: relative;
+z-index: 0;
+}
+
+
+.parallax p {
+font-size: 50px;
+font-weight: 700;
+color: #FFF;
+}
 			
 
 .price{
@@ -300,7 +461,13 @@ section{
 	
 
 }
+.navbar-fixed-top {
+margin-bottom: 0px;
+}
 .center {
+
+
+vertical-align: middle;
    margin: 0 auto !important;
    float: none !important;
 }
@@ -310,10 +477,30 @@ section{
 #slider1 .overview { list-style: none; position: absolute; padding: 0; margin: 0; left: 0 top: 0; }
 #slider1 .overview li{ float: none; margin: 0 20px 0 0; padding: 1px; height: 421px;
 width: auto;}
+nav a {
+color: #fff;
+display: inline-block;
+text-decoration: none;
+line-height: 53px;
+-webkit-transition: all 0.2s ease-in-out;
+-moz-transition: all 0.2s ease-in-out;
+-ms-transition: all 0.2s ease-in-out;
+-o-transition: all 0.2s ease-in-out;
+transition: all 0.2s ease-in-out;
+}
 
+#pull{
+	display:none;
+	
+}
 @media (max-width: 767px){
-.container {
-width: 650px;
+
+
+h2, .h2 {
+font-size: 25px;
+}
+h1, .h1 {
+font-size: 35px;
 }
 }
 
@@ -322,9 +509,6 @@ width: 650px;
 
 @media (max-width: 670px){
 	
-.container {
-width: 400px;
-}	
 	
 	
 .titlebg{
@@ -350,7 +534,72 @@ float: none;
 }	
 }
 
-@media (max-width: 450px){
-.container {
-width:350px;
-}}
+
+@media (max-width: 767px) {
+	
+	.top-arrowx{
+		display:none;
+		
+		
+		}
+	nav a#pull:hover {
+		color:#FFF;
+	  	
+  	}
+	nav {
+		border-bottom: 0;
+	}
+	nav ul {
+		width: 100%;
+		display: none;
+		height: auto;
+	}
+	nav a#pull {
+		display: block;
+		background-color: #000;
+		width: 100%;
+		position: relative;
+	}
+	nav a#pull:after {
+		content:"";
+		background: url('../img/nav-icon@2xv.png') no-repeat;
+		width: 32px;
+		height: 32px;
+		display: inline-block;
+		position: absolute;
+		right: 15px;
+		top: 10px;
+	}
+}
+@media(min-width:768px){
+nav a {
+
+margin: 0 0 0px 15px;
+padding: 0px 45px;
+
+}	
+
+
+}
+
+@media(min-width:992px){
+	
+nav a {
+
+margin: 0 0 0px 15px;
+padding: 0px 15px;
+
+
+}
+
+}
+
+@media (min-width: 1200px) {
+	
+nav a {
+margin: 0 0 0px 15px;
+padding: 10px 15px;
+}
+	
+	
+}
