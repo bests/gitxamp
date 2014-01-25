@@ -529,7 +529,7 @@ $jquery = $jquery_validator->generate();
 Modernizr.load({
   test: Modernizr.csstransitions,
   yep : 'http://localhost/gitxamp/js/vendor/effects-css.js',
-  nope: 'http://localhost/gitxamp/js/vendor/effects-js.js'
+  nope: 'http://localhost/gitxamp/js/vendor/effects-css.js'
 });
 		
 
