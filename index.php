@@ -71,7 +71,7 @@
       <span class="icon-bar"></span>
     </button>
   </div>
-  <div class="navi navbar-collapse collapse width">
+  <div class="navi navbar-collapse collapse width" style="width:0px">
     <ul id="res" class="seven nav navbar-nav navbar-right collapse-inner">
      <li><a href="#home">Home</a></li>
 			<li><a href="#features">Features</a></li>
@@ -105,7 +105,7 @@
 
 
 
-<section id="home" class="bluegreen">
+<section id="home" class="bluegreen move">
 <header class="home homecenter">
 
 
@@ -143,7 +143,7 @@
 
 
 
-<section id="features"  class="anchor">
+<section id="features"  class="anchor move">
 
 <div class="titlebg"><h2>Features</h2>
      <hr></hr>
@@ -314,13 +314,13 @@
         </div> 
 </article>
 </section>
-<article class="parallax-1 paddingtop overlay"><div class="container fadeJS-down-up">
+<article class="parallax-1 paddingtop overlay move"><div class="container fadeJS-down-up">
 
 <div class="title"> <h2>Great features</h2> <p class="medium">We are a creative agency located in We’ve won a ton of awards.</p>
  </div>
 
 <img class="img-responsive" src="img/tablets.png"></div></article>
-<section id="contact" class="anchor">
+<section id="contact" class="anchor move">
 
     <div class="titlebg"><h2>Projects</h2>
       <hr></hr>

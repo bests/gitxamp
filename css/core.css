@@ -303,6 +303,8 @@ height: 500px;
 
 
 .parallax-1 {
+	position:relative;
+	
 background-image: url(../img/ko.jpg);
 background-repeat: no-repeat; 
     background-position: center;
@@ -455,11 +457,23 @@ pointer-events: none;
 
 }
 
+.move{
+	left:0px;
+-webkit-transition: left 0.35s ease;
+-moz-transition: left 0.35s ease;
+-o-transition: left 0.35s ease;
+transition: left 0.35s ease;
+	
+}
+.moveleft{
+	left:230px;
+	
+
+}
 section{
 	position:relative;
 	z-index:5;
 	
-
 }
 .navbar-fixed-top {
 margin-bottom: 0px;

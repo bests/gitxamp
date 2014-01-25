@@ -31,7 +31,12 @@ function moveline(){
 	var $item2 =$item.offset().left + $item.width() / 2 - 10 - $('#navbar').offset().left;
   $("#menu-arrowx").css( "left", $item2 );
 }
- $(".icon-instagramm").click(function(e) {
-          $('#menu').collapse('toggle');
+ $(".navbar-toggle").click(function(e) {
+        // $('.move').collapse('toggle');
+		$(".move").toggleClass('moveleft'); 
+		
+	
+		
+		
           //changeContent(e.target.innerText);
         });

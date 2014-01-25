@@ -5,7 +5,11 @@ Section Global HOME
 
 =====================*/	
 
-
+.framei{
+	position:relative;
+	float:left;
+	width:200%;
+}
 .navbar-toggle {
 padding: 14px 10px;
 }
@@ -108,11 +112,15 @@ width: auto;
 }
 .collapse.in.width {
 width: auto;
+-webkit-transition: width 0.35s ease;
+-moz-transition: width 0.35s ease;
+-o-transition: width 0.35s ease;
+transition: width 0.35s ease;
 }
 
 .collapse.width {
 position: relative;
-width: 0;
+width: auto;
 overflow: hidden;
 -webkit-transition: width 0.35s ease;
 -moz-transition: width 0.35s ease;
