@@ -29,16 +29,16 @@ $('.ajax').on('click', function(){
     });
   }, 1000);
 });
+
+
+// ================
+// Section Features
+// ================
+
+
  
- var oSlider7 = $('#slider1');
- $('.servicelink').click(function(){ 
  
  
-  var $target = $(this).data('info');
- 
-    oSlider7.tinycarousel_move($target);
-    return false;
-});
  
  
 $modal.on('click', '.update', function(){
@@ -59,15 +59,7 @@ $('.seven a:link').smoothScroll();
 
 
 
-	var $trigger = $("#pull");
-	var $menu = $("nav ul");
-	$(pull).on('click', function(e) {
-		
-		
-		
-		
 	
-	});
 
 
 
@@ -149,20 +141,7 @@ $('.servicelink').click(function(e) {
 		
 //$('.accordion-service').collapse('show');
 	
-	$('.fetwidth').removeClass("srvactive");
-	//$.scrollTo($(this).attr('href'), 1400, {offset: {top:-280} });
- 	
- 
-  var $target = $(this).data('info');
-
-
- $('#services').html($($target).html());
-  
- 
-  $(this).addClass("srvactive");
-// 
-$('#services').addClass("bounce");
-	e.preventDefault();
+	
 	
 	//$('.projects').fadeToggle(400);
 	//$('.slider1').scrollTo($(this).attr('href'), 1400, {offset: {left:-lefto} }, { axis:'x' } );
@@ -518,12 +497,7 @@ $("body").on("activate", function(e)
 //alert(e.target.id+" and "+$(e.target).attr('class'));
 //
     if (e.originalEvent === undefined) {
-     if(!$('#pull').is(":visible") ){
-		 
-//$item.addClass('active');
-		$item.addClass('animated');
-	$item.addClass('bounce');
-		}
+   
 		
 		var $item2 =$item.offset().left + $item.width() / 2 - 10 - $('#navbar').offset().left;
 //var $per = $item2 / jQuery(window).width() * 100;

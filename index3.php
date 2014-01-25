@@ -11,7 +11,7 @@
   <meta name="viewport" content="width=100%; initial-scale=1; maximum-scale=1; minimum-scale=1; user-scalable=no;" />
       <link type="text/css" rel="stylesheet" href="css/bootstrap.css" /> 
       <link type="text/css" rel="stylesheet" href="css/bootstrap-responsive.css" /> 
-      <link type="text/css" rel="stylesheet" href="css/main.css" /> 
+      <link type="text/css" rel="stylesheet" href="css/manin.css" /> 
        <link type="text/css" rel="stylesheet" href="css/core.css" /> 
       <link type="text/css" rel="stylesheet" href="css/fontello.css" /> 
        <link type="text/css" rel="stylesheet" href="css/colorbox.css" /> 

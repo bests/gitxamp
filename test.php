@@ -51,7 +51,7 @@
         <![endif]-->
 
         <!-- This code is taken from http://twitter.github.com/bootstrap/examples/hero.html -->
-
+ 
 
     <div id="menu-arrowx" class="top-arrow"></div>
      <div id="mobile-header">
@@ -62,17 +62,17 @@
               </a></div>    
               
               
-      <nav id="navbar" role="navigation" class="navbar navbar-fixed-top navcolor">
+      <nav id="navbar" class="navbar navbar-fixed-top">
   <div class="navbar-header">
-    <a class="navbar-brand" href="#">Simple</a>
+    <a class="navbar-brand" href="#">Brand</a>
     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
     </button>
   </div>
-  <div class="navi navbar-collapse collapse width">
-    <ul id="res" class="seven nav navbar-nav navbar-right collapse-inner">
+  <div class="navi navbar-collapse collapse">
+    <ul id="res" class="seven nav navbar-nav navbar-right">
      <li><a href="#home">Home</a></li>
 			<li><a href="#features">Features</a></li>
 			<li><a href="#gallery">Gallery</a></li>
@@ -87,23 +87,11 @@
 </nav>        
      
        
-	<div id="menu" class="menu collapse width">
-          <div class="collapse-inner">
-            <div class="navbar">
-              <div class="navbar-inner">
-                Menu
-              </div>
-            </div>
-            <ul class="nav nav-tabs nav-stacked">
-              <li><a>Futurama</a></li>
-              <li><a>Star Wars</a></li>
-              <li><a>Doctor Who</a></li>
-            </ul>
-          </div>
-        </div>
+	
 	        
+  
 
-
+  
 
 <section id="home" class="bluegreen">
 <header class="home homecenter">
@@ -483,10 +471,6 @@ $jquery = $jquery_validator->generate();
         </div> <!-- /container -->
 </article>
 </section>
-
-
-
-
 
 
 
