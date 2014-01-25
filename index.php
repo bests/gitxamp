@@ -71,7 +71,7 @@
       <span class="icon-bar"></span>
     </button>
   </div>
-  <div class="navi navbar-collapse collapse width" style="width:0px">
+  <div class="navi navbar-collapse collapse width" style="width:auto">
     <ul id="res" class="seven nav navbar-nav navbar-right collapse-inner">
      <li><a href="#home">Home</a></li>
 			<li><a href="#features">Features</a></li>

@@ -30,11 +30,17 @@ function moveline(){
 	var $item = $(".seven li.active");
 	var $item2 =$item.offset().left + $item.width() / 2 - 10 - $('#navbar').offset().left;
   $("#menu-arrowx").css( "left", $item2 );
+  $(".navi").attr('style', 'width:auto');
 }
  $(".navbar-toggle").click(function(e) {
         // $('.move').collapse('toggle');
-		$(".move").toggleClass('moveleft'); 
-		
+		//$(".move").toggleClass('moveleft'); 
+		if ($('.move').hasClass('moveleft')){
+			 $(".navi").attr('style', 'width:100px');
+ $(".move").removeClass("moveleft"); 
+}else{
+  	$(".move").addClass("moveleft");
+}
 	
 		
 		
