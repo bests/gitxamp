@@ -32,17 +32,4 @@ function moveline(){
   $("#menu-arrowx").css( "left", $item2 );
   $(".navi").attr('style', 'width:auto');
 }
- $(".navbar-toggle").click(function(e) {
-        // $('.move').collapse('toggle');
-		//$(".move").toggleClass('moveleft'); 
-		if ($('.move').hasClass('moveleft')){
-			 $(".navi").attr('style', 'width:100px');
- $(".move").removeClass("moveleft"); 
-}else{
-  	$(".move").addClass("moveleft");
-}
-	
-		
-		
-          //changeContent(e.target.innerText);
-        });
+ 

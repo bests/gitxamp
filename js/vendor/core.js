@@ -1,5 +1,18 @@
 $(document).ready(function(){
-
+$(".navbar-toggle").click(function(e) {
+        // $('.move').collapse('toggle');
+		//$(".move").toggleClass('moveleft'); 
+		if ($('.move').hasClass('moveleft')){
+			 //$(".navi").attr('style', 'width:100px');
+ $(".move").removeClass("moveleft"); 
+}else{
+  	$(".move").addClass("moveleft");
+}
+	
+		
+		
+          //changeContent(e.target.innerText);
+        });
 // Start
 // Controls carousel services, when you click on a service the carousel moves.
 // The html looks like this :  <div class="col-xs-6 col-sm-3 left-text fetwidth bluegreen servicelink" data-info="1"> , data-info="1" contains the number that corresponds to the slide.
