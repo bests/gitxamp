@@ -2,11 +2,11 @@ $(document).ready(function(){
 $(".navbar-toggle").click(function(e) {
         // $('.move').collapse('toggle');
 		//$(".move").toggleClass('moveleft'); 
-		if ($('.move').hasClass('moveleft')){
+		if ($('.move').hasClass('slideInLeft')){
 			 //$(".navi").attr('style', 'width:100px');
- $(".move").removeClass("moveleft"); 
+ $(".move").removeClass("slideInLeft"); 
 }else{
-  	$(".move").addClass("moveleft");
+  	$(".move").addClass("slideInLeft");
 }
 	
 		

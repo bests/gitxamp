@@ -460,10 +460,7 @@ pointer-events: none;
 
 .move{
 	left:0px;
--webkit-transition: left 0.35s ease;
--moz-transition: left 0.35s ease;
--o-transition: left 0.35s ease;
-transition: left 0.35s ease;
+
 	
 }
 .moveleft{

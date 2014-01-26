@@ -16,7 +16,7 @@
     
          <link type="text/css" rel="stylesheet" href="css/home.css" /> 
           <link type="text/css" rel="stylesheet" href="css/features.css" /> 
-         
+         <link type="text/css" rel="stylesheet" href="css/animate.css" /> 
         <style>
 .exampleA {
 			/* 
@@ -71,7 +71,9 @@
       <span class="icon-bar"></span>
     </button>
   </div>
-  <div class="navbar-collapse collapse width" style="width:auto">
+ 
+</nav>        
+      <div class="navi">
     <ul id="res" class="seven nav navbar-nav navbar-right collapse-inner">
      <li><a href="#home">Home</a></li>
 			<li><a href="#features">Features</a></li>
@@ -84,28 +86,13 @@
     </ul>
     
   </div>
-</nav>        
-     
        
-	<div id="menu" class="menu collapse width">
-          <div class="collapse-inner">
-            <div class="navbar">
-              <div class="navbar-inner">
-                Menu
-              </div>
-            </div>
-            <ul class="nav nav-tabs nav-stacked">
-              <li><a>Futurama</a></li>
-              <li><a>Star Wars</a></li>
-              <li><a>Doctor Who</a></li>
-            </ul>
-          </div>
-        </div>
+	
 	        
 
 
 
-<section id="home" class="bluegreen move">
+<section id="home" class="bluegreen move animated">
 <header class="home homecenter">
 
 
@@ -143,7 +130,7 @@
 
 
 
-<section id="features"  class="anchor move">
+<section id="features"  class="anchor move animated">
 
 <div class="titlebg"><h2>Features</h2>
      <hr></hr>
@@ -314,13 +301,15 @@
         </div> 
 </article>
 </section>
-<article class="parallax-1 paddingtop overlay move"><div class="container fadeJS-down-up">
+<article class="parallax-1 paddingtop overlay move animated"><div class="container fadeJS-down-up">
 
 <div class="title"> <h2>Great features</h2> <p class="medium">We are a creative agency located in We’ve won a ton of awards.</p>
  </div>
 
 <img class="img-responsive" src="img/tablets.png"></div></article>
-<section id="contact" class="anchor move">
+
+
+<section id="contact" class="anchor move animated">
 
     <div class="titlebg"><h2>Projects</h2>
       <hr></hr>
