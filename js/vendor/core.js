@@ -1,11 +1,17 @@
 $(document).ready(function(){
 $(".navbar-toggle").click(function(e) {
-        // $('.move').collapse('toggle');
-		//$(".move").toggleClass('moveleft'); 
+      
 		if ($('.move').hasClass('slideInLeft')){
 			 //$(".navi").attr('style', 'width:100px');
- $(".move").removeClass("slideInLeft"); 
+ $(".move").removeClass("slideInLeft");
+ $(".move").addClass("slideOutLeft");
+   $(".move").one('webkitAnimationEnd oanimationend msAnimationEnd animationend',   
+    function(e) {
+    $(".move").removeClass("slideOutLeft");
+  
+    });
 }else{
+	$(".move").removeClass("slideOutLeft");
   	$(".move").addClass("slideInLeft");
 }
 	

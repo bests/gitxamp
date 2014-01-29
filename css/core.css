@@ -323,7 +323,7 @@ top: 0;
 left: 0;
 height: 100%;
 width: 100%;
-z-index: -1;
+z-index: -8;
 background: rgba(45, 75, 104, 0.5);
 }
 .overlay{
@@ -458,11 +458,7 @@ pointer-events: none;
 
 }
 
-.move{
-	left:0px;
 
-	
-}
 .moveleft{
 	left:230px;
 	
@@ -486,7 +482,7 @@ vertical-align: middle;
 #slider1 .buttons { background:url("../images/buttons.png") no-repeat scroll 0 0 transparent; display: block; margin: 30px 10px 0 0; background-position: 0 -38px; text-indent: -999em; float: left; width: 39px; height: 37px; overflow: hidden; position: relative; }
 #slider1 .next { background-position: 0 0; margin: 30px 0 0 10px;  }
 #slider1 .disable { visibility: hidden; }
-#slider1 .overview { list-style: none; position: absolute; padding: 0; margin: 0; left: 0 top: 0; }
+#slider1 .overview { list-style: none; position: absolute; padding: 0; margin: 0; left: 0; top: 0; }
 #slider1 .overview li{ float: none; margin: 0 20px 0 0; padding: 1px; height: 421px;
 width: auto;}
 nav a {
@@ -544,6 +540,9 @@ animation-fill-mode: forwards;
 -webkit-animation-duration: 1s;
 -moz-animation-duration: 1s;
 animation-duration: 1s;
+}
+.move{
+	
 }
 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
