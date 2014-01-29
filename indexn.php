@@ -145,7 +145,7 @@
  
 <article id="home_features" class="features white">  
 <div class="row">
-<div class="col-sm-12 col-md-12 center">  
+<div class="col-lg-12 center">  
  <a href="" onclick="mySwipe2.next()" class="next bluegreentxt clickslider"> <i class="icon-left-open iconsize"></i></a>
   <a href="" onclick="mySwipe2.prev()" class="prev bluegreentxt clickslider"> <i class="icon-right-open iconsize"></i></a>                  
            

@@ -167,10 +167,14 @@ width: auto;
 	height: 100%;
 	width:auto !important;
 background-color: #2C3E50;
-z-index: 0;
+z-index: -5;
 position: fixed;
 overflow: hidden;
 
+}
+.features .row {
+margin-left: 0px;
+margin-right: 0px;
 }
 .navbar-collapse.width{
 background-color: #2C3E50;

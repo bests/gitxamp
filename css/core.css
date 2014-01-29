@@ -305,7 +305,7 @@ height: 500px;
 .parallax-1 {
 	position:relative;
 	z-index:0;
-	
+background-color: #2C3E50;	
 background-image: url(../img/ko.jpg);
 background-repeat: no-repeat; 
     background-position: center;
