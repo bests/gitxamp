@@ -92,7 +92,7 @@
 
 
 
-<section id="home" class="bluegreen move animated">
+<section id="home" class="bluegreen">
 <header class="home homecenter">
 
 

@@ -3,7 +3,18 @@
 Section Global HOME
    
 
-=====================*/	
+=====================*/
+
+#home {
+	-webkit-transition: all .2s linear;
+	transition: all .2s linear;
+-webkit-transform: translate3d(0,0,0);
+transform: translate3d(0,0,0);
+}
+#home.activemove{
+	-webkit-transform: translate3d(85%,0,0);
+	transform: translate3d(85%,0,0);
+}	
 
 .framei{
 	position:relative;
@@ -182,7 +193,7 @@ box-sizing: content-box;
 	height: 100%;
 	width:auto !important;
 background-color: #2C3E50;
-z-index:0;
+z-index:1;
 
 }
 
