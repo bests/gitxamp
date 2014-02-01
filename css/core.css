@@ -263,8 +263,8 @@ float: left;
 }
 .minilogo {
 z-index: 2000;
-float: left;
-position: absolute;
+
+position: fixed;
 }
 #menu-arrowx {
 visibility: hidden;

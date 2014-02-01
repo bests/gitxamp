@@ -130,7 +130,7 @@
 
 
 
-<section id="features"  class="anchor move animated">
+<section id="features"  class="anchor content">
 
 <div class="titlebg"><h2>Features</h2>
      <hr></hr>
@@ -510,7 +510,7 @@ $jquery = $jquery_validator->generate();
 <script src='js/vendor/swipe.js'></script>
 <script src='js/vendor/tiny.js'></script>
 <script src='js/vendor/jquery.slicknav.min.js'></script>
-
+<script src='js/vendor/jquery.navobile.min.js'></script>
 
  <script src="js/vendor/core.js"></script>   
 <script type="text/javascript">

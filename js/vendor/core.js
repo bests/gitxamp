@@ -1,5 +1,5 @@
 $(document).ready(function(){
-$(".navbar-toggle").click(function(e) {
+$(".navbar-togglve").click(function(e) {
       
 		if ($('.move').hasClass('slideInLeft')){
 			 //$(".navi").attr('style', 'width:100px');
@@ -20,10 +20,18 @@ $(".navbar-toggle").click(function(e) {
           //changeContent(e.target.innerText);
         });
 		
-	$(".icon-menu").click(function(e) {
+$('.navi').navobile({
+    'cta': '.icon-menu',
+    'easing': 'easeQuintOut',
+	'content': '.content'
+});		
+		
+		
+		
+	$(".navbar-toggle").click(function(e) {
     
 	$('#home').toggleClass('activemove');
-		
+
 		
           //changeContent(e.target.innerText);
         });	
