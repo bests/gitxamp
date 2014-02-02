@@ -181,8 +181,10 @@ display:none;
 
 
 
-}	
-	
+}
+.pos{	
+overflow-x: hidden;
+overflow-y: scroll;	}	
 .fetwidth:hover {
 cursor: pointer;
 transform: scale(1.0,1.0);
