@@ -74,7 +74,7 @@
  
 </nav>        
       <div class="navi">
-    <ul id="res" class="seven nav navbar-nav navbar-right collapse-inner">
+    <ul id="res" class="seven nav navbar-nav navbar-right">
      <li><a href="#home">Home</a></li>
 			<li><a href="#features">Features</a></li>
 			<li><a href="#gallery">Gallery</a></li>
