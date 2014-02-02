@@ -5,7 +5,7 @@ Section Global HOME
 
 =====================*/
 
-#home {
+#home-off {
 	-webkit-transition: all .2s linear;
 	transition: all .2s linear;
 -webkit-transform: translate3d(0,0,0);
@@ -16,7 +16,7 @@ transform: translate3d(0,0,0);
 -o-backface-visibility: hidden;
 backface-visibility: hidden;
 }
-#home.activemove{
+#home.activemove-off{
 	-webkit-transform: translate3d(85%,0,0);
 	transform: translate3d(85%,0,0);
 }	
@@ -52,7 +52,7 @@ line-height: 30px;
 height: 100%;
 min-height:360px;
 
-position: relative;
+
 width: 100%;
 }
 .home h1 {

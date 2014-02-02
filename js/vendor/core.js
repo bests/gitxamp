@@ -1,5 +1,5 @@
 $(document).ready(function(){
-$(".navbar-togglve").click(function(e) {
+$(".off").click(function(e) {
       
 		if ($('.move').hasClass('slideInLeft')){
 			 //$(".navi").attr('style', 'width:100px');
@@ -21,14 +21,14 @@ $(".navbar-togglve").click(function(e) {
         });
 		
 $('.navi').navobile({
-    'cta': '.icon-menu',
+    'cta': '.navbar-toggle',
     'easing': 'easeQuintOut',
 	'content': '.content'
 });		
 		
 		
 		
-	$(".navbar-toggle").click(function(e) {
+	$(".off").click(function(e) {
     
 	$('#home').toggleClass('activemove');
 

@@ -90,16 +90,11 @@
 	
 	        
 
+<main id="main" class="content">
 
-
-<section id="home" class="bluegreen">
+<div id="home" class="bluegreen">
 <header class="home homecenter">
-
-
-
-
-
-  <div class="container middlecenter"><!-- End container .. container for carosel -->
+ <div class="container middlecenter"><!-- End container .. container for carosel -->
   
   <div class="span12 center">
    <img class="logo img-responsive" src="img/logox.png">
@@ -125,12 +120,13 @@
   
  </div>
 </header>
-</section>
+</div>
 
 
 
 
-<section id="features"  class="anchor content">
+
+
 
 <div class="titlebg"><h2>Features</h2>
      <hr></hr>
@@ -142,8 +138,13 @@
        <div class="tick"></div>
      
 
+
+<section>
+
+<div id="features"  class="anchor white features">
+
  
-<article id="home_features" class="features white">  
+
 
 <div class="col-lg-12 center">  
  <a href="" onclick="mySwipe2.next()" class="next bluegreentxt clickslider"> <i class="icon-left-open iconsize"></i></a>
@@ -299,16 +300,26 @@
 	</div>       
       
         </div> 
-</article>
-</section>
-<article class="parallax-1 paddingtop overlay move animated"><div class="container fadeJS-down-up">
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="parallax-1 paddingtop overlay"><div class="container fadeJS-down-up">
 
 <div class="title"> <h2>Great features</h2> <p class="medium">We are a creative agency located in We’ve won a ton of awards.</p>
  </div>
 
-<img class="img-responsive" src="img/tablets.png"></div></article>
+<img class="img-responsive" src="img/tablets.png"></div></div>
 
-
+</section>
 <section id="contact" class="anchor move animated">
 
     <div class="titlebg"><h2>Projects</h2>
@@ -474,7 +485,7 @@ $jquery = $jquery_validator->generate();
 </section>
 
 
-
+</main>
 
 
 
