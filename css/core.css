@@ -308,16 +308,11 @@ height: 500px;
 }
 
 #main{
-	left: 0 !important;
+
 height: 100%;
 width:100%;	
--webkit-perspective: 1000;
-
--webkit-backface-visibility: hidden;
--moz-backface-visibility: hidden;
--ms-backface-visibility: hidden;
--o-backface-visibility: hidden;
-backface-visibility: hidden;	
+overflow-x: hidden;
+overflow-y: scroll;	
 }
 .parallax-1 {
 	position:relative;
