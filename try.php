@@ -74,16 +74,7 @@
  
 </nav>        
       <div class="navi">
-    <ul id="res" class="seven nav navbar-nav navbar-right">
-     <li><a href="#home">Home</a></li>
-			<li><a href="#features">Features</a></li>
-			<li><a href="#gallery">Gallery</a></li>
-            <li><a href="#work">Love</a></li>
-        
-            <li><a href="#price">Pricing</a></li>
-           <li><a href="#contact">Contact</a></li>
-			
-    </ul>
+   
     
   </div>
        
@@ -92,35 +83,7 @@
 
 <div id="main" class="content">
 
-<div id="home" class="bluegreen pos">
-<header class="home homecenter">
- <div class="container middlecenter"><!-- End container .. container for carosel -->
-  
-  <div class="span12 center">
-   <img class="logo img-responsive" src="img/logox.png">
- <ul class="list-inline">
- 
-  <li><a href="#"><i class="icon-twitter iconhome pulse moveup"></i></a></li>
- <li><a href="#"><i class="icon-facebook iconhome pulse moveup"></i></a></li>
-  <li><a href="#"><i class="icon-instagramm iconhome pulse moveup"></i></a></li>
-   <li><a href="#"><i class="icon-gplus iconhome pulse moveup"></i></a></li>
- </ul>
- 
- <div class="title">
- 
-<h2>Incredibly fast and incredibly easy.</h2><br>
 
-
-   <a href="" class="btn btn-info ajax" data-toggle="modal" data-info="ajax.html">Ajax Video</a>
-   
-   </div>
-   </div>
-  
-  
-  
- </div>
-</header>
-</div>
 
 
 
@@ -312,12 +275,7 @@
 
 
 
-<div class="parallax-1 paddingtop overlay"><div class="container fadeJS-down-up">
 
-<div class="title"> <h2>Great features</h2> <p class="medium">We are a creative agency located in We’ve won a ton of awards.</p>
- </div>
-
-<img class="img-responsive" src="img/tablets.png"></div></div>
 
 </section>
 <div class="titlebg"><h2>Projects</h2>
