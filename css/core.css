@@ -213,14 +213,19 @@ background-image:none;
 html {
 height: 100%;
 width: 100%;
+
 }
+
 body {
-	overflow-x: hidden;
+overflow-x: hidden;
+overflow-y: scroll;
 height: 100%;
 width: 100%;
 padding-right: 0px;
 padding-left: 0px;
 }
+
+
 strong{
 	color:#45A2D6;}
 .tick {
