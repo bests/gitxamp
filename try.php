@@ -7,7 +7,7 @@
        
         <title>waka</title>
         <meta name="description" content="">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
       <link type="text/css" rel="stylesheet" href="css/bootstrap.css" /> 
  <link type="text/css" rel="stylesheet" href="css/modal.css" />
   
@@ -404,28 +404,7 @@ $jquery = $jquery_validator->generate();
             
              
             
-<form action="#" class="form" id="form" method="post">
-            
-            
-<div class="form-group">
-<label class="sr-only" for="name">Name</label>
 
-<input type="text" placeholder="Name" id="name" name="name" required class="form-control">
-  
-</div>
- 
-<div class="form-group"> 
- <label class="sr-only" for="email">Email address</label>
- <input type="email" name="email" id="email" placeholder="Email" required class="form-control">
- 
-</div>
-
-<div class="form-group">
- <textarea rows="6" class="form-control" name="message" placeholder="Email" spellcheck="false" style="form-control"></textarea>
- </div>
-  <div class="form-group"><button type="submit" class="btn submit" name="submit" data-loading-text="Loading..."><i class="icon-right-big iconform"></i>Send</button></div>
-
-</form>
 </div>   
 
 

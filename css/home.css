@@ -252,16 +252,16 @@ z-index:1;
     }
 
     .navobile-content { 
-	left: 0 !important;
+	
       position: relative;
       z-index: 3;
-
-      -webkit-transition: -webkit-transform 0.2s linear;
+ -webkit-transition: -webkit-transform 0.2s linear;
       -moz-transition: -moz-transform 0.2s linear;
       -o-transition: -ms-transform 0.2s linear;
       -ms-transition: -o-transform 0.2s linear;
       transition: transform 0.2s linear;
 	
+     
 
     }
 
