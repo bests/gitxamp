@@ -92,7 +92,7 @@
 
 <main id="main" class="content">
 
-<div id="home" class="bluegreen">
+<div id="home" class="bluegreen pos">
 <header class="home homecenter">
  <div class="container middlecenter"><!-- End container .. container for carosel -->
   
@@ -128,7 +128,7 @@
 
 
 
-<div class="titlebg"><h2>Features</h2>
+<div id="features-title" class="titlebg"><h2>Features</h2>
      <hr></hr>
        </div>
        
@@ -141,7 +141,7 @@
 
 <section>
 
-<div id="features"  class="anchor white features">
+<div id="features"  class="anchor white features pos">
 
  
 
@@ -320,18 +320,19 @@
 <img class="img-responsive" src="img/tablets.png"></div></div>
 
 </section>
-<section id="contact" class="anchor move animated">
-
-    <div class="titlebg"><h2>Projects</h2>
+<div class="titlebg"><h2>Projects</h2>
       <hr></hr>
-       </div>
+       </div> <div class="tick"></div>
+<section>
+<div id="contact" class="anchor white pos">
+    
        
-       <div class="tick"></div>
+      
      
 
   
   
-<article id="home_contact" class="contact white">
+
 
 
  <div id="map-canvas"></div>  
@@ -423,7 +424,7 @@ $jquery = $jquery_validator->generate();
 </address>
 </div>
 
-</div> 
+</div>
             <div class="col-sm-6 col-md-6"> 
  <div class="alert alert-error alert-block hide">
               
@@ -481,7 +482,7 @@ $jquery = $jquery_validator->generate();
   </div>
           
         </div> <!-- /container -->
-</article>
+ </div>
 </section>
 
 

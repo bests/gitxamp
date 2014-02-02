@@ -303,9 +303,16 @@ height: 500px;
 }
 
 #main{
+	left: 0 !important;
 height: 100%;
 width:100%;	
-	
+-webkit-perspective: 1000;
+
+-webkit-backface-visibility: hidden;
+-moz-backface-visibility: hidden;
+-ms-backface-visibility: hidden;
+-o-backface-visibility: hidden;
+backface-visibility: hidden;	
 }
 .parallax-1 {
 	position:relative;
@@ -385,7 +392,10 @@ z-index: 25;background-color: #2C3E50;
 .bluegreentxt {color: #45A2D6;
 
 }
-
+.pos{
+position: relative;
+z-index: 1;	
+}
 
 .trip{background-color: #4DC5D9;background: url('../img/trip.png') center top repeat;
 }
