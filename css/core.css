@@ -509,11 +509,11 @@ textarea::-webkit-input-placeholder {
 	color:#FFF;
 	text-transform: uppercase;
 }
-.form-control:-moz-placeholder {   /* Older versions of Firefox */
+.form-control::-moz-placeholder {   /* Older versions of Firefox */
 	color:#FFF;
 	text-transform: uppercase;
 }
-.form-control:-ms-input-placeholder { 
+.form-control::-ms-input-placeholder { 
 	color:#FFF;
 	text-transform: uppercase;
 }	

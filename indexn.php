@@ -445,20 +445,20 @@ $jquery = $jquery_validator->generate();
             
             
              
-            
+<div class="item">            
 <form action="#" class="form" id="form" method="post">
             
             
 <div class="form-group">
 <label class="sr-only" for="name">Name</label>
 
-<input type="text" placeholder="Name" id="name" name="name" required class="form-control">
+<input type="text" name="name" required="" class="form-control">
   
 </div>
  
 <div class="form-group"> 
  <label class="sr-only" for="email">Email address</label>
- <input type="email" name="email" id="email" placeholder="Email" required class="form-control">
+<input type="email" name="email" id="email" required="" class="form-control" placeholder="Emainnl">
  
 </div>
 
@@ -470,7 +470,7 @@ $jquery = $jquery_validator->generate();
 </form>
 </div>   
 
-
+</div>
 
 
 
