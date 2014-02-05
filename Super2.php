@@ -50,7 +50,7 @@
  <div id="menu-arrowx" class="top-arrow"></div>
     
               
-      <nav id="navbar" role="navigation" class="push navbar navbar-fixed-top navcolor">
+      <nav id="navbar" role="navigation" class="navbar navbar-fixed-top navcolor">
   <div class="navbar-header">
    <a class="navbar-brand" href="#">Simple</a>  
     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -76,7 +76,7 @@
   </div>
           
     
-  <div id="main" class="push">
+  <div id="main">
   
   
   
@@ -289,7 +289,7 @@
   
  <script src="js/vendor/jquery.smooth-scroll.min.js"></script>
  <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>  
- <script src='js/vendor/bigSlide.min.js'></script>
+
     <script src='js/vendor/tiny.js'></script> 
   <script src="js/vendor/core.js"></script> 
  
@@ -299,7 +299,7 @@ $(document).ready(function(){
 $('.servicelink').click(function(){ 
 
 });
-$('.navbar-brand').bigSlide();
+
 
 
 
