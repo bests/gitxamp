@@ -17,7 +17,7 @@
          <link type="text/css" rel="stylesheet" href="css/home.css" /> 
           <link type="text/css" rel="stylesheet" href="css/features.css" /> 
          <link type="text/css" rel="stylesheet" href="css/animate.css" /> 
-            <link type="text/css" rel="stylesheet" href="css/slidebars.css" />  
+            
         <style>
 .exampleA {
 			/* 
@@ -52,7 +52,7 @@
               
       <nav id="navbar" role="navigation" class="navbar navbar-fixed-top navcolor">
   <div class="navbar-header">
-   <a class="navbar-brand sb-toggle-left" href="#">Simple</a>  
+   <a class="navbar-brand" href="#">Simple</a>  
     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
@@ -61,7 +61,7 @@
   </div>
  
 </nav>        
-      <div class="navi sb-slidebar sb-left">
+      <div class="navi">
           <ul id="res" class="seven nav navbar-nav navbar-right">
      <li><a href="#home">Home</a></li>
 			<li><a href="#features">Features</a></li>
@@ -76,7 +76,7 @@
   </div>
           
     
-  <div id="sb-site" class="sb-slide">
+  <div id="main" class="push">
   
   
   
@@ -289,7 +289,7 @@
   
  <script src="js/vendor/jquery.smooth-scroll.min.js"></script>
  <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>  
- <script src='js/vendor/slidebars.js'></script>
+ <script src='js/vendor/bigSlide.min.js'></script>
     <script src='js/vendor/tiny.js'></script> 
   <script src="js/vendor/core.js"></script> 
  
@@ -299,7 +299,7 @@ $(document).ready(function(){
 $('.servicelink').click(function(){ 
 
 });
-$.slidebars();
+$('.navbar-brand').bigSlide();
 
 
 
