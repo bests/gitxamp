@@ -17,6 +17,7 @@
          <link type="text/css" rel="stylesheet" href="css/home.css" /> 
           <link type="text/css" rel="stylesheet" href="css/features.css" /> 
          <link type="text/css" rel="stylesheet" href="css/animate.css" /> 
+          <link type="text/css" rel="stylesheet" href="css/slidebars.css" /> 
         <style>
 .exampleA {
 			/* 
@@ -54,7 +55,13 @@
 
 
     <div id="menu-arrowx" class="top-arrow"></div>
-    
+     <div id="mobile-header">
+ 
+
+                 <a id="responsive-menu-button" href="#navbar" class="minilogo">
+                 <i class="icon-menu icons"></i>
+              </a></div>    
+              
               
       <nav id="navbar" role="navigation" class="navbar navbar-fixed-top navcolor">
   <div class="navbar-header">
@@ -67,10 +74,10 @@
   </div>
  
 </nav>        
-      <div class="navi">
-    <ul id="res" class="seven nav navbar-nav navbar-right">
+     <div class="navi sb-slidebar sb-left" >
+   <ul id="res" class="seven nav navbar-nav navbar-right">
      <li><a href="#home">Home</a></li>
-			<li><a href="#features">Features</a></li>
+			<li><a href="#features-title">Features</a></li>
 			<li><a href="#gallery">Gallery</a></li>
             <li><a href="#work">Love</a></li>
         
@@ -78,9 +85,7 @@
            <li><a href="#contact">Contact</a></li>
 			
     </ul>
-    
   </div>
-       
 	
 	        
 
@@ -522,8 +527,7 @@ $jquery = $jquery_validator->generate();
 <script src='js/vendor/jquery.parallax-1.1.3.js'></script>
 <script src='js/vendor/swipe.js'></script>
 <script src='js/vendor/tiny.js'></script>
-<script src='js/vendor/jquery.slicknav.min.js'></script>
-<script src='js/vendor/jquery.navobile.min.js'></script>
+
 
  <script src="js/vendor/core.js"></script>   
 <script type="text/javascript">
@@ -534,7 +538,7 @@ Modernizr.load({
   nope: 'http://localhost/gitxamp/js/vendor/effects-css.js'
 });
 		
-
+$.slidebars();
 			$('#slider1').tinycarousel({ start: 2,controls: false,axis: 'y'});
 			$('.parallax-1').parallax("80%", 0.3);
 			$('.parallax-2').parallax("50%", 0.1);

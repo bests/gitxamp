@@ -19,13 +19,7 @@ $(".off").click(function(e) {
 		
           //changeContent(e.target.innerText);
         });
-		
-$('.navi').navobile({
-    'cta': '.navbar-toggle',
-    'easing': 'easeQuintOut',
-	'content': '.content'
-});		
-		
+
 		
 		
 	$(".off").click(function(e) {
@@ -40,7 +34,7 @@ $('.navi').navobile({
 // Start
 // Controls carousel services, when you click on a service the carousel moves.
 // The html looks like this :  <div class="col-xs-6 col-sm-3 left-text fetwidth bluegreen servicelink" data-info="1"> , data-info="1" contains the number that corresponds to the slide.
-
+$('#slider1').tinycarousel({ start: 2,controls: false,axis: 'y'});
  var oSlider7 = $('#slider1');
  
  $('.servicelink').click(function(){ 

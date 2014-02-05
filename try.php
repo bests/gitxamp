@@ -7,7 +7,7 @@
        
         <title>waka</title>
         <meta name="description" content="">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
       <link type="text/css" rel="stylesheet" href="css/bootstrap.css" /> 
  <link type="text/css" rel="stylesheet" href="css/modal.css" />
   
@@ -17,20 +17,7 @@
          <link type="text/css" rel="stylesheet" href="css/home.css" /> 
           <link type="text/css" rel="stylesheet" href="css/features.css" /> 
          <link type="text/css" rel="stylesheet" href="css/animate.css" /> 
-        <style>
-.exampleA {
-			/* 
-			 * Low-res is the original source, which is the default 
-			 * Hi-res replaces the browser width, in this case '320px', with the request width
-			 */
-			font-family: 'image-set( url(-small|-small-2x) 2x high-bandwidth )';
-			display:none;
-		}
-
-
-	</style>
-
-     
+            <link type="text/css" rel="stylesheet" href="css/slidebars.css" />   
        
        <link rel="apple-touch-icon" href="ico/apple-touch-icon.png">
       <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
@@ -51,20 +38,22 @@
         <![endif]-->
 
         <!-- This code is taken from http://twitter.github.com/bootstrap/examples/hero.html -->
-
-
-    <div id="menu-arrowx" class="top-arrow"></div>
-     <div id="mobile-header">
- 
-
-                 <a id="responsive-menu-button" href="#navbar" class="minilogo">
-                 <i class="icon-menu icons"></i>
-              </a></div>    
-              
-              
-      <nav id="navbar" role="navigation" class="navbar navbar-fixed-top navcolor">
+   <div class="navi sb-slidebar sb-left" >
+   <ul id="res" class="seven nav navbar-nav navbar-right">
+     <li><a href="#home">Home</a></li>
+			<li><a href="#features-title">Features</a></li>
+			<li><a href="#gallery">Gallery</a></li>
+            <li><a href="#work">Love</a></li>
+        
+            <li><a href="#price">Pricing</a></li>
+           <li><a href="#contact">Contact</a></li>
+			
+    </ul>
+  </div>
+   
+  <nav id="navbar" role="navigation" class="navbar navbar-fixed-top navcolor">
   <div class="navbar-header">
-    <a class="navbar-brand" href="#">Simple</a>
+    <a class="navbar-brand sb-toggle-left" href="#">Simple</a>    
     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
@@ -72,18 +61,44 @@
     </button>
   </div>
  
-</nav>        
-      <div class="navi">
-   
+</nav>           
     
-  </div>
-       
+              
+              
+  
 	
 	        
 
-<div id="main" class="content">
+<div id="sb-site" class="sb-slide">
+<div id="home" class="bluegreen pos">
+<header class="home homecenter">
+ <div class="container middlecenter"><!-- End container .. container for carosel -->
+  
+  <div class="span12 center">
+   <img class="logo img-responsive" src="img/logox.png">
+ <ul class="list-inline">
+ 
+  <li><a href="#"><i class="icon-twitter iconhome pulse moveup"></i></a></li>
+ <li><a href="#"><i class="icon-facebook iconhome pulse moveup"></i></a></li>
+  <li><a href="#"><i class="icon-instagramm iconhome pulse moveup"></i></a></li>
+   <li><a href="#"><i class="icon-gplus iconhome pulse moveup"></i></a></li>
+ </ul>
+ 
+ <div class="title">
+ 
+<h2>Incredibly fast and incredibly easy.</h2><br>
 
 
+   <a href="" class="btn btn-info ajax" data-toggle="modal" data-info="ajax.html">Ajax Video</a>
+   
+   </div>
+   </div>
+  
+  
+  
+ </div>
+</header>
+</div>
 
 
 
@@ -114,7 +129,8 @@
   <a href="" onclick="mySwipe2.prev()" class="prev bluegreentxt clickslider"> <i class="icon-right-open iconsize"></i></a>                  
            
   <div id='fetswipe' style='max-width:3000px;' class='swipe'>
-  <div class='swipe-wrap'> <div><img class="img-responsive" src="img/tablets.png"></div>
+  <div class='swipe-wrap'> 
+  <div><img class="img-responsive" src="img/tablets.png"></div>
    
     <div><img class="img-responsive" src="slider/pc.jpg"></div>
   
@@ -129,6 +145,9 @@
 	
  
      </div> 
+     
+     
+     
 <div class="container">
 
 
@@ -275,9 +294,17 @@
 
 
 
+<div class="parallax-1 paddingtop overlay"><div class="container fadeJS-down-up">
 
+<div class="title"> <h2>Great features</h2> <p class="medium">We are a creative agency located in We’ve won a ton of awards.</p>
+ </div>
+
+<img class="img-responsive" src="img/tablets.png"></div></div>
 
 </section>
+
+
+
 <div class="titlebg"><h2>Projects</h2>
       <hr></hr>
        </div> <div class="tick"></div>
@@ -403,11 +430,32 @@ $jquery = $jquery_validator->generate();
             
             
              
+<div class="item">            
+<form action="#" class="form" id="form" method="post">
             
+            
+<div class="form-group">
+<label class="sr-only" for="name">Name</label>
 
+<input type="text" name="name" required class="form-control">
+  
+</div>
+ 
+<div class="form-group"> 
+ <label class="sr-only" for="email">Email address</label>
+<input type="email" name="email" id="email" required class="form-control" placeholder="Emainnl">
+ 
+</div>
+
+<div class="form-group">
+ <textarea rows="6" class="form-control" name="message" placeholder="Email" spellcheck="false" style="form-control"></textarea>
+ </div>
+  <div class="form-group"><button type="submit" class="btn submit" name="submit" data-loading-text="Loading..."><i class="icon-right-big iconform"></i>Send</button></div>
+
+</form>
 </div>   
 
-
+</div>
 
 
 
@@ -423,25 +471,51 @@ $jquery = $jquery_validator->generate();
 </section>
 
 
+
+
+
+<div id="sequence" class="sequence">
+			<ul class="sequence-canvas">
+				<li>
+					<div class="info1">
+						<p class="class">.info1</p>
+						<p class="sequence-class">.animate-in</p>
+					</div>
+				</li>
+				<li>
+					<div class="info2">
+						<p class="class">.info2</p>
+						<p class="sequence-class"></p>
+					</div>
+				</li>
+				<li>
+					<div class="info3">
+						<p class="class">.info3</p>
+						<p class="sequence-class"></p>
+					</div>
+				</li>
+			</ul>
+		</div>
+       
+
+
+
 </div>
 
 
-
-
-<div id="ajax-modal" class="modal fade in" tabindex="-1" data-width="760" style="display: none;"></div>
-<div class="modal fade" id="mmodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
  
-</div><!-- /.modal -->
+     
+
 
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery.js"><\/script>')</script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery.js"><\/script>')</script> 
         <script src="js/vendor/jquery.retinise.min.js"></script> 
 <script>   
-        $( document ).ready(function() {
-    $(function() {
-			$('.retina').retinise();
-		});
-});</script>     
+      (function($) {
+				$(document).ready(function() {
+					$.slidebars();
+				});
+			}) (jQuery);</script>     
 
  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.js"></script>
  <script src="js/vendor/bootstrap-modalmanager.js"></script>
@@ -458,10 +532,13 @@ $jquery = $jquery_validator->generate();
 <script src='js/vendor/jquery.parallax-1.1.3.js'></script>
 <script src='js/vendor/swipe.js'></script>
 <script src='js/vendor/tiny.js'></script>
-<script src='js/vendor/jquery.slicknav.min.js'></script>
-<script src='js/vendor/jquery.navobile.min.js'></script>
+>
 
- <script src="js/vendor/core.js"></script>   
+<script src='js/vendor/slidebars.js'></script>
+<script src='js/vendor/jquery.sequence-min.js'></script>
+ <script src="js/vendor/s.js"></script> 
+ <script src="js/vendor/core.js"></script> 
+ 
 <script type="text/javascript">
 		$(document).ready(function(){
 Modernizr.load({
@@ -481,9 +558,7 @@ Modernizr.load({
 	</script>	
 <script type="text/javascript">
 
-<?php foreach($jquery['methods'] as $method_name => $method_function): ?>
-	jQuery.validator.addMethod("<?php echo $method_name; ?>", <?php echo $method_function; ?>);
-<?php endforeach; ?>
+
 window.mySwipe = $('#mySwipe').Swipe({
         auto: 3000
 		
@@ -556,9 +631,7 @@ scrollTarget: '.alert'
         });
 	},
 
-	rules: <?php echo json_encode($jquery['rules']); ?>,
-	messages: <?php echo json_encode($jquery['messages']); ?>
-
+	
 });
 
 </script>

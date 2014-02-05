@@ -381,6 +381,7 @@ z-index: 25;background-color: #2C3E50;
 
 }
 .pos{
+	
 position: relative;
 z-index: 1;	
 }
@@ -497,26 +498,27 @@ line-height: 53px;
 transition: all 0.2s ease-in-out;
 }
 
-textarea::-webkit-input-placeholder {
-	color:#FFF;
-	text-transform: uppercase;
+.form-control.textarea::-webkit-input-placeholder {
+	color:#FFF;!important
+
 }
 .form-control::-webkit-input-placeholder {
 	color:#FFF;
-	text-transform: uppercase;
+
 }
 .form-control::-moz-placeholder {
 	color:#FFF;
-	text-transform: uppercase;
+	
 }
 .form-control::-moz-placeholder {   /* Older versions of Firefox */
 	color:#FFF;
-	text-transform: uppercase;
+	
 }
 .form-control::-ms-input-placeholder { 
 	color:#FFF;
-	text-transform: uppercase;
-}	
+	
+}
+
 label.error{
 	color: #8a6d3b;
 background-color: #fcf8e3;
@@ -542,7 +544,7 @@ animation-fill-mode: forwards;
 animation-duration: 1s;
 }
 .move{
-	-webkit-backface-visibility: hidden;
+	
 }
 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }

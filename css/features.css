@@ -185,7 +185,7 @@ display:none;
 .pos{	
 overflow-x: hidden;
 -webkit-perspective: 1000;
--webkit-backface-visibility: hidden;
+
 	}	
 .fetwidth:hover {
 cursor: pointer;
