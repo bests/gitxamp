@@ -13,7 +13,7 @@
   
        <link type="text/css" rel="stylesheet" href="css/core.css" /> 
       <link type="text/css" rel="stylesheet" href="css/fontello.css" /> 
-    
+    <link type="text/css" rel="stylesheet" href="css/navobile.css" /> 
          <link type="text/css" rel="stylesheet" href="css/home.css" /> 
           <link type="text/css" rel="stylesheet" href="css/features.css" /> 
          <link type="text/css" rel="stylesheet" href="css/animate.css" /> 
@@ -76,7 +76,7 @@
   </div>
           
     
-  <div id="main">
+  <div id="main" class="content">
   
   
   
@@ -289,6 +289,7 @@
   
  <script src="js/vendor/jquery.smooth-scroll.min.js"></script>
  <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>  
+   <script src='js/vendor/jquery.navobile.min.js'></script>
 
     <script src='js/vendor/tiny.js'></script> 
   <script src="js/vendor/core.js"></script> 
@@ -296,10 +297,12 @@
   
  <script type="text/javascript">
 $(document).ready(function(){
-$('.servicelink').click(function(){ 
 
+$('.navi').navobile({
+    'cta': '.navbar-brand',
+    'easing': 'easeQuintOut',
+	'content':'.content'
 });
-
 
 
 
