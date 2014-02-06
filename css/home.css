@@ -450,8 +450,8 @@ width: 18%;
 /* THEME STYLES */
 #sequence {
 	overflow: hidden;
-  border: black solid 3px;
-  font-family: Tahoma;
+
+  
   height: 370px;
   margin: 10px auto;
   position: relative;
@@ -490,9 +490,9 @@ width: 18%;
   background: #3f7ad6;
   display: block;
   color: white;
-  height: 95px;
+  height: auto;
   padding: 5px;
-  width: 95px;
+  width: auto;
   -webkit-transition-property: left;
   -moz-transition-property: left;
   -ms-transition-property: left;

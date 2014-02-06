@@ -17,7 +17,7 @@
          <link type="text/css" rel="stylesheet" href="css/home.css" /> 
           <link type="text/css" rel="stylesheet" href="css/features.css" /> 
          <link type="text/css" rel="stylesheet" href="css/animate.css" /> 
-            
+            <link type="text/css" rel="stylesheet" href="css/s.css" />  
         <style>
 .exampleA {
 			/* 
@@ -121,7 +121,35 @@
 
 <div id="features"  class="anchor white features pos">
 
+<div class="col-lg-12 center">  
+ 
+<div id="sequence">
 
+				<img class="sequence-prev" src="images/bt-prev.png" alt="Previous Frame" />
+				<img class="sequence-next" src="images/bt-next.png" alt="Next Frame" />
+
+				<ul class="sequence-canvas">
+					<li class="animate-in">
+						
+						<img class="model" src="images/model1.png" alt="Model 1" />
+					</li>
+                    <li>
+						
+						<img class="model" src="images/model1.png" alt="Model 1" />
+					</li>
+					
+				</ul>
+
+				
+
+			</div>
+  </div>
+               
+	  
+                	
+	
+
+    
 
 <div class="container">
 
@@ -286,11 +314,11 @@
  <script src="js/vendor/bootstrap-modalmanager.js"></script>
     <script src="js/vendor/bootstrap-modal.js"></script>  
    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.easing/1.3/jquery.easing.1.3.js"></script>
-  
+  <script src='js/vendor/jquery.sequence-min.js'></script>
  <script src="js/vendor/jquery.smooth-scroll.min.js"></script>
  <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>  
    <script src='js/vendor/jquery.navobile.min.js'></script>
-
+<script src="js/vendor/s2.js"></script> 
     <script src='js/vendor/tiny.js'></script> 
   <script src="js/vendor/core.js"></script> 
  
