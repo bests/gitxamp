@@ -8,16 +8,16 @@
         <title>waka</title>
         <meta name="description" content="">
  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
-      <link type="text/css" rel="stylesheet" href="css/bootstrap.css" /> 
- <link type="text/css" rel="stylesheet" href="css/modal.css" />
+      <link type="text/css" rel="stylesheet" href="cssmain/bootstrap.css" /> 
+ <link type="text/css" rel="stylesheet" href="cssmain/modal.css" />
   
-       <link type="text/css" rel="stylesheet" href="css/core.css" /> 
-      <link type="text/css" rel="stylesheet" href="css/fontello.css" /> 
-    <link type="text/css" rel="stylesheet" href="css/navobile.css" /> 
-         <link type="text/css" rel="stylesheet" href="css/home.css" /> 
-          <link type="text/css" rel="stylesheet" href="css/features.css" /> 
-         <link type="text/css" rel="stylesheet" href="css/animate.css" /> 
-            <link type="text/css" rel="stylesheet" href="css/s.css" />  
+       <link type="text/css" rel="stylesheet" href="cssmain/core.css" /> 
+      <link type="text/css" rel="stylesheet" href="cssmain/fontello.css" /> 
+    <link type="text/css" rel="stylesheet" href="cssmain/navobile.css" /> 
+         <link type="text/css" rel="stylesheet" href="cssmain/home.css" /> 
+          <link type="text/css" rel="stylesheet" href="cssmain/features.css" /> 
+         <link type="text/css" rel="stylesheet" href="cssmain/animate.css" /> 
+            <link type="text/css" rel="stylesheet" href="cssmain/s.css" />  
         <style>
 .exampleA {
 			/* 
@@ -48,6 +48,7 @@
     </head>
 <body data-spy="scroll" data-target=".navi" data-offset="170">
  <div id="menu-arrowx" class="top-arrow"></div>
+ <div class="cloud clod3 cloud6"></div><div class="cloud clod3 cloud2"></div>
     
               
       <nav id="navbar" role="navigation" class="navbar navbar-fixed-top navcolor">
@@ -85,7 +86,7 @@
  <div class="container middlecenter"><!-- End container .. container for carosel -->
   
   <div class="span12 center">
-   <img class="logo img-responsive" src="img/logox.png">
+   <img class="logo img-responsive" src="img/bestschools.png">
  <ul class="list-inline">
  
   <li><a href="#"><i class="icon-twitter iconhome pulse moveup"></i></a></li>

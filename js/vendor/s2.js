@@ -4,10 +4,8 @@ $(document).ready(function(){
         prevButton: true,
         pagination: true,
         animateStartingFrameIn: true,
-        autoPlay: true,
-        autoPlayDelay: 3000,
-        preloader: true,
-        preloadTheseFrames: [1]
+        autoPlay: false
+     
     };
     
     var mySequence = $("#sequence").sequence(options).data("sequence");
