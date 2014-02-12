@@ -49,7 +49,7 @@
 <body data-spy="scroll" data-target=".navi" data-offset="170">
  <div id="menu-arrowx" class="top-arrow"></div>
  <div class="cloud clod3 cloud6"></div><div class="cloud clod3 cloud2"></div>
-    
+    <div class="cloud clod3 cloud7"></div><div class="cloud clod3 cloud8"></div>
               
       <nav id="navbar" role="navigation" class="navbar navbar-fixed-top navcolor">
   <div class="navbar-header">
