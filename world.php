@@ -97,7 +97,7 @@
  
  <div class="title">
  
-<h2>Incredibly fast and incredibly easy.</h2><br>
+<h2>Incredibly fast and incredibly easddddybbb.</h2><br>
 
 
    <a href="" class="btn btn-info ajax" data-toggle="modal" data-info="ajax.html">Ajax Video</a>
